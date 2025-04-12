@@ -1,0 +1,50 @@
+{
+  "teststudent1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution3/teststudent1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-12T23:06:21.816348",
+    "queries_used": [
+      "\"Stack\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+      "\"push\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+      "\"push value\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.44999999999999996,
+    "matching_sources": []
+  },
+  "teststudent3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution3/teststudent3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-12T23:06:21.816776",
+    "queries_used": [
+      "\"Stack\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+      "\"push\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+      "\"push value\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "teststudent2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution3/teststudent2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-12T23:06:21.817248",
+    "queries_used": [
+      "\"Stack\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+      "\"Stack\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+      "\"push value\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Writing various implementations of Stack class in C++",
+    "link": "https://stackoverflow.com/questions/30877075/writing-various-implementations-of-stack-class-in-c",
+    "snippet": "I currently wrote a header file for a Stack interface (like you would writing an interface in Java for Stack) and I want to implement it in ...",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Create class instance on stack - c++",
+    "link": "https://stackoverflow.com/questions/62556091/create-class-instance-on-stack",
+    "snippet": "The way to create your object (i.e. class instance) on the stack is even simpler \u2013 local variables are stored on the stack.",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Making a simple stack in C++",
+    "link": "https://stackoverflow.com/questions/21588072/making-a-simple-stack-in-c",
+    "snippet": "Hi I am making a simple stack class in C++ and am new to C++. I am having a few errors that I cannot figure out what they mean. Some help ...",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "pointers - Implementing a stack class in C++",
+    "link": "https://stackoverflow.com/questions/21914304/implementing-a-stack-class-in-c",
+    "snippet": "Does anyone know what is it that I am doing wrong ?? Any help would be appreciated Thanks. c++ \u00b7 pointers \u00b7 linked-list \u00b7 stack.",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ - Constructor in Stack class?",
+    "link": "https://stackoverflow.com/questions/43882450/c-constructor-in-stack-class",
+    "snippet": "My assignment requires me to create a stack template class. My program is working fine, I was just wondering if its necessary in this case ...",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - How to use template for implementing ...",
+    "link": "https://stackoverflow.com/questions/68355352/how-to-use-template-for-implementing-stack-using-linkedlist-in-cpp",
+    "snippet": "Here's a quick example using std::list for simplicity's sake: template <typename T> class Stack { public: Stack() = default ...",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Implement Stack Using Array in C++",
+    "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-array",
+    "snippet": "Learn how to implement a stack using an array in C++. This tutorial provides step-by-step instructions and code examples for beginners.",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "JDSherbert/Simple-Stack-Implementation",
+    "link": "https://github.com/JDSherbert/Simple-Stack-Implementation",
+    "snippet": "Simple C++ Stack class template using a custom Node structure to behave like a linked list structure. - JDSherbert/Simple-Stack-Implementation.",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Stack Implementation Tutorial",
+    "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-linked-list",
+    "snippet": "Learn how to implement a stack using a linked list in C++. This tutorial provides step-by-step guidance and code examples for better ...",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Push/pop stack class program in C++?",
+    "link": "https://stackoverflow.com/questions/46427682/push-pop-stack-class-program-in-c",
+    "snippet": "I've written and modified an example code from a C++ book about ... Here is the code. //stakarray.cpp //a stack as a class #include ...",
+    "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

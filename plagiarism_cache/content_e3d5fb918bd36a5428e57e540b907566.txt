@@ -1,0 +1,122 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdlib>
+#include <math.h>
+using namespace std;
+
+class shape {
+    protected:
+        double area;
+    public:
+        double getArea(){return area;};
+};
+
+class rectangle:shape {
+    private:
+        double width;
+        double height;
+
+    public:
+        rectangle(){
+            width=3;
+            height=4;
+        }
+        double getHeight(){return height;};
+        double getWidth(){return width;};
+
+        void setHeight(double h){height=h;};
+        void setWidth(double w){width=w;};
+        void setArea(double width, double height){area=height*width;};
+};
+
+class circle:shape {
+    private:
+        double radius;
+
+    public:
+        circle(){
+            radius=1;
+        }
+
+        double getRadius(){return radius;};
+        void setRadius(double r){radius=r;};
+        void setArea(double width, double height){area=M_PI*(pow(radius,2));};
+};
+
+int main () {
+    rectangle miRectangulo;
+    circle miCirculo;
+    cout<<"Area of the rectangle is "<<miRectangulo.getArea()<<endl;
+    cout<<"Area of the circle is "<<miCirculo.getArea();
+
+    return 0;
+}
+
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdlib>
+#include <math.h>
+using namespace std;
+
+class shape {
+    protected:
+        double area;
+    public:
+        double getArea(){return area;};
+};
+
+class rectangle:shape {
+    private:
+        double width;
+        double height;
+
+    public:
+        rectangle(){
+            width=3;
+            height=4;
+        }
+        double getHeight(){return height;};
+        double getWidth(){return width;};
+
+        void setHeight(double h){height=h;};
+        void setWidth(double w){width=w;};
+        void setArea(double width, double height){area=height*width;};
+};
+
+class circle:shape {
+    private:
+        double radius;
+
+    public:
+        circle(){
+            radius=1;
+        }
+
+        double getRadius(){return radius;};
+        void setRadius(double r){radius=r;};
+        void setArea(double width, double height){area=M_PI*(pow(radius,2));};
+};
+
+int main () {
+    rectangle miRectangulo;
+    circle miCirculo;
+    cout<<"Area of the rectangle is "<<miRectangulo.getArea()<<endl;
+    cout<<"Area of the circle is "<<miCirculo.getArea();
+
+    return 0;
+}
+
+
+class circle: public shape
+{
+/* snip */
+};
+
+
+class circle: public shape
+{
+/* snip */
+};

@@ -1,0 +1,67 @@
+class Calculator {
+// Private member variable to store the current result
+private:
+double currentResult;
+// Public methods for calculator operations
+public:
+// Constructor initializes the result to 0
+Calculator() {
+currentResult = 0.0;
+}
+// Method to add a number to the current result
+void add(double operand) {
+currentResult += operand;
+}
+// Method to subtract a number from the current result
+void subtract(double operand) {
+currentResult -= operand;
+}
+// Method to multiply the current result by a number
+void multiply(double operand) {
+currentResult *= operand;
+}
+// Method to divide the current result by a number
+// Checks for division by zero to avoid errors
+void divide(double operand) {
+if (operand == 0) {
+std::cout << "Error: Division by zero is not allowed" << std::endl;
+return;
+}
+currentResult /= operand;
+}
+// Method to get the current result
+double getResult() const {
+return currentResult;
+}
+// Method to reset the calculator by setting the result to 0
+void clear() {
+currentResult = 0.0;
+}
+}
+
+int main() {
+// Create a calculator instance
+Calculator calculator;
+// Demonstrate calculator operations
+std::cout << "Calculator Operations:" << std::endl;
+std::cout << "Starting value: " << calculator.getResult() << std::endl;
+// Perform addition
+calculator.add(25.5);
+std::cout << "After adding 25.5: " << calculator.getResult() << std::endl;
+// Perform subtraction
+calculator.subtract(10.25);
+std::cout << "After subtracting 10.25: " << calculator.getResult() << std::endl;
+// Perform multiplication
+calculator.multiply(2);
+std::cout << "After multiplying by 2: " << calculator.getResult() << std::endl;
+// Perform division
+calculator.divide(5);
+std::cout << "After dividing by 5: " << calculator.getResult() << std::endl;
+// Attempt division by zero
+calculator.divide(0);
+std::cout << "After attempted division by zero: " << calculator.getResult() << std::endl;
+// Clear the calculator
+calculator.clear();
+std::cout << "After clearing: " << calculator.getResult() << std::endl;
+return 0;
+}

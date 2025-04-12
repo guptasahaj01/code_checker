@@ -1,0 +1,327 @@
+class Object
+{
+public:
+    Object();
+    ~Object();
+
+
+protected:
+
+   int x;
+   int y;
+private:
+  Line l;
+  Circle c;
+}; 
+
+class Line : public Object
+{
+public:
+    Line ()
+        {
+           x = x+y;
+         }
+    ~Line ();
+
+
+private:
+}; 
+
+class Circle : public Object
+{
+public:
+    Circle()
+        {
+           x = x/y;
+         }
+    ~Circle();
+
+
+private:
+}; 
+
+
+class Object
+{
+public:
+    Object();
+    ~Object();
+
+
+protected:
+
+   int x;
+   int y;
+private:
+  Line l;
+  Circle c;
+}; 
+
+class Line : public Object
+{
+public:
+    Line ()
+        {
+           x = x+y;
+         }
+    ~Line ();
+
+
+private:
+}; 
+
+class Circle : public Object
+{
+public:
+    Circle()
+        {
+           x = x/y;
+         }
+    ~Circle();
+
+
+private:
+}; 
+
+
+#define
+
+#ifdefine
+
+main
+
+Line
+
+Circle
+
+public
+
+Public
+
+class Circle;
+class Line;
+class Object
+{
+    Line* line;
+    Circle* circle;
+}
+
+
+class Circle;
+class Line;
+class Object
+{
+    Line* line;
+    Circle* circle;
+}
+
+
+Object
+
+Object
+
+class Compound : public Object {
+  public:
+    Compound(){
+    }
+  private:
+   Line line;
+   Circle circle;
+};
+
+
+class Compound : public Object {
+  public:
+    Compound(){
+    }
+  private:
+   Line line;
+   Circle circle;
+};
+
+
+Object
+
+draw
+
+Object
+
+Line
+
+Line
+
+Object
+
+Object
+
+Object
+
+Object
+
+Object
+
+Object
+
+unique_ptr<>
+
+#include <memory>
+
+// Forward declarations
+class Line;    
+class Circle;
+
+class Object
+{
+public:
+    Object();
+    ~Object();
+protected:
+   int x;
+   int y;
+private:
+  std::unique_ptr<Line> l;
+  std::unique_ptr<Circle> c;
+};
+
+class Line : public Object
+{
+public:
+    Line ()
+        {
+           x = x+y;
+         }
+    ~Line ();
+};
+
+class Circle : public Object
+{
+public:
+    Circle()
+        {
+           x = x/y;
+         }
+    ~Circle();
+};
+
+
+#include <memory>
+
+// Forward declarations
+class Line;    
+class Circle;
+
+class Object
+{
+public:
+    Object();
+    ~Object();
+protected:
+   int x;
+   int y;
+private:
+  std::unique_ptr<Line> l;
+  std::unique_ptr<Circle> c;
+};
+
+class Line : public Object
+{
+public:
+    Line ()
+        {
+           x = x+y;
+         }
+    ~Line ();
+};
+
+class Circle : public Object
+{
+public:
+    Circle()
+        {
+           x = x/y;
+         }
+    ~Circle();
+};
+
+
+class Line;
+class Circle
+
+
+class Line;
+class Circle
+
+
+class Object
+{
+public:
+    Object();
+    ~Object();
+
+
+protected:
+
+   int x;
+   int y;
+private:
+  Line* l;
+  Circle* c;
+}; 
+
+
+class Object
+{
+public:
+    Object();
+    ~Object();
+
+
+protected:
+
+   int x;
+   int y;
+private:
+  Line* l;
+  Circle* c;
+}; 
+
+
+Circle c
+
+class Circle;
+class Line;
+
+class Object {
+public:
+    ...
+    Circle *c;
+    Line *l;
+}
+
+class Line: public Object { ... }
+
+class Circle: public Object { ... }
+
+
+class Circle;
+class Line;
+
+class Object {
+public:
+    ...
+    Circle *c;
+    Line *l;
+}
+
+class Line: public Object { ... }
+
+class Circle: public Object { ... }
+
+
+Object
+
+Circle
+
+Object
+
+Object

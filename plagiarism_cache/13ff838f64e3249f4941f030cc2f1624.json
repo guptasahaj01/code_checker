@@ -1,0 +1,102 @@
+[
+  {
+    "title": "C++ Object-Oriented Programming: Student information ...",
+    "link": "https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-9.php",
+    "snippet": "Write a C++ program to implement a class called Student that has private member variables for name, class, roll number, and marks.",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Creating 'n' students from a student class. C++",
+    "link": "https://stackoverflow.com/questions/72758124/creating-n-students-from-a-student-class-c",
+    "snippet": "I figured I should write some code to give you an example of how to use a std container. class Student { std::vector<int> scores; std::string ...",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Designing a class of students - C++ Forum",
+    "link": "https://cplusplus.com/forum/beginner/39433/",
+    "snippet": "I'm trying to make a student object which also has two attributes that are also objects themselves (date and address).",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ , Student Class with set and get functions",
+    "link": "https://stackoverflow.com/questions/16827532/c-student-class-with-set-and-get-functions",
+    "snippet": "I've tried to write a class for a student information(name,IDno,and degree), this information will be printed on the screen; but I don't know where is the ...",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Student class - C++ Forum",
+    "link": "https://cplusplus.com/forum/general/87342/",
+    "snippet": "How can I have a class as follows: cin: student 1 : ID,Name,Last name,Address . . . . to student 10 : ID,Name,Last name,Address",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Using an object from Class A in Class B - Forum",
+    "link": "https://cplusplus.com/forum/beginner/193148/",
+    "snippet": "Hi, So I have a class Student that contains student first name and last name. And I have 2 other classes named DateOfBirth and Units",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "std::vector Struct Student example - c++",
+    "link": "https://stackoverflow.com/questions/64922067/stdvector-struct-student-example",
+    "snippet": "std::vector Struct Student example \u00b7 How does code \"sort of\" compile? (It does not compile for me, which means it is not a minimal reproducible ...",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Object-Oriented Programming: Exercises, Practices ...",
+    "link": "https://www.w3resource.com/cpp-exercises/oop/index.php",
+    "snippet": "Write a C++ program to implement a class called Student that has private member variables for name, class, roll number, and marks. Include ...",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - Construct two classes that has attributes and can use ...",
+    "link": "https://stackoverflow.com/questions/74903111/construct-two-classes-that-has-attributes-and-can-use-methods-of-each-other",
+    "snippet": "For example, there're a class STUDENT and a class COURSE, a STUDENT have a list of joined courses and a COURSE have list of participants( ...",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Expose simple C++ Student class to R using Rcpp modules",
+    "link": "https://stackoverflow.com/questions/53659500/expose-simple-c-student-class-to-r-using-rcpp-modules",
+    "snippet": "I'm trying to expose a simple Student class in C++ to R using Rcpp within a package. Here's my setup.",
+    "query": "\"Student\" class cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.9,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Circular Inheritance in c++",
+    "link": "https://stackoverflow.com/questions/15284564/circular-inheritance-in-c",
+    "snippet": "When a class derives, it contains all the components of the baseclass. So in your example, Object contains a Line and a Circle. A Circle ...",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Circular Inheritance and Class",
+    "link": "https://stackoverflow.com/questions/10676640/c-circular-inheritance-and-class",
+    "snippet": "class Circle: Circle. You have a class that inherits from itself, how could that work?",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Inheritance and virtual functions - C++ Forum",
+    "link": "https://cplusplus.com/forum/beginner/163433/",
+    "snippet": "I am starting with the circle class, but and having issues creating the abstract data type, and passing Point objects into the classes. I am getting the error:",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Geometry hierarchy, Class upcasting and inheritance",
+    "link": "https://stackoverflow.com/questions/65350007/c-geometry-hierarchy-class-upcasting-and-inheritance",
+    "snippet": "In main() Create an instance of each. Circle radius = to 23, square sides each = 25, Triangle sides = 10, 20 and 30 (very flat triangle, area = ...",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Object-Oriented Programming: Shape class and ...",
+    "link": "https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-10.php",
+    "snippet": "The Circle class is derived from Shape and overrides the virtual functions to calculate the area and perimeter of a circle. This is based on ...",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Stumped by simple C++ multiple-inheritance example",
+    "link": "https://stackoverflow.com/questions/48407658/stumped-by-simple-c-multiple-inheritance-example",
+    "snippet": "The problem is that you forgot the virtual keyword when inheriting from Shape which declares the pure virtual method draw : class Circle ...",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Area of a square, circle, and rectangle using inheritance in ...",
+    "link": "https://stackoverflow.com/questions/46133748/area-of-a-square-circle-and-rectangle-using-inheritance-in-c",
+    "snippet": "I am having an issue with my program in C++. I need to find the area of a square, circle, and rectangle. I have everything down with the circle and square.",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "function - C++ inheritance and virtual funcions",
+    "link": "https://stackoverflow.com/questions/30715219/c-inheritance-and-virtual-funcions",
+    "snippet": "Here is my task: Design classes Circle and Square which are inherited from class Shape (which contains center of gravity which is common ...",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "designing shape class with circle and triangle - c++",
+    "link": "https://stackoverflow.com/questions/44666561/designing-shape-class-with-circle-and-triangle",
+    "snippet": "Consider the classic example of shape base class and derived triangle and circle classes. So circle is-a shape and so is triangle is-a shape.",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Inheritance? - C++ Forum",
+    "link": "https://cplusplus.com/forum/beginner/129466/",
+    "snippet": "My assignment is to have the user input a radius and side length and then the program will output the area and volume of a circle and sphere, ...",
+    "query": "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

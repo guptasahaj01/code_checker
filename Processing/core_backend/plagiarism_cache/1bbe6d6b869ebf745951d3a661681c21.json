@@ -1,0 +1,102 @@
+[
+  {
+    "title": "C++ Object-Oriented Programming: Circle class",
+    "link": "https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-1.php",
+    "snippet": "Write a C++ program to implement a class called Circle that has private member variables for radius. Include member functions to calculate the circle's area ...",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Circle Class Problem - C++ Forum",
+    "link": "https://cplusplus.com/forum/beginner/86817/",
+    "snippet": "Write a program that demonstrates the Circle class by asking the user for the circle's radius, creating a circle object, and then reporting the circle's area, ...",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "[FREE] Write a `Circle` class that has the following member ...",
+    "link": "https://brainly.com/question/36757782",
+    "snippet": "Write a Circle class that has the following member variables (C++): radius \u2014 a double; pi \u2014 a double initialized with the value 3.14159.",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Object-Oriented Programming: Shape class and ...",
+    "link": "https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-10.php",
+    "snippet": "Learn C++ object-oriented programming by implementing a Shape class with virtual functions for area and perimeter calculation.",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Question: This is C++ program. Write a Circle class that has ...",
+    "link": "https://www.chegg.com/homework-help/questions-and-answers/c-program-write-circle-class-following-member-variables-radius-double-pi-double-initialize-q12654549",
+    "snippet": "Write a Circle class that has the following member variables: radius: a double PI: a double initialized with the value 3.14159. You can define ...",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Help with classes C++ : r/cpp",
+    "link": "https://www.reddit.com/r/cpp/comments/33c9cp/help_with_classes_c/",
+    "snippet": "class circle { private: double pi = 3.14159; double radius;. public: void area(); void circumference(); void print();. }; void circle::area ...",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Create a C++ program that defines a class called Circle . ...",
+    "link": "https://brainly.com/question/35268611",
+    "snippet": "Here is an example implementation: class Circle { private: double radius;. public: double getArea() const { return 3.14159 * radius * radius; } };.",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "[Solved] Write a class declaration named Circle with ...",
+    "link": "https://www.studocu.com/en-us/messages/question/6469329/write-a-class-declaration-named-circle-with-a-private-member-variable-named-radius-write-set-and",
+    "snippet": "Here is a simple class declaration in C++ for a Circle class with a private member variable radius. It includes set and get functions for the radius variable.",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Simple program in C computing incorrect areas and ...",
+    "link": "https://stackoverflow.com/questions/18580747/simple-program-in-c-computing-incorrect-areas-and-circumferences",
+    "snippet": "For example static const int PI = 3.14159 means that 3.14159 will be truncated to 3. Instead of int , try using float or double .",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "What is a C++ program to enter the radius of a circle and ...",
+    "link": "https://www.quora.com/What-is-a-C-program-to-enter-the-radius-of-a-circle-and-find-its-diameter-circumference-and-area",
+    "snippet": "You're going to need a variable, maybe an int or a double, to hold the radius. Then you're going to need to prompt the user what to enter ...",
+    "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

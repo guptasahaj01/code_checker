@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Derived Classes Error - c++",
+    "link": "https://stackoverflow.com/questions/20228200/derived-classes-error",
+    "snippet": "... calculateCircumference (float); friend std::ostream& operator << (std::ostream&, circleType); private: float radius; int center_x; int ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++: undefined reference to Constructor",
+    "link": "https://stackoverflow.com/questions/65590346/c-undefined-reference-to-constructor",
+    "snippet": "Rectangle::calculateCircumference() { return 2*(width+height); }. Shape.h #ifndef SHAPE_H_INCLUDED #define SHAPE_H_INCLUDED class Shape ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "overte/CODING_STANDARD.md at master",
+    "link": "https://github.com/overte-org/overte/blob/master/CODING_STANDARD.md",
+    "snippet": "append(bla); } // Allowed, because this is a simple method int calculateCircumference() { return PI * pow(_radius, 2.0); } // this routine needs to be fast, we' ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "michellecchen/360-cylindrical-panorama: generating a ...",
+    "link": "https://github.com/michellecchen/360-cylindrical-panorama",
+    "snippet": "... (std::vector<int> boundaries, int radius, int focal, int w, int h); // calculates the circumference of the cylinder int calculateCircumference(const std ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c# - Unit Test - sometimes works, sometimes not",
+    "link": "https://stackoverflow.com/questions/52366438/unit-test-sometimes-works-sometimes-not",
+    "snippet": "... CalculateCircumference(dimension); this.Area = this.CalculateArea(dimension); break; } } private double RadiusFromCircumference(double ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Comparison Between Static and Instance Method in PHP",
+    "link": "https://www.tutorialspoint.com/comparison-between-static-and-instance-method-in-php",
+    "snippet": "\"<br>\"; // Output: 78.539816339745 echo $circle->calculateCircumference(); // Output: 31.41592653589793 ?> Output. 78.539816339745 ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "code2pg/code2pg at master \u00b7 societe-generale/code2pg",
+    "link": "https://github.com/societe-generale/code2pg/blob/master/code2pg",
+    "snippet": "... function can be created. For example: ```sql CREATE OR REPLACE FUNCTION ... calculateCircumference(f.data[n])*(s.circumference/(2*Math.PI)),p=i&&l ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Interactive Charts",
+    "link": "https://gist.github.com/mehak-sachdeva/503588cc042fd4b5500128034beae71a",
+    "snippet": "calculateCircumference: function(value) {. var total = this.getMeta().total;. if (total > 0 && !isNaN(value)) {. return (Math.PI * 2.0) * (value / total);.",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "rmolinamir/typescript-cheatsheet",
+    "link": "https://github.com/rmolinamir/typescript-cheatsheet",
+    "snippet": "For example, considering the PI , calculateCircumference , and calculateRectangle export examples shown above, this is how we would import them into our app ...",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Chart.js",
+    "link": "https://gist.github.com/ganeshapp/63b4c1d1aaaaf9ee3cf96918ee821c6c",
+    "snippet": "calculateCircumference: function(value) {. var total = this.getMeta().total;. if (total > 0 && !isNaN(value)) {. return DOUBLE_PI$1 * (Math.abs(value) / total);.",
+    "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

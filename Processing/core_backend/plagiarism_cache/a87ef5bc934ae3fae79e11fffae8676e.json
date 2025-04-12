@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Creating a very basic calculator in C++",
+    "link": "https://stackoverflow.com/questions/72702243/creating-a-very-basic-calculator-in-c",
+    "snippet": "I attempted to make a basic calculator that instead of just being able to add could subtract, divide and multiply but it still seems to only be able to add.",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Advanced Calculator Using C++.",
+    "link": "https://github.com/MuhammedMagdyy/Advanced-Calculator",
+    "snippet": "Advanced Calculator. A console app from scratch using C++ that has Basic operations, Advanced operations like sqrt and power, ASCII table, and ...",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "A simple calculator written in C++",
+    "link": "https://gist.github.com/aziflaj/68813816ef298a03cd4b",
+    "snippet": "Name: CALCULATOR v1.0. Author: Aldo Ziflaj. Date: 01-01-13 12:01. Description: A simple calculator that can add, subtract multiply, divide,.",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Simple gui calculator made with C++ and SFML library",
+    "link": "https://github.com/duckmaniac/simple-calculator",
+    "snippet": "Simple GUI Calculator. A lightweight and intuitive calculator application built with C++ and powered by the SFML library. Perform basic arithmetic operations ...",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Basic Calculator",
+    "link": "https://stackoverflow.com/questions/46330783/c-basic-calculator",
+    "snippet": "I'm new to C++ and programming in General. I was assigned to make a calculator for my C++ class and this is what I have so far. #include < ...",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Simple Calculator in C++. It uses an Abstract Syntax Tree ...",
+    "link": "https://github.com/PanagiotisPtr/Calculator-Cpp",
+    "snippet": "Simple Calculator in C++. It uses an Abstract Syntax Tree and the Shunting yard algorithm to parse mathematical expressions.",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "DaringCuteSeal/cpp-shunting-calc: Basic calculator ...",
+    "link": "https://github.com/DaringCuteSeal/cpp-shunting-calc/",
+    "snippet": "Shunting-Yard Calculator ... This project is a basic implementation of the Shunting-Yard algorithm which is used to parse an infix notation input and turn it into ...",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "simplykeerthana/Calculator_CPP: A C++ calculator ...",
+    "link": "https://github.com/simplykeerthana/Calculator_CPP",
+    "snippet": "A C++ calculator application with efficient user of memory, process user inputs, and mimics a production-grade application.",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "a simple RPN calculator written in C++",
+    "link": "https://gist.github.com/dvtate/19d1b67bd454073bf8c7d70b3e3cc79e",
+    "snippet": "RPN Calculator. Place the operator after its two operands. Here is an example: 1 1 + ans = 2 To use the previous answer replace one number with ans.",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "A basic calculator made in C++. Back-end logic, Unit Tests ...",
+    "link": "https://github.com/Si-ja/Basic-Calculator-CPP",
+    "snippet": "This project holds a basic example of how a calculator could be built in C++. 3 components are utilized.",
+    "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.85,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

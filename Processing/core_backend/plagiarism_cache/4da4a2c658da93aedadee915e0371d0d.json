@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Find the first element in a sorted array that is smaller than ...",
+    "link": "https://stackoverflow.com/questions/50692011/find-the-first-element-in-a-sorted-array-that-is-smaller-than-the-target",
+    "snippet": "if you find mid element equals to target, you just return the mid \u00b7 if you find mid element bigger than the target, you just discard the mid and ...",
+    "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.62,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Wedlec129/allAlgoritms: all the basic algorithms ...",
+    "link": "https://github.com/Wedlec129/allAlgoritms",
+    "snippet": "\u0412 C++ \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u0441\u043e\u0437\u0434\u0430\u044e\u0442\u0441\u044f \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0435\u0439 \u0438 \u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0441\u043b\u043e\u0432\u0430 new . \u041e\u043d\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0432\u044b\u0434\u0435\u043b\u044f\u0442\u044c \u043f\u0430\u043c\u044f\u0442\u044c \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u0438 \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u044b \u0438\u043b\u0438 ...",
+    "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.62,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Find the Target number in an Array",
+    "link": "https://www.geeksforgeeks.org/find-the-target-number-in-an-array/",
+    "snippet": "Compare the element with the target value. If they match, provide the index of that element. If not, move on to the element in the array.",
+    "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.62,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Intersection of Two Sorted Arrays with Distinct Elements",
+    "link": "https://www.geeksforgeeks.org/intersection-of-two-sorted-arrays-with-distinct-elements/",
+    "snippet": "Note: Intersection of two arrays can be defined as a set containing distinct common elements between the two arrays. Examples: Input: a[] = { 1, ...",
+    "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.62,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Union of Two Sorted Arrays with Distinct Elements",
+    "link": "https://www.geeksforgeeks.org/union-of-two-sorted-arrays-with-distinct-elements/",
+    "snippet": "Given two sorted arrays a[] and b[] with distinct elements, the task is to return union of both the arrays in sorted order.",
+    "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.62,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "2 Sum \u2013 Find a pair with given sum",
+    "link": "https://www.geeksforgeeks.org/2-sum-print-pair-with-given-sum/",
+    "snippet": "The idea is to check every possible pair of elements in the array to see if their sum equals the target value. This can be implemented using ...",
+    "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.62,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Could someone explain this for me - for (int i = 0; i < 8; i++)",
+    "link": "https://stackoverflow.com/questions/15529893/could-someone-explain-this-for-me-for-int-i-0-i-8-i",
+    "snippet": "It's a for loop, which will execute the next statement a number of times, depending on the conditions inside the parenthesis.",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "What does for(int i = 0; a[i]; i++) mean? - c++",
+    "link": "https://stackoverflow.com/questions/43615546/what-does-forint-i-0-ai-i-mean",
+    "snippet": "In this case \"for(int i = 0; a[i]; i++)\", your loop keeps its execution until one of its elements are a null element.",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Properly written for-loops, normal and inverse, C++ basics",
+    "link": "https://stackoverflow.com/questions/24160086/properly-written-for-loops-normal-and-inverse-c-basics",
+    "snippet": "only confuse users when size == 0 and in general case can have unpredictable result if the condition will be cchanged for example as i != 0.",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Cout a whole array in c++ [duplicate]",
+    "link": "https://stackoverflow.com/questions/33439064/cout-a-whole-array-in-c",
+    "snippet": "I am fairly new to c++, is there a way in c++ through which we can cout a whole static array apart from iterating via a for loop?",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - What should be the proper declaration of array while ...",
+    "link": "https://stackoverflow.com/questions/69422822/what-should-be-the-proper-declaration-of-array-while-finding-the-largest-number",
+    "snippet": "You declare int arr[n]; before the user has entered a value into n . n has an indeterminate value when you read it and create arr .",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ inserting into an array via for loop",
+    "link": "https://stackoverflow.com/questions/35856344/c-inserting-into-an-array-via-for-loop",
+    "snippet": "I am beginner in C++ and was trying to insert data into an array through the for loop, however, it throws Stack around the variable 'numArray' was corrupted.",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Using cout to print the entire contents of a character array",
+    "link": "https://stackoverflow.com/questions/19371845/using-cout-to-print-the-entire-contents-of-a-character-array",
+    "snippet": "I'm stumped about how to print out the entire contents of a char array. I believe I need to use a loop, and base the loop on the length of the array.",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - How do I print out the contents of a vector?",
+    "link": "https://stackoverflow.com/questions/10750057/how-do-i-print-out-the-contents-of-a-vector",
+    "snippet": "You can also use a integer type to index through the elements of the vector in the for-loop explicitly: for (int i=0; i<path.size(); ++i) std::cout < ...",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How can I return a dynamically allocated array and the size ...",
+    "link": "https://stackoverflow.com/questions/49409636/how-can-i-return-a-dynamically-allocated-array-and-the-size-of-the-array-then-pr",
+    "snippet": "I need to return a dynamically allocated array and the size of the array from a function then print it out through a second function. I am ...",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Looking for solution to array and cout interaction in C++",
+    "link": "https://stackoverflow.com/questions/58685347/looking-for-solution-to-array-and-cout-interaction-in-c",
+    "snippet": "The simplest solution would be to print the delimiter (i%10 == 0) ? \"\\n\" : \", \" . You correctly recognized that taking the remainder on every ...",
+    "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.6,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

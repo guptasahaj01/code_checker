@@ -1,0 +1,305 @@
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364
+  #include <iostream>
+#include <cmath>
+using namespace std;
+
+#define PI 3.14159
+
+//Part A
+
+class Point {
+	public:
+		int x;
+		int y;
+		Point(int px , int py) : x(px) , y(py){}
+
+};
+// Part B
+ class Shape {
+ 	public:
+		virtual double area() = 0;
+		virtual double circumference() = 0;
+		//virtual boundbox() = 0;        // vector?
+		virtual void display() = 0;
+};
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &pt0, const Point &pt1);
+    double area(const Point &pt0, const Point &pt1);
+    double circumference(const Point &pt0, const Point &pt1);
+    //Point boundBox(const Point &pt0, const Point &pt1);
+    void display();
+};
+
+Circle::Circle(){
+}
+Circle::Circle(const Point &pt0, const Point &pt1){
+}
+
+double Circle::area(const Point &pt0, const Point &pt1){
+    double areaResult;
+    double circRadius = pt1.y - pt0.y;
+    areaResult = circRadius * PI;
+    cout << areaResult << endl;
+}
+double Circle::circumference(const Point &pt0, const Point &pt1){
+
+}
+/*Point Circle::boundBox(){
+
+}
+*/
+
+void Circle::display(){}
+
+
+// Part D
+int main() {
+	Point pt0(0, 0); // Point Center
+	Point pt1(0, 23); // Radius
+
+	Circle c1;
+	c1.area(pt0, pt1);
+}
+
+
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364
+
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364
+
+  #include <iostream>
+#include <cmath>
+using namespace std;
+
+#define PI 3.14159
+
+//Part A
+
+class Point {
+	public:
+		int x;
+		int y;
+		Point(int px , int py) : x(px) , y(py){}
+
+};
+// Part B
+ class Shape {
+ 	public:
+		virtual double area() = 0;
+		virtual double circumference() = 0;
+		//virtual boundbox() = 0;        // vector?
+		virtual void display() = 0;
+};
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &pt0, const Point &pt1);
+    double area(const Point &pt0, const Point &pt1);
+    double circumference(const Point &pt0, const Point &pt1);
+    //Point boundBox(const Point &pt0, const Point &pt1);
+    void display();
+};
+
+Circle::Circle(){
+}
+Circle::Circle(const Point &pt0, const Point &pt1){
+}
+
+double Circle::area(const Point &pt0, const Point &pt1){
+    double areaResult;
+    double circRadius = pt1.y - pt0.y;
+    areaResult = circRadius * PI;
+    cout << areaResult << endl;
+}
+double Circle::circumference(const Point &pt0, const Point &pt1){
+
+}
+/*Point Circle::boundBox(){
+
+}
+*/
+
+void Circle::display(){}
+
+
+// Part D
+int main() {
+	Point pt0(0, 0); // Point Center
+	Point pt1(0, 23); // Radius
+
+	Circle c1;
+	c1.area(pt0, pt1);
+}
+
+
+  #include <iostream>
+#include <cmath>
+using namespace std;
+
+#define PI 3.14159
+
+//Part A
+
+class Point {
+	public:
+		int x;
+		int y;
+		Point(int px , int py) : x(px) , y(py){}
+
+};
+// Part B
+ class Shape {
+ 	public:
+		virtual double area() = 0;
+		virtual double circumference() = 0;
+		//virtual boundbox() = 0;        // vector?
+		virtual void display() = 0;
+};
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &pt0, const Point &pt1);
+    double area(const Point &pt0, const Point &pt1);
+    double circumference(const Point &pt0, const Point &pt1);
+    //Point boundBox(const Point &pt0, const Point &pt1);
+    void display();
+};
+
+Circle::Circle(){
+}
+Circle::Circle(const Point &pt0, const Point &pt1){
+}
+
+double Circle::area(const Point &pt0, const Point &pt1){
+    double areaResult;
+    double circRadius = pt1.y - pt0.y;
+    areaResult = circRadius * PI;
+    cout << areaResult << endl;
+}
+double Circle::circumference(const Point &pt0, const Point &pt1){
+
+}
+/*Point Circle::boundBox(){
+
+}
+*/
+
+void Circle::display(){}
+
+
+// Part D
+int main() {
+	Point pt0(0, 0); // Point Center
+	Point pt1(0, 23); // Radius
+
+	Circle c1;
+	c1.area(pt0, pt1);
+}
+
+
+123456789101112131415
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &_center, double _radius) :
+         center(_center),
+         radius(_radius)
+         {}
+    // over ridden from class Shape
+    double area();
+    double circumference();
+    void display();
+private:
+    Point center;
+    double radius;
+};
+
+123456789101112131415
+
+123456789101112131415
+
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &_center, double _radius) :
+         center(_center),
+         radius(_radius)
+         {}
+    // over ridden from class Shape
+    double area();
+    double circumference();
+    void display();
+private:
+    Point center;
+    double radius;
+};
+
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &_center, double _radius) :
+         center(_center),
+         radius(_radius)
+         {}
+    // over ridden from class Shape
+    double area();
+    double circumference();
+    void display();
+private:
+    Point center;
+    double radius;
+};
+
+123456789101112131415
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &_center, const Point & _outer) :
+         center(_center),
+         outer(_outer)
+         {}
+    // over ridden from class Shape
+    double area();
+    double circumference();
+    void display();
+private:
+    Point center;
+    Point outer;
+};
+
+123456789101112131415
+
+123456789101112131415
+
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &_center, const Point & _outer) :
+         center(_center),
+         outer(_outer)
+         {}
+    // over ridden from class Shape
+    double area();
+    double circumference();
+    void display();
+private:
+    Point center;
+    Point outer;
+};
+
+class Circle: public Shape {
+public:
+    Circle();
+    Circle(const Point &_center, const Point & _outer) :
+         center(_center),
+         outer(_outer)
+         {}
+    // over ridden from class Shape
+    double area();
+    double circumference();
+    void display();
+private:
+    Point center;
+    Point outer;
+};

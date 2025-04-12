@@ -1,0 +1,66 @@
+class Student{
+int rollno;
+int mark1,mark2,mark3;
+public:
+void setRno(int t){
+rollno=t;
+}
+void setMark1(int t){
+mark1 = t;
+}
+void setMark2(int t){
+mark2 = t;
+}
+void setMark3(int t){
+mark3 = t;
+}
+int totalMarks(){
+return mark1+mark2+mark3;
+}
+static void findMaxMarks(Student s[],int n){
+int maxMark1 = 0,maxMark2=0,maxMark3=0;
+int roll1=0,roll2=0,roll3=0;
+for (int i=0;i<n;i++){
+if (s[i].mark1>maxMark1){
+maxMark1 = s[i].mark1;
+roll1 = s[i].rollno;
+}
+if (s[i].mark2>maxMark2){
+maxMark2 = s[i].mark2;
+roll2 = s[i].rollno;
+}
+if (s[i].mark3>maxMark3){
+maxMark3 = s[i].mark3;
+roll3 = s[i].rollno;
+}
+}
+cout<<roll1<<" "<<maxMark1<<"\n";
+cout<<roll2<<" "<<maxMark2<<"\n";
+cout<<roll3<<" "<<maxMark3<<"\n";
+}
+static void findMaxTotalMarks(Student s[],int n){
+int maxTotal=0;
+int roll;
+for(int i=0; i<n;i++){
+if(s[i].totalMarks()>maxTotal){
+maxTotal = s[i].totalMarks();
+roll=s[i].rollno;
+}
+}
+cout<<roll<<" "<<maxTotal<<"\n";
+}
+}
+
+int main() { int n;
+cin >> n;
+Student s[n];
+for (int i = 0; i < n; i++) { int t;
+cin >> t; s[i].setRno(t); cin >> t; s[i].setMark1(t); cin >> t; s[i].setMark2(t); cin >> t;
+s[i].setMark3(t);
+}
+for (int i = 0; i < n; i++) {
+cout << s[i].totalMarks() << endl;
+}
+Student::findMaxMarks(s, n); Student::findMaxTotalMarks(s, n);
+return 0;
+}

@@ -1,0 +1,328 @@
+1234567891011121314151617181920212223242526272829303132333435363738
+#include <iostream>
+#include <limits>
+
+#include "Circle.h"
+#include "Circle.cpp"
+
+
+using namespace std;
+
+int main()
+{
+	cout << "-Assignment 2" << endl;
+
+
+	double InputRadius;
+
+	while (true) {
+		cout << "Enter the Radious";
+		if (!(cin >> InputRadius));
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		continue;
+
+		if (InputRadius == -1.0)
+		{
+			break;
+		}
+		
+		circle::setRadius(InputRadius);
+
+		circle::showData();
+	
+	}
+
+
+	system("pause");
+	return 0;
+}
+
+1234567891011121314151617181920212223242526272829303132333435363738
+
+1234567891011121314151617181920212223242526272829303132333435363738
+
+#include <iostream>
+#include <limits>
+
+#include "Circle.h"
+#include "Circle.cpp"
+
+
+using namespace std;
+
+int main()
+{
+	cout << "-Assignment 2" << endl;
+
+
+	double InputRadius;
+
+	while (true) {
+		cout << "Enter the Radious";
+		if (!(cin >> InputRadius));
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		continue;
+
+		if (InputRadius == -1.0)
+		{
+			break;
+		}
+		
+		circle::setRadius(InputRadius);
+
+		circle::showData();
+	
+	}
+
+
+	system("pause");
+	return 0;
+}
+
+#include <iostream>
+#include <limits>
+
+#include "Circle.h"
+#include "Circle.cpp"
+
+
+using namespace std;
+
+int main()
+{
+	cout << "-Assignment 2" << endl;
+
+
+	double InputRadius;
+
+	while (true) {
+		cout << "Enter the Radious";
+		if (!(cin >> InputRadius));
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		continue;
+
+		if (InputRadius == -1.0)
+		{
+			break;
+		}
+		
+		circle::setRadius(InputRadius);
+
+		circle::showData();
+	
+	}
+
+
+	system("pause");
+	return 0;
+}
+
+2930313233
+   circle myCircle;
+
+   myCircle.setRadius(InputRadius);
+
+   myCircle.showData();
+
+2930313233
+
+2930313233
+
+   circle myCircle;
+
+   myCircle.setRadius(InputRadius);
+
+   myCircle.showData();
+
+   circle myCircle;
+
+   myCircle.setRadius(InputRadius);
+
+   myCircle.showData();
+
+1234567891011121314151617
+#include <iostream>
+#include <limits>
+#include "Circle.hpp"  // I use .hpp, not .h, to designate this is a C++ header
+
+int main()
+{
+   double InputRadius;
+
+   std::cout << "Enter the Radius: ";
+   std::cin >> InputRadius;
+
+   circle myCircle;
+
+   myCircle.setRadius(InputRadius);
+
+   myCircle.showData();
+}
+
+1234567891011121314151617
+
+1234567891011121314151617
+
+#include <iostream>
+#include <limits>
+#include "Circle.hpp"  // I use .hpp, not .h, to designate this is a C++ header
+
+int main()
+{
+   double InputRadius;
+
+   std::cout << "Enter the Radius: ";
+   std::cin >> InputRadius;
+
+   circle myCircle;
+
+   myCircle.setRadius(InputRadius);
+
+   myCircle.showData();
+}
+
+#include <iostream>
+#include <limits>
+#include "Circle.hpp"  // I use .hpp, not .h, to designate this is a C++ header
+
+int main()
+{
+   double InputRadius;
+
+   std::cout << "Enter the Radius: ";
+   std::cin >> InputRadius;
+
+   circle myCircle;
+
+   myCircle.setRadius(InputRadius);
+
+   myCircle.showData();
+}
+
+circle::setRadius(InputRadius);
+
+Circle circle;
+
+circle.setRadius(InputRadius);
+
+12345678910111213141516171819202122232425262728293031
+#include <iostream>
+#include <sstream>
+#include <string>
+#include "Circle.hpp"
+
+int main()
+{
+   std::string line;
+   double      input { };
+
+   // this loop runs until we break out of it
+  // read the entire line of input into a std::string
+   while ((std::cout << "Please enter a number: ") && std::getline(std::cin, line))
+   {
+      std::istringstream is { line };
+
+      // re-using `line` to test for extra stuff after the number
+      if ((is >> input) && !(is >> line))
+      {
+         // if the number retrieved is -1/-1.0 that is invalid
+         if (input != -1.0) break; // done, we got what we wanted
+      }
+      std::cerr << "Invalid input, try again.\n";
+   }
+
+   circle myCircle;
+
+   myCircle.setRadius(input);
+
+   myCircle.showData();
+}
+
+12345678910111213141516171819202122232425262728293031
+
+12345678910111213141516171819202122232425262728293031
+
+#include <iostream>
+#include <sstream>
+#include <string>
+#include "Circle.hpp"
+
+int main()
+{
+   std::string line;
+   double      input { };
+
+   // this loop runs until we break out of it
+  // read the entire line of input into a std::string
+   while ((std::cout << "Please enter a number: ") && std::getline(std::cin, line))
+   {
+      std::istringstream is { line };
+
+      // re-using `line` to test for extra stuff after the number
+      if ((is >> input) && !(is >> line))
+      {
+         // if the number retrieved is -1/-1.0 that is invalid
+         if (input != -1.0) break; // done, we got what we wanted
+      }
+      std::cerr << "Invalid input, try again.\n";
+   }
+
+   circle myCircle;
+
+   myCircle.setRadius(input);
+
+   myCircle.showData();
+}
+
+#include <iostream>
+#include <sstream>
+#include <string>
+#include "Circle.hpp"
+
+int main()
+{
+   std::string line;
+   double      input { };
+
+   // this loop runs until we break out of it
+  // read the entire line of input into a std::string
+   while ((std::cout << "Please enter a number: ") && std::getline(std::cin, line))
+   {
+      std::istringstream is { line };
+
+      // re-using `line` to test for extra stuff after the number
+      if ((is >> input) && !(is >> line))
+      {
+         // if the number retrieved is -1/-1.0 that is invalid
+         if (input != -1.0) break; // done, we got what we wanted
+      }
+      std::cerr << "Invalid input, try again.\n";
+   }
+
+   circle myCircle;
+
+   myCircle.setRadius(input);
+
+   myCircle.showData();
+}
+
+Please enter a number: abc
+Invalid input, try again.
+Please enter a number: 123abc
+Invalid input, try again.
+Please enter a number: -1
+Invalid input, try again.
+Please enter a number: .75
+Radius is: 0.75, Circumference is: 4.71, Area is: 1.76625
+
+Please enter a number: abc
+Invalid input, try again.
+Please enter a number: 123abc
+Invalid input, try again.
+Please enter a number: -1
+Invalid input, try again.
+Please enter a number: .75
+Radius is: 0.75, Circumference is: 4.71, Area is: 1.76625

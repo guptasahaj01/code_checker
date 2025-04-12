@@ -1,0 +1,102 @@
+[
+  {
+    "title": "How to call a method from a different class (area of rectangle)",
+    "link": "https://stackoverflow.com/questions/61070155/how-to-call-a-method-from-a-different-class-area-of-rectangle",
+    "snippet": "Why not have just a single Rectangle class which knows how to calculate its area (e.g. int Rectangle::CalculateArea () )? \u00b7 I am very confused at ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ - I am having trouble with the output as I am getting ...",
+    "link": "https://stackoverflow.com/questions/45135394/c-i-am-having-trouble-with-the-output-as-i-am-getting-numbers-and-letters",
+    "snippet": "This value is returned as the radius of the circle. calculateArea: Receives the radius of a circle, calculates and returns the area of the ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c# - CalculateArea using poymorphism and virtual method",
+    "link": "https://stackoverflow.com/questions/40829990/calculatearea-using-poymorphism-and-virtual-method-not-getting-proper-result",
+    "snippet": "// eg: triangle needs height and base // edit CalculateArea method based on the shape public double Length { get; set; } public override ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Why member functions of a local class can access the ...",
+    "link": "https://stackoverflow.com/questions/62964073/why-member-functions-of-a-local-class-can-access-the-function-arguments-but-not",
+    "snippet": "Then why are the methods calculateArea() and calculatePerimeter() of the Calculate class able to access these variables? Output: Area: 1.44 sq ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Area Between Two Concentric Circles in C++",
+    "link": "https://www.tutorialspoint.com/program-to-calculate-the-area-between-two-concentric-circles-in-cplusplus",
+    "snippet": "... std; // Function to find area between the two given concentric circles double calculateArea(int x, int y){ double outer = pi * x * x; double ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How can I double a variable using class mutator in c++",
+    "link": "https://stackoverflow.com/questions/49142895/how-can-i-double-a-variable-using-class-mutator-in-c",
+    "snippet": "... int Rectangle::calculateArea() { return width * height; } // end of Rectangle class implementation void displayRectangle(Rectangle r); void ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "designing shape class with circle and triangle - c++",
+    "link": "https://stackoverflow.com/questions/44666561/designing-shape-class-with-circle-and-triangle",
+    "snippet": "... calculateArea() = 0; virtual double calculatePerimeter() = 0; // Since we do not know what kind of shape to modify until we have one // to ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ using float numbers, functions not calculating valid data",
+    "link": "https://stackoverflow.com/questions/45315445/c-using-float-numbers-functions-not-calculating-valid-data",
+    "snippet": "The functions must not be calling correctly. example of output >The ... calculateArea() { area = length * width; return area; } float ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Error while accessing members of class in main function",
+    "link": "https://stackoverflow.com/questions/77705133/error-while-accessing-members-of-class-in-main-function",
+    "snippet": "calculateArea() with high probability will encounter integer overflow. Consider using long long as a return value (which is usualy stored in 8 ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Code in .cpp file - c++",
+    "link": "https://stackoverflow.com/questions/33270668/code-in-cpp-file",
+    "snippet": "Your calculateArea is probably a member function of Shapes and should as such be prefixed with Shapes:: . You aren't using the member ...",
+    "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

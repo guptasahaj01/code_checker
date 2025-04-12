@@ -1,0 +1,255 @@
+
+
+
+
+Circle Class Problem - C++ Forum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cplusplus.com
+
+
+
+
+TUTORIALS
+REFERENCE
+ARTICLES
+FORUM
+
+
+
+
+
+
+
+
+
+
+
+
+
+C++
+
+Tutorials
+Reference
+Articles
+Forum
+
+
+
+Forum
+
+BeginnersWindows ProgrammingUNIX/Linux ProgrammingGeneral C++ ProgrammingLoungeJobs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forum
+Beginners
+Circle Class Problem
+
+
+
+
+
+
+
+
+  Circle Class Problem
+
+
+ Dec 2, 2012 at 8:33pm UTC
+Malexander (3)
+
+
+I am having trouble understanding classes and this is the first problem I have to do. If I could get some help with it I will be able to do the rest of my homework.
+
+Write a Circle class that has the following member variables:
+radius: a double
+pi: a double initialized with the value 3.14159
+
+The class should have the following member functions:
+Default Constructor. A default constructor that sets the radius to 0.0
+Constructor. Accepts the radius of the circle as an argument
+setRadius. A mutator function for the radius variable
+getRadius. An accessor function for the radius variable
+getArea. Returns the area of the circle, which is calculated as     diameter=pi*radius*radius
+getDiameter. Returns the diameter of the circle, which is calculated as diameter=radius*2
+getCircumference. Returns the circumference of the circle, which is calculated as circumference=2*pi*radius
+
+Write a program that demonstrates the Circle class by asking the user for the circle's radius, creating a circle object, and then reporting the circle's area, diameter, and circumference.
+
+
+
+
+
+
+
+
+
+ Dec 2, 2012 at 8:35pm UTC
+Hippogriff (727)
+
+
+I suggest you read over this carefully. It goes over everything you listed.
+http://www.cplusplus.com/doc/tutorial/classes/
+
+If you have started to write the code and are still stuck, feel free to post what you have and we can help from there. 
+
+
+
+
+
+
+
+
+
+ Dec 2, 2012 at 8:42pm UTC
+Chervil (7320)
+
+
+Why would pi be a member variable? For one thing, it is a constant. For another, each individual circle doesn't need its own separate value of pi.
+
+But still, that doesn't help you. I'm just puzzled by the design.
+
+
+
+
+
+
+
+
+
+ Dec 2, 2012 at 8:44pm UTC
+Malexander (3)
+
+
+LOL I have no clue that is just the way the question is worded!
+
+
+
+
+
+
+
+
+
+ Dec 2, 2012 at 8:58pm UTC
+Malexander (3)
+
+
+This is what I have so far. All the program does is ask for radius then closes
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+#include <iostream.h>
+#include <math.h>
+
+
+const double PI = 3.14159;
+
+					// class interface (definition)
+class Circle		
+{
+	public:
+		  // constructors
+          Circle();                         // default constructor
+          Circle(const Circle &);           // copy constructor
+
+		  // member functions (methods)
+          void   SetRadius(double);			// modifier that sets new radius
+          double Area();
+
+	private:
+		  // member variables (data)
+          double radius;					// circle's radius
+};
+
+int main()
+{
+	Circle myCircle;						// circle object used as an example
+	double circleArea = 0.0;				// area of the circle
+	double userInput = 0.0;					// user input for radius of circle
+
+	cout << "Enter radius of the circle: ";
+	cin >> userInput;
+
+	myCircle.SetRadius(userInput);
+	circleArea = myCircle.Area();
+
+	cout << "The area is " << circleArea << endl << endl;
+
+	return 0;
+}// end of main
+
+				// class implementation
+
+											// default constructor
+Circle::Circle()
+{
+  radius = 0.0;
+}
+
+											// copy constructor
+Circle::Circle(const Circle & Object)
+{
+  radius = Object.radius;
+}
+
+											// sets the radius of the circle
+void Circle::SetRadius(double IncomingRadius)
+{
+  radius = IncomingRadius;
+}
+
+											// computes the area of the circle
+double Circle::Area()
+{
+ return(PI * pow(radius, 2));
+}
+
+
+
+
+
+
+Topic archived. No new replies allowed.
+
+
+
+
+
+
+Home page | Privacy policy© cplusplus.com, 2000-2024 - All rights reserved - v3.3.3Spotted an error? contact us
+
+
+
+
+

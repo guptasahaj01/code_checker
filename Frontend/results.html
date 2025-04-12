@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Detection Results</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/results.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container results-container">
+        <header class="app-header results-header">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <h1>Code Plagiarism Results</h1>
+            </div>
+            <div class="header-actions">
+                <a href="index.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to Upload
+                </a>
+            </div>
+        </header>
+
+        <main class="results-main">
+            <div class="results-summary">
+                <h2>Analysis Summary</h2>
+                <div class="summary-info">
+                    <div class="summary-item">
+                        <i class="fas fa-file-alt"></i>
+                        <span id="fileCountSummary">0 Files</span>
+                    </div>
+                    <div class="summary-item">
+                        <i class="fas fa-clock"></i>
+                        <span id="analysisTime">Analysis Time: --:--</span>
+                    </div>
+                    <div class="summary-item">
+                        <i class="fas fa-sliders-h"></i>
+                        <span id="difficultyLevel">Difficulty: --</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabs-container">
+                <div class="tabs-header">
+                    <button class="tab-button active" data-tab="similarityTab">
+                        <i class="fas fa-users"></i> Student Similarity
+                    </button>
+                    <button class="tab-button" data-tab="aiTab">
+                        <i class="fas fa-robot"></i> AI Detection
+                    </button>
+                    <button class="tab-button" data-tab="webTab">
+                        <i class="fas fa-globe"></i> Web Plagiarism
+                    </button>
+                </div>
+
+                <div class="tab-content active" id="similarityTab">
+                    <div class="tab-header">
+                        <h3>Student-to-Student Similarity</h3>
+                        <p class="tab-description">Groups of submissions with similar code patterns.</p>
+                    </div>
+                    <div id="similarityResults" class="results-grid">
+                        <div class="loading-indicator">
+                            <div class="loading-spinner small"></div>
+                            <p>Loading similarity results...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="aiTab">
+                    <div class="tab-header">
+                        <h3>AI-Generated Code Detection</h3>
+                        <p class="tab-description">Submissions likely to contain AI-generated code.</p>
+                    </div>
+                    <div id="aiResults" class="results-grid">
+                        <div class="loading-indicator">
+                            <div class="loading-spinner small"></div>
+                            <p>Loading AI detection results...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="webTab">
+                    <div class="tab-header">
+                        <h3>Web Plagiarism Detection</h3>
+                        <p class="tab-description">Matches found between submissions and online sources.</p>
+                    </div>
+                    <div id="webResults" class="results-grid">
+                        <div class="loading-indicator">
+                            <div class="loading-spinner small"></div>
+                            <p>Loading web plagiarism results...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div id="loadingOverlay" class="loading-overlay">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <h3>Loading Results</h3>
+                <p id="loadingStatus">Retrieving analysis results...</p>
+            </div>
+        </div>
+
+        <div id="errorOverlay" class="error-overlay">
+            <div class="error-content">
+                <i class="fas fa-exclamation-triangle"></i>
+                <h3>Error Loading Results</h3>
+                <p id="errorMessage">Could not retrieve results. Please try again.</p>
+                <button id="backButton" class="primary-button">Back to Upload</button>
+            </div>
+        </div>
+
+        <footer class="app-footer">
+            <p>&copy; 2024 Code Plagiarism Detector | <a href="#about">About</a> | <a href="#help">Help</a></p>
+        </footer>
+    </div>
+
+    <script src="js/results.js"></script>
+</body>
+</html> 

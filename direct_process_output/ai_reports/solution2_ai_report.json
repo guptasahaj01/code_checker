@@ -1,0 +1,232 @@
+{
+  "teststudent1.txt": {
+    "file": "teststudent1.txt",
+    "is_ai_generated": false,
+    "technical_score": 23.734714327290273,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.0,
+      "formatting_consistency_score": 0.7542857142857144,
+      "similarity_score": 0.14102143065022785,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.23734714327290274
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7542857142857144
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.14102143065022785
+      }
+    ]
+  },
+  "teststudent3.txt": {
+    "file": "teststudent3.txt",
+    "is_ai_generated": false,
+    "technical_score": 30.454257622361215,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.3,
+      "formatting_consistency_score": 0.7466666666666668,
+      "similarity_score": 0.2577128811180606,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.30454257622361214
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7466666666666668
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.3
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.2577128811180606
+      }
+    ]
+  },
+  "teststudent2.txt": {
+    "file": "teststudent2.txt",
+    "is_ai_generated": false,
+    "technical_score": 31.744524660812313,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.3,
+      "formatting_consistency_score": 0.731891891891892,
+      "similarity_score": 0.3333073141216968,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.3174452466081231
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.731891891891892
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.3333073141216968
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.3
+      }
+    ]
+  },
+  "onlinesample1.txt": {
+    "file": "onlinesample1.txt",
+    "is_ai_generated": false,
+    "technical_score": 34.39130160395701,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.0,
+      "formatting_consistency_score": 0.7200000000000002,
+      "similarity_score": 0.30956508019785045,
+      "ml_prediction_score": 0.58,
+      "overall_score": 0.34391301603957014
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7200000000000002
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.58
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.30956508019785045
+      }
+    ]
+  },
+  "samplechecker2.txt": {
+    "file": "samplechecker2.txt",
+    "is_ai_generated": false,
+    "technical_score": 22.448552826485905,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.29558823529411765,
+      "formatting_consistency_score": 0.410909090909091,
+      "similarity_score": 0.44255464667188876,
+      "ml_prediction_score": 0.1,
+      "overall_score": 0.22448552826485904
+    },
+    "top_indicators": [
+      {
+        "name": "similarity_score",
+        "value": 0.44255464667188876
+      },
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.410909090909091
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.29558823529411765
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.1
+      }
+    ]
+  },
+  "samplechecker3.txt": {
+    "file": "samplechecker3.txt",
+    "is_ai_generated": false,
+    "technical_score": 25.02001847758751,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.28148148148148144,
+      "formatting_consistency_score": 0.3600000000000001,
+      "similarity_score": 0.28988981276826414,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.2502001847758751
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.3600000000000001
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.28988981276826414
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.28148148148148144
+      }
+    ]
+  },
+  "samplechecker1.txt": {
+    "file": "samplechecker1.txt",
+    "is_ai_generated": false,
+    "technical_score": 19.224500861100168,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.27666666666666667,
+      "formatting_consistency_score": 0.39368421052631586,
+      "similarity_score": 0.30846188516027157,
+      "ml_prediction_score": 0.1,
+      "overall_score": 0.1922450086110017
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.39368421052631586
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.30846188516027157
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.27666666666666667
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.1
+      }
+    ]
+  }
+}

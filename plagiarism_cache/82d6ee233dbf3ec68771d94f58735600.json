@@ -1,0 +1,102 @@
+[
+  {
+    "title": "OOP classes design: two numbers calculator - c++",
+    "link": "https://stackoverflow.com/questions/66203137/oop-classes-design-two-numbers-calculator",
+    "snippet": "The problem is that write a two numbers calculator(+,-,*,/) using OOP. Based on intuition(I haven't learned design pattern yet), I wrote the code like this.",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Inheritance Dimension Calculator program error",
+    "link": "https://stackoverflow.com/questions/33600793/c-inheritance-dimension-calculator-program-error-function-call-missing-argum",
+    "snippet": "C++ Inheritance Dimension Calculator program error: \"function call missing argument list\" \u00b7 Ask Question. Asked 9 years, 3 months ago. Modified ...",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++: using superclass and subclass the value from simple ...",
+    "link": "https://stackoverflow.com/questions/17914524/c-using-superclass-and-subclass-the-value-from-simple-calculation-of-area-ret",
+    "snippet": "Calculations are wrong in my homework code. How to fix? 13 \u00b7 weird calculation result \u00b7 0 \u00b7 C++ - Simple shape area calculator returns erroneous ...",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Represent expression calculation c++ (Polymorphism ...",
+    "link": "https://stackoverflow.com/questions/34147848/represent-expression-calculation-c-polymorphism-design",
+    "snippet": "... simple expression calculator in C++, for example, to calculate. (3 + 2) * 8. So, I have made a base class for expression like this: class ...",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++: advanced class model for matrix calculator",
+    "link": "https://stackoverflow.com/questions/55940260/c-advanced-class-model-for-matrix-calculator",
+    "snippet": "I'm making a matrix calculator as a project for my C++ class in college and I'm not sure how to design the classes for it.",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Function Assignment grade calculator",
+    "link": "https://stackoverflow.com/questions/39114510/c-function-assignment-grade-calculator",
+    "snippet": "C++ Function Assignment grade calculator ; #include <iostream> using namespace \u00b7 void calculateGrade() ; int \u00b7 int \u00b7 if \u00b7 85 ; \"The Course grade is: A\" ...",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Template inheritance from base class and return types",
+    "link": "https://stackoverflow.com/questions/10960408/template-inheritance-from-base-class-and-return-types",
+    "snippet": "This code is for a calculator, i have other 3 different classes, and ... C++ method inheritance with return type depending on class \u00b7 2.",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C# Class Inheritance Issue with Simple Calculator",
+    "link": "https://stackoverflow.com/questions/60031700/c-sharp-class-inheritance-issue-with-simple-calculator",
+    "snippet": "Here is a possible solution. There are two classes MyClass, for the calculator (you may want to rename it) and Propram. Program holds just the ...",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Calculator in C++ using class template to automatically call ...",
+    "link": "https://stackoverflow.com/questions/74568206/calculator-in-c-using-class-template-to-automatically-call-the-datatype-that-t",
+    "snippet": "I want to make a calculator in C++ for addition, subtraction, multiplication and division using class template and in the main function,",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Creating queue of objects derived from base class in c++",
+    "link": "https://stackoverflow.com/questions/72596052/creating-queue-of-objects-derived-from-base-class-in-c",
+    "snippet": "So, in short, I am writing a rather simple calculator (for reverse Polish notation). My base class is Symbol, it is a pure virtual class, ...",
+    "query": "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.95,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Plagiarism Detection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <h1>Code Plagiarism Detector</h1>
+            </div>
+            <p class="app-description">Upload PDF assignments to detect code plagiarism across submissions, AI-generated code, and web matches.</p>
+        </header>
+
+        <main class="app-main">
+            <section class="upload-section">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h2>Drag & Drop PDF Files</h2>
+                    <p>or</p>
+                    <label class="upload-button">
+                        Browse Files
+                        <input type="file" id="fileInput" multiple accept=".pdf" hidden>
+                    </label>
+                    <p class="upload-hint">Up to 50 files, PDF only</p>
+                </div>
+
+                <div class="file-list" id="fileListContainer">
+                    <div class="file-list-header">
+                        <h3>Selected Files (<span id="fileCount">0</span>)</h3>
+                        <button id="clearAllButton" class="clear-button" disabled>Clear All</button>
+                    </div>
+                    <ul id="fileList" class="file-items"></ul>
+                </div>
+            </section>
+
+            <section class="options-section">
+                <div class="difficulty-selector">
+                    <h3>Select Difficulty Level:</h3>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="difficulty" value="easy" checked>
+                            <span class="radio-label easy">Easy</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="difficulty" value="medium">
+                            <span class="radio-label medium">Medium</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="difficulty" value="hard">
+                            <span class="radio-label hard">Hard</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="processButton" class="primary-button" disabled>
+                        <i class="fas fa-play"></i> Process Files
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <div id="loadingOverlay" class="loading-overlay">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <h3>Processing Files</h3>
+                <p id="processingStatus">Uploading and analyzing files...</p>
+            </div>
+        </div>
+
+        <footer class="app-footer">
+            <p>&copy; 2024 Code Plagiarism Detector | <a href="#about">About</a> | <a href="#help">Help</a></p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html> 

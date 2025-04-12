@@ -1,0 +1,1012 @@
+{
+  "similarity_analysis": {
+    "solution1": {
+      "high_confidence_pairs": [
+        {
+          "pair": [
+            "teststudent1.txt",
+            "teststudent2.txt"
+          ],
+          "similarity": 0.9157872787663879,
+          "tfidf_similarity": 0.878702404783336,
+          "ast_similarity": 0.9714145897409656,
+          "detection_method": "Combined"
+        },
+        {
+          "pair": [
+            "teststudent1.txt",
+            "teststudent3.txt"
+          ],
+          "similarity": 0.9816620384268988,
+          "tfidf_similarity": null,
+          "ast_similarity": 0.9816620384268988,
+          "detection_method": "AST"
+        },
+        {
+          "pair": [
+            "teststudent3.txt",
+            "teststudent2.txt"
+          ],
+          "similarity": 0.9668432533499531,
+          "tfidf_similarity": null,
+          "ast_similarity": 0.9668432533499531,
+          "detection_method": "AST"
+        }
+      ],
+      "needs_review_pairs": [],
+      "all_suspicious_pairs": [
+        [
+          "teststudent1.txt",
+          "teststudent2.txt"
+        ],
+        [
+          "teststudent1.txt",
+          "teststudent3.txt"
+        ],
+        [
+          "teststudent3.txt",
+          "teststudent2.txt"
+        ]
+      ],
+      "detection_methods": [
+        "TF-IDF",
+        "AST"
+      ],
+      "tfidf_similarity_matrix": [
+        [
+          1.0,
+          0.1743629923522576,
+          0.878702404783336
+        ],
+        [
+          0.1743629923522576,
+          1.000000000000001,
+          0.15712268499697526
+        ],
+        [
+          0.878702404783336,
+          0.15712268499697526,
+          1.0
+        ]
+      ],
+      "tfidf_average_similarity": 0.403396027377523,
+      "tfidf_max_similarity": 0.878702404783336,
+      "ast_similarity_matrix": [
+        [
+          1.0,
+          0.9816620384268988,
+          0.9714145897409656
+        ],
+        [
+          0.9816620384268988,
+          1.0,
+          0.9668432533499531
+        ],
+        [
+          0.9714145897409656,
+          0.9668432533499531,
+          1.0
+        ]
+      ],
+      "ast_average_similarity": 0.9733066271726059,
+      "ast_max_similarity": 0.9816620384268988,
+      "average_similarity": 0.6313602672955562,
+      "max_similarity": 0.9816620384268988,
+      "summary": {
+        "total_submissions": 0,
+        "high_confidence_count": 3,
+        "needs_review_count": 0,
+        "total_suspicious_pairs": 3,
+        "detection_methods": [
+          "TF-IDF",
+          "AST"
+        ],
+        "suspicious_submissions_count": 3,
+        "tfidf_avg_similarity": 0.403396027377523,
+        "tfidf_max_similarity": 0.878702404783336,
+        "ast_avg_similarity": 0.9733066271726059,
+        "ast_max_similarity": 0.9816620384268988,
+        "combined_avg_similarity": 0.6313602672955562,
+        "combined_max_similarity": 0.9816620384268988
+      }
+    },
+    "solution2": {
+      "high_confidence_pairs": [
+        {
+          "pair": [
+            "teststudent1.txt",
+            "teststudent2.txt"
+          ],
+          "similarity": 0.9744171497309211,
+          "tfidf_similarity": 0.9657716324159958,
+          "ast_similarity": 0.987385425703309,
+          "detection_method": "Combined"
+        }
+      ],
+      "needs_review_pairs": [
+        {
+          "pair": [
+            "teststudent1.txt",
+            "teststudent3.txt"
+          ],
+          "similarity": 0.6351024981761549,
+          "tfidf_similarity": 0.5084738348026099,
+          "ast_similarity": 0.8250454932364726,
+          "detection_method": "Combined"
+        },
+        {
+          "pair": [
+            "teststudent3.txt",
+            "teststudent2.txt"
+          ],
+          "similarity": 0.8199221840349903,
+          "tfidf_similarity": null,
+          "ast_similarity": 0.8199221840349903,
+          "detection_method": "AST"
+        }
+      ],
+      "all_suspicious_pairs": [
+        [
+          "teststudent1.txt",
+          "teststudent2.txt"
+        ],
+        [
+          "teststudent1.txt",
+          "teststudent3.txt"
+        ],
+        [
+          "teststudent3.txt",
+          "teststudent2.txt"
+        ]
+      ],
+      "detection_methods": [
+        "TF-IDF",
+        "AST"
+      ],
+      "tfidf_similarity_matrix": [
+        [
+          0.9999999999999991,
+          0.5084738348026099,
+          0.9657716324159958
+        ],
+        [
+          0.5084738348026099,
+          1.000000000000001,
+          0.49780385441004044
+        ],
+        [
+          0.9657716324159958,
+          0.49780385441004044,
+          1.0000000000000022
+        ]
+      ],
+      "tfidf_average_similarity": 0.6573497738762154,
+      "tfidf_max_similarity": 0.9657716324159958,
+      "ast_similarity_matrix": [
+        [
+          1.0,
+          0.8250454932364726,
+          0.987385425703309
+        ],
+        [
+          0.8250454932364726,
+          1.0,
+          0.8199221840349903
+        ],
+        [
+          0.987385425703309,
+          0.8199221840349903,
+          1.0
+        ]
+      ],
+      "ast_average_similarity": 0.877451034324924,
+      "ast_max_similarity": 0.987385425703309,
+      "average_similarity": 0.7453902780556989,
+      "max_similarity": 0.987385425703309,
+      "summary": {
+        "total_submissions": 0,
+        "high_confidence_count": 1,
+        "needs_review_count": 2,
+        "total_suspicious_pairs": 3,
+        "detection_methods": [
+          "TF-IDF",
+          "AST"
+        ],
+        "suspicious_submissions_count": 3,
+        "tfidf_avg_similarity": 0.6573497738762154,
+        "tfidf_max_similarity": 0.9657716324159958,
+        "ast_avg_similarity": 0.877451034324924,
+        "ast_max_similarity": 0.987385425703309,
+        "combined_avg_similarity": 0.7453902780556989,
+        "combined_max_similarity": 0.987385425703309
+      }
+    },
+    "solution3": {
+      "high_confidence_pairs": [],
+      "needs_review_pairs": [
+        {
+          "pair": [
+            "teststudent1.txt",
+            "teststudent2.txt"
+          ],
+          "similarity": 0.7104823235734242,
+          "tfidf_similarity": 0.7104823235734242,
+          "ast_similarity": null,
+          "detection_method": "TF-IDF"
+        }
+      ],
+      "all_suspicious_pairs": [
+        [
+          "teststudent1.txt",
+          "teststudent2.txt"
+        ]
+      ],
+      "detection_methods": [
+        "TF-IDF",
+        "AST"
+      ],
+      "tfidf_similarity_matrix": [
+        [
+          0.9999999999999998,
+          0.42771810329911897,
+          0.7104823235734242
+        ],
+        [
+          0.42771810329911897,
+          0.9999999999999979,
+          0.4194418395624009
+        ],
+        [
+          0.7104823235734242,
+          0.4194418395624009,
+          1.0000000000000109
+        ]
+      ],
+      "tfidf_average_similarity": 0.519214088811648,
+      "tfidf_max_similarity": 0.7104823235734242,
+      "ast_similarity_matrix": [
+        [
+          1.0,
+          0.7092004503591423,
+          0.7838196727003433
+        ],
+        [
+          0.7092004503591423,
+          1.0,
+          0.7040543634161238
+        ],
+        [
+          0.7838196727003433,
+          0.7040543634161238,
+          1.0
+        ]
+      ],
+      "ast_average_similarity": 0.7323581621585364,
+      "ast_max_similarity": 0.7838196727003433,
+      "average_similarity": 0.6044717181504033,
+      "max_similarity": 0.7838196727003433,
+      "summary": {
+        "total_submissions": 0,
+        "high_confidence_count": 0,
+        "needs_review_count": 1,
+        "total_suspicious_pairs": 1,
+        "detection_methods": [
+          "TF-IDF",
+          "AST"
+        ],
+        "suspicious_submissions_count": 2,
+        "tfidf_avg_similarity": 0.519214088811648,
+        "tfidf_max_similarity": 0.7104823235734242,
+        "ast_avg_similarity": 0.7323581621585364,
+        "ast_max_similarity": 0.7838196727003433,
+        "combined_avg_similarity": 0.6044717181504033,
+        "combined_max_similarity": 0.7838196727003433
+      }
+    },
+    "solution4": {
+      "high_confidence_pairs": [],
+      "needs_review_pairs": [
+        {
+          "pair": [
+            "teststudent1.txt",
+            "teststudent3.txt"
+          ],
+          "similarity": 0.6533455442162374,
+          "tfidf_similarity": 0.6533455442162374,
+          "ast_similarity": null,
+          "detection_method": "TF-IDF"
+        },
+        {
+          "pair": [
+            "teststudent1.txt",
+            "teststudent2.txt"
+          ],
+          "similarity": 0.6203204147809921,
+          "tfidf_similarity": 0.6203204147809921,
+          "ast_similarity": null,
+          "detection_method": "TF-IDF"
+        }
+      ],
+      "all_suspicious_pairs": [
+        [
+          "teststudent1.txt",
+          "teststudent3.txt"
+        ],
+        [
+          "teststudent1.txt",
+          "teststudent2.txt"
+        ]
+      ],
+      "detection_methods": [
+        "TF-IDF",
+        "AST"
+      ],
+      "tfidf_similarity_matrix": [
+        [
+          1.0000000000000033,
+          0.6533455442162374,
+          0.6203204147809921
+        ],
+        [
+          0.6533455442162374,
+          0.9999999999999873,
+          0.4640276180877764
+        ],
+        [
+          0.6203204147809921,
+          0.4640276180877764,
+          0.9999999999999988
+        ]
+      ],
+      "tfidf_average_similarity": 0.5792311923616685,
+      "tfidf_max_similarity": 0.6533455442162374,
+      "ast_similarity_matrix": [
+        [
+          1.0,
+          0.6417709536976102,
+          0.7333210762013745
+        ],
+        [
+          0.6417709536976102,
+          1.0,
+          0.7283396283233954
+        ],
+        [
+          0.7333210762013745,
+          0.7283396283233954,
+          1.0
+        ]
+      ],
+      "ast_average_similarity": 0.7011438860741267,
+      "ast_max_similarity": 0.7333210762013745,
+      "average_similarity": 0.6279962698466518,
+      "max_similarity": 0.7333210762013745,
+      "summary": {
+        "total_submissions": 0,
+        "high_confidence_count": 0,
+        "needs_review_count": 2,
+        "total_suspicious_pairs": 2,
+        "detection_methods": [
+          "TF-IDF",
+          "AST"
+        ],
+        "suspicious_submissions_count": 3,
+        "tfidf_avg_similarity": 0.5792311923616685,
+        "tfidf_max_similarity": 0.6533455442162374,
+        "ast_avg_similarity": 0.7011438860741267,
+        "ast_max_similarity": 0.7333210762013745,
+        "combined_avg_similarity": 0.6279962698466518,
+        "combined_max_similarity": 0.7333210762013745
+      }
+    }
+  },
+  "ai_detection": {
+    "solution1": {
+      "teststudent1.txt": {
+        "file": "teststudent1.txt",
+        "is_ai_generated": false,
+        "technical_score": 18.34912637380256,
+        "ai_likelihood": "5%",
+        "risk_level": "MINIMAL RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.0,
+          "formatting_consistency_score": 0.7443478260869567,
+          "similarity_score": 0.11919544912491042,
+          "ml_prediction_score": 0.16,
+          "overall_score": 0.1834912637380256
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7443478260869567
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.16
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.11919544912491042
+          }
+        ]
+      },
+      "teststudent3.txt": {
+        "file": "teststudent3.txt",
+        "is_ai_generated": false,
+        "technical_score": 30.97806708245824,
+        "ai_likelihood": "40%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.3,
+          "formatting_consistency_score": 0.7483333333333335,
+          "similarity_score": 0.2826533541229117,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.3097806708245824
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7483333333333335
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.3
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.2826533541229117
+          }
+        ]
+      },
+      "teststudent2.txt": {
+        "file": "teststudent2.txt",
+        "is_ai_generated": false,
+        "technical_score": 27.07801693616067,
+        "ai_likelihood": "20%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.3,
+          "formatting_consistency_score": 0.7420408163265307,
+          "similarity_score": 0.1823702345631353,
+          "ml_prediction_score": 0.26,
+          "overall_score": 0.2707801693616067
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7420408163265307
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.3
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.26
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.1823702345631353
+          }
+        ]
+      }
+    },
+    "solution2": {
+      "teststudent1.txt": {
+        "file": "teststudent1.txt",
+        "is_ai_generated": false,
+        "technical_score": 23.734714327290273,
+        "ai_likelihood": "5%",
+        "risk_level": "MINIMAL RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.0,
+          "formatting_consistency_score": 0.7542857142857144,
+          "similarity_score": 0.14102143065022785,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.23734714327290274
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7542857142857144
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.14102143065022785
+          }
+        ]
+      },
+      "teststudent3.txt": {
+        "file": "teststudent3.txt",
+        "is_ai_generated": false,
+        "technical_score": 30.454257622361215,
+        "ai_likelihood": "40%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.3,
+          "formatting_consistency_score": 0.7466666666666668,
+          "similarity_score": 0.2577128811180606,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.30454257622361214
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7466666666666668
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.3
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.2577128811180606
+          }
+        ]
+      },
+      "teststudent2.txt": {
+        "file": "teststudent2.txt",
+        "is_ai_generated": false,
+        "technical_score": 31.744524660812313,
+        "ai_likelihood": "40%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.3,
+          "formatting_consistency_score": 0.731891891891892,
+          "similarity_score": 0.3333073141216968,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.3174452466081231
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.731891891891892
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.3333073141216968
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.3
+          }
+        ]
+      }
+    },
+    "solution3": {
+      "teststudent1.txt": {
+        "file": "teststudent1.txt",
+        "is_ai_generated": false,
+        "technical_score": 26.09523500273313,
+        "ai_likelihood": "20%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.07922113919916307,
+          "formatting_consistency_score": 0.7454545454545456,
+          "similarity_score": 0.20625498664637523,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.2609523500273313
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7454545454545456
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.20625498664637523
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.07922113919916307
+          }
+        ]
+      },
+      "teststudent3.txt": {
+        "file": "teststudent3.txt",
+        "is_ai_generated": false,
+        "technical_score": 34.24361310136088,
+        "ai_likelihood": "40%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.6032745591939547,
+          "formatting_consistency_score": 0.7418181818181819,
+          "similarity_score": 0.2233610993089415,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.3424361310136088
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7418181818181819
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.6032745591939547
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.2233610993089415
+          }
+        ]
+      },
+      "teststudent2.txt": {
+        "file": "teststudent2.txt",
+        "is_ai_generated": false,
+        "technical_score": 34.47285675432043,
+        "ai_likelihood": "40%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.6032133676092545,
+          "formatting_consistency_score": 0.7315254237288137,
+          "similarity_score": 0.24258874421247084,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.34472856754320436
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7315254237288137
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.6032133676092545
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.24258874421247084
+          }
+        ]
+      }
+    },
+    "solution4": {
+      "teststudent1.txt": {
+        "file": "teststudent1.txt",
+        "is_ai_generated": false,
+        "technical_score": 29.27041097821943,
+        "ai_likelihood": "20%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.14949944382647384,
+          "formatting_consistency_score": 0.7516279069767443,
+          "similarity_score": 0.30767503580855793,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.2927041097821943
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7516279069767443
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.30767503580855793
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.14949944382647384
+          }
+        ]
+      },
+      "teststudent3.txt": {
+        "file": "teststudent3.txt",
+        "is_ai_generated": false,
+        "technical_score": 32.32634956031233,
+        "ai_likelihood": "40%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.2979718766901027,
+          "formatting_consistency_score": 0.7533333333333334,
+          "similarity_score": 0.3478385704980392,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.3232634956031233
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.7533333333333334
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.3478385704980392
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.2979718766901027
+          }
+        ]
+      },
+      "teststudent2.txt": {
+        "file": "teststudent2.txt",
+        "is_ai_generated": false,
+        "technical_score": 32.297217111708,
+        "ai_likelihood": "40%",
+        "risk_level": "MEDIUM RISK",
+        "detailed_results": {
+          "educational_patterns_score": 0.0,
+          "domain_patterns_score": 0.0,
+          "code_structure_score": 0.3448117154811715,
+          "formatting_consistency_score": 0.745263157894737,
+          "similarity_score": 0.31730470055346843,
+          "ml_prediction_score": 0.32,
+          "overall_score": 0.32297217111708
+        },
+        "top_indicators": [
+          {
+            "name": "formatting_consistency_score",
+            "value": 0.745263157894737
+          },
+          {
+            "name": "code_structure_score",
+            "value": 0.3448117154811715
+          },
+          {
+            "name": "ml_prediction_score",
+            "value": 0.32
+          },
+          {
+            "name": "similarity_score",
+            "value": 0.31730470055346843
+          }
+        ]
+      }
+    }
+  },
+  "web_plagiarism": {
+    "solution1": {
+      "teststudent1.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution1/teststudent1.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.812589",
+        "queries_used": [
+          "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"subtract\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Calculator result\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      },
+      "teststudent3.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution1/teststudent3.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.813212",
+        "queries_used": [
+          "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Calculator\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.44999999999999996,
+        "matching_sources": []
+      },
+      "teststudent2.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution1/teststudent2.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.813605",
+        "queries_used": [
+          "\"Calculator\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Calculator\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.44999999999999996,
+        "matching_sources": []
+      }
+    },
+    "solution2": {
+      "teststudent1.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution2/teststudent1.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.814496",
+        "queries_used": [
+          "\"class Circle\" cpp example calculate area circumference site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"calculateArea\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      },
+      "teststudent3.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution2/teststudent3.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.815187",
+        "queries_used": [
+          "\"class Circle\" cpp example calculate area circumference site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Circle\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      },
+      "teststudent2.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution2/teststudent2.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.815653",
+        "queries_used": [
+          "\"class Circle\" cpp example calculate area circumference site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Circle\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Circle\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      }
+    },
+    "solution3": {
+      "teststudent1.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution3/teststudent1.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.816348",
+        "queries_used": [
+          "\"Stack\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"push\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"push value\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.44999999999999996,
+        "matching_sources": []
+      },
+      "teststudent3.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution3/teststudent3.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.816776",
+        "queries_used": [
+          "\"Stack\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"push\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"push value\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      },
+      "teststudent2.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution3/teststudent2.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.817248",
+        "queries_used": [
+          "\"Stack\" class inheritance cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"Stack\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"push value\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      }
+    },
+    "solution4": {
+      "teststudent1.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution4/teststudent1.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.817705",
+        "queries_used": [
+          "\"binarySearch\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"binarySearch size target\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      },
+      "teststudent3.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution4/teststudent3.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.818281",
+        "queries_used": [
+          "\"binarySearch\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"binarySearch target\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.44999999999999996,
+        "matching_sources": []
+      },
+      "teststudent2.txt": {
+        "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e0972f9924f34d458c8552fc38af22db/results/organized/solution4/teststudent2.txt",
+        "language": "cpp",
+        "timestamp": "2025-04-12T23:06:21.818658",
+        "queries_used": [
+          "\"binarySearch\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"binarySearch\" function cpp example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+          "\"binarySearch high target\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com"
+        ],
+        "results": [],
+        "total_results": 0,
+        "plagiarism_detected": false,
+        "plagiarism_results": [],
+        "similarity_threshold": 0.3,
+        "matching_sources": []
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "high_confidence_pairs": [],
+  "needs_review_pairs": [
+    {
+      "pair": [
+        "teststudent1.txt",
+        "teststudent2.txt"
+      ],
+      "similarity": 0.7104823235734242,
+      "tfidf_similarity": 0.7104823235734242,
+      "ast_similarity": null,
+      "detection_method": "TF-IDF"
+    }
+  ],
+  "all_suspicious_pairs": [
+    [
+      "teststudent1.txt",
+      "teststudent2.txt"
+    ]
+  ],
+  "detection_methods": [
+    "TF-IDF",
+    "AST"
+  ],
+  "tfidf_similarity_matrix": [
+    [
+      0.9999999999999998,
+      0.42771810329911897,
+      0.7104823235734242
+    ],
+    [
+      0.42771810329911897,
+      0.9999999999999979,
+      0.4194418395624009
+    ],
+    [
+      0.7104823235734242,
+      0.4194418395624009,
+      1.0000000000000109
+    ]
+  ],
+  "tfidf_average_similarity": 0.519214088811648,
+  "tfidf_max_similarity": 0.7104823235734242,
+  "ast_similarity_matrix": [
+    [
+      1.0,
+      0.7092004503591423,
+      0.7838196727003433
+    ],
+    [
+      0.7092004503591423,
+      1.0,
+      0.7040543634161238
+    ],
+    [
+      0.7838196727003433,
+      0.7040543634161238,
+      1.0
+    ]
+  ],
+  "ast_average_similarity": 0.7323581621585364,
+  "ast_max_similarity": 0.7838196727003433,
+  "average_similarity": 0.6044717181504033,
+  "max_similarity": 0.7838196727003433,
+  "summary": {
+    "total_submissions": 0,
+    "high_confidence_count": 0,
+    "needs_review_count": 1,
+    "total_suspicious_pairs": 1,
+    "detection_methods": [
+      "TF-IDF",
+      "AST"
+    ],
+    "suspicious_submissions_count": 2,
+    "tfidf_avg_similarity": 0.519214088811648,
+    "tfidf_max_similarity": 0.7104823235734242,
+    "ast_avg_similarity": 0.7323581621585364,
+    "ast_max_similarity": 0.7838196727003433,
+    "combined_avg_similarity": 0.6044717181504033,
+    "combined_max_similarity": 0.7838196727003433
+  }
+}

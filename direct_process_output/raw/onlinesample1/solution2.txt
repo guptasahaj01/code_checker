@@ -1,0 +1,7 @@
+class Shape { // Define a base class named Shape
+public:
+// Virtual member function to calculate the area (pure virtual function)
+virtual double calculateArea() const = 0;
+// Virtual member function to calculate the perimeter (pure virtual function)
+virtual double calculatePerimeter() const = 0;
+}

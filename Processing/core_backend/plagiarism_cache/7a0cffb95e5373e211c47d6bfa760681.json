@@ -1,0 +1,102 @@
+[
+  {
+    "title": "OOP classes design: two numbers calculator - c++",
+    "link": "https://stackoverflow.com/questions/66203137/oop-classes-design-two-numbers-calculator",
+    "snippet": "The problem is that write a two numbers calculator(+,-,*,/) using OOP. Based on intuition(I haven't learned design pattern yet), I wrote the code like this.",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Basic Calculator",
+    "link": "https://stackoverflow.com/questions/46330783/c-basic-calculator",
+    "snippet": "I'm new to C++ and programming in General. I was assigned to make a calculator for my C++ class and this is what I have so far. #include ...",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ calculator Using classes",
+    "link": "https://stackoverflow.com/questions/57248172/c-calculator-using-classes",
+    "snippet": "Simple calculator in C++ \u00b7 1 \u00b7 Calculator Class Functions \u00b7 0 \u00b7 Simple C++ Inclusive Calculator Code Review \u00b7 0 \u00b7 First C++ program help ( ...",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Calculator in C++ using class template to automatically call ...",
+    "link": "https://stackoverflow.com/questions/74568206/calculator-in-c-using-class-template-to-automatically-call-the-datatype-that-t",
+    "snippet": "I want to make a calculator in C++ for addition, subtraction, multiplication and division using class template and in the main function,",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "christopher-siewert/cpp-calculator: Simple command line ...",
+    "link": "https://github.com/christopher-siewert/cpp-calculator",
+    "snippet": "This is an extremely simple calculator I made while learning C++. Download the repo, compile and run it.",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "A Simple Scientific Calculator on C++",
+    "link": "https://gist.github.com/3be0b62c98c17e76e0df",
+    "snippet": "A Simple Scientific Calculator on C++. GitHub Gist: instantly share code, notes, and snippets.",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How to make a calculator in c++ using if else and functions?",
+    "link": "https://stackoverflow.com/questions/53459411/how-to-make-a-calculator-in-c-using-if-else-and-functions",
+    "snippet": "How to make a calculator in c++ using if else and functions? ; namespace std; void fun(float a, float b); int main() ; char op; //operands and ...",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Calculator Class Functions - c++",
+    "link": "https://stackoverflow.com/questions/12681893/calculator-class-functions",
+    "snippet": "In your calculator class, make a variable which stores the last calculation performed. These two functions would be able to store the value in ...",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Simple Calculator in C++. It uses an Abstract Syntax Tree ...",
+    "link": "https://github.com/PanagiotisPtr/Calculator-Cpp",
+    "snippet": "Simple Calculator in C++. It uses an Abstract Syntax Tree and the Shunting yard algorithm to parse mathematical expressions.",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Creating a very basic calculator in C++",
+    "link": "https://stackoverflow.com/questions/72702243/creating-a-very-basic-calculator-in-c",
+    "snippet": "I attempted to make a basic calculator that instead of just being able to add could subtract, divide and multiply but it still seems to only be able to add.",
+    "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

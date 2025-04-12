@@ -1,0 +1,102 @@
+[
+  {
+    "title": "throwing a run time error - c++",
+    "link": "https://stackoverflow.com/questions/26171631/throwing-a-run-time-error",
+    "snippet": "The message i get is \"Unhandled exception at 0x7699c41f in test project.exe: Microsoft C++ exception: std::runtime_error at memory location ...",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Difference: std::runtime_error vs std::exception() - c++",
+    "link": "https://stackoverflow.com/questions/1569726/difference-stdruntime-error-vs-stdexception",
+    "snippet": "std::runtime_error is a more specialized class, descending from std::exception, intended to be thrown in case of various runtime errors.",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ runtime_exception with string + integer",
+    "link": "https://stackoverflow.com/questions/61894128/c-runtime-exception-with-string-integer",
+    "snippet": "In C++ I am throwing a run time exception like below, throw std::runtime_error(\"abcdefghijklmnopqrstuvq\"+12); The exception that is thrown doesn't have the ...",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Confused about std::runtime_error vs. std::logic_error",
+    "link": "https://stackoverflow.com/questions/2924058/confused-about-stdruntime-error-vs-stdlogic-error",
+    "snippet": "So, \"missing file\" is a runtime_error , but \"improperly formatted filename\" is a logic_error . Technically, a logical error within a function is ...",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How can I modify the what string of a C++ runtime_error?",
+    "link": "https://stackoverflow.com/questions/9267674/how-can-i-modify-the-what-string-of-a-c-runtime-error",
+    "snippet": "I have a class which inherits from std::runtime_error like so: #include <string> #include <stdexcept> class SomeEx : public std::runtime_error ...",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "exception - c++: Catch runtime_error",
+    "link": "https://stackoverflow.com/questions/7491877/c-catch-runtime-error",
+    "snippet": "(!stream) throw runtime_error(string(\"cannot open file \") + filename); stream.unsetf(ios::skipws);. I think I need to write something like that:",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How to inherit from std::runtime_error? - c++",
+    "link": "https://stackoverflow.com/questions/16513245/how-to-inherit-from-stdruntime-error",
+    "snippet": "This is the correct syntax: class err : public A, public std::runtime_error And not: class err : public A, public std::runtime_error(\"\") As you are doing above.",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Why is my C++ exception not being caught?",
+    "link": "https://stackoverflow.com/questions/48579192/why-is-my-c-exception-not-being-caught",
+    "snippet": "My code throws std::runtime_error , but doesn't catch it in the catch block. Instead it just calls std::terminate or, if I declared an exception ...",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How to throw std::exceptions with variable messages?",
+    "link": "https://stackoverflow.com/questions/12261915/how-to-throw-stdexceptions-with-variable-messages",
+    "snippet": "struct runtime_blunder: std::runtime_error { // expose all standard constructors using std::runtime_error::runtime_error; template <typename...",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - Return exception from function (not throw in ...",
+    "link": "https://stackoverflow.com/questions/59985801/return-exception-from-function-not-throw-in-function-for-message-formatting",
+    "snippet": "struct my_runtime_error : std::runtime_error { { template<typename ... Ts> my_runtime_error(const char * frmt, Ts ... args); };. Or as ...",
+    "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

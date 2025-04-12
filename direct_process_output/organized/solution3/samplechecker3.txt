@@ -1,0 +1,18 @@
+class GradeBook
+{
+string courseName, instructorName; public:
+void setData(string c, string i)
+{
+courseName=c; instructorName=i; display();
+}
+void display()
+{
+cout<<"Welcome to the grade book for "<<courseName<<"!"<<endl; cout<<"This course is presented
+by: "<<instructorName<<endl;
+}
+}
+
+int main()
+{
+string c, i; GradeBook g; getline(cin, c); getline(cin, i); g.setData(c, i);
+}

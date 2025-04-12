@@ -1,0 +1,125 @@
+Circle
+
+(25) error C2533: 'Circle::{ctor}' : constructors not allowed a return type
+(25) error C2511: 'Circle::Circle(Point &,Point &)' : overloaded member function not found in 'Circle'
+(12) : see declaration of 'Circle'
+(46): fatal error C1004: unexpected end-of-file found
+
+
+(25) error C2533: 'Circle::{ctor}' : constructors not allowed a return type
+(25) error C2511: 'Circle::Circle(Point &,Point &)' : overloaded member function not found in 'Circle'
+(12) : see declaration of 'Circle'
+(46): fatal error C1004: unexpected end-of-file found
+
+
+#include <iostream>
+#include <cmath>
+#include "Point.h"
+
+class Circle
+{
+   public:
+  Circle(const Point &, const Point &);
+  float getArea() const;
+
+   private:
+  Point pCenter;
+  Point p1;
+  float areaOfCircle;
+}
+
+Circle::Circle(Point &pointC, Point &point1)
+: pCenter(pointC), p1(point1)
+{
+
+}
+
+float Circle::getArea() const
+{
+areaOfCircle = 3.14159 * pow(pCenter.distanceTo(p1),2);
+return areaOfCircle;
+}
+
+int main()
+{
+Point pointCenter
+
+cout << "The center point is at: " //pointCenter.getX() << ","  
+    << pointCenter.getY() << endl;
+cout << "A point on the circle is at: " //pointRadius.getX() << "," 
+    << pointRadius.getY() << endl;
+
+    cin.ignore(2);
+}
+
+
+#include <iostream>
+#include <cmath>
+#include "Point.h"
+
+class Circle
+{
+   public:
+  Circle(const Point &, const Point &);
+  float getArea() const;
+
+   private:
+  Point pCenter;
+  Point p1;
+  float areaOfCircle;
+}
+
+Circle::Circle(Point &pointC, Point &point1)
+: pCenter(pointC), p1(point1)
+{
+
+}
+
+float Circle::getArea() const
+{
+areaOfCircle = 3.14159 * pow(pCenter.distanceTo(p1),2);
+return areaOfCircle;
+}
+
+int main()
+{
+Point pointCenter
+
+cout << "The center point is at: " //pointCenter.getX() << ","  
+    << pointCenter.getY() << endl;
+cout << "A point on the circle is at: " //pointRadius.getX() << "," 
+    << pointRadius.getY() << endl;
+
+    cin.ignore(2);
+}
+
+
+class Circle {
+    ...
+    Circle(Point const&, Point const&);
+    ...
+};
+
+
+class Circle {
+    ...
+    Circle(Point const&, Point const&);
+    ...
+};
+
+
+const
+
+Circle::Circle(Point&, Point&) {
+     ...
+}
+
+
+Circle::Circle(Point&, Point&) {
+     ...
+}
+
+
+x * x
+
+std::exp(x, 2)

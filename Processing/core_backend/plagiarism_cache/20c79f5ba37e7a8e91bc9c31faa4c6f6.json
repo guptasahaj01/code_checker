@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Why is STL \"empty\" member function not called \"isEmpty\"?",
+    "link": "https://stackoverflow.com/questions/55135525/why-is-stl-empty-member-function-not-called-isempty",
+    "snippet": "I checked all other containers, and all use empty the same way. Why does stl not use isEmpty() instead ? c++ \u00b7 stl \u00b7 naming-conventions \u00b7 naming.",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - why is my isEmpty and isFull function not working?",
+    "link": "https://stackoverflow.com/questions/70314921/why-is-my-isempty-and-isfull-function-not-working",
+    "snippet": "Simply test the empty and full functions. Just put a single item in the stack, call the isEmpty(). If it doesn't work, fix the code there.",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Checking if an Object is in empty state - c++",
+    "link": "https://stackoverflow.com/questions/38601122/c-checking-if-an-object-is-in-empty-state",
+    "snippet": "Here is how to implement the isEmpty method: it should return true iff all the data members of the object have the empty/zero/default value ...",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Checking for an empty file in C++",
+    "link": "https://stackoverflow.com/questions/2390912/checking-for-an-empty-file-in-c",
+    "snippet": "open(\"example.txt\"); bool isEmpty(true); std::string line; while( file >> line ) isEmpty = false; std::cout << isEmpty << std::endl; }. Share.",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "how can I check if an object exists in C++",
+    "link": "https://stackoverflow.com/questions/3640739/how-can-i-check-if-an-object-exists-in-c",
+    "snippet": "I am trying to write a function that will check if an object exists: bool UnloadingBay::isEmpty() { bool isEmpty = true; if(this->unloadingShip != NULL) { ...",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Check if list is empty by function - c++",
+    "link": "https://stackoverflow.com/questions/47004981/check-if-list-is-empty-by-function",
+    "snippet": "isEmpty is supposed to return true if my list is empty. But cant seem to get it right. struct PQCell { int priority; PQCell *next; }; struct ...",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Check if whole array is empty - c++",
+    "link": "https://stackoverflow.com/questions/22135318/check-if-whole-array-is-empty",
+    "snippet": "for(int i = 0; i < QUEUE_LENGTH; i++) { bool isEmpty = true; for(int j = 0; j < BUFFER_LENGTH; j++) { if(MessageQueue[i][j] != 0) { isEmpty = ...",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - Is there a concise opposite of \"empty\"?",
+    "link": "https://stackoverflow.com/questions/21882655/is-there-a-concise-opposite-of-empty",
+    "snippet": "Interfaces to string classes typically have of method named IsEmpty (VCL) or empty (STL). That's absolutely reasonable because it's a special case.",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Check if string is empty - c++",
+    "link": "https://stackoverflow.com/questions/4077940/check-if-string-is-empty",
+    "snippet": "We can remove the NULL check and then it becomes responsibility of the caller, or we can define that isEmpty returns FALSE to NULL strings.",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How is std::is_empty<T> implemented in VS2015 (or any ...",
+    "link": "https://stackoverflow.com/questions/35531309/how-is-stdis-emptyt-implemented-in-vs2015-or-any-compiler",
+    "snippet": "Looks as if MSVC++ provides an intrinsic __isempty(T) rather than dealing with a library-level implementation. Since the argument type T ...",
+    "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

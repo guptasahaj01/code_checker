@@ -1,0 +1,56 @@
+class Stack {
+private:
+int data[100];
+int top;
+public:
+Stack() : top(-1) {}
+void push(int value) {
+if (top < 99) {
+data[++top] = value;
+} else {
+cout << "Stack overflow" << endl;
+}
+}
+int pop() {
+if (top >= 0) {
+return data[top--];
+} else {
+cout << "Stack underflow" << endl;
+return -1;
+}
+}
+bool isEmpty() const {
+return top == -1;
+}
+int peek() const {
+if (top >= 0) {
+return data[top];
+} else {
+cout << "Stack is empty" << endl;
+return -1;
+}
+}
+}
+
+int main() {
+Stack stack;
+cout << "Stack Test:" << endl;
+cout << "Is empty? " << (stack.isEmpty() ? "Yes" : "No") << endl;
+cout << "Pushing elements: 10, 20, 30, 40, 50" << endl;
+stack.push(10);
+stack.push(20);
+stack.push(30);
+stack.push(40);
+stack.push(50);
+cout << "Top element: " << stack.peek() << endl;
+cout << "Is empty? " << (stack.isEmpty() ? "Yes" : "No") << endl;
+cout << "Popping elements: ";
+while (!stack.isEmpty()) {
+cout << stack.pop() << " ";
+}
+cout << endl;
+cout << "Is empty? " << (stack.isEmpty() ? "Yes" : "No") << endl;
+cout << "Trying to pop from an empty stack: " << stack.pop() << endl;
+cout << "Trying to peek at an empty stack: " << stack.peek() << endl;
+return 0;
+}

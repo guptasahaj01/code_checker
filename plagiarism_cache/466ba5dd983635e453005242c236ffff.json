@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Operators",
+    "link": "https://cplusplus.com/doc/tutorial/operators/",
+    "snippet": "Basically, it returns the opposite Boolean value of evaluating its operand. For example: 1 2 3 4 !(5 == 5) // evaluates to false because the expression at ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - No operator \">>\" matches these operands ...",
+    "link": "https://stackoverflow.com/questions/64298188/no-operator-matches-these-operands-operand-types-are-stdistream-doubl",
+    "snippet": "No operator \">>\" matches these operands operand types are: std::istream >> double. This might seem like a strange error message.",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "invalid operands of types - c++",
+    "link": "https://stackoverflow.com/questions/7405973/invalid-operands-of-types-c",
+    "snippet": "I have a class named ThreeDigits on c++ code. I overloaded the + operand, this way: ThreeDigits* ThreeDigits::operator+(const ThreeDigits ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "What is an unevaluated operand in the way a 'requires ...",
+    "link": "https://stackoverflow.com/questions/64810988/what-is-an-unevaluated-operand-in-the-way-a-requires-expression-sees-it",
+    "snippet": "My question is: Why isn't fun(T<int &&&>::x); not going unevaluated in my code? ... An unevaluated operand is usually an expression that is used ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ IF evaluation operand with vector",
+    "link": "https://stackoverflow.com/questions/52899303/c-if-evaluation-operand-with-vector",
+    "snippet": "So i expect that the right operand not be evaluated, but it gives me the 'out of range error'. any ideas?? EDITED. v.size () is 1 and v.size() - ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C and C++ operand resolution order",
+    "link": "https://stackoverflow.com/questions/35912322/c-and-c-operand-resolution-order",
+    "snippet": "If a==0 , then yes, the short circuit evaluation would kick in and func() would not be called; the second operand would not be evaluated. If a=1 ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Can someone explain the syntax behind this line of code? ...",
+    "link": "https://stackoverflow.com/questions/73887477/can-someone-explain-the-syntax-behind-this-line-of-code-c",
+    "snippet": "It works as follows: the expression before the ? is evaluated and converted to bool ,; if it evaluates to true , the second operand ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Operators",
+    "link": "https://cplusplus.com/doc/oldtutorial/operators/",
+    "snippet": "Logical operators ( !, &&, || ). The Operator ! is the C++ operator to perform the Boolean operation NOT, it has only one operand, located at its right, and the ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Increment and Decrement Operators",
+    "link": "https://www.tutorialspoint.com/cplusplus/cpp_increment_decrement_operators.htm",
+    "snippet": "The increment operator ++ adds 1 to its operand, and the decrement operator -- subtracts 1 from its operand. Thus \u2212 x = x+1; is the same as x++;.",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Operators Overview",
+    "link": "https://www.tutorialspoint.com/cplusplus/cpp_operators.htm",
+    "snippet": "Add AND assignment operator, It adds right operand to the left operand and assign the result to left operand. C += A is equivalent to C = C + A. -=, Subtract ...",
+    "query": "\"operand\" cpp code example site:w3resource.com OR site:geeksforgeeks.org OR site:tutorialspoint.com OR site:cplusplus.com OR site:stackoverflow.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

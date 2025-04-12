@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Drawing a Circle with Class in C++",
+    "link": "https://stackoverflow.com/questions/58413469/drawing-a-circle-with-class-in-c",
+    "snippet": "... class Circle { private: char type; int serialNumber = 0; double radius = 0.0; double density = 0.0; public: Circle(char, int, double); ...",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Class Instance of Circle in OOP - c++",
+    "link": "https://stackoverflow.com/questions/42944297/class-instance-of-circle-in-oop",
+    "snippet": "You should aim to create a minimal reproducible example. Most of ... Calculate class Cylinder using class Circle \u00b7 Hot Network Questions.",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "designing shape class with circle and triangle - c++",
+    "link": "https://stackoverflow.com/questions/44666561/designing-shape-class-with-circle-and-triangle",
+    "snippet": "class circle { int radius; public: circle(int radius2) :radius(radius2){ } void displayArea() { double area = 3.14*radius*radius; std::cout << \" ...",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Creating a class to calculate area of a circle using Point ...",
+    "link": "https://stackoverflow.com/questions/17517400/creating-a-class-to-calculate-area-of-a-circle-using-point-class-in-c",
+    "snippet": "I am trying to creates a class Circle that calculates area of a circle. It uses a basic Point class that initializes 2 points, one as the center one as a point ...",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Overloaded Circle() is ambiguous in C++ Circle Class",
+    "link": "https://stackoverflow.com/questions/26633751/overloaded-circle-is-ambiguous-in-c-circle-class",
+    "snippet": "Your problem is this: Circle(double r = 0); Circle();. Nothing much more to say about it that isn't already obvious from the above.",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Cannot figure out how to calculate radius of the circle in ...",
+    "link": "https://stackoverflow.com/questions/71593426/cannot-figure-out-how-to-calculate-radius-of-the-circle-in-the-given-code",
+    "snippet": "I need to calculate the radius of the circle in the code. #include <iostream> #include <cmath> using namespace std; class Circle { float ...",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Circular Inheritance and Class",
+    "link": "https://stackoverflow.com/questions/10676640/c-circular-inheritance-and-class",
+    "snippet": "class Circle: Circle. You have a class that inherits from itself, how could that work?",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Initialize reference member of base class - c++",
+    "link": "https://stackoverflow.com/questions/32935003/initialize-reference-member-of-base-class",
+    "snippet": "class Circle : public Shape { public: Circle(Point p); Circle(Point p, float radius); ~Circle(); float get_radius() const; private: float ...",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Circular Inheritance in c++",
+    "link": "https://stackoverflow.com/questions/15284564/circular-inheritance-in-c",
+    "snippet": "You can either have a reference or a pointer to an object of class Line or Circel, e.g. class Line; class Circle. You need the above lines ...",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Returning a boolean value from a Circle Class C++",
+    "link": "https://stackoverflow.com/questions/26636151/returning-a-boolean-value-from-a-circle-class-c",
+    "snippet": "class Circle { //defining the private memeber variables private: double radius, xpos, ypos; //defining the public member variables public ...",
+    "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

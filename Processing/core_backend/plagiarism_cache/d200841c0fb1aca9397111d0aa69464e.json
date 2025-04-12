@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Calculate Area and Circumference of a Circle with input in ...",
+    "link": "https://stackoverflow.com/questions/3827532/calculate-area-and-circumference-of-a-circle-with-input-in-c",
+    "snippet": "James George Hayek PCCC Assignment 2 Prof Siegel This program will calculate the area and circumference of a circle.",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Creating a class to calculate area of a circle using Point ...",
+    "link": "https://stackoverflow.com/questions/17517400/creating-a-class-to-calculate-area-of-a-circle-using-point-class-in-c",
+    "snippet": "I am trying to creates a class Circle that calculates area of a circle. It uses a basic Point class that initializes 2 points, one as the center one as a point ...",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "undefined reference to `typeinfo and 'vtable - c++",
+    "link": "https://stackoverflow.com/questions/14927717/undefined-reference-to-typeinfo-and-vtable",
+    "snippet": "I'm currently working on a program that employs the user of virtual functions. I am using only one virtual function and have come across what seems to be a ...",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How to use the PI constant in C++",
+    "link": "https://stackoverflow.com/questions/1727881/how-to-use-the-pi-constant-in-c",
+    "snippet": "I want to use the PI constant and trigonometric functions in some C++ program. I get the trigonometric functions with include <math.h>. However, there doesn't ...",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Use Math class to calculate - java",
+    "link": "https://stackoverflow.com/questions/2481443/use-math-class-to-calculate",
+    "snippet": "Write a JAVA program that calculates the surface area of a cylinder, C= 2( \u03c0 r2) + 2 \u03c0 rh, where r is the radius and h is the height of the cylinder.",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Program for Cylinder Volume and Area",
+    "link": "https://www.tutorialspoint.com/cplusplus-program-to-calculate-the-volume-and-area-of-the-cylinder",
+    "snippet": "Learn how to calculate the volume and surface area of a cylinder using C++ programming. Step-by-step guide with examples.",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Pascal Quick Guide",
+    "link": "https://www.tutorialspoint.com/pascal/pascal_quick_guide.htm",
+    "snippet": "Explore the essentials of Pascal programming with this quick guide, covering syntax, data types, control structures, and more.",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "PHP Quick Guide",
+    "link": "https://www.tutorialspoint.com/php/php_quick_guide.htm",
+    "snippet": "Explore the PHP Quick Guide for essential PHP concepts, syntax, and functions to enhance your web development skills.",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Program to find area of a circle",
+    "link": "https://www.geeksforgeeks.org/c-program-find-area-circle/",
+    "snippet": "Given the radius r. Find the area of a circle. The area of the circle should be correct up to 5 decimal places.",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Java Program to Calculate and Display Area of a Circle",
+    "link": "https://www.geeksforgeeks.org/java-program-to-calculate-and-display-area-of-a-circle/",
+    "snippet": "The area of the circle can be calculated by using the formula: Area = 3.142*(radius)*(radius) Below is the Java Program to calculate the area of the circle.",
+    "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

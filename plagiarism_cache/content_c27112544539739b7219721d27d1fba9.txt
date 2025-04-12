@@ -1,0 +1,745 @@
+#include "stdafx.h"
+#include <cmath>
+#include <iostream>
+
+class shape
+{
+public:
+    virtual void displayArea()=0;
+};
+
+class circle :public shape
+{
+    int radius;
+public:
+    circle(int radius2) :radius(radius2){  }
+    void displayArea()
+    {
+        double area = 3.14*radius*radius;
+        std::cout << " \n Area circle" << area<<std::endl;
+    }
+};
+
+class triangle :public shape
+{
+    double a,b,c;
+public:
+    triangle(double a1, double b1, double c1): a(a1), b(b1),c(c1)
+    {
+        if (a + b > c && a + c > b && b + c > a)
+            std::cout << "The sides form a triangle" << std::endl;
+        else
+            std::cout << "The sides do not form a triangle. Correct me !" << std::endl;
+        
+    }
+
+    void displayArea()
+    {
+        double s = (a + b + c) / 2;
+        double area = sqrt(s*(s - a)*(s - b)*(s - c));
+        std::cout << " \n Area triangle"<< area<<std::endl;
+    }
+};
+
+void main()
+{
+    shape * p1[2];
+    p1[0]= new circle(20);
+
+    p1[1] = new triangle(5.6,8.1,10.3);
+    for (int i = 0; i < 2; ++i)
+    {
+        p1[i]->displayArea();
+    }
+
+    int y;
+    std::cin >> y;
+}
+
+
+#include "stdafx.h"
+#include <cmath>
+#include <iostream>
+
+class shape
+{
+public:
+    virtual void displayArea()=0;
+};
+
+class circle :public shape
+{
+    int radius;
+public:
+    circle(int radius2) :radius(radius2){  }
+    void displayArea()
+    {
+        double area = 3.14*radius*radius;
+        std::cout << " \n Area circle" << area<<std::endl;
+    }
+};
+
+class triangle :public shape
+{
+    double a,b,c;
+public:
+    triangle(double a1, double b1, double c1): a(a1), b(b1),c(c1)
+    {
+        if (a + b > c && a + c > b && b + c > a)
+            std::cout << "The sides form a triangle" << std::endl;
+        else
+            std::cout << "The sides do not form a triangle. Correct me !" << std::endl;
+        
+    }
+
+    void displayArea()
+    {
+        double s = (a + b + c) / 2;
+        double area = sqrt(s*(s - a)*(s - b)*(s - c));
+        std::cout << " \n Area triangle"<< area<<std::endl;
+    }
+};
+
+void main()
+{
+    shape * p1[2];
+    p1[0]= new circle(20);
+
+    p1[1] = new triangle(5.6,8.1,10.3);
+    for (int i = 0; i < 2; ++i)
+    {
+        p1[i]->displayArea();
+    }
+
+    int y;
+    std::cin >> y;
+}
+
+
+modifyShape
+
+modifyShape
+
+modifyShape
+
+modifyShape
+
+modifyShape
+
+Triangle 2 3 5
+
+if (typestring=="Triangle") ((Triangle*) shapeptr)->modifyTriangle(arg1, arg2, arg3);
+
+struct ShapeParams
+{
+     ...
+}
+
+struct TriangleParams : public ShapeParams
+{
+     double a;
+     double b;
+     double c:
+}
+class shape
+{
+  public:
+    virtual void displayArea()=0;
+    modifyShape (ShapeParams*) = 0;
+};
+
+class triangle :public shape
+{
+  public:
+     void modifyShape (ShapeParams*) = override;
+
+  private:
+     TriangleParams m_params;
+}
+
+
+struct ShapeParams
+{
+     ...
+}
+
+struct TriangleParams : public ShapeParams
+{
+     double a;
+     double b;
+     double c:
+}
+class shape
+{
+  public:
+    virtual void displayArea()=0;
+    modifyShape (ShapeParams*) = 0;
+};
+
+class triangle :public shape
+{
+  public:
+     void modifyShape (ShapeParams*) = override;
+
+  private:
+     TriangleParams m_params;
+}
+
+
+#include <glm\glm.hpp>
+// Needed If Doing Matrix Transformations: Rotation, Translation Scaling etc.
+// #include <glm\gtc\matrix_transform.hpp> 
+
+class Shape {
+public:
+    enum Type {
+        NONE = 0,
+        TRIANGLE,
+        SQUARE,
+        CIRCLE,
+     };
+protected:
+    Type type_;
+    glm::vec4 color_ { 1.0f, 1.0f, 1.0f, 1.0f }; // Initialize List Set To White By Default
+    double perimeter_; // Also Circumference for Circle
+    double area_;     
+    // double volume_; // If in 3D.
+public:
+     // Default Constructor
+     Shape() : type_( NONE ), color_( glm::vec4( 1.0f, 1.0f, 1.0f, 1.0f ) ) {}       
+     // User Defined Constructors
+     // Sets Shape Type Only Color Is Optional & By Default Is White
+     explicit Shape( Type type, glm::vec4 color = glm::vec4() ) : type_(type), color_( color ) {}
+
+     Type getType() const { return type_; }
+     void setType( Shape::Type type ) {
+         if ( type_ == NONE ) {
+             // Its okay to set a new shape type
+             type_ = type;
+          } 
+
+          // We Already Have a Defined Shape
+          return;
+      }
+
+      // Getters That Are Commonly Found Across All Shapes
+      double getPerimeter() const { return perimeter_; }
+      double getArea() const { return area_; }
+
+      // Common Functions that can be done to any shape
+      void setSolidColor( glm::vec4 color ) { color_ = color };
+      glm::vec4 getColor() const { return color; }
+
+      // Common Interface That All Shapes Share But Must Override
+      virtual double calculateArea() = 0;
+      virtual double calculatePerimeter() = 0; 
+
+      // Since we do not know what kind of shape to modify until we have one
+      // to work with, we do not know how many parameters this function will need.
+      // To get around this we can use a function template and then have overloads 
+      // for each type we support
+      template<typename Type = Shape>
+      virtual void modify( Type* pShape /*,glm::vec3... params*/ );
+
+      // Overloaded Types: - Should Be Defined & Overridden By the Derived Class
+      virtual void modify<Triangle>( Triangle* pTriangle, glm::vec3, glm::vec3, glm::vec3, glm::vec4 = glm::vec4() ) { /* ... */ }
+      virtual void modify<Circle>( Cirlce* pCircle, float radius, glm::vec4 color = glm::vec4() ) { /* ... * / }
+
+};
+
+
+#include <glm\glm.hpp>
+// Needed If Doing Matrix Transformations: Rotation, Translation Scaling etc.
+// #include <glm\gtc\matrix_transform.hpp> 
+
+class Shape {
+public:
+    enum Type {
+        NONE = 0,
+        TRIANGLE,
+        SQUARE,
+        CIRCLE,
+     };
+protected:
+    Type type_;
+    glm::vec4 color_ { 1.0f, 1.0f, 1.0f, 1.0f }; // Initialize List Set To White By Default
+    double perimeter_; // Also Circumference for Circle
+    double area_;     
+    // double volume_; // If in 3D.
+public:
+     // Default Constructor
+     Shape() : type_( NONE ), color_( glm::vec4( 1.0f, 1.0f, 1.0f, 1.0f ) ) {}       
+     // User Defined Constructors
+     // Sets Shape Type Only Color Is Optional & By Default Is White
+     explicit Shape( Type type, glm::vec4 color = glm::vec4() ) : type_(type), color_( color ) {}
+
+     Type getType() const { return type_; }
+     void setType( Shape::Type type ) {
+         if ( type_ == NONE ) {
+             // Its okay to set a new shape type
+             type_ = type;
+          } 
+
+          // We Already Have a Defined Shape
+          return;
+      }
+
+      // Getters That Are Commonly Found Across All Shapes
+      double getPerimeter() const { return perimeter_; }
+      double getArea() const { return area_; }
+
+      // Common Functions that can be done to any shape
+      void setSolidColor( glm::vec4 color ) { color_ = color };
+      glm::vec4 getColor() const { return color; }
+
+      // Common Interface That All Shapes Share But Must Override
+      virtual double calculateArea() = 0;
+      virtual double calculatePerimeter() = 0; 
+
+      // Since we do not know what kind of shape to modify until we have one
+      // to work with, we do not know how many parameters this function will need.
+      // To get around this we can use a function template and then have overloads 
+      // for each type we support
+      template<typename Type = Shape>
+      virtual void modify( Type* pShape /*,glm::vec3... params*/ );
+
+      // Overloaded Types: - Should Be Defined & Overridden By the Derived Class
+      virtual void modify<Triangle>( Triangle* pTriangle, glm::vec3, glm::vec3, glm::vec3, glm::vec4 = glm::vec4() ) { /* ... */ }
+      virtual void modify<Circle>( Cirlce* pCircle, float radius, glm::vec4 color = glm::vec4() ) { /* ... * / }
+
+};
+
+
+class Triangle : public Shape {
+public:
+     // Could Be An Option To Where This is a base class as well to specific types of triangles:
+     enum TriangleType {
+         Acute = 0,
+         Right,
+         Equilateral,
+         Obtuse
+     } // then each of these would have properties specific to each type
+private:
+    glm::vec3[3] vertices_;
+
+public:
+    // Default Constructor
+    Triangle() : Shape(TRIANGLE) {} // Sets The Shape Type But Has No Vertices Or Area; just default construction
+    // Vertices But No Color
+    Triangle( glm::vec3 A, glm::vec3 B, glm::vec3 C ) : Shape(TRIANGLE) {
+        vertices_[0] = A;
+        vertices_[1] = B;
+        vettices_[2] = C;
+
+        // Call These To Have These Values
+        calculatePerimeter();
+        calculateArea();            
+    }
+    // Vertices & Color
+    Triangle( glm::vec3 A, glm::vec3 B, glm::vec3 C, glm::vec4 color ) : Shape(TRIANGLE) {
+        vertices_[0] = A;
+        vertices_[1] = B;
+        vertices_[2] = C;
+
+        calculatePerimeter();
+        calculateArea();
+     }
+
+     // No Need To Do The Set & Get Colors - Base Class Does that for you.
+
+     // Methods that this shape must implement
+     virtual double calculateArea() override {
+         // Calculations For Getting Area of A Triangle
+         area_ = /* calculation */;
+     };
+     virtual double calculatePerimeter() override {
+         // Calculations For Getting Perimeter of A Triangle
+         perimeter_ = /* calculation */;
+     };
+
+     void modify<Triangle>( Triangle* pTriangle, glm::vec3, glm::vec3, glm::vec3, glm::vec4 = glm::vec4() ) override { /* ... */ }
+
+};
+
+
+class Triangle : public Shape {
+public:
+     // Could Be An Option To Where This is a base class as well to specific types of triangles:
+     enum TriangleType {
+         Acute = 0,
+         Right,
+         Equilateral,
+         Obtuse
+     } // then each of these would have properties specific to each type
+private:
+    glm::vec3[3] vertices_;
+
+public:
+    // Default Constructor
+    Triangle() : Shape(TRIANGLE) {} // Sets The Shape Type But Has No Vertices Or Area; just default construction
+    // Vertices But No Color
+    Triangle( glm::vec3 A, glm::vec3 B, glm::vec3 C ) : Shape(TRIANGLE) {
+        vertices_[0] = A;
+        vertices_[1] = B;
+        vettices_[2] = C;
+
+        // Call These To Have These Values
+        calculatePerimeter();
+        calculateArea();            
+    }
+    // Vertices & Color
+    Triangle( glm::vec3 A, glm::vec3 B, glm::vec3 C, glm::vec4 color ) : Shape(TRIANGLE) {
+        vertices_[0] = A;
+        vertices_[1] = B;
+        vertices_[2] = C;
+
+        calculatePerimeter();
+        calculateArea();
+     }
+
+     // No Need To Do The Set & Get Colors - Base Class Does that for you.
+
+     // Methods that this shape must implement
+     virtual double calculateArea() override {
+         // Calculations For Getting Area of A Triangle
+         area_ = /* calculation */;
+     };
+     virtual double calculatePerimeter() override {
+         // Calculations For Getting Perimeter of A Triangle
+         perimeter_ = /* calculation */;
+     };
+
+     void modify<Triangle>( Triangle* pTriangle, glm::vec3, glm::vec3, glm::vec3, glm::vec4 = glm::vec4() ) override { /* ... */ }
+
+};
+
+
+std::cout
+
+std::ofstream
+
+getters
+
+#include <iostream>
+#include "Triangle.h"
+
+int main() {
+    Triangle t1( glm::vec3( 0.0f, 1.0f, -1.3f ),   // Vertex A
+                 glm::vec3( 3.2f, 5.5f, -8.9f ),   //        B
+                 glm::vec3( -4.5f, 7.6f, 8.2f ),   //        C
+                 glm::vec4( 0.8f, 0.9f, 0.23f, 1.0f ) ); // Color
+
+    std::cout << "Perimeter is " << t1.getPerimeter() << std::endl;
+    std::cout << "Area is " << t1.getArea() << std::endl;
+
+    return 0;
+}
+
+
+#include <iostream>
+#include "Triangle.h"
+
+int main() {
+    Triangle t1( glm::vec3( 0.0f, 1.0f, -1.3f ),   // Vertex A
+                 glm::vec3( 3.2f, 5.5f, -8.9f ),   //        B
+                 glm::vec3( -4.5f, 7.6f, 8.2f ),   //        C
+                 glm::vec4( 0.8f, 0.9f, 0.23f, 1.0f ) ); // Color
+
+    std::cout << "Perimeter is " << t1.getPerimeter() << std::endl;
+    std::cout << "Area is " << t1.getArea() << std::endl;
+
+    return 0;
+}
+
+
+shape
+
+displayArea
+
+T
+
+std:: is_polymorphic_v<T>
+
+true
+
+int
+
+auto myShape = shape{triangle{1.0, 2.0, 2.0}}; // triangle data is sliced off
+myShape.displayArea(); // UB: invalid memory access in displayArea
+myShape = circle(4); // now circle data is sliced off from myShape
+myShape.displayArea(); // UB: also invalid memory access is displayArea
+
+
+auto myShape = shape{triangle{1.0, 2.0, 2.0}}; // triangle data is sliced off
+myShape.displayArea(); // UB: invalid memory access in displayArea
+myShape = circle(4); // now circle data is sliced off from myShape
+myShape.displayArea(); // UB: also invalid memory access is displayArea
+
+
+shape
+
+std::variant
+
+shape
+
+class circle {
+    int radius;
+public:
+    circle(int radius2) :radius(radius2){  }
+    void displayArea() {
+        double area = 3.14*radius*radius;
+        std::cout << " \n Area circle" << area<<std::endl;
+    }
+};
+
+class triangle {
+    double a,b,c;
+public:
+    triangle(double a1, double b1, double c1): a(a1), b(b1),c(c1) {
+        if (a + b > c && a + c > b && b + c > a)
+            std::cout << "The sides form a triangle" << std::endl;
+        else
+            std::cout << "The sides do not form a triangle. Correct me !" << std::endl;
+    }
+
+    void displayArea() {
+        double s = (a + b + c) / 2;
+        double area = sqrt(s*(s - a)*(s - b)*(s - c));
+        std::cout << " \n Area triangle"<< area<<std::endl;
+    }
+};
+
+using shape = std::variant<triangle,circle>;
+
+// Example of how to modify a shape
+auto myShape = shape{triangle{1.0, 2.0, 2.0}};
+myShape = triangle{3.0, 3.0, 3.0};
+
+
+class circle {
+    int radius;
+public:
+    circle(int radius2) :radius(radius2){  }
+    void displayArea() {
+        double area = 3.14*radius*radius;
+        std::cout << " \n Area circle" << area<<std::endl;
+    }
+};
+
+class triangle {
+    double a,b,c;
+public:
+    triangle(double a1, double b1, double c1): a(a1), b(b1),c(c1) {
+        if (a + b > c && a + c > b && b + c > a)
+            std::cout << "The sides form a triangle" << std::endl;
+        else
+            std::cout << "The sides do not form a triangle. Correct me !" << std::endl;
+    }
+
+    void displayArea() {
+        double s = (a + b + c) / 2;
+        double area = sqrt(s*(s - a)*(s - b)*(s - c));
+        std::cout << " \n Area triangle"<< area<<std::endl;
+    }
+};
+
+using shape = std::variant<triangle,circle>;
+
+// Example of how to modify a shape
+auto myShape = shape{triangle{1.0, 2.0, 2.0}};
+myShape = triangle{3.0, 3.0, 3.0};
+
+
+shape
+
+displayArea
+
+std::variant
+
+myShape = rectangle{1.5, 2.0};
+
+std::variant
+
+std::any
+
+std::variant
+
+shape
+
+auto myShape = shape{triangle{1.0, 2.0, 2.0}};
+myShape = triangle{3.0, 3.0, 3.0};
+std::any_cast<triangle&>(mShape).displayArea();
+myShape = rectangle{1.5, 2.0};
+std::any_cast< rectangle&>(mShape).displayArea();
+
+
+auto myShape = shape{triangle{1.0, 2.0, 2.0}};
+myShape = triangle{3.0, 3.0, 3.0};
+std::any_cast<triangle&>(mShape).displayArea();
+myShape = rectangle{1.5, 2.0};
+std::any_cast< rectangle&>(mShape).displayArea();
+
+
+std::any
+
+shape
+
+class shape;
+
+void displayArea(const shape& value);
+
+class shape {
+public:
+    shape() noexcept = default;
+
+    template <typename T>
+    shape(T arg): m_self{std::make_shared<Model<T>>(std::move(arg))} {}
+
+    template <typename T, typename Tp = std::decay_t<T>,
+        typename = std::enable_if_t<
+            !std::is_same<Tp, shape>::value && std::is_copy_constructible<Tp>::value
+        >
+    >
+    shape& operator= (T&& other) {
+        shape(std::forward<T>(other)).swap(*this);
+        return *this;
+    }
+
+    void swap(shape& other) noexcept {
+        std::swap(m_self, other.m_self);
+    }
+
+    friend void displayArea(const shape& value) {
+        if (value.m_self) value.m_self->displayArea_();
+    }
+
+private:
+    struct Concept {
+        virtual ~Concept() = default;
+        virtual void displayArea_() const = 0;
+        // add pure virtual functions for any more functionality required for eligible shapes
+    };
+
+    // Model enforces functionality requirements for eligible types. 
+    template <typename T>
+    struct Model final: Concept {
+        Model(T arg): data{std::move(arg)} {}
+        void displayArea_() const override {
+            displayArea(data);
+        }
+        // add overrides of any other virtual functions added to Concept
+        T data;
+    };
+
+    std::shared_ptr<const Concept> m_self; // Like a PIMPL
+};
+
+struct circle {
+    int radius = 0;
+};
+
+// Function & signature required for circle to be eligible instance for shape
+void displayArea(const circle& value) {
+     // code for displaying the circle
+}
+
+struct triangle {
+    double a,b,c;
+};
+
+// Function & signature required for triangle to be eligible instance for shape
+void displayArea(const triangle& value) {
+     // code for displaying the triangle
+}
+
+// Now we get usage like previously recommended...
+auto myShape = shape{triangle{1.0, 2.0, 2.0}}; // triangle data is saved
+displayArea(myShape); // calls displayArea(const triangle&)
+myShape = circle{4}; // now circle data is stored in myShape
+displayArea(myShape); // now calls displayArea(const circle&)
+
+// And changing the settings like a modifyShape function occurs now more regularly
+// by using the assignment operator instead of another function name...
+mShape = circle{5}; // modifies shape from a circle of radius 4 to radius 5 
+
+
+class shape;
+
+void displayArea(const shape& value);
+
+class shape {
+public:
+    shape() noexcept = default;
+
+    template <typename T>
+    shape(T arg): m_self{std::make_shared<Model<T>>(std::move(arg))} {}
+
+    template <typename T, typename Tp = std::decay_t<T>,
+        typename = std::enable_if_t<
+            !std::is_same<Tp, shape>::value && std::is_copy_constructible<Tp>::value
+        >
+    >
+    shape& operator= (T&& other) {
+        shape(std::forward<T>(other)).swap(*this);
+        return *this;
+    }
+
+    void swap(shape& other) noexcept {
+        std::swap(m_self, other.m_self);
+    }
+
+    friend void displayArea(const shape& value) {
+        if (value.m_self) value.m_self->displayArea_();
+    }
+
+private:
+    struct Concept {
+        virtual ~Concept() = default;
+        virtual void displayArea_() const = 0;
+        // add pure virtual functions for any more functionality required for eligible shapes
+    };
+
+    // Model enforces functionality requirements for eligible types. 
+    template <typename T>
+    struct Model final: Concept {
+        Model(T arg): data{std::move(arg)} {}
+        void displayArea_() const override {
+            displayArea(data);
+        }
+        // add overrides of any other virtual functions added to Concept
+        T data;
+    };
+
+    std::shared_ptr<const Concept> m_self; // Like a PIMPL
+};
+
+struct circle {
+    int radius = 0;
+};
+
+// Function & signature required for circle to be eligible instance for shape
+void displayArea(const circle& value) {
+     // code for displaying the circle
+}
+
+struct triangle {
+    double a,b,c;
+};
+
+// Function & signature required for triangle to be eligible instance for shape
+void displayArea(const triangle& value) {
+     // code for displaying the triangle
+}
+
+// Now we get usage like previously recommended...
+auto myShape = shape{triangle{1.0, 2.0, 2.0}}; // triangle data is saved
+displayArea(myShape); // calls displayArea(const triangle&)
+myShape = circle{4}; // now circle data is stored in myShape
+displayArea(myShape); // now calls displayArea(const circle&)
+
+// And changing the settings like a modifyShape function occurs now more regularly
+// by using the assignment operator instead of another function name...
+mShape = circle{5}; // modifies shape from a circle of radius 4 to radius 5 
+
+
+shape

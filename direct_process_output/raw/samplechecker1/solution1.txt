@@ -1,0 +1,13 @@
+class AddAmount{
+public:
+int bank=50;
+AddAmount(){
+bank=bank+0;
+}
+AddAmount(int amount){
+bank=bank+amount;
+}
+void print_amount(){
+cout<<bank;
+}
+}

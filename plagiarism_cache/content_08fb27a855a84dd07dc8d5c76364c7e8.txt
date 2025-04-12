@@ -1,0 +1,64 @@
+CalculateArea
+
+CalculateArea
+
+123456
+int CalculateArea(int width, int length) {
+	
+	int area = (width * length);
+	return area;
+
+}
+
+123456
+
+123456
+
+int CalculateArea(int width, int length) {
+	
+	int area = (width * length);
+	return area;
+
+}
+
+int CalculateArea(int width, int length) {
+	
+	int area = (width * length);
+	return area;
+
+}
+
+DisplayArea
+
+DisplayArea
+
+1234567
+void DisplayArea(int width, int length) {
+
+	int area = CalculateArea(width, length);
+
+	std::cout << "The area is: " << area << std::endl;
+
+}
+
+1234567
+
+1234567
+
+void DisplayArea(int width, int length) {
+
+	int area = CalculateArea(width, length);
+
+	std::cout << "The area is: " << area << std::endl;
+
+}
+
+void DisplayArea(int width, int length) {
+
+	int area = CalculateArea(width, length);
+
+	std::cout << "The area is: " << area << std::endl;
+
+}
+
+CalculateArea

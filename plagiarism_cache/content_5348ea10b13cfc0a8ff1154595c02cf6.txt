@@ -1,0 +1,166 @@
+#include <iostream>
+#include <cmath>
+#include<math.h>
+using namespace std;
+class Rectangle {
+  public:
+  int length;
+  int width;
+  int area;
+  int perimeter;
+};
+
+int main() {
+  Rectangle calc1;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+  cout << "Length is " << calc1.length << endl;
+
+  Rectangle calc2;
+
+  calc2.perimeter = ((2 * calc1.length) + (2 * calc1.width));
+  cout << "Perimeter is " << calc2.perimeter << endl;
+
+  class Rectangle2 : public Rectangle {
+
+  public:
+  Rectangle2 calc3;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+
+  cout << "Area of rectangle 2 is" << calc3.T_area << endl;
+
+}
+
+
+#include <iostream>
+#include <cmath>
+#include<math.h>
+using namespace std;
+class Rectangle {
+  public:
+  int length;
+  int width;
+  int area;
+  int perimeter;
+};
+
+int main() {
+  Rectangle calc1;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+  cout << "Length is " << calc1.length << endl;
+
+  Rectangle calc2;
+
+  calc2.perimeter = ((2 * calc1.length) + (2 * calc1.width));
+  cout << "Perimeter is " << calc2.perimeter << endl;
+
+  class Rectangle2 : public Rectangle {
+
+  public:
+  Rectangle2 calc3;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+
+  cout << "Area of rectangle 2 is" << calc3.T_area << endl;
+
+}
+
+
+Rectangle
+
+int Rectangle::CalculateArea ()
+
+#include <iostream>
+#include <cmath>
+#include <math.h>
+
+using namespace std; // this is bad
+
+struct Rectangle {
+  int length;
+  int width;
+  int area;
+
+  int perimeter() { return ((2 * length) + (2 * width)); };
+};
+
+struct Rectangle2 : public Rectangle {
+
+};
+
+int main() {
+  Rectangle calc1;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+  cout << "Length is " << calc1.length << endl;
+
+  cout << "Perimeter is " << calc1.perimeter() << endl;
+
+  Rectangle2 calc3;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+
+  cout << "Area of rectangle 2 is" << calc3.area << endl;
+
+}
+
+
+#include <iostream>
+#include <cmath>
+#include <math.h>
+
+using namespace std; // this is bad
+
+struct Rectangle {
+  int length;
+  int width;
+  int area;
+
+  int perimeter() { return ((2 * length) + (2 * width)); };
+};
+
+struct Rectangle2 : public Rectangle {
+
+};
+
+int main() {
+  Rectangle calc1;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+  cout << "Length is " << calc1.length << endl;
+
+  cout << "Perimeter is " << calc1.perimeter() << endl;
+
+  Rectangle2 calc3;
+  cout << "Enter area= \n" << endl;
+  cin >> calc1.area;
+  cout << "Enter width= \n" << endl;
+  cin >> calc1.width;
+  calc1.length = (calc1.area / calc1.width);
+
+  cout << "Area of rectangle 2 is" << calc3.area << endl;
+
+}

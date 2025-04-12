@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Drawing a Circle with Class in C++",
+    "link": "https://stackoverflow.com/questions/58413469/drawing-a-circle-with-class-in-c",
+    "snippet": "I'm currently writing a program where I have to draw three circle shapes from a class(data structure) that will output in the console.",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Class Instance of Circle in OOP - c++",
+    "link": "https://stackoverflow.com/questions/42944297/class-instance-of-circle-in-oop",
+    "snippet": "I am currently having some problem with OOP regarding the Circle class. At this time, I have developed the Implementation and the Specification ...",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "designing shape class with circle and triangle - c++",
+    "link": "https://stackoverflow.com/questions/44666561/designing-shape-class-with-circle-and-triangle",
+    "snippet": "Consider the classic example of shape base class and derived triangle and circle classes. So circle is-a shape and so is triangle is-a shape.",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "circle/examples/README.md at master \u00b7 seanbaxter/circle",
+    "link": "https://github.com/seanbaxter/circle/blob/master/examples/README.md",
+    "snippet": "Circle allows you to deploy your object-oriented and imperative intuition, gained while programming C++ or Java or C# or Python, and employ it to write generic ...",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Creating a class to calculate area of a circle using Point ...",
+    "link": "https://stackoverflow.com/questions/17517400/creating-a-class-to-calculate-area-of-a-circle-using-point-class-in-c",
+    "snippet": "I am trying to creates a class Circle that calculates area of a circle. It uses a basic Point class that initializes 2 points, one as the center one as a point ...",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Making a circle with '*' C++",
+    "link": "https://stackoverflow.com/questions/66681326/making-a-circle-with-c",
+    "snippet": "I am making a circle and the code works fine but the problem is that even though it is working the circle is not perfect, or close as it can be.",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "rsta2/circle: A C++ bare metal environment for Raspberry ...",
+    "link": "https://github.com/rsta2/circle",
+    "snippet": "Circle provides several ready-tested C++ classes and add-on libraries, which can be used to control different hardware features of the Raspberry Pi. Together ...",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "oop/various/COP3330/lect2/circle.cpp at master",
+    "link": "https://github.com/chgogos/oop/blob/master/various/COP3330/lect2/circle.cpp",
+    "snippet": "#include <iostream> using namespace std; // \u0394\u03ae\u03bb\u03c9\u03c3\u03b7 \u03ba\u03bb\u03ac\u03c3\u03b7\u03c2 Circle class Circle { public: Circle(); // \u03b1\u03c5\u03c4\u03cc\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ad\u03bd\u03b1\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ae\u03c2 Circle(double r); // \u03ba\u03b1\u03b9 ...",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "seanbaxter/circle: The compiler is available for download. ...",
+    "link": "https://github.com/seanbaxter/circle",
+    "snippet": "New Circle is the richest C++ compiler yet. Try out: choice types,; pattern matching,; interfaces and impls,; language type erasure,; as-expressions for safer ...",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "circle/reflection/README.md at master \u00b7 seanbaxter/circle",
+    "link": "https://github.com/seanbaxter/circle/blob/master/reflection/README.md",
+    "snippet": "Circle defines dozens of extension keywords that provide introspection information into user-defined types.",
+    "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.8,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

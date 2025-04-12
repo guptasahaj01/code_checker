@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Binary search function with templates, for arrays - c++",
+    "link": "https://stackoverflow.com/questions/63039603/binary-search-function-with-templates-for-arrays-compilation-problem",
+    "snippet": "Binary Search on a std::string array \u00b7 0 \u00b7 BinarySearch function not working \u00b7 0 \u00b7 binary_search() function doesn't work in my function body \u00b7 0.",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Binary search using variadic templates and lambda functions",
+    "link": "https://stackoverflow.com/questions/31900382/binary-search-using-variadic-templates-and-lambda-functions",
+    "snippet": "Person* person = binarySearch (people, \"Tom\", [](Person* p, int n, char c) {return p->getName(n,c);}, [](const std::string& x, const std:: ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Using Recursive Binary Search - c++",
+    "link": "https://stackoverflow.com/questions/59080998/using-recursive-binary-search",
+    "snippet": "My Current Code #include <iostream> using namespace std; int linearSearch(int [], int, int, int); int binarySearch(int [], int, int, int) ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Function that uses BinarySearch algorithm (.bin file)",
+    "link": "https://stackoverflow.com/questions/37113577/c-function-that-uses-binarysearch-algorithm-bin-file",
+    "snippet": "grek40 solution on BinarySearch function: So I make the record function: std::string GetRecord(std::ifstream& inFile, int pos) { char buffer ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "How to do binary search without arrays? c++",
+    "link": "https://stackoverflow.com/questions/59055143/how-to-do-binary-search-without-arrays-c",
+    "snippet": "... binarySearch(x); return 0; }. For example, if you enter 150, the outcome will continuously give the outcome of 571, 286, 143, 571, 286 until ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Binary Search in C++",
+    "link": "https://www.tutorialspoint.com/binary-search-in-cplusplus",
+    "snippet": "A program that demonstrates binary search in C++ is given below. Example. Live Demo #include using namespace std; int binarySearch(int arr ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ functions as parameters Binary Search",
+    "link": "https://stackoverflow.com/questions/53177225/c-functions-as-parameters-binary-search",
+    "snippet": "Recursive binary search function in C++ \u00b7 0 \u00b7 Implementing Binary search in C++ \u00b7 4 \u00b7 C++ Function that uses BinarySearch algorithm (.bin file).",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "BinarySearch function not working - c++",
+    "link": "https://stackoverflow.com/questions/47255901/binarysearch-function-not-working",
+    "snippet": "BinarySearch function not working \u00b7 Ask Question. Asked 7 years, 2 ... for example, if you try finding 4 in list {1, 3, 5}, low will be ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Binary Search - Array Position Variables",
+    "link": "https://stackoverflow.com/questions/28489072/c-binary-search-array-position-variables",
+    "snippet": "Let's follow the function calls, and see what happens! In main() we have this line of code: cout << binarySearch(a, 10, item) ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Binary search algorithm with string array - c++",
+    "link": "https://stackoverflow.com/questions/29642210/binary-search-algorithm-with-string-array",
+    "snippet": "Binary search algorithm with string array ; include \"stdafx.h\" ; include <iostream> ; include <string> ; sortArray(string [], int) ; binarySearch( ...",
+    "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

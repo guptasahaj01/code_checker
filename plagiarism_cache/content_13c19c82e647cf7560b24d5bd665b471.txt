@@ -1,0 +1,159 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+#include "Circle.h"
+#include "Random.h"
+
+int main()
+{
+    // Array 1, below section is to populate the array with random 
+    // radius number within lower and upper range
+    int CircleArrayOne [5];
+    const int NUM = 5;
+
+    srand(time(NULL));
+
+    for(int x = 0; x < NUM; ++x)
+    {
+        CircleArrayOne[x] = Random::random(1, 40); // assumed 0 and 40 as the bounds
+    }
+
+    // output the radius of each circle
+    cout << "Below is the radius each of the five circles in the second array. " << endl;
+
+    // below is to output the radius in the array
+    for(int i = 0; i < NUM; ++i) 
+    {
+        cout << CircleArrayOne[i] << endl;
+    }
+
+    // Here I want to access the array to work out the area using 
+    // float Circl::getArea()
+
+    system("PAUSE");
+    return 0;
+}
+
+float Circle::getArea()
+{
+    double PI = 3.14;
+    return (PI * (Radius*Radius));
+}
+
+float Circle::getRadius()
+{
+    return Radius;
+}
+
+int Random::random(int lower, int upper)
+{
+    int range = upper - lower + 1;
+    return (rand() % range + lower);
+}
+
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+#include "Circle.h"
+#include "Random.h"
+
+int main()
+{
+    // Array 1, below section is to populate the array with random 
+    // radius number within lower and upper range
+    int CircleArrayOne [5];
+    const int NUM = 5;
+
+    srand(time(NULL));
+
+    for(int x = 0; x < NUM; ++x)
+    {
+        CircleArrayOne[x] = Random::random(1, 40); // assumed 0 and 40 as the bounds
+    }
+
+    // output the radius of each circle
+    cout << "Below is the radius each of the five circles in the second array. " << endl;
+
+    // below is to output the radius in the array
+    for(int i = 0; i < NUM; ++i) 
+    {
+        cout << CircleArrayOne[i] << endl;
+    }
+
+    // Here I want to access the array to work out the area using 
+    // float Circl::getArea()
+
+    system("PAUSE");
+    return 0;
+}
+
+float Circle::getArea()
+{
+    double PI = 3.14;
+    return (PI * (Radius*Radius));
+}
+
+float Circle::getRadius()
+{
+    return Radius;
+}
+
+int Random::random(int lower, int upper)
+{
+    int range = upper - lower + 1;
+    return (rand() % range + lower);
+}
+
+
+#pragma once
+#include <string>
+
+class Circle 
+{
+private:
+    float Radius;
+
+public:
+    Circle(); // initialised radius to 0
+    Circle(float r); // accepts an argument and assign its value to the radius attribute
+    void setRadius(float r); // sets radius to a value provided by its radius parameter (r)
+    float getRadius(); // returns the radius of a circle
+    float getArea(); // calculates and returns the areas of its circle
+};
+
+
+#pragma once
+#include <string>
+
+class Circle 
+{
+private:
+    float Radius;
+
+public:
+    Circle(); // initialised radius to 0
+    Circle(float r); // accepts an argument and assign its value to the radius attribute
+    void setRadius(float r); // sets radius to a value provided by its radius parameter (r)
+    float getRadius(); // returns the radius of a circle
+    float getArea(); // calculates and returns the areas of its circle
+};
+
+
+Circle
+
+getArea()
+
+Circle
+
+Circle obj[5];   // Create 5 objects default constructed.
+
+
+Circle obj[5];   // Create 5 objects default constructed.
+
+
+setRadius

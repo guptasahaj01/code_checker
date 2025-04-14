@@ -1,0 +1,72 @@
+int binarySearch(const vector<int>& arr, int target) {
+int left = 0;
+int right = arr.size() - 1;
+while (left <= right) {
+// Calculate middle index using unsigned arithmetic to avoid overflow
+int mid = left + (right - left) / 2;
+// Check if target is present at mid
+if (arr[mid] == target) {
+return mid;
+}
+// If target is greater, ignore left half
+if (arr[mid] < target) {
+left = mid + 1;
+}
+// If target is smaller, ignore right half
+else {
+right = mid - 1;
+}
+}
+// Target is not present in array
+return -1;
+}
+
+int main() {
+// Create a sorted vector for testing
+vector<int> numbers = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25};
+cout << "Binary Search Demonstration" << endl;
+cout << "Sorted Array: ";
+for (int num : numbers) {
+cout << num << " ";
+}
+cout << endl;
+// Test cases with expected results
+cout << "Test Cases:" << endl;
+// Case 1: Finding a value that exists in the middle
+int target1 = 13;
+int result1 = binarySearch(numbers, target1);
+cout << "Searching for " << target1 << ": ";
+if (result1 != -1) {
+cout << "Found at index " << result1 << endl;
+} else {
+cout << "Not found" << endl;
+}
+// Case 2: Finding a value that exists at the beginning
+int target2 = 1;
+int result2 = binarySearch(numbers, target2);
+cout << "Searching for " << target2 << ": ";
+if (result2 != -1) {
+cout << "Found at index " << result2 << endl;
+} else {
+cout << "Not found" << endl;
+}
+// Case 3: Finding a value that exists at the end
+int target3 = 25;
+int result3 = binarySearch(numbers, target3);
+cout << "Searching for " << target3 << ": ";
+if (result3 != -1) {
+cout << "Found at index " << result3 << endl;
+} else {
+cout << "Not found" << endl;
+}
+// Case 4: Finding a value that does not exist
+int target4 = 14;
+int result4 = binarySearch(numbers, target4);
+cout << "Searching for " << target4 << ": ";
+if (result4 != -1) {
+cout << "Found at index " << result4 << endl;
+} else {
+cout << "Not found" << endl;
+}
+return 0;
+}

@@ -437,4 +437,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     print(f"Starting API server on port {args.port}")
-    app.run(port=5003, debug=True) 
+    app.run(port=args.port, debug=True) 

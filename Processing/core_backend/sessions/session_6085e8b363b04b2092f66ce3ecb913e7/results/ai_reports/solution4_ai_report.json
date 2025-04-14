@@ -1,0 +1,104 @@
+{
+  "teststudent1_sol4.txt": {
+    "file": "teststudent1_sol4.txt",
+    "is_ai_generated": false,
+    "technical_score": 29.27041097821943,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.14949944382647384,
+      "formatting_consistency_score": 0.7516279069767443,
+      "similarity_score": 0.30767503580855793,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.2927041097821943
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7516279069767443
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.30767503580855793
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.14949944382647384
+      }
+    ]
+  },
+  "teststudent2_sol4.txt": {
+    "file": "teststudent2_sol4.txt",
+    "is_ai_generated": false,
+    "technical_score": 32.297217111708,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.3448117154811715,
+      "formatting_consistency_score": 0.745263157894737,
+      "similarity_score": 0.31730470055346843,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.32297217111708
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.745263157894737
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.3448117154811715
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.31730470055346843
+      }
+    ]
+  },
+  "teststudent3_sol4.txt": {
+    "file": "teststudent3_sol4.txt",
+    "is_ai_generated": false,
+    "technical_score": 32.32634956031233,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.2979718766901027,
+      "formatting_consistency_score": 0.7533333333333334,
+      "similarity_score": 0.3478385704980392,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.3232634956031233
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7533333333333334
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.3478385704980392
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.2979718766901027
+      }
+    ]
+  }
+}

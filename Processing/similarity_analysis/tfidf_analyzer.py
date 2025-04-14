@@ -29,6 +29,10 @@ class TFIDFAnalyzer:
         self.difficulty = difficulty
         self.threshold = self.get_threshold(difficulty)
         
+        # Add configurable TF-IDF parameters
+        self.ngram_range = (1, 3)  # Default: unigrams, bigrams, and trigrams
+        self.min_df = 0.01         # Default: ignore terms appearing in less than 1% of documents
+        
         # Common regexes for code preprocessing
         self.comment_patterns = {
             'cpp': r'\/\/.*?$|\/\*[\s\S]*?\*\/',
@@ -141,8 +145,13 @@ class TFIDFAnalyzer:
         for submission_id, code in submissions.items():
             tokenized_submissions.append(self.tokenize_code(code))
         
-        # Create TF-IDF vectors
-        vectorizer = TfidfVectorizer(analyzer='word', ngram_range=(1, 3), min_df=0.01, stop_words='english')
+        # Create TF-IDF vectors with configurable parameters
+        vectorizer = TfidfVectorizer(
+            analyzer='word', 
+            ngram_range=self.ngram_range,  # Use configurable ngram_range
+            min_df=self.min_df,           # Use configurable min_df
+            stop_words='english'
+        )
         tfidf_matrix = vectorizer.fit_transform(tokenized_submissions)
         
         # Calculate cosine similarity
@@ -193,10 +202,10 @@ class TFIDFAnalyzer:
             for j in range(i+1, n):
                 similarity = similarity_matrix[i][j]
                 
-                if similarity >= self.threshold:
-                    suspicious_pairs.append(
-                        ((submission_ids[i], submission_ids[j]), similarity)
-                    )
+                # Include all pairs regardless of threshold
+                suspicious_pairs.append(
+                    ((submission_ids[i], submission_ids[j]), similarity)
+                )
         
         # Sort by similarity (highest first)
         suspicious_pairs.sort(key=lambda x: x[1], reverse=True)

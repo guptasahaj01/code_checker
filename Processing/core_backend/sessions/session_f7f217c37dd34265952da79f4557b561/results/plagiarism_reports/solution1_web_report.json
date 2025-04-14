@@ -1,0 +1,743 @@
+{
+  "teststudent1_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution1/teststudent1_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:03.648392",
+    "queries_used": [
+      "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "C++ Basic Calculator",
+        "link": "https://stackoverflow.com/questions/46330783/c-basic-calculator",
+        "snippet": "I'm new to C++ and programming in General. I was assigned to make a calculator for my C++ class and this is what I have so far. #include < ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.12129100498862758,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator in C++ using class template to automatically call ...",
+        "link": "https://stackoverflow.com/questions/74568206/calculator-in-c-using-class-template-to-automatically-call-the-datatype-that-t",
+        "snippet": "I want to make a calculator in C++ for addition, subtraction, multiplication and division using class template and in the main function,",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.12129100498862758,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a very basic calculator in C++",
+        "link": "https://stackoverflow.com/questions/72702243/creating-a-very-basic-calculator-in-c",
+        "snippet": "I attempted to make a basic calculator that instead of just being able to add could subtract, divide and multiply but it still seems to only be able to add.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Advanced Calculator Using C++.",
+        "link": "https://github.com/MuhammedMagdyy/Advanced-Calculator",
+        "snippet": "Advanced Calculator. A console app from scratch using C++ that has Basic operations, Advanced operations like sqrt and power, ASCII table, and ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A simple calculator written in C++",
+        "link": "https://gist.github.com/aziflaj/68813816ef298a03cd4b",
+        "snippet": "Name: CALCULATOR v1.0. Author: Aldo Ziflaj. Date: 01-01-13 12:01. Description: A simple calculator that can add, subtract multiply, divide,.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Simple gui calculator made with C++ and SFML library",
+        "link": "https://github.com/duckmaniac/simple-calculator",
+        "snippet": "Simple GUI Calculator. A lightweight and intuitive calculator application built with C++ and powered by the SFML library. Perform basic arithmetic operations ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Simple Calculator in C++. It uses an Abstract Syntax Tree ...",
+        "link": "https://github.com/PanagiotisPtr/Calculator-Cpp",
+        "snippet": "Simple Calculator in C++. It uses an Abstract Syntax Tree and the Shunting yard algorithm to parse mathematical expressions.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "DaringCuteSeal/cpp-shunting-calc: Basic calculator ...",
+        "link": "https://github.com/DaringCuteSeal/cpp-shunting-calc/",
+        "snippet": "Shunting-Yard Calculator ... This project is a basic implementation of the Shunting-Yard algorithm which is used to parse an infix notation input and turn it into ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "simplykeerthana/Calculator_CPP: A C++ calculator ...",
+        "link": "https://github.com/simplykeerthana/Calculator_CPP",
+        "snippet": "A C++ calculator application with efficient user of memory, process user inputs, and mimics a production-grade application.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "a simple RPN calculator written in C++",
+        "link": "https://gist.github.com/dvtate/19d1b67bd454073bf8c7d70b3e3cc79e",
+        "snippet": "RPN Calculator. Place the operator after its two operands. Here is an example: 1 1 + ans = 2 To use the previous answer replace one number with ans.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A basic calculator made in C++. Back-end logic, Unit Tests ...",
+        "link": "https://github.com/Si-ja/Basic-Calculator-CPP",
+        "snippet": "This project holds a basic example of how a calculator could be built in C++. 3 components are utilized.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "OOP classes design: two numbers calculator - c++",
+        "link": "https://stackoverflow.com/questions/66203137/oop-classes-design-two-numbers-calculator",
+        "snippet": "The problem is that write a two numbers calculator(+,-,*,/) using OOP. Based on intuition(I haven't learned design pattern yet), I wrote the code like this.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ calculator Using classes",
+        "link": "https://stackoverflow.com/questions/57248172/c-calculator-using-classes",
+        "snippet": "Simple calculator in C++ \u00b7 1 \u00b7 Calculator Class Functions \u00b7 0 \u00b7 Simple C++ Inclusive Calculator Code Review \u00b7 0 \u00b7 First C++ program help ( ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "christopher-siewert/cpp-calculator: Simple command line ...",
+        "link": "https://github.com/christopher-siewert/cpp-calculator",
+        "snippet": "This is an extremely simple calculator I made while learning C++. Download the repo, compile and run it.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A Simple Scientific Calculator on C++",
+        "link": "https://gist.github.com/3be0b62c98c17e76e0df",
+        "snippet": "A Simple Scientific Calculator on C++. GitHub Gist: instantly share code, notes, and snippets.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to make a calculator in c++ using if else and functions?",
+        "link": "https://stackoverflow.com/questions/53459411/how-to-make-a-calculator-in-c-using-if-else-and-functions",
+        "snippet": "How to make a calculator in c++ using if else and functions? ; namespace std; void fun(float a, float b); int main() ; char op; //operands and ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator Class Functions - c++",
+        "link": "https://stackoverflow.com/questions/12681893/calculator-class-functions",
+        "snippet": "In your calculator class, make a variable which stores the last calculation performed. These two functions would be able to store the value in ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Subtract Two Numbers",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-subtract-two-numbers",
+        "snippet": "Learn how to subtract two numbers using C++ with this simple program example. Perfect for beginners and programming enthusiasts.",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++: How do I subtract two integers from different classes?",
+        "link": "https://stackoverflow.com/questions/39862751/c-how-do-i-subtract-two-integers-from-different-classes",
+        "snippet": "I want to know how to subtract two variables from different classes and then print it out in the main file, making sure whatever variable was changed stays ...",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Subtracting two long positive integers in an array c++",
+        "link": "https://stackoverflow.com/questions/14875445/subtracting-two-long-positive-integers-in-an-array-c",
+        "snippet": "I'm stumped and I'm not sure what the best way is to subtract two positive number arrays to get a successful output that can accommodate for ...",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Using a while () loop to subtract numbers from the sum",
+        "link": "https://stackoverflow.com/questions/57811385/using-a-while-loop-to-subtract-numbers-from-the-sum",
+        "snippet": "For example, my number is 4 so 0+1+2+3+4= 10 and then have 4 subtract from 10 to get 6, then 6 subtracted by 3 to get 3, and so on. I'm ...",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Subtract numbers using arrays - C++",
+        "link": "https://stackoverflow.com/questions/15006080/subtract-numbers-using-arrays-c",
+        "snippet": "How do I add or subtract parts of an array? 1 \u00b7 Binary Calculator subtraction \u00b7 1 \u00b7 How to subtract the same number from an array \u00b7 Hot Network ...",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Overload operator - to subtract two objects of the same ...",
+        "link": "https://stackoverflow.com/questions/43065790/c-overload-operator-to-subtract-two-objects-of-the-same-type",
+        "snippet": "The book wants me to subtract two objects of type Date and find out the difference between how old they are.",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - subtract n times int value",
+        "link": "https://stackoverflow.com/questions/54167737/subtract-n-times-int-value",
+        "snippet": "To subtract all numbers, initialize the result variable to the first number: op = quan;. and in the loop, subtract from the result variable:",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Subtract a value from each element of a std::vector",
+        "link": "https://stackoverflow.com/questions/48511614/subtract-a-value-from-each-element-of-a-stdvector",
+        "snippet": "I have a vector like std::vector<float> myVector. I have to subtract a float value from each of its elements. Using a for loop is very inefficient, as my ...",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Subtract extremely small number from one in C++",
+        "link": "https://stackoverflow.com/questions/71912838/subtract-extremely-small-number-from-one-in-c",
+        "snippet": "I need to subtract extremely small double number x from 1 ie to calculate 1-x in C++ for 0<x<1e-16. Because of machine precision restrictions for small enoughf ...",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      },
+      {
+        "title": "String addition or subtraction operators - c++",
+        "link": "https://stackoverflow.com/questions/13996996/string-addition-or-subtraction-operators",
+        "snippet": "How to add or subtract the value of string? For example: std::string number_string; std::string total; cout << \"Enter value to add\"; std:: ...",
+        "query": "\"subtract\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.075,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 27,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "teststudent2_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution1/teststudent2_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:06.792735",
+    "queries_used": [
+      "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "C++ Basic Calculator",
+        "link": "https://stackoverflow.com/questions/46330783/c-basic-calculator",
+        "snippet": "I'm new to C++ and programming in General. I was assigned to make a calculator for my C++ class and this is what I have so far. #include < ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.11893251442258984,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator in C++ using class template to automatically call ...",
+        "link": "https://stackoverflow.com/questions/74568206/calculator-in-c-using-class-template-to-automatically-call-the-datatype-that-t",
+        "snippet": "I want to make a calculator in C++ for addition, subtraction, multiplication and division using class template and in the main function,",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.11893251442258984,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a very basic calculator in C++",
+        "link": "https://stackoverflow.com/questions/72702243/creating-a-very-basic-calculator-in-c",
+        "snippet": "I attempted to make a basic calculator that instead of just being able to add could subtract, divide and multiply but it still seems to only be able to add.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Advanced Calculator Using C++.",
+        "link": "https://github.com/MuhammedMagdyy/Advanced-Calculator",
+        "snippet": "Advanced Calculator. A console app from scratch using C++ that has Basic operations, Advanced operations like sqrt and power, ASCII table, and ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A simple calculator written in C++",
+        "link": "https://gist.github.com/aziflaj/68813816ef298a03cd4b",
+        "snippet": "Name: CALCULATOR v1.0. Author: Aldo Ziflaj. Date: 01-01-13 12:01. Description: A simple calculator that can add, subtract multiply, divide,.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Simple gui calculator made with C++ and SFML library",
+        "link": "https://github.com/duckmaniac/simple-calculator",
+        "snippet": "Simple GUI Calculator. A lightweight and intuitive calculator application built with C++ and powered by the SFML library. Perform basic arithmetic operations ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Simple Calculator in C++. It uses an Abstract Syntax Tree ...",
+        "link": "https://github.com/PanagiotisPtr/Calculator-Cpp",
+        "snippet": "Simple Calculator in C++. It uses an Abstract Syntax Tree and the Shunting yard algorithm to parse mathematical expressions.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "DaringCuteSeal/cpp-shunting-calc: Basic calculator ...",
+        "link": "https://github.com/DaringCuteSeal/cpp-shunting-calc/",
+        "snippet": "Shunting-Yard Calculator ... This project is a basic implementation of the Shunting-Yard algorithm which is used to parse an infix notation input and turn it into ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "simplykeerthana/Calculator_CPP: A C++ calculator ...",
+        "link": "https://github.com/simplykeerthana/Calculator_CPP",
+        "snippet": "A C++ calculator application with efficient user of memory, process user inputs, and mimics a production-grade application.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "a simple RPN calculator written in C++",
+        "link": "https://gist.github.com/dvtate/19d1b67bd454073bf8c7d70b3e3cc79e",
+        "snippet": "RPN Calculator. Place the operator after its two operands. Here is an example: 1 1 + ans = 2 To use the previous answer replace one number with ans.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A basic calculator made in C++. Back-end logic, Unit Tests ...",
+        "link": "https://github.com/Si-ja/Basic-Calculator-CPP",
+        "snippet": "This project holds a basic example of how a calculator could be built in C++. 3 components are utilized.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "OOP classes design: two numbers calculator - c++",
+        "link": "https://stackoverflow.com/questions/66203137/oop-classes-design-two-numbers-calculator",
+        "snippet": "The problem is that write a two numbers calculator(+,-,*,/) using OOP. Based on intuition(I haven't learned design pattern yet), I wrote the code like this.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ calculator Using classes",
+        "link": "https://stackoverflow.com/questions/57248172/c-calculator-using-classes",
+        "snippet": "Simple calculator in C++ \u00b7 1 \u00b7 Calculator Class Functions \u00b7 0 \u00b7 Simple C++ Inclusive Calculator Code Review \u00b7 0 \u00b7 First C++ program help ( ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "christopher-siewert/cpp-calculator: Simple command line ...",
+        "link": "https://github.com/christopher-siewert/cpp-calculator",
+        "snippet": "This is an extremely simple calculator I made while learning C++. Download the repo, compile and run it.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A Simple Scientific Calculator on C++",
+        "link": "https://gist.github.com/3be0b62c98c17e76e0df",
+        "snippet": "A Simple Scientific Calculator on C++. GitHub Gist: instantly share code, notes, and snippets.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to make a calculator in c++ using if else and functions?",
+        "link": "https://stackoverflow.com/questions/53459411/how-to-make-a-calculator-in-c-using-if-else-and-functions",
+        "snippet": "How to make a calculator in c++ using if else and functions? ; namespace std; void fun(float a, float b); int main() ; char op; //operands and ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator Class Functions - c++",
+        "link": "https://stackoverflow.com/questions/12681893/calculator-class-functions",
+        "snippet": "In your calculator class, make a variable which stores the last calculation performed. These two functions would be able to store the value in ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator using function in C++",
+        "link": "https://stackoverflow.com/questions/53605615/calculator-using-function-in-c",
+        "snippet": "I am making a simple calculator using function but i am having an error. I tried to resolved it could not do so. I tried again and again but ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Creating a simple 4 function calculator. Using visual ...",
+        "link": "https://stackoverflow.com/questions/48799020/creating-a-simple-4-function-calculator-using-visual-studios-2017",
+        "snippet": "Write a program, which will act as a simple four-function calculator. That is it will read a number, read an operator, read another number, then do the ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lexy/examples/calculator.cpp at main \u00b7 foonathan/lexy",
+        "link": "https://github.com/foonathan/lexy/blob/main/examples/calculator.cpp",
+        "snippet": "calculator.cpp. Copy path. Blame. Blame ... std::map<std::string, function> fns;. }; struct expr. {. virtual ~expr() = default;. virtual int ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Function Assignment grade calculator",
+        "link": "https://stackoverflow.com/questions/39114510/c-function-assignment-grade-calculator",
+        "snippet": "C++ Function Assignment grade calculator ; #include <iostream> using namespace \u00b7 void calculateGrade() ; int \u00b7 int \u00b7 if \u00b7 85 ; \"The Course grade is: A\" ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07264150943396226,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 21,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.44999999999999996,
+    "matching_sources": []
+  },
+  "teststudent3_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution1/teststudent3_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:11.439983",
+    "queries_used": [
+      "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "C++ Basic Calculator",
+        "link": "https://stackoverflow.com/questions/46330783/c-basic-calculator",
+        "snippet": "I'm new to C++ and programming in General. I was assigned to make a calculator for my C++ class and this is what I have so far. #include < ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.12113143052054245,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator in C++ using class template to automatically call ...",
+        "link": "https://stackoverflow.com/questions/74568206/calculator-in-c-using-class-template-to-automatically-call-the-datatype-that-t",
+        "snippet": "I want to make a calculator in C++ for addition, subtraction, multiplication and division using class template and in the main function,",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.12113143052054245,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ calculator Using classes",
+        "link": "https://stackoverflow.com/questions/57248172/c-calculator-using-classes",
+        "snippet": "Simple calculator in C++ \u00b7 1 \u00b7 Calculator Class Functions \u00b7 0 \u00b7 Simple C++ Inclusive Calculator Code Review \u00b7 0 \u00b7 First C++ program help ( ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.1148499493180404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to make a calculator in c++ using if else and functions?",
+        "link": "https://stackoverflow.com/questions/53459411/how-to-make-a-calculator-in-c-using-if-else-and-functions",
+        "snippet": "How to make a calculator in c++ using if else and functions? ; namespace std; void fun(float a, float b); int main() ; char op; //operands and ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09202699778676354,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lexy/examples/calculator.cpp at main \u00b7 foonathan/lexy",
+        "link": "https://github.com/foonathan/lexy/blob/main/examples/calculator.cpp",
+        "snippet": "calculator.cpp. Copy path. Blame. Blame ... std::map<std::string, function> fns;. }; struct expr. {. virtual ~expr() = default;. virtual int ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.09193815038502161,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A simple calculator written in C++",
+        "link": "https://gist.github.com/aziflaj/68813816ef298a03cd4b",
+        "snippet": "Name: CALCULATOR v1.0. Author: Aldo Ziflaj. Date: 01-01-13 12:01. Description: A simple calculator that can add, subtract multiply, divide,.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.0763955177302751,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a very basic calculator in C++",
+        "link": "https://stackoverflow.com/questions/72702243/creating-a-very-basic-calculator-in-c",
+        "snippet": "I attempted to make a basic calculator that instead of just being able to add could subtract, divide and multiply but it still seems to only be able to add.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Advanced Calculator Using C++.",
+        "link": "https://github.com/MuhammedMagdyy/Advanced-Calculator",
+        "snippet": "Advanced Calculator. A console app from scratch using C++ that has Basic operations, Advanced operations like sqrt and power, ASCII table, and ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Simple gui calculator made with C++ and SFML library",
+        "link": "https://github.com/duckmaniac/simple-calculator",
+        "snippet": "Simple GUI Calculator. A lightweight and intuitive calculator application built with C++ and powered by the SFML library. Perform basic arithmetic operations ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Simple Calculator in C++. It uses an Abstract Syntax Tree ...",
+        "link": "https://github.com/PanagiotisPtr/Calculator-Cpp",
+        "snippet": "Simple Calculator in C++. It uses an Abstract Syntax Tree and the Shunting yard algorithm to parse mathematical expressions.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "DaringCuteSeal/cpp-shunting-calc: Basic calculator ...",
+        "link": "https://github.com/DaringCuteSeal/cpp-shunting-calc/",
+        "snippet": "Shunting-Yard Calculator ... This project is a basic implementation of the Shunting-Yard algorithm which is used to parse an infix notation input and turn it into ...",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "simplykeerthana/Calculator_CPP: A C++ calculator ...",
+        "link": "https://github.com/simplykeerthana/Calculator_CPP",
+        "snippet": "A C++ calculator application with efficient user of memory, process user inputs, and mimics a production-grade application.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "a simple RPN calculator written in C++",
+        "link": "https://gist.github.com/dvtate/19d1b67bd454073bf8c7d70b3e3cc79e",
+        "snippet": "RPN Calculator. Place the operator after its two operands. Here is an example: 1 1 + ans = 2 To use the previous answer replace one number with ans.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A basic calculator made in C++. Back-end logic, Unit Tests ...",
+        "link": "https://github.com/Si-ja/Basic-Calculator-CPP",
+        "snippet": "This project holds a basic example of how a calculator could be built in C++. 3 components are utilized.",
+        "query": "\"Calculator\" implementation cpp site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.85,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "OOP classes design: two numbers calculator - c++",
+        "link": "https://stackoverflow.com/questions/66203137/oop-classes-design-two-numbers-calculator",
+        "snippet": "The problem is that write a two numbers calculator(+,-,*,/) using OOP. Based on intuition(I haven't learned design pattern yet), I wrote the code like this.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "christopher-siewert/cpp-calculator: Simple command line ...",
+        "link": "https://github.com/christopher-siewert/cpp-calculator",
+        "snippet": "This is an extremely simple calculator I made while learning C++. Download the repo, compile and run it.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A Simple Scientific Calculator on C++",
+        "link": "https://gist.github.com/3be0b62c98c17e76e0df",
+        "snippet": "A Simple Scientific Calculator on C++. GitHub Gist: instantly share code, notes, and snippets.",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator Class Functions - c++",
+        "link": "https://stackoverflow.com/questions/12681893/calculator-class-functions",
+        "snippet": "In your calculator class, make a variable which stores the last calculation performed. These two functions would be able to store the value in ...",
+        "query": "\"Calculator\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculator using function in C++",
+        "link": "https://stackoverflow.com/questions/53605615/calculator-using-function-in-c",
+        "snippet": "I am making a simple calculator using function but i am having an error. I tried to resolved it could not do so. I tried again and again but ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Creating a simple 4 function calculator. Using visual ...",
+        "link": "https://stackoverflow.com/questions/48799020/creating-a-simple-4-function-calculator-using-visual-studios-2017",
+        "snippet": "Write a program, which will act as a simple four-function calculator. That is it will read a number, read an operator, read another number, then do the ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Function Assignment grade calculator",
+        "link": "https://stackoverflow.com/questions/39114510/c-function-assignment-grade-calculator",
+        "snippet": "C++ Function Assignment grade calculator ; #include <iostream> using namespace \u00b7 void calculateGrade() ; int \u00b7 int \u00b7 if \u00b7 85 ; \"The Course grade is: A\" ...",
+        "query": "\"Calculator\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07484042553191488,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 21,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.44999999999999996,
+    "matching_sources": []
+  }
+}

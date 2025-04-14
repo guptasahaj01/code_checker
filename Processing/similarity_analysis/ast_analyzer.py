@@ -37,6 +37,10 @@ class ASTAnalyzer:
         self.difficulty = difficulty
         self.threshold = self.get_threshold(difficulty)
         
+        # Add configurable weights for similarity calculations
+        self.structure_weight = 0.7  # Weight for structural similarity
+        self.types_weight = 0.3      # Weight for node type distribution similarity
+        
         # Language-specific patterns and processors
         self._setup_language_processors()
     
@@ -129,8 +133,11 @@ class ASTAnalyzer:
                     node_types_by_submission[sid2]
                 )
                 
-                # Combined similarity (weighted average)
-                similarity_matrix[i, j] = 0.7 * structure_sim + 0.3 * types_sim
+                # Combined similarity with configurable weights
+                similarity_matrix[i, j] = (
+                    self.structure_weight * structure_sim + 
+                    self.types_weight * types_sim
+                )
         
         # Find suspicious pairs
         suspicious_pairs = []
@@ -308,35 +315,64 @@ class ASTAnalyzer:
         # These are simplified approximations of language structures
         patterns = {
             'c': {
-                'Function': r'(\w+)\s+(\w+)\s*\([^)]*\)\s*\{',
-                'If': r'if\s*\([^)]*\)',
-                'For': r'for\s*\([^)]*\)',
-                'While': r'while\s*\([^)]*\)',
-                'Switch': r'switch\s*\([^)]*\)',
+                'Function': r'(\w+)\s+(\w+)\s*\([^{]*\)\s*\{',  # More flexible function pattern
+                'If': r'if\s*\([^{]*\)',
+                'Else': r'else\s*[\{]?',
+                'ElseIf': r'else\s+if\s*\([^{]*\)',
+                'For': r'for\s*\([^{]*\)',
+                'While': r'while\s*\([^{]*\)',
+                'DoWhile': r'do\s*\{',
+                'Switch': r'switch\s*\([^{]*\)',
+                'Case': r'case\s+[^:]*:',
                 'StructDef': r'struct\s+(\w+)',
-                'Return': r'return\s+[^;]*;'
+                'Return': r'return\s*[^;]*;',
+                'Assignment': r'=\s*[^;]*;',
+                'VariableDecl': r'(int|char|float|double|void|long|short|unsigned)\s+\w+[^;]*;',
+                'FunctionCall': r'\b\w+\s*\([^;{]*\)',
+                'ArrayAccess': r'\w+\s*\[[^\]]*\]'
             },
             'cpp': {
-                'Function': r'(\w+)\s+(\w+)\s*\([^)]*\)\s*\{',
+                'Function': r'(\w+)\s+(\w+)\s*\([^{]*\)\s*\{',  # More flexible function pattern
                 'Class': r'class\s+(\w+)',
-                'If': r'if\s*\([^)]*\)',
-                'For': r'for\s*\([^)]*\)',
-                'While': r'while\s*\([^)]*\)',
+                'Struct': r'struct\s+(\w+)',
+                'If': r'if\s*\([^{]*\)',
+                'Else': r'else\s*[\{]?',
+                'ElseIf': r'else\s+if\s*\([^{]*\)', 
+                'For': r'for\s*\([^{]*\)',
+                'ForEach': r'for\s*\(\s*(?:const\s+)?(?:auto|[:\w<>, ]+)(?:\s+&|\s+\*|\s+)?\s*\w+\s*:[^{]*\)',
+                'While': r'while\s*\([^{]*\)',
+                'DoWhile': r'do\s*\{',
+                'Switch': r'switch\s*\([^{]*\)',
+                'Case': r'case\s+[^:]*:',
                 'Try': r'try\s*\{',
-                'Catch': r'catch\s*\([^)]*\)',
-                'TemplateDecl': r'template\s*<[^>]*>',
-                'Return': r'return\s+[^;]*;'
+                'Catch': r'catch\s*\([^{]*\)',
+                'TemplateDecl': r'template\s*<[^{]*>',
+                'Return': r'return\s*[^;]*;',
+                'Assignment': r'=\s*[^;]*;',
+                'VariableDecl': r'(int|char|float|double|void|long|short|unsigned|bool|auto|string|vector|map|set|queue|stack|deque|list)\s*[<[]?[\w:, ]*[>\]]?\s+\w+[^;]*;',
+                'FunctionCall': r'\b\w+\s*\([^;{]*\)',
+                'ArrayAccess': r'\w+\s*\[[^\]]*\]',
+                'RangeLoop': r'for\s*\(\s*auto',
+                'LambdaFunc': r'\[[^\]]*\]\s*\([^{]*\)\s*(?:mutable\s*)?(?:->.*?)?\s*\{',
+                'STLAlgorithm': r'(sort|find|count|transform|accumulate|replace|copy|fill|remove|for_each)\s*\('
             },
             'java': {
-                'Function': r'(\w+)\s+(\w+)\s*\([^)]*\)\s*\{',
+                'Function': r'(\w+)\s+(\w+)\s*\([^{]*\)\s*\{',  # More flexible function pattern
                 'Class': r'class\s+(\w+)',
                 'Interface': r'interface\s+(\w+)',
-                'If': r'if\s*\([^)]*\)',
-                'For': r'for\s*\([^)]*\)',
-                'While': r'while\s*\([^)]*\)',
+                'If': r'if\s*\([^{]*\)',
+                'Else': r'else\s*[\{]?',
+                'ElseIf': r'else\s+if\s*\([^{]*\)',
+                'For': r'for\s*\([^{]*\)',
+                'ForEach': r'for\s*\(\s*\w+\s+\w+\s*:\s*[^{]*\)',
+                'While': r'while\s*\([^{]*\)',
+                'Switch': r'switch\s*\([^{]*\)',
                 'Try': r'try\s*\{',
-                'Catch': r'catch\s*\([^)]*\)',
-                'Return': r'return\s+[^;]*;'
+                'Catch': r'catch\s*\([^{]*\)',
+                'Return': r'return\s*[^;]*;',
+                'VariableDecl': r'(\w+)\s+\w+[^;]*;',
+                'FunctionCall': r'\b\w+\s*\([^;{]*\)',
+                'ArrayAccess': r'\w+\s*\[[^\]]*\]'
             }
         }
         
@@ -345,16 +381,21 @@ class ASTAnalyzer:
         
         # Count occurrences of each pattern
         for node_type, pattern in lang_patterns.items():
-            matches = re.findall(pattern, code, re.MULTILINE)
-            count = len(matches)
-            if count > 0:
-                node_types[node_type] = count
-                # For structure analysis, record each match with position
-                for match in re.finditer(pattern, code, re.MULTILINE):
-                    node_structure.append((node_type, {
-                        'position': match.start(),
-                        'length': match.end() - match.start(),
-                    }))
+            try:
+                matches = re.findall(pattern, code, re.MULTILINE)
+                count = len(matches)
+                if count > 0:
+                    node_types[node_type] = count
+                    # For structure analysis, record each match with position
+                    for match in re.finditer(pattern, code, re.MULTILINE):
+                        node_structure.append((node_type, {
+                            'position': match.start(),
+                            'length': match.end() - match.start(),
+                        }))
+            except Exception as e:
+                # Handle regex errors gracefully
+                print(f"Warning: Error detecting {node_type} pattern: {str(e)}")
+                continue
         
         # For languages other than Python, also consider the bracket depth profile
         # This gives us information about nesting structure
@@ -365,13 +406,22 @@ class ASTAnalyzer:
             if char == '{':
                 bracket_depth += 1
             elif char == '}':
-                bracket_depth -= 1
+                bracket_depth = max(0, bracket_depth - 1)  # Prevent negative depths
             
             if i % 20 == 0:  # Sample every 20 characters
                 depth_profile.append(bracket_depth)
         
         # Add the depth profile as a structural element
         node_structure.append(('DepthProfile', {'profile': depth_profile}))
+        
+        # Add basic code metrics as structural elements
+        code_lines = code.split('\n')
+        node_structure.append(('CodeMetrics', {
+            'lines': len(code_lines),
+            'chars': len(code),
+            'statements': code.count(';'),
+            'blocks': code.count('{')
+        }))
         
         return node_types, node_structure
     
@@ -386,8 +436,10 @@ class ASTAnalyzer:
         Returns:
             Similarity score between 0.0 and 1.0
         """
+        # Even with empty structures, ensure a minimum baseline similarity for submissions 
+        # to the same problem (based on the assumption that they're trying to solve the same task)
         if not structure1 or not structure2:
-            return 0.0
+            return 0.05  # Return minimum baseline similarity instead of 0.0
         
         # For Python, we have actual AST node structures
         if self.language == 'python':
@@ -400,28 +452,81 @@ class ASTAnalyzer:
             union = len(fingerprint1.union(fingerprint2))
             
             if union == 0:
-                return 0.0
+                return 0.05  # Return minimum baseline similarity instead of 0.0
             
             return intersection / union
         
         # For other languages, use simpler sequence-based comparison
         else:
             # Extract types in sequence
-            types1 = [item[0] for item in structure1 if item[0] != 'DepthProfile']
-            types2 = [item[0] for item in structure2 if item[0] != 'DepthProfile']
+            types1 = [item[0] for item in structure1 if item[0] != 'DepthProfile' and item[0] != 'CodeMetrics']
+            types2 = [item[0] for item in structure2 if item[0] != 'DepthProfile' and item[0] != 'CodeMetrics']
             
             # Compare depth profiles if available
             depth_profile1 = next((item[1]['profile'] for item in structure1 if item[0] == 'DepthProfile'), [])
             depth_profile2 = next((item[1]['profile'] for item in structure2 if item[0] == 'DepthProfile'), [])
             
+            # Get code metrics if available
+            metrics1 = next((item[1] for item in structure1 if item[0] == 'CodeMetrics'), {})
+            metrics2 = next((item[1] for item in structure2 if item[0] == 'CodeMetrics'), {})
+            
+            # Add frequencies to create a more robust comparison
+            type_freq1 = Counter(types1)
+            type_freq2 = Counter(types2)
+            
+            # Calculate similarity of type histograms (using cosine similarity)
+            # This is less sensitive to exact structural matching
+            all_types = set(type_freq1.keys()).union(set(type_freq2.keys()))
+            if all_types:
+                v1 = np.array([type_freq1.get(t, 0) for t in all_types])
+                v2 = np.array([type_freq2.get(t, 0) for t in all_types])
+                
+                norm1 = np.linalg.norm(v1)
+                norm2 = np.linalg.norm(v2)
+                
+                if norm1 > 0 and norm2 > 0:
+                    v1_norm = v1 / norm1
+                    v2_norm = v2 / norm2
+                    type_hist_similarity = float(np.dot(v1_norm, v2_norm))
+                else:
+                    type_hist_similarity = 0.0
+            else:
+                type_hist_similarity = 0.05  # Minimum baseline
+            
             # Calculate similarity of type sequences (using Jaccard)
+            # Create n-grams of types to better capture sequence patterns
+            def create_ngrams(seq, n=2):
+                return [tuple(seq[i:i+n]) for i in range(len(seq)-n+1)]
+            
+            # Create bigrams and trigrams if sequences are long enough
+            bigrams1 = set(create_ngrams(types1, 2)) if len(types1) >= 2 else set()
+            bigrams2 = set(create_ngrams(types2, 2)) if len(types2) >= 2 else set()
+            
+            trigrams1 = set(create_ngrams(types1, 3)) if len(types1) >= 3 else set()
+            trigrams2 = set(create_ngrams(types2, 3)) if len(types2) >= 3 else set()
+            
+            # Calculate Jaccard similarity for bigrams
+            bigram_sim = 0.0
+            if bigrams1 and bigrams2:
+                bigram_intersection = len(bigrams1.intersection(bigrams2))
+                bigram_union = len(bigrams1.union(bigrams2))
+                bigram_sim = bigram_intersection / bigram_union if bigram_union > 0 else 0.0
+            
+            # Calculate Jaccard similarity for trigrams
+            trigram_sim = 0.0
+            if trigrams1 and trigrams2:
+                trigram_intersection = len(trigrams1.intersection(trigrams2))
+                trigram_union = len(trigrams1.union(trigrams2))
+                trigram_sim = trigram_intersection / trigram_union if trigram_union > 0 else 0.0
+            
+            # Regular type sequence similarity (for backward compatibility)
             types_set1 = set(zip(types1, range(len(types1))))
             types_set2 = set(zip(types2, range(len(types2))))
             
             types_intersection = len(types_set1.intersection(types_set2))
             types_union = len(types_set1.union(types_set2))
             
-            types_similarity = types_intersection / types_union if types_union > 0 else 0.0
+            types_sequence_similarity = types_intersection / types_union if types_union > 0 else 0.0
             
             # Calculate depth profile similarity
             depth_similarity = 0.0
@@ -437,8 +542,29 @@ class ASTAnalyzer:
                     # Convert to similarity (1.0 for identical, decreasing for more differences)
                     depth_similarity = 1.0 / (1.0 + mse)
             
-            # Combine similarities (weighting types more heavily)
-            return 0.7 * types_similarity + 0.3 * depth_similarity
+            # Calculate metrics similarity
+            metrics_similarity = 0.0
+            if metrics1 and metrics2:
+                # Compare ratio of lines, statements, blocks
+                lines_ratio = min(metrics1.get('lines', 0), metrics2.get('lines', 0)) / max(metrics1.get('lines', 1), metrics2.get('lines', 1))
+                stmt_ratio = min(metrics1.get('statements', 0), metrics2.get('statements', 0)) / max(metrics1.get('statements', 1), metrics2.get('statements', 1))
+                blocks_ratio = min(metrics1.get('blocks', 0), metrics2.get('blocks', 0)) / max(metrics1.get('blocks', 1), metrics2.get('blocks', 1))
+                
+                metrics_similarity = (lines_ratio + stmt_ratio + blocks_ratio) / 3
+            
+            # Combine similarities with weighted approach
+            structure_sim = (
+                0.25 * type_hist_similarity +   # Histogram of node types (most robust)
+                0.25 * (bigram_sim + trigram_sim) / 2 +  # N-gram sequence patterns
+                0.15 * types_sequence_similarity +  # Direct sequence matching
+                0.20 * depth_similarity +  # Code nesting structure
+                0.15 * metrics_similarity   # Basic code metrics
+            )
+            
+            # Always ensure at least a small baseline similarity
+            structure_sim = max(0.05, structure_sim)
+            
+            return structure_sim
     
     def _normalize_profile(self, profile: List[int], target_len: int) -> List[float]:
         """
@@ -512,11 +638,16 @@ class ASTAnalyzer:
         Returns:
             Similarity score between 0.0 and 1.0
         """
+        # Ensure minimum similarity baseline
         if not types1 or not types2:
-            return 0.0
+            return 0.05
         
         # Get all unique node types
         all_types = set(types1.keys()).union(set(types2.keys()))
+        
+        # If there are no types at all, return minimum baseline
+        if not all_types:
+            return 0.05
         
         # Prepare vectors
         vec1 = np.array([types1.get(t, 0) for t in all_types])
@@ -526,14 +657,28 @@ class ASTAnalyzer:
         norm1 = np.linalg.norm(vec1)
         norm2 = np.linalg.norm(vec2)
         
+        # If either vector is all zeros, return minimum baseline
         if norm1 == 0 or norm2 == 0:
-            return 0.0
+            return 0.05
         
         vec1_norm = vec1 / norm1
         vec2_norm = vec2 / norm2
         
         # Calculate cosine similarity
-        return float(np.dot(vec1_norm, vec2_norm))
+        cosine_similarity = float(np.dot(vec1_norm, vec2_norm))
+        
+        # Calculate Jaccard similarity as an alternative metric
+        nonzero1 = set(t for i, t in enumerate(all_types) if vec1[i] > 0)
+        nonzero2 = set(t for i, t in enumerate(all_types) if vec2[i] > 0)
+        
+        jaccard_similarity = 0.0
+        if nonzero1 or nonzero2:  # Avoid division by zero
+            intersection = len(nonzero1.intersection(nonzero2))
+            union = len(nonzero1.union(nonzero2))
+            jaccard_similarity = intersection / union
+        
+        # Return weighted combination of cosine and Jaccard similarities
+        return 0.7 * cosine_similarity + 0.3 * jaccard_similarity
     
     def get_threshold(self, difficulty: str) -> float:
         """

@@ -1,0 +1,47 @@
+class Calculator {
+private:
+double result;
+public:
+Calculator() : result(0) {}
+void add(double num) {
+result += num;
+}
+void subtract(double num) {
+result -= num;
+}
+void multiply(double num) {
+result *= num;
+}
+void divide(double num) {
+if (num != 0) {
+result /= num;
+} else {
+cout << "Error: Division by zero" << endl;
+}
+}
+double getResult() const {
+return result;
+}
+void clear() {
+result = 0;
+}
+}
+
+int main() {
+Calculator calc;
+cout << "Calculator Test:" << endl;
+cout << "Initial value: " << calc.getResult() << endl;
+calc.add(10);
+cout << "After adding 10: " << calc.getResult() << endl;
+calc.subtract(5);
+cout << "After subtracting 5: " << calc.getResult() << endl;
+calc.multiply(2);
+cout << "After multiplying by 2: " << calc.getResult() << endl;
+calc.divide(5);
+cout << "After dividing by 5: " << calc.getResult() << endl;
+calc.divide(0);
+cout << "After attempting to divide by 0: " << calc.getResult() << endl;
+calc.clear();
+cout << "After clearing: " << calc.getResult() << endl;
+return 0;
+}

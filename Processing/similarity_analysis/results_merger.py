@@ -55,6 +55,9 @@ class ResultsMerger:
         # Track all pairs with their similarities for combined analysis
         pair_similarities = {}
         
+        # Create pair dictionaries to ensure we track all pairs from both methods
+        all_pairs_dict = {}
+        
         # Process TF-IDF results
         if tfidf_results:
             merged_results["detection_methods"].append("TF-IDF")
@@ -86,6 +89,9 @@ class ResultsMerger:
                         "pair": pair,
                         "methods": ["TF-IDF"]
                     }
+                    
+                    # Track all pairs for cross-method matching
+                    all_pairs_dict[sorted_pair] = pair
         
         # Process AST results
         if ast_results:
@@ -112,6 +118,9 @@ class ResultsMerger:
                     sorted_pair = tuple(sorted(pair))
                     similarity = float(similarity)
                     
+                    # Track all pairs for cross-method matching
+                    all_pairs_dict[sorted_pair] = pair
+                    
                     if sorted_pair in pair_similarities:
                         # Update existing entry
                         pair_similarities[sorted_pair]["ast"] = similarity
@@ -123,6 +132,64 @@ class ResultsMerger:
                             "pair": pair,
                             "methods": ["AST"]
                         }
+        
+        # Make sure all pairs are represented in both methods if possible
+        if tfidf_results and ast_results:
+            # For each pair in TF-IDF, make sure we have a corresponding AST entry if available
+            tfidf_submission_ids = tfidf_results.get("submission_ids", [])
+            ast_submission_ids = ast_results.get("submission_ids", [])
+            
+            # Get similarity matrices
+            tfidf_matrix = tfidf_results.get("similarity_matrix", [])
+            ast_matrix = ast_results.get("similarity_matrix", [])
+            
+            # Add any missing TF-IDF entries for pairs found in AST
+            for sorted_pair, original_pair in all_pairs_dict.items():
+                if sorted_pair not in pair_similarities and tfidf_submission_ids:
+                    # Create a new entry with TF-IDF=0
+                    pair_similarities[sorted_pair] = {
+                        "tfidf": 0.0,
+                        "pair": original_pair,
+                        "methods": []
+                    }
+                
+                # If a pair exists in one method but not the other, find its similarity in the other method
+                if sorted_pair in pair_similarities:
+                    data = pair_similarities[sorted_pair]
+                    
+                    # If TF-IDF is missing but we have TF-IDF results
+                    if "tfidf" not in data and tfidf_submission_ids:
+                        # Find the indices in the TF-IDF matrix
+                        try:
+                            idx1 = tfidf_submission_ids.index(sorted_pair[0])
+                            idx2 = tfidf_submission_ids.index(sorted_pair[1])
+                            
+                            if tfidf_matrix and idx1 < len(tfidf_matrix) and idx2 < len(tfidf_matrix[idx1]):
+                                # Get the TF-IDF similarity
+                                tfidf_sim = tfidf_matrix[idx1][idx2]
+                                data["tfidf"] = float(tfidf_sim)
+                                if "TF-IDF" not in data["methods"]:
+                                    data["methods"].append("TF-IDF")
+                        except (ValueError, IndexError):
+                            # If we can't find the indices, set TF-IDF to 0
+                            data["tfidf"] = 0.0
+                    
+                    # If AST is missing but we have AST results
+                    if "ast" not in data and ast_submission_ids:
+                        # Find the indices in the AST matrix
+                        try:
+                            idx1 = ast_submission_ids.index(sorted_pair[0])
+                            idx2 = ast_submission_ids.index(sorted_pair[1])
+                            
+                            if ast_matrix and idx1 < len(ast_matrix) and idx2 < len(ast_matrix[idx1]):
+                                # Get the AST similarity
+                                ast_sim = ast_matrix[idx1][idx2]
+                                data["ast"] = float(ast_sim)
+                                if "AST" not in data["methods"]:
+                                    data["methods"].append("AST")
+                        except (ValueError, IndexError):
+                            # If we can't find the indices, leave AST as is
+                            pass
         
         # Calculate combined similarities
         for sorted_pair, data in pair_similarities.items():
@@ -153,23 +220,20 @@ class ResultsMerger:
             # Add to all suspicious pairs
             merged_results["all_suspicious_pairs"].append(list(pair))
             
+            # Always include TF-IDF and AST values, never set to null
+            result_entry = {
+                "pair": list(pair),
+                "similarity": combined_similarity,
+                "tfidf_similarity": tfidf_sim if "TF-IDF" in methods else 0.0,
+                "ast_similarity": ast_sim if "AST" in methods else 0.0,
+                "detection_method": detection_method
+            }
+            
             # Categorize based on similarity threshold
             if combined_similarity >= self.high_threshold:
-                merged_results["high_confidence_pairs"].append({
-                    "pair": list(pair),
-                    "similarity": combined_similarity,
-                    "tfidf_similarity": tfidf_sim if "TF-IDF" in methods else None,
-                    "ast_similarity": ast_sim if "AST" in methods else None,
-                    "detection_method": detection_method
-                })
+                merged_results["high_confidence_pairs"].append(result_entry)
             elif combined_similarity >= self.review_threshold:
-                merged_results["needs_review_pairs"].append({
-                    "pair": list(pair),
-                    "similarity": combined_similarity,
-                    "tfidf_similarity": tfidf_sim if "TF-IDF" in methods else None,
-                    "ast_similarity": ast_sim if "AST" in methods else None,
-                    "detection_method": detection_method
-                })
+                merged_results["needs_review_pairs"].append(result_entry)
         
         # Calculate combined average and max similarity
         if tfidf_results and ast_results:

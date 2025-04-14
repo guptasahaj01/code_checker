@@ -1,0 +1,890 @@
+{
+  "teststudent1_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_6085e8b363b04b2092f66ce3ecb913e7/results/organized/solution2/teststudent1_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:01:26.220106",
+    "queries_used": [
+      "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Initialize reference member of base class - c++",
+        "link": "https://stackoverflow.com/questions/32935003/initialize-reference-member-of-base-class",
+        "snippet": "class Circle : public Shape { public: Circle(Point p); Circle(Point p, float radius); ~Circle(); float get_radius() const; private: float ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2084558393199466,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a class to calculate area of a circle using Point ...",
+        "link": "https://stackoverflow.com/questions/17517400/creating-a-class-to-calculate-area-of-a-circle-using-point-class-in-c",
+        "snippet": "I am trying to creates a class Circle that calculates area of a circle. It uses a basic Point class that initializes 2 points, one as the center one as a point ...",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.14801277047091987,
+        "is_plagiarism": false
+      },
+      {
+        "title": "designing shape class with circle and triangle - c++",
+        "link": "https://stackoverflow.com/questions/44666561/designing-shape-class-with-circle-and-triangle",
+        "snippet": "Consider the classic example of shape base class and derived triangle and circle classes. So circle is-a shape and so is triangle is-a shape.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.14801277047091987,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot figure out how to calculate radius of the circle in ...",
+        "link": "https://stackoverflow.com/questions/71593426/cannot-figure-out-how-to-calculate-radius-of-the-circle-in-the-given-code",
+        "snippet": "I need to calculate the radius of the circle in the code. #include <iostream> #include <cmath> using namespace std; class Circle { float ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14801277047091987,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Circular Inheritance and Class",
+        "link": "https://stackoverflow.com/questions/10676640/c-circular-inheritance-and-class",
+        "snippet": "class Circle: Circle. You have a class that inherits from itself, how could that work?",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14801277047091987,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Circular Inheritance in c++",
+        "link": "https://stackoverflow.com/questions/15284564/circular-inheritance-in-c",
+        "snippet": "You can either have a reference or a pointer to an object of class Line or Circel, e.g. class Line; class Circle. You need the above lines ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14801277047091987,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Returning a boolean value from a Circle Class C++",
+        "link": "https://stackoverflow.com/questions/26636151/returning-a-boolean-value-from-a-circle-class-c",
+        "snippet": "class Circle { //defining the private memeber variables private: double radius, xpos, ypos; //defining the public member variables public ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14801277047091987,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Java Program to Calculate and Display Area of a Circle",
+        "link": "https://www.geeksforgeeks.org/java-program-to-calculate-and-display-area-of-a-circle/",
+        "snippet": "The area of the circle can be calculated by using the formula: Area = 3.142*(radius)*(radius) Below is the Java Program to calculate the area of the circle.",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.12103109137479237,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Program to find area of a circle",
+        "link": "https://www.geeksforgeeks.org/c-program-find-area-circle/",
+        "snippet": "Given the radius r. Find the area of a circle. The area of the circle should be correct up to 5 decimal places.",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.10804981182506078,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Overloaded Circle() is ambiguous in C++ Circle Class",
+        "link": "https://stackoverflow.com/questions/26633751/overloaded-circle-is-ambiguous-in-c-circle-class",
+        "snippet": "Your problem is this: Circle(double r = 0); Circle();. Nothing much more to say about it that isn't already obvious from the above.",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.09764624451431667,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Calculate Area and Circumference of a Circle with input in ...",
+        "link": "https://stackoverflow.com/questions/3827532/calculate-area-and-circumference-of-a-circle-with-input-in-c",
+        "snippet": "James George Hayek PCCC Assignment 2 Prof Siegel This program will calculate the area and circumference of a circle.",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "undefined reference to `typeinfo and 'vtable - c++",
+        "link": "https://stackoverflow.com/questions/14927717/undefined-reference-to-typeinfo-and-vtable",
+        "snippet": "I'm currently working on a program that employs the user of virtual functions. I am using only one virtual function and have come across what seems to be a ...",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to use the PI constant in C++",
+        "link": "https://stackoverflow.com/questions/1727881/how-to-use-the-pi-constant-in-c",
+        "snippet": "I want to use the PI constant and trigonometric functions in some C++ program. I get the trigonometric functions with include <math.h>. However, there doesn't ...",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Use Math class to calculate - java",
+        "link": "https://stackoverflow.com/questions/2481443/use-math-class-to-calculate",
+        "snippet": "Write a JAVA program that calculates the surface area of a cylinder, C= 2( \u03c0 r2) + 2 \u03c0 rh, where r is the radius and h is the height of the cylinder.",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Program for Cylinder Volume and Area",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-calculate-the-volume-and-area-of-the-cylinder",
+        "snippet": "Learn how to calculate the volume and surface area of a cylinder using C++ programming. Step-by-step guide with examples.",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Pascal Quick Guide",
+        "link": "https://www.tutorialspoint.com/pascal/pascal_quick_guide.htm",
+        "snippet": "Explore the essentials of Pascal programming with this quick guide, covering syntax, data types, control structures, and more.",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "PHP Quick Guide",
+        "link": "https://www.tutorialspoint.com/php/php_quick_guide.htm",
+        "snippet": "Explore the PHP Quick Guide for essential PHP concepts, syntax, and functions to enhance your web development skills.",
+        "query": "\"class Circle { private: double radius; const double PI = 3.14159; public: Circle(double r) : radius(r) {} double calculateArea() {\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Drawing a Circle with Class in C++",
+        "link": "https://stackoverflow.com/questions/58413469/drawing-a-circle-with-class-in-c",
+        "snippet": "I'm currently writing a program where I have to draw three circle shapes from a class(data structure) that will output in the console.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Class Instance of Circle in OOP - c++",
+        "link": "https://stackoverflow.com/questions/42944297/class-instance-of-circle-in-oop",
+        "snippet": "I am currently having some problem with OOP regarding the Circle class. At this time, I have developed the Implementation and the Specification ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "circle/examples/README.md at master \u00b7 seanbaxter/circle",
+        "link": "https://github.com/seanbaxter/circle/blob/master/examples/README.md",
+        "snippet": "Circle allows you to deploy your object-oriented and imperative intuition, gained while programming C++ or Java or C# or Python, and employ it to write generic ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Making a circle with '*' C++",
+        "link": "https://stackoverflow.com/questions/66681326/making-a-circle-with-c",
+        "snippet": "I am making a circle and the code works fine but the problem is that even though it is working the circle is not perfect, or close as it can be.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "rsta2/circle: A C++ bare metal environment for Raspberry ...",
+        "link": "https://github.com/rsta2/circle",
+        "snippet": "Circle provides several ready-tested C++ classes and add-on libraries, which can be used to control different hardware features of the Raspberry Pi. Together ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "oop/various/COP3330/lect2/circle.cpp at master",
+        "link": "https://github.com/chgogos/oop/blob/master/various/COP3330/lect2/circle.cpp",
+        "snippet": "#include <iostream> using namespace std; // \u0394\u03ae\u03bb\u03c9\u03c3\u03b7 \u03ba\u03bb\u03ac\u03c3\u03b7\u03c2 Circle class Circle { public: Circle(); // \u03b1\u03c5\u03c4\u03cc\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ad\u03bd\u03b1\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ae\u03c2 Circle(double r); // \u03ba\u03b1\u03b9 ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "seanbaxter/circle: The compiler is available for download. ...",
+        "link": "https://github.com/seanbaxter/circle",
+        "snippet": "New Circle is the richest C++ compiler yet. Try out: choice types,; pattern matching,; interfaces and impls,; language type erasure,; as-expressions for safer ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "circle/reflection/README.md at master \u00b7 seanbaxter/circle",
+        "link": "https://github.com/seanbaxter/circle/blob/master/reflection/README.md",
+        "snippet": "Circle defines dozens of extension keywords that provide introspection information into user-defined types.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09578947368421051,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 25,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "teststudent3_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_6085e8b363b04b2092f66ce3ecb913e7/results/organized/solution2/teststudent3_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:01:44.770173",
+    "queries_used": [
+      "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "How can I double a variable using class mutator in c++",
+        "link": "https://stackoverflow.com/questions/49142895/how-can-i-double-a-variable-using-class-mutator-in-c",
+        "snippet": "... int Rectangle::calculateArea() { return width * height; } // end of Rectangle class implementation void displayRectangle(Rectangle r); void ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30442730657528955,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Interactive Charts",
+        "link": "https://gist.github.com/mehak-sachdeva/503588cc042fd4b5500128034beae71a",
+        "snippet": "calculateCircumference: function(value) {. var total = this.getMeta().total;. if (total > 0 && !isNaN(value)) {. return (Math.PI * 2.0) * (value / total);.",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3006390797696734,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Chart.js",
+        "link": "https://gist.github.com/ganeshapp/63b4c1d1aaaaf9ee3cf96918ee821c6c",
+        "snippet": "calculateCircumference: function(value) {. var total = this.getMeta().total;. if (total > 0 && !isNaN(value)) {. return DOUBLE_PI$1 * (Math.abs(value) / total);.",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2984227470447568,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ using float numbers, functions not calculating valid data",
+        "link": "https://stackoverflow.com/questions/45315445/c-using-float-numbers-functions-not-calculating-valid-data",
+        "snippet": "The functions must not be calling correctly. example of output >The ... calculateArea() { area = length * width; return area; } float ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29763267957256156,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++: undefined reference to Constructor",
+        "link": "https://stackoverflow.com/questions/65590346/c-undefined-reference-to-constructor",
+        "snippet": "Rectangle::calculateCircumference() { return 2*(width+height); }. Shape.h #ifndef SHAPE_H_INCLUDED #define SHAPE_H_INCLUDED class Shape ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2838129514193006,
+        "is_plagiarism": false
+      },
+      {
+        "title": "designing shape class with circle and triangle - c++",
+        "link": "https://stackoverflow.com/questions/44666561/designing-shape-class-with-circle-and-triangle",
+        "snippet": "Consider the classic example of shape base class and derived triangle and circle classes. So circle is-a shape and so is triangle is-a shape.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.13323904922696317,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a class to calculate area of a circle using Point ...",
+        "link": "https://stackoverflow.com/questions/17517400/creating-a-class-to-calculate-area-of-a-circle-using-point-class-in-c",
+        "snippet": "I am trying to creates a class Circle that calculates area of a circle. It uses a basic Point class that initializes 2 points, one as the center one as a point ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.13323904922696317,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to call a method from a different class (area of rectangle)",
+        "link": "https://stackoverflow.com/questions/61070155/how-to-call-a-method-from-a-different-class-area-of-rectangle",
+        "snippet": "Why not have just a single Rectangle class which knows how to calculate its area (e.g. int Rectangle::CalculateArea () )? \u00b7 I am very confused at ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.13323904922696317,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Why member functions of a local class can access the ...",
+        "link": "https://stackoverflow.com/questions/62964073/why-member-functions-of-a-local-class-can-access-the-function-arguments-but-not",
+        "snippet": "Then why are the methods calculateArea() and calculatePerimeter() of the Calculate class able to access these variables? Output: Area: 1.44 sq ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.13323904922696317,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ - I am having trouble with the output as I am getting ...",
+        "link": "https://stackoverflow.com/questions/45135394/c-i-am-having-trouble-with-the-output-as-i-am-getting-numbers-and-letters",
+        "snippet": "This value is returned as the radius of the circle. calculateArea: Receives the radius of a circle, calculates and returns the area of the ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.11030152769165627,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Drawing a Circle with Class in C++",
+        "link": "https://stackoverflow.com/questions/58413469/drawing-a-circle-with-class-in-c",
+        "snippet": "I'm currently writing a program where I have to draw three circle shapes from a class(data structure) that will output in the console.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Class Instance of Circle in OOP - c++",
+        "link": "https://stackoverflow.com/questions/42944297/class-instance-of-circle-in-oop",
+        "snippet": "I am currently having some problem with OOP regarding the Circle class. At this time, I have developed the Implementation and the Specification ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "circle/examples/README.md at master \u00b7 seanbaxter/circle",
+        "link": "https://github.com/seanbaxter/circle/blob/master/examples/README.md",
+        "snippet": "Circle allows you to deploy your object-oriented and imperative intuition, gained while programming C++ or Java or C# or Python, and employ it to write generic ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Making a circle with '*' C++",
+        "link": "https://stackoverflow.com/questions/66681326/making-a-circle-with-c",
+        "snippet": "I am making a circle and the code works fine but the problem is that even though it is working the circle is not perfect, or close as it can be.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "rsta2/circle: A C++ bare metal environment for Raspberry ...",
+        "link": "https://github.com/rsta2/circle",
+        "snippet": "Circle provides several ready-tested C++ classes and add-on libraries, which can be used to control different hardware features of the Raspberry Pi. Together ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "oop/various/COP3330/lect2/circle.cpp at master",
+        "link": "https://github.com/chgogos/oop/blob/master/various/COP3330/lect2/circle.cpp",
+        "snippet": "#include <iostream> using namespace std; // \u0394\u03ae\u03bb\u03c9\u03c3\u03b7 \u03ba\u03bb\u03ac\u03c3\u03b7\u03c2 Circle class Circle { public: Circle(); // \u03b1\u03c5\u03c4\u03cc\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ad\u03bd\u03b1\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ae\u03c2 Circle(double r); // \u03ba\u03b1\u03b9 ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "seanbaxter/circle: The compiler is available for download. ...",
+        "link": "https://github.com/seanbaxter/circle",
+        "snippet": "New Circle is the richest C++ compiler yet. Try out: choice types,; pattern matching,; interfaces and impls,; language type erasure,; as-expressions for safer ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "circle/reflection/README.md at master \u00b7 seanbaxter/circle",
+        "link": "https://github.com/seanbaxter/circle/blob/master/reflection/README.md",
+        "snippet": "Circle defines dozens of extension keywords that provide introspection information into user-defined types.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Area Between Two Concentric Circles in C++",
+        "link": "https://www.tutorialspoint.com/program-to-calculate-the-area-between-two-concentric-circles-in-cplusplus",
+        "snippet": "... std; // Function to find area between the two given concentric circles double calculateArea(int x, int y){ double outer = pi * x * x; double ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Error while accessing members of class in main function",
+        "link": "https://stackoverflow.com/questions/77705133/error-while-accessing-members-of-class-in-main-function",
+        "snippet": "calculateArea() with high probability will encounter integer overflow. Consider using long long as a return value (which is usualy stored in 8 ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Code in .cpp file - c++",
+        "link": "https://stackoverflow.com/questions/33270668/code-in-cpp-file",
+        "snippet": "Your calculateArea is probably a member function of Shapes and should as such be prefixed with Shapes:: . You aren't using the member ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Derived Classes Error - c++",
+        "link": "https://stackoverflow.com/questions/20228200/derived-classes-error",
+        "snippet": "... calculateCircumference (float); friend std::ostream& operator << (std::ostream&, circleType); private: float radius; int center_x; int ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "overte/CODING_STANDARD.md at master",
+        "link": "https://github.com/overte-org/overte/blob/master/CODING_STANDARD.md",
+        "snippet": "append(bla); } // Allowed, because this is a simple method int calculateCircumference() { return PI * pow(_radius, 2.0); } // this routine needs to be fast, we' ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "michellecchen/360-cylindrical-panorama: generating a ...",
+        "link": "https://github.com/michellecchen/360-cylindrical-panorama",
+        "snippet": "... (std::vector<int> boundaries, int radius, int focal, int w, int h); // calculates the circumference of the cylinder int calculateCircumference(const std ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Comparison Between Static and Instance Method in PHP",
+        "link": "https://www.tutorialspoint.com/comparison-between-static-and-instance-method-in-php",
+        "snippet": "\"<br>\"; // Output: 78.539816339745 echo $circle->calculateCircumference(); // Output: 31.41592653589793 ?> Output. 78.539816339745 ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "code2pg/code2pg at master \u00b7 societe-generale/code2pg",
+        "link": "https://github.com/societe-generale/code2pg/blob/master/code2pg",
+        "snippet": "... function can be created. For example: ```sql CREATE OR REPLACE FUNCTION ... calculateCircumference(f.data[n])*(s.circumference/(2*Math.PI)),p=i&&l ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "rmolinamir/typescript-cheatsheet",
+        "link": "https://github.com/rmolinamir/typescript-cheatsheet",
+        "snippet": "For example, considering the PI , calculateCircumference , and calculateRectangle export examples shown above, this is how we would import them into our app ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08178947368421051,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c# - Unit Test - sometimes works, sometimes not",
+        "link": "https://stackoverflow.com/questions/52366438/unit-test-sometimes-works-sometimes-not",
+        "snippet": "... CalculateCircumference(dimension); this.Area = this.CalculateArea(dimension); break; } } private double RadiusFromCircumference(double ...",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06688597928793456,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c# - CalculateArea using poymorphism and virtual method",
+        "link": "https://stackoverflow.com/questions/40829990/calculatearea-using-poymorphism-and-virtual-method-not-getting-proper-result",
+        "snippet": "// eg: triangle needs height and base // edit CalculateArea method based on the shape public double Length { get; set; } public override ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 29,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "How can I double a variable using class mutator in c++",
+        "link": "https://stackoverflow.com/questions/49142895/how-can-i-double-a-variable-using-class-mutator-in-c",
+        "snippet": "... int Rectangle::calculateArea() { return width * height; } // end of Rectangle class implementation void displayRectangle(Rectangle r); void ...",
+        "query": "\"calculateArea\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30442730657528955,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Interactive Charts",
+        "link": "https://gist.github.com/mehak-sachdeva/503588cc042fd4b5500128034beae71a",
+        "snippet": "calculateCircumference: function(value) {. var total = this.getMeta().total;. if (total > 0 && !isNaN(value)) {. return (Math.PI * 2.0) * (value / total);.",
+        "query": "\"calculateCircumference\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3006390797696734,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/49142895/how-can-i-double-a-variable-using-class-mutator-in-c",
+      "https://gist.github.com/mehak-sachdeva/503588cc042fd4b5500128034beae71a"
+    ]
+  },
+  "teststudent2_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_6085e8b363b04b2092f66ce3ecb913e7/results/organized/solution2/teststudent2_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:01:57.805823",
+    "queries_used": [
+      "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Create a C++ program that defines a class called Circle . ...",
+        "link": "https://brainly.com/question/35268611",
+        "snippet": "Here is an example implementation: class Circle { private: double radius;. public: double getArea() const { return 3.14159 * radius * radius; } };.",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.30183737481008344,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Help with classes C++ : r/cpp",
+        "link": "https://www.reddit.com/r/cpp/comments/33c9cp/help_with_classes_c/",
+        "snippet": "class circle { private: double pi = 3.14159; double radius;. public: void area(); void circumference(); void print();. }; void circle::area ...",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.2087220046700946,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Initialize reference member of base class - c++",
+        "link": "https://stackoverflow.com/questions/32935003/initialize-reference-member-of-base-class",
+        "snippet": "class Circle : public Shape { public: Circle(Point p); Circle(Point p, float radius); ~Circle(); float get_radius() const; private: float ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.20117566616020716,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Object-Oriented Programming: Circle class",
+        "link": "https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-1.php",
+        "snippet": "Write a C++ program to implement a class called Circle that has private member variables for radius. Include member functions to calculate the circle's area ...",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Circle Class Problem - C++ Forum",
+        "link": "https://cplusplus.com/forum/beginner/86817/",
+        "snippet": "Write a program that demonstrates the Circle class by asking the user for the circle's radius, creating a circle object, and then reporting the circle's area, ...",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "[FREE] Write a `Circle` class that has the following member ...",
+        "link": "https://brainly.com/question/36757782",
+        "snippet": "Write a Circle class that has the following member variables (C++): radius \u2014 a double; pi \u2014 a double initialized with the value 3.14159.",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Object-Oriented Programming: Shape class and ...",
+        "link": "https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-10.php",
+        "snippet": "Learn C++ object-oriented programming by implementing a Shape class with virtual functions for area and perimeter calculation.",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Question: This is C++ program. Write a Circle class that has ...",
+        "link": "https://www.chegg.com/homework-help/questions-and-answers/c-program-write-circle-class-following-member-variables-radius-double-pi-double-initialize-q12654549",
+        "snippet": "Write a Circle class that has the following member variables: radius: a double PI: a double initialized with the value 3.14159. You can define ...",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "[Solved] Write a class declaration named Circle with ...",
+        "link": "https://www.studocu.com/en-us/messages/question/6469329/write-a-class-declaration-named-circle-with-a-private-member-variable-named-radius-write-set-and",
+        "snippet": "Here is a simple class declaration in C++ for a Circle class with a private member variable radius. It includes set and get functions for the radius variable.",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "designing shape class with circle and triangle - c++",
+        "link": "https://stackoverflow.com/questions/44666561/designing-shape-class-with-circle-and-triangle",
+        "snippet": "Consider the classic example of shape base class and derived triangle and circle classes. So circle is-a shape and so is triangle is-a shape.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a class to calculate area of a circle using Point ...",
+        "link": "https://stackoverflow.com/questions/17517400/creating-a-class-to-calculate-area-of-a-circle-using-point-class-in-c",
+        "snippet": "I am trying to creates a class Circle that calculates area of a circle. It uses a basic Point class that initializes 2 points, one as the center one as a point ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot figure out how to calculate radius of the circle in ...",
+        "link": "https://stackoverflow.com/questions/71593426/cannot-figure-out-how-to-calculate-radius-of-the-circle-in-the-given-code",
+        "snippet": "I need to calculate the radius of the circle in the code. #include <iostream> #include <cmath> using namespace std; class Circle { float ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Circular Inheritance and Class",
+        "link": "https://stackoverflow.com/questions/10676640/c-circular-inheritance-and-class",
+        "snippet": "class Circle: Circle. You have a class that inherits from itself, how could that work?",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Circular Inheritance in c++",
+        "link": "https://stackoverflow.com/questions/15284564/circular-inheritance-in-c",
+        "snippet": "You can either have a reference or a pointer to an object of class Line or Circel, e.g. class Line; class Circle. You need the above lines ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Returning a boolean value from a Circle Class C++",
+        "link": "https://stackoverflow.com/questions/26636151/returning-a-boolean-value-from-a-circle-class-c",
+        "snippet": "class Circle { //defining the private memeber variables private: double radius, xpos, ypos; //defining the public member variables public ...",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14517411645884049,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Overloaded Circle() is ambiguous in C++ Circle Class",
+        "link": "https://stackoverflow.com/questions/26633751/overloaded-circle-is-ambiguous-in-c-circle-class",
+        "snippet": "Your problem is this: Circle(double r = 0); Circle();. Nothing much more to say about it that isn't already obvious from the above.",
+        "query": "\"class Circle\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.09764624451431667,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Simple program in C computing incorrect areas and ...",
+        "link": "https://stackoverflow.com/questions/18580747/simple-program-in-c-computing-incorrect-areas-and-circumferences",
+        "snippet": "For example static const int PI = 3.14159 means that 3.14159 will be truncated to 3. Instead of int , try using float or double .",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "What is a C++ program to enter the radius of a circle and ...",
+        "link": "https://www.quora.com/What-is-a-C-program-to-enter-the-radius-of-a-circle-and-find-its-diameter-circumference-and-area",
+        "snippet": "You're going to need a variable, maybe an int or a double, to hold the radius. Then you're going to need to prompt the user what to enter ...",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Drawing a Circle with Class in C++",
+        "link": "https://stackoverflow.com/questions/58413469/drawing-a-circle-with-class-in-c",
+        "snippet": "I'm currently writing a program where I have to draw three circle shapes from a class(data structure) that will output in the console.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Class Instance of Circle in OOP - c++",
+        "link": "https://stackoverflow.com/questions/42944297/class-instance-of-circle-in-oop",
+        "snippet": "I am currently having some problem with OOP regarding the Circle class. At this time, I have developed the Implementation and the Specification ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "circle/examples/README.md at master \u00b7 seanbaxter/circle",
+        "link": "https://github.com/seanbaxter/circle/blob/master/examples/README.md",
+        "snippet": "Circle allows you to deploy your object-oriented and imperative intuition, gained while programming C++ or Java or C# or Python, and employ it to write generic ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Making a circle with '*' C++",
+        "link": "https://stackoverflow.com/questions/66681326/making-a-circle-with-c",
+        "snippet": "I am making a circle and the code works fine but the problem is that even though it is working the circle is not perfect, or close as it can be.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "rsta2/circle: A C++ bare metal environment for Raspberry ...",
+        "link": "https://github.com/rsta2/circle",
+        "snippet": "Circle provides several ready-tested C++ classes and add-on libraries, which can be used to control different hardware features of the Raspberry Pi. Together ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "oop/various/COP3330/lect2/circle.cpp at master",
+        "link": "https://github.com/chgogos/oop/blob/master/various/COP3330/lect2/circle.cpp",
+        "snippet": "#include <iostream> using namespace std; // \u0394\u03ae\u03bb\u03c9\u03c3\u03b7 \u03ba\u03bb\u03ac\u03c3\u03b7\u03c2 Circle class Circle { public: Circle(); // \u03b1\u03c5\u03c4\u03cc\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ad\u03bd\u03b1\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ae\u03c2 Circle(double r); // \u03ba\u03b1\u03b9 ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "seanbaxter/circle: The compiler is available for download. ...",
+        "link": "https://github.com/seanbaxter/circle",
+        "snippet": "New Circle is the richest C++ compiler yet. Try out: choice types,; pattern matching,; interfaces and impls,; language type erasure,; as-expressions for safer ...",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      },
+      {
+        "title": "circle/reflection/README.md at master \u00b7 seanbaxter/circle",
+        "link": "https://github.com/seanbaxter/circle/blob/master/reflection/README.md",
+        "snippet": "Circle defines dozens of extension keywords that provide introspection information into user-defined types.",
+        "query": "\"Circle\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09295081967213113,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 26,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "Create a C++ program that defines a class called Circle . ...",
+        "link": "https://brainly.com/question/35268611",
+        "snippet": "Here is an example implementation: class Circle { private: double radius;. public: double getArea() const { return 3.14159 * radius * radius; } };.",
+        "query": "\"class Circle { private: double radius; // Private member to store the radius const double PI = 3.14159; // Constant\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.30183737481008344,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://brainly.com/question/35268611"
+    ]
+  }
+}

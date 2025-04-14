@@ -265,6 +265,16 @@ class CompleteSolutionExtractor:
                             references[i].add(func_index)
                             references[func_index].add(i)
                         
+                        # Look for function calls in return statements: return name(...)
+                        if re.search(r'return\s+' + re.escape(func_name) + r'\s*\(', block['code']):
+                            references[i].add(func_index)
+                            references[func_index].add(i)
+                        
+                        # Look for function calls as parameters to other functions: otherFunc(name(...))
+                        if re.search(r'\([^)]*' + re.escape(func_name) + r'\s*\(', block['code']):
+                            references[i].add(func_index)
+                            references[func_index].add(i)
+                        
                         # Look for function calls in conditionals: if (name(...))
                         if re.search(r'if\s*\([^)]*' + re.escape(func_name) + r'\s*\(', block['code']):
                             references[i].add(func_index)
@@ -272,6 +282,31 @@ class CompleteSolutionExtractor:
                         
                         # Look for function calls in loops: while (name(...))
                         if re.search(r'while\s*\([^)]*' + re.escape(func_name) + r'\s*\(', block['code']):
+                            references[i].add(func_index)
+                            references[func_index].add(i)
+                        
+                        # Look for function calls in for loops: for (...; name(...); ...)
+                        if re.search(r'for\s*\([^;]*;[^;]*' + re.escape(func_name) + r'\s*\(', block['code']):
+                            references[i].add(func_index)
+                            references[func_index].add(i)
+                        
+                        # Look for function calls with ternary operator: condition ? name(...) : alt
+                        if re.search(r'\?\s*' + re.escape(func_name) + r'\s*\(', block['code']):
+                            references[i].add(func_index)
+                            references[func_index].add(i)
+                        
+                        # General pattern to find function name followed by opening parenthesis anywhere
+                        # This is a more aggressive approach but helps catch more dependencies
+                        if re.search(r'\b' + re.escape(func_name) + r'\s*\([^)]*\)', block['code']):
+                            references[i].add(func_index)
+                            references[func_index].add(i)
+            
+            # Also check for function-to-function dependencies
+            if block['type'] == 'function':
+                for func_name, func_index in function_name_to_index.items():
+                    if i != func_index:  # Don't link a function to itself
+                        # Look for function calls within other functions
+                        if re.search(r'\b' + re.escape(func_name) + r'\s*\(', block['code']):
                             references[i].add(func_index)
                             references[func_index].add(i)
         
@@ -283,6 +318,19 @@ class CompleteSolutionExtractor:
                 for j in range(len(code_blocks)):
                     if i != j:
                         references[i].add(j)
+        
+        # For small code fragments (less than 10 lines), be more aggressive in finding dependencies
+        for i, block in enumerate(code_blocks):
+            code_lines = block['code'].split('\n')
+            if len(code_lines) < 10:  # Small code fragment
+                for j, other_block in enumerate(code_blocks):
+                    if i != j:
+                        # For very small fragments, try to find any text overlap that suggests a relationship
+                        if block['type'] == 'function' and other_block['type'] == 'function':
+                            # If one function mentions the name of another function anywhere
+                            if re.search(r'\b' + re.escape(other_block['name']) + r'\b', block['code']):
+                                references[i].add(j)
+                                references[j].add(i)
         
         return references
     
@@ -323,11 +371,20 @@ class CompleteSolutionExtractor:
         merged_groups = []
         standalone_functions = []
         standalone_mains = []
+        very_small_fragments = []
+        
+        # Define what counts as a very small code fragment (less than 10 lines)
+        SMALL_FRAGMENT_THRESHOLD = 10
         
         for group in groups:
             if len(group) == 1:
                 block_index = group[0]
-                if code_blocks[block_index]['type'] == 'function':
+                code_size = len(code_blocks[block_index]['code'].split('\n'))
+                
+                if code_size < SMALL_FRAGMENT_THRESHOLD:
+                    # This is a very small code fragment, mark for special handling
+                    very_small_fragments.append(group)
+                elif code_blocks[block_index]['type'] == 'function':
                     standalone_functions.append(group)
                 elif code_blocks[block_index]['type'] == 'main':
                     standalone_mains.append(group)
@@ -345,6 +402,64 @@ class CompleteSolutionExtractor:
             # If no pair to merge, keep them separate
             merged_groups.extend(standalone_functions)
             merged_groups.extend(standalone_mains)
+        
+        # Process very small fragments - try to merge them with the largest solution
+        if very_small_fragments:
+            # If we have no other groups, merge all small fragments together
+            if not merged_groups:
+                all_small_fragments = [idx for group in very_small_fragments for idx in group]
+                merged_groups.append(all_small_fragments)
+            else:
+                # Find the largest solution group by code size
+                largest_group_idx = 0
+                largest_group_size = 0
+                
+                for i, group in enumerate(merged_groups):
+                    group_size = sum(len(code_blocks[idx]['code'].split('\n')) for idx in group)
+                    if group_size > largest_group_size:
+                        largest_group_size = group_size
+                        largest_group_idx = i
+                
+                # Merge all small fragments into the largest solution
+                for small_group in very_small_fragments:
+                    merged_groups[largest_group_idx].extend(small_group)
+        
+        # Look for function name matches in different groups
+        function_name_groups = {}
+        
+        # Map function names to their group indices
+        for group_idx, group in enumerate(merged_groups):
+            for block_idx in group:
+                if code_blocks[block_idx]['type'] == 'function':
+                    function_name = code_blocks[block_idx]['name']
+                    if function_name in function_name_groups:
+                        function_name_groups[function_name].append(group_idx)
+                    else:
+                        function_name_groups[function_name] = [group_idx]
+        
+        # Find groups that reference each other by function name
+        groups_to_merge = []
+        for function_name, group_indices in function_name_groups.items():
+            if len(group_indices) > 1:
+                # Multiple groups contain functions with the same name
+                groups_to_merge.append(set(group_indices))
+        
+        # Merge groups that share function names
+        while groups_to_merge:
+            to_merge = groups_to_merge.pop()
+            
+            # Convert indices to sorted list
+            merge_indices = sorted(list(to_merge), reverse=True)
+            
+            # Create a new merged group
+            merged_group = []
+            for idx in merge_indices:
+                merged_group.extend(merged_groups[idx])
+                # Remove this group (we'll replace it with the merged one)
+                merged_groups.pop(idx)
+            
+            # Add the merged group
+            merged_groups.append(merged_group)
         
         return merged_groups
     

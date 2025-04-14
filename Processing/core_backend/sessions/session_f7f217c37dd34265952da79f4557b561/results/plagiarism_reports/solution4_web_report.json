@@ -1,0 +1,513 @@
+{
+  "teststudent1_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution4/teststudent1_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:46.267142",
+    "queries_used": [
+      "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (left <= right) {\nint mid = left + (right - left) / 2;\nif (arr[mid] == target) {\nreturn mid;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Binary search using variadic templates and lambda functions",
+        "link": "https://stackoverflow.com/questions/31900382/binary-search-using-variadic-templates-and-lambda-functions",
+        "snippet": "Person* person = binarySearch (people, \"Tom\", [](Person* p, int n, char c) {return p->getName(n,c);}, [](const std::string& x, const std:: ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.22852204131582132,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Using Recursive Binary Search - c++",
+        "link": "https://stackoverflow.com/questions/59080998/using-recursive-binary-search",
+        "snippet": "My Current Code #include <iostream> using namespace std; int linearSearch(int [], int, int, int); int binarySearch(int [], int, int, int) ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.22724297888530232,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Function that uses BinarySearch algorithm (.bin file)",
+        "link": "https://stackoverflow.com/questions/37113577/c-function-that-uses-binarysearch-algorithm-bin-file",
+        "snippet": "grek40 solution on BinarySearch function: So I make the record function: std::string GetRecord(std::ifstream& inFile, int pos) { char buffer ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.21959575262626968,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to do binary search without arrays? c++",
+        "link": "https://stackoverflow.com/questions/59055143/how-to-do-binary-search-without-arrays-c",
+        "snippet": "... binarySearch(x); return 0; }. For example, if you enter 150, the outcome will continuously give the outcome of 571, 286, 143, 571, 286 until ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.19517111202127999,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary Search in C++",
+        "link": "https://www.tutorialspoint.com/binary-search-in-cplusplus",
+        "snippet": "A program that demonstrates binary search in C++ is given below. Example. Live Demo #include using namespace std; int binarySearch(int arr ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.15020410326846936,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - What should be the proper declaration of array while ...",
+        "link": "https://stackoverflow.com/questions/69422822/what-should-be-the-proper-declaration-of-array-while-finding-the-largest-number",
+        "snippet": "You declare int arr[n]; before the user has entered a value into n . n has an indeterminate value when you read it and create arr .",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.11652669283613055,
+        "is_plagiarism": false
+      },
+      {
+        "title": "What does for(int i = 0; a[i]; i++) mean? - c++",
+        "link": "https://stackoverflow.com/questions/43615546/what-does-forint-i-0-ai-i-mean",
+        "snippet": "In this case \"for(int i = 0; a[i]; i++)\", your loop keeps its execution until one of its elements are a null element.",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.11649028626020638,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - How do I print out the contents of a vector?",
+        "link": "https://stackoverflow.com/questions/10750057/how-do-i-print-out-the-contents-of-a-vector",
+        "snippet": "You can also use a integer type to index through the elements of the vector in the for-loop explicitly: for (int i=0; i<path.size(); ++i) std::cout < ...",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.11649028626020638,
+        "is_plagiarism": false
+      },
+      {
+        "title": "BinarySearch function not working - c++",
+        "link": "https://stackoverflow.com/questions/47255901/binarysearch-function-not-working",
+        "snippet": "BinarySearch function not working \u00b7 Ask Question. Asked 7 years, 2 ... for example, if you try finding 4 in list {1, 3, 5}, low will be ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06773579452984067,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary search function with templates, for arrays - c++",
+        "link": "https://stackoverflow.com/questions/63039603/binary-search-function-with-templates-for-arrays-compilation-problem",
+        "snippet": "Binary Search on a std::string array \u00b7 0 \u00b7 BinarySearch function not working \u00b7 0 \u00b7 binary_search() function doesn't work in my function body \u00b7 0.",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ functions as parameters Binary Search",
+        "link": "https://stackoverflow.com/questions/53177225/c-functions-as-parameters-binary-search",
+        "snippet": "Recursive binary search function in C++ \u00b7 0 \u00b7 Implementing Binary search in C++ \u00b7 4 \u00b7 C++ Function that uses BinarySearch algorithm (.bin file).",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Binary Search - Array Position Variables",
+        "link": "https://stackoverflow.com/questions/28489072/c-binary-search-array-position-variables",
+        "snippet": "Let's follow the function calls, and see what happens! In main() we have this line of code: cout << binarySearch(a, 10, item) ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary search algorithm with string array - c++",
+        "link": "https://stackoverflow.com/questions/29642210/binary-search-algorithm-with-string-array",
+        "snippet": "Binary search algorithm with string array ; include \"stdafx.h\" ; include <iostream> ; include <string> ; sortArray(string [], int) ; binarySearch( ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Could someone explain this for me - for (int i = 0; i < 8; i++)",
+        "link": "https://stackoverflow.com/questions/15529893/could-someone-explain-this-for-me-for-int-i-0-i-8-i",
+        "snippet": "It's a for loop, which will execute the next statement a number of times, depending on the conditions inside the parenthesis.",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Properly written for-loops, normal and inverse, C++ basics",
+        "link": "https://stackoverflow.com/questions/24160086/properly-written-for-loops-normal-and-inverse-c-basics",
+        "snippet": "only confuse users when size == 0 and in general case can have unpredictable result if the condition will be cchanged for example as i != 0.",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cout a whole array in c++ [duplicate]",
+        "link": "https://stackoverflow.com/questions/33439064/cout-a-whole-array-in-c",
+        "snippet": "I am fairly new to c++, is there a way in c++ through which we can cout a whole static array apart from iterating via a for loop?",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ inserting into an array via for loop",
+        "link": "https://stackoverflow.com/questions/35856344/c-inserting-into-an-array-via-for-loop",
+        "snippet": "I am beginner in C++ and was trying to insert data into an array through the for loop, however, it throws Stack around the variable 'numArray' was corrupted.",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Using cout to print the entire contents of a character array",
+        "link": "https://stackoverflow.com/questions/19371845/using-cout-to-print-the-entire-contents-of-a-character-array",
+        "snippet": "I'm stumped about how to print out the entire contents of a char array. I believe I need to use a loop, and base the loop on the length of the array.",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How can I return a dynamically allocated array and the size ...",
+        "link": "https://stackoverflow.com/questions/49409636/how-can-i-return-a-dynamically-allocated-array-and-the-size-of-the-array-then-pr",
+        "snippet": "I need to return a dynamically allocated array and the size of the array from a function then print it out through a second function. I am ...",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Looking for solution to array and cout interaction in C++",
+        "link": "https://stackoverflow.com/questions/58685347/looking-for-solution-to-array-and-cout-interaction-in-c",
+        "snippet": "The simplest solution would be to print the delimiter (i%10 == 0) ? \"\\n\" : \", \" . You correctly recognized that taking the remainder on every ...",
+        "query": "\"for (int i = 0; i < size; ++i) {\ncout << arr[i] << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.06260869565217392,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 20,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "teststudent2_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution4/teststudent2_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:46.759231",
+    "queries_used": [
+      "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Binary search using variadic templates and lambda functions",
+        "link": "https://stackoverflow.com/questions/31900382/binary-search-using-variadic-templates-and-lambda-functions",
+        "snippet": "Person* person = binarySearch (people, \"Tom\", [](Person* p, int n, char c) {return p->getName(n,c);}, [](const std::string& x, const std:: ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.261608159230604,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to do binary search without arrays? c++",
+        "link": "https://stackoverflow.com/questions/59055143/how-to-do-binary-search-without-arrays-c",
+        "snippet": "... binarySearch(x); return 0; }. For example, if you enter 150, the outcome will continuously give the outcome of 571, 286, 143, 571, 286 until ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2331147310013678,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Using Recursive Binary Search - c++",
+        "link": "https://stackoverflow.com/questions/59080998/using-recursive-binary-search",
+        "snippet": "My Current Code #include <iostream> using namespace std; int linearSearch(int [], int, int, int); int binarySearch(int [], int, int, int) ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.20516036510505223,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Function that uses BinarySearch algorithm (.bin file)",
+        "link": "https://stackoverflow.com/questions/37113577/c-function-that-uses-binarysearch-algorithm-bin-file",
+        "snippet": "grek40 solution on BinarySearch function: So I make the record function: std::string GetRecord(std::ifstream& inFile, int pos) { char buffer ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.17719004118789672,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary Search in C++",
+        "link": "https://www.tutorialspoint.com/binary-search-in-cplusplus",
+        "snippet": "A program that demonstrates binary search in C++ is given below. Example. Live Demo #include using namespace std; int binarySearch(int arr ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14994733138055216,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary search algorithm with string array - c++",
+        "link": "https://stackoverflow.com/questions/29642210/binary-search-algorithm-with-string-array",
+        "snippet": "Binary search algorithm with string array ; include \"stdafx.h\" ; include <iostream> ; include <string> ; sortArray(string [], int) ; binarySearch( ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06322552610307282,
+        "is_plagiarism": false
+      },
+      {
+        "title": "BinarySearch function not working - c++",
+        "link": "https://stackoverflow.com/questions/47255901/binarysearch-function-not-working",
+        "snippet": "BinarySearch function not working \u00b7 Ask Question. Asked 7 years, 2 ... for example, if you try finding 4 in list {1, 3, 5}, low will be ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05908717758593294,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary search function with templates, for arrays - c++",
+        "link": "https://stackoverflow.com/questions/63039603/binary-search-function-with-templates-for-arrays-compilation-problem",
+        "snippet": "Binary Search on a std::string array \u00b7 0 \u00b7 BinarySearch function not working \u00b7 0 \u00b7 binary_search() function doesn't work in my function body \u00b7 0.",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05549222797927461,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ functions as parameters Binary Search",
+        "link": "https://stackoverflow.com/questions/53177225/c-functions-as-parameters-binary-search",
+        "snippet": "Recursive binary search function in C++ \u00b7 0 \u00b7 Implementing Binary search in C++ \u00b7 4 \u00b7 C++ Function that uses BinarySearch algorithm (.bin file).",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05549222797927461,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Binary Search - Array Position Variables",
+        "link": "https://stackoverflow.com/questions/28489072/c-binary-search-array-position-variables",
+        "snippet": "Let's follow the function calls, and see what happens! In main() we have this line of code: cout << binarySearch(a, 10, item) ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05549222797927461,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "teststudent3_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution4/teststudent3_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:48.886161",
+    "queries_used": [
+      "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"mid if (arr[mid] == target) { return mid; } // If target is greater, ignore left half if (arr[mid] < target) { left = mid + 1; } // If\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Using Recursive Binary Search - c++",
+        "link": "https://stackoverflow.com/questions/59080998/using-recursive-binary-search",
+        "snippet": "My Current Code #include <iostream> using namespace std; int linearSearch(int [], int, int, int); int binarySearch(int [], int, int, int) ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2018861802143279,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary search using variadic templates and lambda functions",
+        "link": "https://stackoverflow.com/questions/31900382/binary-search-using-variadic-templates-and-lambda-functions",
+        "snippet": "Person* person = binarySearch (people, \"Tom\", [](Person* p, int n, char c) {return p->getName(n,c);}, [](const std::string& x, const std:: ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.19678932716384975,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Function that uses BinarySearch algorithm (.bin file)",
+        "link": "https://stackoverflow.com/questions/37113577/c-function-that-uses-binarysearch-algorithm-bin-file",
+        "snippet": "grek40 solution on BinarySearch function: So I make the record function: std::string GetRecord(std::ifstream& inFile, int pos) { char buffer ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.19110636663205666,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to do binary search without arrays? c++",
+        "link": "https://stackoverflow.com/questions/59055143/how-to-do-binary-search-without-arrays-c",
+        "snippet": "... binarySearch(x); return 0; }. For example, if you enter 150, the outcome will continuously give the outcome of 571, 286, 143, 571, 286 until ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.16037608879740164,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary Search in C++",
+        "link": "https://www.tutorialspoint.com/binary-search-in-cplusplus",
+        "snippet": "A program that demonstrates binary search in C++ is given below. Example. Live Demo #include using namespace std; int binarySearch(int arr ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.10696176458467872,
+        "is_plagiarism": false
+      },
+      {
+        "title": "BinarySearch function not working - c++",
+        "link": "https://stackoverflow.com/questions/47255901/binarysearch-function-not-working",
+        "snippet": "BinarySearch function not working \u00b7 Ask Question. Asked 7 years, 2 ... for example, if you try finding 4 in list {1, 3, 5}, low will be ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06989579586244901,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Intersection of Two Sorted Arrays with Distinct Elements",
+        "link": "https://www.geeksforgeeks.org/intersection-of-two-sorted-arrays-with-distinct-elements/",
+        "snippet": "Note: Intersection of two arrays can be defined as a set containing distinct common elements between the two arrays. Examples: Input: a[] = { 1, ...",
+        "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.62,
+        "initial_score": 0.0,
+        "similarity_score": 0.06939725389806839,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Find the first element in a sorted array that is smaller than ...",
+        "link": "https://stackoverflow.com/questions/50692011/find-the-first-element-in-a-sorted-array-that-is-smaller-than-the-target",
+        "snippet": "if you find mid element equals to target, you just return the mid \u00b7 if you find mid element bigger than the target, you just discard the mid and ...",
+        "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.62,
+        "initial_score": 0.0,
+        "similarity_score": 0.06543997341301984,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary search function with templates, for arrays - c++",
+        "link": "https://stackoverflow.com/questions/63039603/binary-search-function-with-templates-for-arrays-compilation-problem",
+        "snippet": "Binary Search on a std::string array \u00b7 0 \u00b7 BinarySearch function not working \u00b7 0 \u00b7 binary_search() function doesn't work in my function body \u00b7 0.",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ functions as parameters Binary Search",
+        "link": "https://stackoverflow.com/questions/53177225/c-functions-as-parameters-binary-search",
+        "snippet": "Recursive binary search function in C++ \u00b7 0 \u00b7 Implementing Binary search in C++ \u00b7 4 \u00b7 C++ Function that uses BinarySearch algorithm (.bin file).",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Binary Search - Array Position Variables",
+        "link": "https://stackoverflow.com/questions/28489072/c-binary-search-array-position-variables",
+        "snippet": "Let's follow the function calls, and see what happens! In main() we have this line of code: cout << binarySearch(a, 10, item) ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Binary search algorithm with string array - c++",
+        "link": "https://stackoverflow.com/questions/29642210/binary-search-algorithm-with-string-array",
+        "snippet": "Binary search algorithm with string array ; include \"stdafx.h\" ; include <iostream> ; include <string> ; sortArray(string [], int) ; binarySearch( ...",
+        "query": "\"binarySearch\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Wedlec129/allAlgoritms: all the basic algorithms ...",
+        "link": "https://github.com/Wedlec129/allAlgoritms",
+        "snippet": "\u0412 C++ \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u0441\u043e\u0437\u0434\u0430\u044e\u0442\u0441\u044f \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0435\u0439 \u0438 \u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0441\u043b\u043e\u0432\u0430 new . \u041e\u043d\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0432\u044b\u0434\u0435\u043b\u044f\u0442\u044c \u043f\u0430\u043c\u044f\u0442\u044c \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u0438 \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u044b \u0438\u043b\u0438 ...",
+        "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.62,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Find the Target number in an Array",
+        "link": "https://www.geeksforgeeks.org/find-the-target-number-in-an-array/",
+        "snippet": "Compare the element with the target value. If they match, provide the index of that element. If not, move on to the element in the array.",
+        "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.62,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Union of Two Sorted Arrays with Distinct Elements",
+        "link": "https://www.geeksforgeeks.org/union-of-two-sorted-arrays-with-distinct-elements/",
+        "snippet": "Given two sorted arrays a[] and b[] with distinct elements, the task is to return union of both the arrays in sorted order.",
+        "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.62,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      },
+      {
+        "title": "2 Sum \u2013 Find a pair with given sum",
+        "link": "https://www.geeksforgeeks.org/2-sum-print-pair-with-given-sum/",
+        "snippet": "The idea is to check every possible pair of elements in the array to see if their sum equals the target value. This can be implemented using ...",
+        "query": "\"mid\nif (arr[mid] == target)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.62,
+        "initial_score": 0.0,
+        "similarity_score": 0.06482608695652173,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 16,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.44999999999999996,
+    "matching_sources": []
+  }
+}

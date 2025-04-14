@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showLoading(true);
         loadingStatus.textContent = 'Fetching results...';
         
-        fetch(`http://127.0.0.1:5000/api/results/${sessionId}`)
+        fetch(`http://127.0.0.1:5010/api/results/${sessionId}`)
             .then(response => {
                 if (response.status === 202) {
                     // Still processing
@@ -170,11 +170,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const similarity = (groupData.average_similarity)*100 || 0;
             const severityClass = getSeverityClass(similarity);
             
+            // Extract solution number from groupId (format: solutionX)
+            let displayGroupId = groupId;
+            const solutionMatch = groupId.match(/solution(\d+)/);
+            if (solutionMatch) {
+                const solutionNum = solutionMatch[1];
+                displayGroupId = `Solution ${solutionNum}`;
+            }
             
             html += `
                 <div class="result-card">
                     <div class="card-header">
-                        <h3>Group ${groupId}</h3>
+                        <h3>${displayGroupId}</h3>
                         <span class="similarity-score ${severityClass}">${similarity.toFixed(1)}% Similar</span>
                     </div>
                 </div>
@@ -197,12 +204,15 @@ document.addEventListener('DOMContentLoaded', () => {
             Object.keys(fileMap).forEach(file => {
                 files.push(file);
                 const fileData = fileMap[file];
-                const score = fileData.detailed_results?.overall_score || 0;
-                const likelihood = fileData.risk_level || 'Unknown';
+                // Use the pre-formatted values from the JSON
+                const score = fileData.technical_score || 0;
+                const likelihood = fileData.ai_likelihood || 'Unknown';
+                const riskLevel = fileData.risk_level || 'Unknown';
     
                 flattenedResults[file] = {
-                    overall_score: score,
-                    likelihood: likelihood
+                    score: score,
+                    likelihood: likelihood,
+                    riskLevel: riskLevel
                 };
             });
         });
@@ -216,21 +226,31 @@ document.addEventListener('DOMContentLoaded', () => {
     
         files.forEach(file => {
             const fileData = flattenedResults[file];
-            const score = fileData.overall_score || 0;
+            const score = fileData.score || 0;
             const likelihood = fileData.likelihood || 'Unknown';
+            const riskLevel = fileData.riskLevel || 'Unknown';
+    
+            // Extract student name from filename (format: studentname_solX.txt)
+            let displayName = file;
+            const solMatch = file.match(/(.+)_sol(\d+)\.txt$/);
+            if (solMatch) {
+                const studentName = solMatch[1];
+                const solutionNum = solMatch[2];
+                displayName = `${studentName} (Solution ${solutionNum})`;
+            }
     
             let severityClass = 'low';
-            if (likelihood.toLowerCase().includes('high')) severityClass = 'high';
-            else if (likelihood.toLowerCase().includes('medium')) severityClass = 'medium';
+            if (riskLevel.toLowerCase().includes('high')) severityClass = 'high';
+            else if (riskLevel.toLowerCase().includes('medium')) severityClass = 'medium';
     
             html += `
                 <div class="result-card">
                     <div class="card-header">
-                        <h3>${file}</h3>
-                        <span class="ai-score ${severityClass}">${(score * 100).toFixed(1)}% (${likelihood})</span>
+                        <h3>${displayName}</h3>
+                        <span class="ai-score ${severityClass}">${score.toFixed(1)}% (${riskLevel})</span>
                     </div>
                     <div class="card-body">
-                        <p>This submission has a ${likelihood.toLowerCase()} likelihood of containing AI-generated code.</p>
+                        <p>This submission has a ${likelihood} likelihood of containing AI-generated code.</p>
                     </div>
                 </div>
             `;
@@ -256,11 +276,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const fileData = webData[file] || {};
             const matches = fileData.matches || [];
             
+            // Extract student name from filename (format: studentname_solX.txt)
+            let displayName = file;
+            const solMatch = file.match(/(.+)_sol(\d+)\.txt$/);
+            if (solMatch) {
+                const studentName = solMatch[1];
+                const solutionNum = solMatch[2];
+                displayName = `${studentName} (Solution ${solutionNum})`;
+            }
+            
             if (matches.length === 0) {
                 html += `
                     <div class="result-card">
                         <div class="card-header">
-                            <h3>${file}</h3>
+                            <h3>${displayName}</h3>
                             <span class="web-score low">No Matches</span>
                         </div>
                         <div class="card-body">
@@ -281,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `
                 <div class="result-card">
                     <div class="card-header">
-                        <h3>${file}</h3>
+                        <h3>${displayName}</h3>
                         <span class="web-score ${severityClass}">${(highestSimilarity * 100).toFixed(1)}% Highest Match</span>
                     </div>
                     <div class="card-body">

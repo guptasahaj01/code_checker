@@ -1,0 +1,753 @@
+{
+  "teststudent1_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution3/teststudent1_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:42.220556",
+    "queries_used": [
+      "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!stack.isEmpty()) {\ncout << stack.pop() << \" \";\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Check if list is empty by function - c++",
+        "link": "https://stackoverflow.com/questions/47004981/check-if-list-is-empty-by-function",
+        "snippet": "isEmpty is supposed to return true if my list is empty. But cant seem to get it right. struct PQCell { int priority; PQCell *next; }; struct ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3006481120714644,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how can I check if an object exists in C++",
+        "link": "https://stackoverflow.com/questions/3640739/how-can-i-check-if-an-object-exists-in-c",
+        "snippet": "I am trying to write a function that will check if an object exists: bool UnloadingBay::isEmpty() { bool isEmpty = true; if(this->unloadingShip != NULL) { ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.18455758907207132,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Check if whole array is empty - c++",
+        "link": "https://stackoverflow.com/questions/22135318/check-if-whole-array-is-empty",
+        "snippet": "for(int i = 0; i < QUEUE_LENGTH; i++) { bool isEmpty = true; for(int j = 0; j < BUFFER_LENGTH; j++) { if(MessageQueue[i][j] != 0) { isEmpty = ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.1277597949519133,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Create class instance on stack - c++",
+        "link": "https://stackoverflow.com/questions/62556091/create-class-instance-on-stack",
+        "snippet": "The way to create your object (i.e. class instance) on the stack is even simpler \u2013 local variables are stored on the stack.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.1218905715323283,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - How to use template for implementing ...",
+        "link": "https://stackoverflow.com/questions/68355352/how-to-use-template-for-implementing-stack-using-linkedlist-in-cpp",
+        "snippet": "Here's a quick example using std::list for simplicity's sake: template <typename T> class Stack { public: Stack() = default ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.11583466762328563,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Writing various implementations of Stack class in C++",
+        "link": "https://stackoverflow.com/questions/30877075/writing-various-implementations-of-stack-class-in-c",
+        "snippet": "I currently wrote a header file for a Stack interface (like you would writing an interface in Java for Stack) and I want to implement it in ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.10511222474479244,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Making a simple stack in C++",
+        "link": "https://stackoverflow.com/questions/21588072/making-a-simple-stack-in-c",
+        "snippet": "Hi I am making a simple stack class in C++ and am new to C++. I am having a few errors that I cannot figure out what they mean. Some help ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09655145043780705,
+        "is_plagiarism": false
+      },
+      {
+        "title": "JDSherbert/Simple-Stack-Implementation",
+        "link": "https://github.com/JDSherbert/Simple-Stack-Implementation",
+        "snippet": "Simple C++ Stack class template using a custom Node structure to behave like a linked list structure. - JDSherbert/Simple-Stack-Implementation.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.09655145043780705,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Checking for an empty file in C++",
+        "link": "https://stackoverflow.com/questions/2390912/checking-for-an-empty-file-in-c",
+        "snippet": "open(\"example.txt\"); bool isEmpty(true); std::string line; while( file >> line ) isEmpty = false; std::cout << isEmpty << std::endl; }. Share.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.09348199364677445,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - why is my isEmpty and isFull function not working?",
+        "link": "https://stackoverflow.com/questions/70314921/why-is-my-isempty-and-isfull-function-not-working",
+        "snippet": "Simply test the empty and full functions. Just put a single item in the stack, call the isEmpty(). If it doesn't work, fix the code there.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08415986892706617,
+        "is_plagiarism": false
+      },
+      {
+        "title": "pointers - Implementing a stack class in C++",
+        "link": "https://stackoverflow.com/questions/21914304/implementing-a-stack-class-in-c",
+        "snippet": "Does anyone know what is it that I am doing wrong ?? Any help would be appreciated Thanks. c++ \u00b7 pointers \u00b7 linked-list \u00b7 stack.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.05966240305042276,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ - Constructor in Stack class?",
+        "link": "https://stackoverflow.com/questions/43882450/c-constructor-in-stack-class",
+        "snippet": "My assignment requires me to create a stack template class. My program is working fine, I was just wondering if its necessary in this case ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.057162696126869444,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Implement Stack Using Array in C++",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-array",
+        "snippet": "Learn how to implement a stack using an array in C++. This tutorial provides step-by-step instructions and code examples for beginners.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Stack Implementation Tutorial",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-linked-list",
+        "snippet": "Learn how to implement a stack using a linked list in C++. This tutorial provides step-by-step guidance and code examples for better ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Push/pop stack class program in C++?",
+        "link": "https://stackoverflow.com/questions/46427682/push-pop-stack-class-program-in-c",
+        "snippet": "I've written and modified an example code from a C++ book about ... Here is the code. //stakarray.cpp //a stack as a class #include ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Why is STL \"empty\" member function not called \"isEmpty\"?",
+        "link": "https://stackoverflow.com/questions/55135525/why-is-stl-empty-member-function-not-called-isempty",
+        "snippet": "I checked all other containers, and all use empty the same way. Why does stl not use isEmpty() instead ? c++ \u00b7 stl \u00b7 naming-conventions \u00b7 naming.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Checking if an Object is in empty state - c++",
+        "link": "https://stackoverflow.com/questions/38601122/c-checking-if-an-object-is-in-empty-state",
+        "snippet": "Here is how to implement the isEmpty method: it should return true iff all the data members of the object have the empty/zero/default value ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Is there a concise opposite of \"empty\"?",
+        "link": "https://stackoverflow.com/questions/21882655/is-there-a-concise-opposite-of-empty",
+        "snippet": "Interfaces to string classes typically have of method named IsEmpty (VCL) or empty (STL). That's absolutely reasonable because it's a special case.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Check if string is empty - c++",
+        "link": "https://stackoverflow.com/questions/4077940/check-if-string-is-empty",
+        "snippet": "We can remove the NULL check and then it becomes responsibility of the caller, or we can define that isEmpty returns FALSE to NULL strings.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How is std::is_empty<T> implemented in VS2015 (or any ...",
+        "link": "https://stackoverflow.com/questions/35531309/how-is-stdis-emptyt-implemented-in-vs2015-or-any-compiler",
+        "snippet": "Looks as if MSVC++ provides an intrinsic __isempty(T) rather than dealing with a library-level implementation. Since the argument type T ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05646226415094339,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 20,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.44999999999999996,
+    "matching_sources": []
+  },
+  "teststudent2_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution3/teststudent2_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:43.451532",
+    "queries_used": [
+      "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Create class instance on stack - c++",
+        "link": "https://stackoverflow.com/questions/62556091/create-class-instance-on-stack",
+        "snippet": "The way to create your object (i.e. class instance) on the stack is even simpler \u2013 local variables are stored on the stack.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.12823581304139847,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - How to use template for implementing ...",
+        "link": "https://stackoverflow.com/questions/68355352/how-to-use-template-for-implementing-stack-using-linkedlist-in-cpp",
+        "snippet": "Here's a quick example using std::list for simplicity's sake: template <typename T> class Stack { public: Stack() = default ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.12156749313687039,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Writing various implementations of Stack class in C++",
+        "link": "https://stackoverflow.com/questions/30877075/writing-various-implementations-of-stack-class-in-c",
+        "snippet": "I currently wrote a header file for a Stack interface (like you would writing an interface in Java for Stack) and I want to implement it in ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.11068177283625107,
+        "is_plagiarism": false
+      },
+      {
+        "title": "JDSherbert/Simple-Stack-Implementation",
+        "link": "https://github.com/JDSherbert/Simple-Stack-Implementation",
+        "snippet": "Simple C++ Stack class template using a custom Node structure to behave like a linked list structure. - JDSherbert/Simple-Stack-Implementation.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.0952459357775232,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Making a simple stack in C++",
+        "link": "https://stackoverflow.com/questions/21588072/making-a-simple-stack-in-c",
+        "snippet": "Hi I am making a simple stack class in C++ and am new to C++. I am having a few errors that I cannot figure out what they mean. Some help ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08706642633922876,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How can I modify the what string of a C++ runtime_error?",
+        "link": "https://stackoverflow.com/questions/9267674/how-can-i-modify-the-what-string-of-a-c-runtime-error",
+        "snippet": "I have a class which inherits from std::runtime_error like so: #include <string> #include <stdexcept> class SomeEx : public std::runtime_error ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08706642633922876,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to inherit from std::runtime_error? - c++",
+        "link": "https://stackoverflow.com/questions/16513245/how-to-inherit-from-stdruntime-error",
+        "snippet": "This is the correct syntax: class err : public A, public std::runtime_error And not: class err : public A, public std::runtime_error(\"\") As you are doing above.",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08706642633922876,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Return exception from function (not throw in ...",
+        "link": "https://stackoverflow.com/questions/59985801/return-exception-from-function-not-throw-in-function-for-message-formatting",
+        "snippet": "struct my_runtime_error : std::runtime_error { { template<typename ... Ts> my_runtime_error(const char * frmt, Ts ... args); };. Or as ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.06682872928176795,
+        "is_plagiarism": false
+      },
+      {
+        "title": "pointers - Implementing a stack class in C++",
+        "link": "https://stackoverflow.com/questions/21914304/implementing-a-stack-class-in-c",
+        "snippet": "Does anyone know what is it that I am doing wrong ?? Any help would be appreciated Thanks. c++ \u00b7 pointers \u00b7 linked-list \u00b7 stack.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.0628237158648752,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ - Constructor in Stack class?",
+        "link": "https://stackoverflow.com/questions/43882450/c-constructor-in-stack-class",
+        "snippet": "My assignment requires me to create a stack template class. My program is working fine, I was just wondering if its necessary in this case ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.0600872690069599,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Implement Stack Using Array in C++",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-array",
+        "snippet": "Learn how to implement a stack using an array in C++. This tutorial provides step-by-step instructions and code examples for beginners.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.05572226965655473,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Stack Implementation Tutorial",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-linked-list",
+        "snippet": "Learn how to implement a stack using a linked list in C++. This tutorial provides step-by-step guidance and code examples for better ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.05361910958558242,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Push/pop stack class program in C++?",
+        "link": "https://stackoverflow.com/questions/46427682/push-pop-stack-class-program-in-c",
+        "snippet": "I've written and modified an example code from a C++ book about ... Here is the code. //stakarray.cpp //a stack as a class #include ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      },
+      {
+        "title": "throwing a run time error - c++",
+        "link": "https://stackoverflow.com/questions/26171631/throwing-a-run-time-error",
+        "snippet": "The message i get is \"Unhandled exception at 0x7699c41f in test project.exe: Microsoft C++ exception: std::runtime_error at memory location ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Difference: std::runtime_error vs std::exception() - c++",
+        "link": "https://stackoverflow.com/questions/1569726/difference-stdruntime-error-vs-stdexception",
+        "snippet": "std::runtime_error is a more specialized class, descending from std::exception, intended to be thrown in case of various runtime errors.",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ runtime_exception with string + integer",
+        "link": "https://stackoverflow.com/questions/61894128/c-runtime-exception-with-string-integer",
+        "snippet": "In C++ I am throwing a run time exception like below, throw std::runtime_error(\"abcdefghijklmnopqrstuvq\"+12); The exception that is thrown doesn't have the ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Confused about std::runtime_error vs. std::logic_error",
+        "link": "https://stackoverflow.com/questions/2924058/confused-about-stdruntime-error-vs-stdlogic-error",
+        "snippet": "So, \"missing file\" is a runtime_error , but \"improperly formatted filename\" is a logic_error . Technically, a logical error within a function is ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      },
+      {
+        "title": "exception - c++: Catch runtime_error",
+        "link": "https://stackoverflow.com/questions/7491877/c-catch-runtime-error",
+        "snippet": "(!stream) throw runtime_error(string(\"cannot open file \") + filename); stream.unsetf(ios::skipws);. I think I need to write something like that:",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Why is my C++ exception not being caught?",
+        "link": "https://stackoverflow.com/questions/48579192/why-is-my-c-exception-not-being-caught",
+        "snippet": "My code throws std::runtime_error , but doesn't catch it in the catch block. Instead it just calls std::terminate or, if I declared an exception ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to throw std::exceptions with variable messages?",
+        "link": "https://stackoverflow.com/questions/12261915/how-to-throw-stdexceptions-with-variable-messages",
+        "snippet": "struct runtime_blunder: std::runtime_error { // expose all standard constructors using std::runtime_error::runtime_error; template <typename...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.0384,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 20,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "teststudent3_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_f7f217c37dd34265952da79f4557b561/results/organized/solution3/teststudent3_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-13T19:05:45.204522",
+    "queries_used": [
+      "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Check if list is empty by function - c++",
+        "link": "https://stackoverflow.com/questions/47004981/check-if-list-is-empty-by-function",
+        "snippet": "isEmpty is supposed to return true if my list is empty. But cant seem to get it right. struct PQCell { int priority; PQCell *next; }; struct ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2769154764221165,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how can I check if an object exists in C++",
+        "link": "https://stackoverflow.com/questions/3640739/how-can-i-check-if-an-object-exists-in-c",
+        "snippet": "I am trying to write a function that will check if an object exists: bool UnloadingBay::isEmpty() { bool isEmpty = true; if(this->unloadingShip != NULL) { ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.14520509827441958,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Check if whole array is empty - c++",
+        "link": "https://stackoverflow.com/questions/22135318/check-if-whole-array-is-empty",
+        "snippet": "for(int i = 0; i < QUEUE_LENGTH; i++) { bool isEmpty = true; for(int j = 0; j < BUFFER_LENGTH; j++) { if(MessageQueue[i][j] != 0) { isEmpty = ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.1268016540640955,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Create class instance on stack - c++",
+        "link": "https://stackoverflow.com/questions/62556091/create-class-instance-on-stack",
+        "snippet": "The way to create your object (i.e. class instance) on the stack is even simpler \u2013 local variables are stored on the stack.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08752967568349161,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Making a simple stack in C++",
+        "link": "https://stackoverflow.com/questions/21588072/making-a-simple-stack-in-c",
+        "snippet": "Hi I am making a simple stack class in C++ and am new to C++. I am having a few errors that I cannot figure out what they mean. Some help ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08752967568349161,
+        "is_plagiarism": false
+      },
+      {
+        "title": "JDSherbert/Simple-Stack-Implementation",
+        "link": "https://github.com/JDSherbert/Simple-Stack-Implementation",
+        "snippet": "Simple C++ Stack class template using a custom Node structure to behave like a linked list structure. - JDSherbert/Simple-Stack-Implementation.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08752967568349161,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How can I modify the what string of a C++ runtime_error?",
+        "link": "https://stackoverflow.com/questions/9267674/how-can-i-modify-the-what-string-of-a-c-runtime-error",
+        "snippet": "I have a class which inherits from std::runtime_error like so: #include <string> #include <stdexcept> class SomeEx : public std::runtime_error ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08752967568349161,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to inherit from std::runtime_error? - c++",
+        "link": "https://stackoverflow.com/questions/16513245/how-to-inherit-from-stdruntime-error",
+        "snippet": "This is the correct syntax: class err : public A, public std::runtime_error And not: class err : public A, public std::runtime_error(\"\") As you are doing above.",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08752967568349161,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Checking for an empty file in C++",
+        "link": "https://stackoverflow.com/questions/2390912/checking-for-an-empty-file-in-c",
+        "snippet": "open(\"example.txt\"); bool isEmpty(true); std::string line; while( file >> line ) isEmpty = false; std::cout << isEmpty << std::endl; }. Share.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08490110652328353,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - How to use template for implementing ...",
+        "link": "https://stackoverflow.com/questions/68355352/how-to-use-template-for-implementing-stack-using-linkedlist-in-cpp",
+        "snippet": "Here's a quick example using std::list for simplicity's sake: template <typename T> class Stack { public: Stack() = default ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.08142324681264829,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Return exception from function (not throw in ...",
+        "link": "https://stackoverflow.com/questions/59985801/return-exception-from-function-not-throw-in-function-for-message-formatting",
+        "snippet": "struct my_runtime_error : std::runtime_error { { template<typename ... Ts> my_runtime_error(const char * frmt, Ts ... args); };. Or as ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.07820773930753565,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Writing various implementations of Stack class in C++",
+        "link": "https://stackoverflow.com/questions/30877075/writing-various-implementations-of-stack-class-in-c",
+        "snippet": "I currently wrote a header file for a Stack interface (like you would writing an interface in Java for Stack) and I want to implement it in ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.044966062379872905,
+        "is_plagiarism": false
+      },
+      {
+        "title": "pointers - Implementing a stack class in C++",
+        "link": "https://stackoverflow.com/questions/21914304/implementing-a-stack-class-in-c",
+        "snippet": "Does anyone know what is it that I am doing wrong ?? Any help would be appreciated Thanks. c++ \u00b7 pointers \u00b7 linked-list \u00b7 stack.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ - Constructor in Stack class?",
+        "link": "https://stackoverflow.com/questions/43882450/c-constructor-in-stack-class",
+        "snippet": "My assignment requires me to create a stack template class. My program is working fine, I was just wondering if its necessary in this case ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Implement Stack Using Array in C++",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-array",
+        "snippet": "Learn how to implement a stack using an array in C++. This tutorial provides step-by-step instructions and code examples for beginners.",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Stack Implementation Tutorial",
+        "link": "https://www.tutorialspoint.com/cplusplus-program-to-implement-stack-using-linked-list",
+        "snippet": "Learn how to implement a stack using a linked list in C++. This tutorial provides step-by-step guidance and code examples for better ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Push/pop stack class program in C++?",
+        "link": "https://stackoverflow.com/questions/46427682/push-pop-stack-class-program-in-c",
+        "snippet": "I've written and modified an example code from a C++ book about ... Here is the code. //stakarray.cpp //a stack as a class #include ...",
+        "query": "\"Stack\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.8,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "throwing a run time error - c++",
+        "link": "https://stackoverflow.com/questions/26171631/throwing-a-run-time-error",
+        "snippet": "The message i get is \"Unhandled exception at 0x7699c41f in test project.exe: Microsoft C++ exception: std::runtime_error at memory location ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Difference: std::runtime_error vs std::exception() - c++",
+        "link": "https://stackoverflow.com/questions/1569726/difference-stdruntime-error-vs-stdexception",
+        "snippet": "std::runtime_error is a more specialized class, descending from std::exception, intended to be thrown in case of various runtime errors.",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ runtime_exception with string + integer",
+        "link": "https://stackoverflow.com/questions/61894128/c-runtime-exception-with-string-integer",
+        "snippet": "In C++ I am throwing a run time exception like below, throw std::runtime_error(\"abcdefghijklmnopqrstuvq\"+12); The exception that is thrown doesn't have the ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Confused about std::runtime_error vs. std::logic_error",
+        "link": "https://stackoverflow.com/questions/2924058/confused-about-stdruntime-error-vs-stdlogic-error",
+        "snippet": "So, \"missing file\" is a runtime_error , but \"improperly formatted filename\" is a logic_error . Technically, a logical error within a function is ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "exception - c++: Catch runtime_error",
+        "link": "https://stackoverflow.com/questions/7491877/c-catch-runtime-error",
+        "snippet": "(!stream) throw runtime_error(string(\"cannot open file \") + filename); stream.unsetf(ios::skipws);. I think I need to write something like that:",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Why is my C++ exception not being caught?",
+        "link": "https://stackoverflow.com/questions/48579192/why-is-my-c-exception-not-being-caught",
+        "snippet": "My code throws std::runtime_error , but doesn't catch it in the catch block. Instead it just calls std::terminate or, if I declared an exception ...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to throw std::exceptions with variable messages?",
+        "link": "https://stackoverflow.com/questions/12261915/how-to-throw-stdexceptions-with-variable-messages",
+        "snippet": "struct runtime_blunder: std::runtime_error { // expose all standard constructors using std::runtime_error::runtime_error; template <typename...",
+        "query": "\"runtime_error\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Why is STL \"empty\" member function not called \"isEmpty\"?",
+        "link": "https://stackoverflow.com/questions/55135525/why-is-stl-empty-member-function-not-called-isempty",
+        "snippet": "I checked all other containers, and all use empty the same way. Why does stl not use isEmpty() instead ? c++ \u00b7 stl \u00b7 naming-conventions \u00b7 naming.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - why is my isEmpty and isFull function not working?",
+        "link": "https://stackoverflow.com/questions/70314921/why-is-my-isempty-and-isfull-function-not-working",
+        "snippet": "Simply test the empty and full functions. Just put a single item in the stack, call the isEmpty(). If it doesn't work, fix the code there.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Checking if an Object is in empty state - c++",
+        "link": "https://stackoverflow.com/questions/38601122/c-checking-if-an-object-is-in-empty-state",
+        "snippet": "Here is how to implement the isEmpty method: it should return true iff all the data members of the object have the empty/zero/default value ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Is there a concise opposite of \"empty\"?",
+        "link": "https://stackoverflow.com/questions/21882655/is-there-a-concise-opposite-of-empty",
+        "snippet": "Interfaces to string classes typically have of method named IsEmpty (VCL) or empty (STL). That's absolutely reasonable because it's a special case.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Check if string is empty - c++",
+        "link": "https://stackoverflow.com/questions/4077940/check-if-string-is-empty",
+        "snippet": "We can remove the NULL check and then it becomes responsibility of the caller, or we can define that isEmpty returns FALSE to NULL strings.",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How is std::is_empty<T> implemented in VS2015 (or any ...",
+        "link": "https://stackoverflow.com/questions/35531309/how-is-stdis-emptyt-implemented-in-vs2015-or-any-compiler",
+        "snippet": "Looks as if MSVC++ provides an intrinsic __isempty(T) rather than dealing with a library-level implementation. Since the argument type T ...",
+        "query": "\"isEmpty\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.04123867069486404,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 30,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  }
+}

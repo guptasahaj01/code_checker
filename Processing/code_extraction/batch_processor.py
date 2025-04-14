@@ -174,9 +174,11 @@ class BatchProcessor:
             solution_dir = os.path.join(self.organized_dir, f"solution{solution_num}")
             os.makedirs(solution_dir, exist_ok=True)
             
-            # Copy solutions to organized directory
+            # Copy solutions to organized directory with unique names
             for pdf_name, solution_path in pdf_solutions.items():
-                target_path = os.path.join(solution_dir, f"{pdf_name}.txt")
+                # Create a unique filename that includes both student name and solution number
+                unique_filename = f"{pdf_name}_sol{solution_num}.txt"
+                target_path = os.path.join(solution_dir, unique_filename)
                 shutil.copy(solution_path, target_path)
         
         return organized_solutions

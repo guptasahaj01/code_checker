@@ -1,0 +1,41 @@
+void Display() {
+if (front == -1 || front > rear) {
+printf("Queue is Empty!\n");
+} else {
+for (int i = front; i <= rear; i++) {
+printf("%d\n", queue[i]);
+}
+printf("\n");
+}
+}
+
+void Dequeue() {
+if (front == -1 || front > rear) {
+printf("Queue is Empty!\n");
+} else {
+printf("%d dequeued\n", queue[front]);
+front++;
+}
+}
+
+void Enqueue() {
+int value;
+if (rear == MAX - 1) {
+printf("Queue is Full!\n");
+} else {
+if (front == -1) front = 0;
+printf("Enter value to enqueue:");
+scanf("%d", &value);
+rear++;
+queue[rear] = value;
+}
+}
+
+int main() {
+Enqueue();
+Enqueue();
+Dequeue();
+Dequeue();
+Display();
+return 0;
+}

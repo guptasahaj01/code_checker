@@ -1,0 +1,73 @@
+void Enqueue(int x)
+{
+if (rear == N-1) {
+printf("Queue Overflow");
+}
+else if (rear==-1 && front ==-1) {
+front++;
+rear++;
+queue[rear]=x;
+}
+else {
+rear++;
+queue[rear]=x;
+}
+}
+
+void Dequeue()
+{
+if ((rear==-1 && front ==-1) || front>rear) {
+printf("Underflow");
+}
+else {
+front++;
+}
+}
+
+int Peak() {
+return queue[front];
+}
+
+void Display() {
+if (front == -1 || front > rear) {
+printf("Queue is empty\n");
+}
+else {
+for (int i = front; i <= rear; i++) {
+printf("%d\n", queue[i]);
+}
+printf("\n");
+}
+}
+
+int main()
+{
+int choice,y,p;
+while (1)
+{
+printf("\n1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Peek\n");
+printf("4. Display the Queue\n");
+printf("5. Quit\n\n");
+scanf("%d",&choice);
+switch (choice) {
+case 1:
+printf("Enter number you want to enqueue:");
+scanf("%d",&y);
+Enqueue(y);
+break;
+case 2:
+Dequeue();
+break;
+case 3:
+p = Peak();
+printf("%d",p);
+break;
+case 4:
+Display();
+case 5:
+exit(1);
+}
+}
+}

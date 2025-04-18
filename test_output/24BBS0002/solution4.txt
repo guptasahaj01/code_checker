@@ -1,0 +1,14 @@
+bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,
+int>>>& plots) {
+vector<pair<int, int>> currentCover;
+return backtrack(0, npVertices, plots, currentCover);
+}
+
+int main() {
+vector<pair<int, int>> np = {{0,0}, {0,2}, {2,2}, {2,0}};
+vector<pair<pair<int, int>, pair<int, int>>> plots = {
+{{0,0}, {1,1}}, {{1,0}, {2,1}}, {{0,1}, {1,2}}, {{1,1}, {2,2}}
+};
+cout << (canCoverNPWithPlots(np, plots) ? "Yes" : "No") << endl;
+return 0;
+}

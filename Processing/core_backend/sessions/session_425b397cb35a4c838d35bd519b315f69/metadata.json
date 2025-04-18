@@ -1,0 +1,8 @@
+{
+  "session_id": "session_425b397cb35a4c838d35bd519b315f69",
+  "difficulty": "medium",
+  "file_count": 38,
+  "timestamp": "2025-04-15T21:02:18.033805",
+  "status": "error",
+  "error": "name 'generate_comprehensive_report' is not defined"
+}

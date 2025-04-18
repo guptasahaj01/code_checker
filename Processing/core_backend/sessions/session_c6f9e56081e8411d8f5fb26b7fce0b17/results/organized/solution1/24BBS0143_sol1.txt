@@ -1,0 +1,84 @@
+struct Queue {
+int arr[MAX];
+int front, rear;
+}
+
+int isFull(struct Queue* q) {return (q->rear == MAX - 1);}
+
+int isEmpty(struct Queue* q) {return (q->front == -1 || q->front > q->rear);}
+
+void enqueue(struct Queue* q, int value) {
+if (isFull(q)) {
+prin(cid:414)("Queue is full! Cannot enqueue %d.\n", value);
+} else {
+if (q->front == -1) {
+q->front = 0;
+}
+q->rear++;
+q->arr[q->rear] = value;
+prin(cid:414)("%d enqueued successfully.\n", value);
+}
+}
+
+int dequeue(struct Queue* q) {
+if (isEmpty(q)) {
+prin(cid:414)("Queue is empty! Cannot dequeue.\n");
+return -1;
+} else {
+int dequeuedValue = q->arr[q->front];
+q->front++;
+if (q->front > q->rear) {
+q->front = q->rear = -1;
+}
+return dequeuedValue;
+}
+}
+
+void display(struct Queue* q) {
+if (isEmpty(q)) {
+prin(cid:414)("Queue is empty! Nothing to display.\n");
+} else {
+prin(cid:414)("Queue elements: ");
+for (int i = q->front; i <= q->rear; i++) {
+prin(cid:414)("%d ", q->arr[i]);
+}
+prin(cid:414)("\n");
+}
+}
+
+int main() {
+struct Queue q;
+ini(cid:415)alize(&q);
+int choice, value;
+while (1) {
+prin(cid:414)("\nQueue Opera(cid:415)ons Menu:\n");
+prin(cid:414)("1. Enqueue\n");
+prin(cid:414)("2. Dequeue\n");
+prin(cid:414)("3. Display\n");
+prin(cid:414)("4. Exit\n");
+prin(cid:414)("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prin(cid:414)("Enter the value to enqueue: ");
+scanf("%d", &value);
+enqueue(&q, value);
+break;
+case 2:
+value = dequeue(&q);
+if (value != -1) {
+prin(cid:414)("Dequeued value: %d\n", value);
+}
+break;
+case 3:
+display(&q);
+break;
+case 4:
+prin(cid:414)("Exi(cid:415)ng program.\n");
+exit(0);
+default:
+prin(cid:414)("Invalid choice! Please try again.\n");
+}
+}
+return 0;
+}

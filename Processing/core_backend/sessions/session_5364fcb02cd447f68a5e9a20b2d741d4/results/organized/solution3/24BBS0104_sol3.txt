@@ -1,0 +1,62 @@
+void pop()
+{
+if(top==-1)
+{
+printf("No element to pop in the stack : UNDERFLOW");
+}
+else{
+top--;
+}
+}
+
+void display()
+{
+printf("\nstack is : \n");
+if(top==-1)
+{
+printf("The stack is empty");
+return ;
+}
+for(int i=0; i<=top; i++)
+{
+printf("%d\t", a[i]);
+}
+}
+
+void push()
+{
+if(top==n-1)
+{
+printf("Cannot add element to the stack : OVERFLOW");
+}
+else{
+top++;
+printf("enter element to add in stack");
+int x;
+scanf("%d", &x);
+a[top]=x;
+}
+}
+
+int main()
+{
+int choice;
+while(1)
+{
+printf("\nEnter the respective number which you want to do the operation \n1. push an
+element\n2. remove an element\n3. display the stack\n4. exit\n");
+scanf("%d", &choice);
+switch(choice)
+{
+case 4: exit(1);
+break;
+case 1: push();
+break;
+case 2: pop();
+break;
+case 3: display();
+break;
+default: printf("enter a valid choice");
+}
+}
+}

@@ -1,0 +1,93 @@
+void push() {
+11 int value;
+12 if (top == MAX - 1) {
+13 printf("Stack Overflow! Cannot push element.\n");
+14 } else {
+15 printf("Enter the value to be pushed: ");
+16 scanf("%d", &value);
+17 top++;
+18 stack[top] = value;
+19 printf("Element %d pushed onto the stack.\n", value);
+20 }
+21 }
+
+void pop() {
+24 if (top == -1) {
+25 printf("Stack Underflow! No element to pop.\n");
+26 } else {
+27 printf("Element %d popped from the stack.\n", stack[top]);
+28 top--;
+29 }
+30 }
+
+void display() {
+33 if (top == -1) {
+34 printf("Stack is empty.\n");
+35 } else {
+36 printf("Stack elements are:\n");
+37 for (int i = top; i >= 0; i--) {
+38 printf("%d\n", stack[i]);
+39 }
+40 }
+41 }
+
+void enqueue() {
+86 int value;
+87 if (rear == MAX - 1) {
+88 printf("Queue Overflow! Cannot enqueue element.\n");
+89 } else {
+90 printf("Enter the value to be enqueued: ");
+91 scanf("%d", &value);
+92 if (front == -1) {
+93 front = 0;
+94 }
+95 rear++;
+96 queue[rear] = value;
+97 printf("Element %d enqueued into the queue.\n", value);
+98 }
+99 }
+
+void dequeue() {
+102 if (front == -1 || front > rear) {
+103 printf("Queue Underflow! No element to dequeue.\n");
+104 } else {
+105 printf("Element %d dequeued from the queue.\n", queue[front]);
+106 front++;
+107 if (front > rear) {
+108 front = rear = -1; // Reset the queue if empty
+109 }
+110 }
+111 }
+
+int main() {
+44 int choice;
+
+46 while (1) {
+47 printf("\nStack Operations Menu:\n");
+48 printf("1. PUSH\n");
+49 printf("2. POP\n");
+50 printf("3. Display\n");
+51 printf("4. Exit\n");
+52 printf("Enter your choice: ");
+53 scanf("%d", &choice);
+
+55 switch (choice) {
+56 case 1:
+57 push();
+58 break;
+59 case 2:
+60 pop();
+61 break;
+62 case 3:
+63 display();
+64 break;
+65 case 4:
+66 printf("Exiting program. Goodbye!\n");
+67 exit(0);
+68 default:
+69 printf("Invalid choice! Please try again.\n");
+70 }
+71 }
+
+73 return 0;
+74 }

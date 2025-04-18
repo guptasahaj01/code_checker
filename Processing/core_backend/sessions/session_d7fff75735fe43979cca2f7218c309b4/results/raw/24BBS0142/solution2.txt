@@ -1,0 +1,241 @@
+void Enqueue(int value) {
+if ((rear + 1) % MAX == front) {
+printf("Queue is Full!\n");
+} else {
+if (front == -1) front = 0;
+rear = (rear + 1) % MAX;
+queue[rear] = value;
+printf("enqueued value:%d\n", value);
+}
+}
+
+void Dequeue() {
+if (front == -1) {
+printf("Queue is Empty!\n");
+} else {
+printf("dequeued value:%d\n", queue[front]);
+if (front == rear) {
+front = rear = -1;
+} else {
+front = (front + 1) % MAX;
+}
+}
+}
+
+void Display() {
+if (count == 0) {
+printf("List is empty\n");
+return;
+}
+for (int i = count - 1; i >= 0; i--) {
+printf("Inserted element:%d\n", list[i][0]);
+}
+printf("\n");
+}
+
+void InsertBeginning(int value) {
+if (rear == MAX - 1) {
+printf("Queue is full\n");
+} else {
+if (front == -1) front = 0;
+for (int i = rear; i >= front; i--) {
+queue[i + 1] = queue[i];
+}
+queue[front] = value;
+rear++;
+}
+}
+
+void InsertEnd(int value) {
+if (rear == MAX - 1) {
+printf("Queue is full\n");
+} else {
+if (front == -1) front = 0;
+queue[rear + 1] = value;
+rear++;
+}
+}
+
+void DeleteBeginning() {
+if (front == -1 || front > rear) {
+printf("Queue is empty\n");
+} else {
+printf("Deleted value: %d\n", queue[front]);
+front++;
+}
+}
+
+void DeleteEnd() {
+if (front == -1 || front > rear) {
+printf("Queue is empty\n");
+} else {
+printf("Deleted value: %d\n", queue[rear]);
+rear--;
+}
+}
+
+void Insert(int value) {
+if (count >= MAX) {
+printf("List is full\n");
+return;
+}
+list[count][0] = value;
+list[count][1] = (count == 0) ? -1 : count - 1;
+count++;
+}
+
+void Delete() {
+if (count == 0) {
+printf("List is empty\n");
+return;
+}
+count--;
+}
+
+void Display() {
+if (front == -1 || front > rear) {
+printf("Queue is Empty!\n");
+} else {
+for (int i = front; i <= rear; i++) {
+printf("%d\n", queue[i]);
+}
+printf("\n");
+}
+}
+
+void Display() {
+if (front == -1) {
+printf("Queue is Empty!\n");
+} else {
+int i = front;
+while (i != rear) {
+printf("%d\n", queue[i]);
+i = (i + 1) % MAX;
+}
+printf("%d\n", queue[rear]);
+}
+}
+
+void Display() {
+if (front == -1 || front > rear) {
+printf("Queue is empty\n");
+} else {
+for (int i = front; i <= rear; i++) {
+printf("%d\n", queue[i]);
+}
+printf("\n");
+}
+}
+
+void Dequeue() {
+if (front == -1 || front > rear) {
+printf("Queue is Empty!\n");
+} else {
+printf("%d dequeued\n", queue[front]);
+front++;
+}
+}
+
+void Enqueue() {
+int value;
+if (rear == MAX - 1) {
+printf("Queue is Full!\n");
+} else {
+if (front == -1) front = 0;
+printf("Enter value to enqueue:");
+scanf("%d", &value);
+rear++;
+queue[rear] = value;
+}
+}
+
+int main() {
+Enqueue();
+Enqueue();
+Dequeue();
+Dequeue();
+Display();
+return 0;
+}
+
+int main() {
+Enqueue();
+Enqueue();
+Dequeue();
+Display();
+return 0;
+}
+
+int main() {
+Enqueue();
+Enqueue();
+Enqueue();
+Enqueue();
+Enqueue();
+Enqueue();
+Dequeue();
+Display();
+return 0;
+}
+
+int main() {
+Enqueue(10);
+Enqueue(20);
+Enqueue(30);
+Enqueue(40);
+Enqueue(50);
+Dequeue();
+Enqueue(60);
+Display();
+return 0;
+}
+
+int main() {
+Enqueue(10);
+Enqueue(20);
+Enqueue(30);
+Enqueue(40);
+Enqueue(50);
+Dequeue();
+Dequeue();
+Dequeue();
+Dequeue();
+Dequeue();
+Display();
+return 0;
+}
+
+int main() {
+Enqueue(10);
+Enqueue(20);
+Enqueue(30);
+Enqueue(40);
+Enqueue(50);
+Enqueue(60);
+Dequeue();
+Enqueue(60);
+Display();
+return 0;
+}
+
+int main() {
+InsertBeginning(10);
+InsertEnd(20);
+Display();
+DeleteBeginning();
+Display();
+InsertEnd(30);
+DeleteEnd();
+Display();
+return 0;
+}
+
+int main() {
+Insert(10);
+Insert(20);
+Insert(30);
+Display();
+Delete();
+Display();
+return 0;
+}

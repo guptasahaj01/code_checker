@@ -1,0 +1,136 @@
+void deleteFromEnd() {
+887 if (head == NULL) {
+888 printf("List is empty. Nothing to delete.\n");
+889 } else if (head->next == NULL) {
+890 printf("Node with value %d deleted from the end.\n", head->data);
+891 free(head);
+892 head = NULL;
+893 } else {
+894 struct Node* temp = head;
+895 while (temp->next != NULL) {
+896 temp = temp->next;
+897 }
+898 printf("Node with value %d deleted from the end.\n", temp->data);
+899 temp->prev->next = NULL;
+900 free(temp);
+901 }
+902 }
+
+void deleteFromPosition() {
+905 int pos;
+906 printf("Enter the position to delete: ");
+907 scanf("%d", &pos);
+
+909 if (head == NULL) {
+910 printf("List is empty. Nothing to delete.\n");
+911 } else if (pos == 1) {
+912 struct Node* temp = head;
+913 head = head->next;
+914 if (head != NULL) {
+915 head->prev = NULL;
+916 }
+917 printf("Node with value %d deleted from position 1.\n", temp->data);
+918 free(temp);
+919 } else {
+920 struct Node* temp = head;
+921 for (int i = 1; i < pos && temp != NULL; i++) {
+922 temp = temp->next;
+923 }
+924 if (temp == NULL) {
+925 printf("Invalid position!\n");
+926 return;
+927 }
+928 printf("Node with value %d deleted from position %d.\n", temp->data, pos);
+929 if (temp->prev != NULL) {
+930 temp->prev->next = temp->next;
+931 }
+932 if (temp->next != NULL) {
+933 temp->next->prev = temp->prev;
+934 }
+935 free(temp);
+936 }
+937 }
+
+void search() {
+940 int value, pos = 1;
+941 printf("Enter the value to search: ");
+942 scanf("%d", &value);
+
+944 struct Node* temp = head;
+945 while (temp != NULL) {
+946 if (temp->data == value) {
+947 printf("Element %d found at position %d.\n", value, pos);
+948 return;
+949 }
+950 temp = temp->next;
+951 pos++;
+952 }
+953 printf("Element %d not found in the list.\n", value);
+954 }
+
+void display() {
+958 if (head == NULL) {
+959 printf("List is empty.\n");
+960 } else {
+961 printf("List elements are: ");
+962 struct Node* temp = head;
+963 while (temp != NULL) {
+964 printf("%d <-> ", temp->data);
+965 temp = temp->next;
+966 }
+967 printf("NULL\n");
+968 }
+969 }
+
+int main() {
+972 int choice;
+
+974 while (1) {
+975 printf("\nDoubly Linked List Operations Menu:\n");
+976 printf("1. Insert at Beginning\n");
+977 printf("2. Insert at End\n");
+978 printf("3. Insert at Position\n");
+979 printf("4. Delete from Beginning\n");
+980 printf("5. Delete from End\n");
+981 printf("6. Delete from Position\n");
+982 printf("7. Search\n");
+983 printf("8. Display\n");
+984 printf("9. Exit\n");
+985 printf("Enter your choice: ");
+986 scanf("%d", &choice);
+
+988 switch (choice) {
+989 case 1:
+990 insertAtBeginning();
+991 break;
+992 case 2:
+993 insertAtEnd();
+994 break;
+995 case 3:
+996 insertAtPosition();
+997 break;
+998 case 4:
+999 deleteFromBeginning();
+1000 break;
+1001 case 5:
+1002 deleteFromEnd();
+1003 break;
+1004 case 6:
+1005 deleteFromPosition();
+1006 break;
+1007 case 7:
+1008 search();
+1009 break;
+1010 case 8:
+1011 display();
+1012 break;
+1013 case 9:
+1014 printf("Exiting program. Goodbye!\n");
+1015 exit(0);
+1016 default:
+1017 printf("Invalid choice! Please try again.\n");
+1018 }
+1019 }
+
+1021 return 0;
+1022 }

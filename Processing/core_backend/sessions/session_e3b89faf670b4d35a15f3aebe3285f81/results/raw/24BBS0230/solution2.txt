@@ -1,0 +1,223 @@
+struct Node {
+int data;
+struct Node* prev;
+struct Node* next;
+}
+
+void insertAtBeginning(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+newNode->prev = NULL;
+newNode->next = head;
+if (head != NULL) {
+head->prev = newNode;
+}
+head = newNode;
+printf("Element inserted at the beginning\n");
+}
+
+void insertAtPosition(int value, int position) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+if (position == 1) {
+insertAtBeginning(value);
+return;
+}
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL) {
+printf("Invalid position\n");
+free(newNode);
+return;
+}
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Invalid position\n");
+free(newNode);
+return;
+}
+newNode->next = temp->next;
+newNode->prev = temp;
+if (temp->next != NULL) {
+temp->next->prev = newNode;
+}
+temp->next = newNode;
+printf("Element inserted at position %d\n", position);
+}
+
+void insertAtEnd(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+newNode->prev = NULL;
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+newNode->prev = temp;
+}
+printf("Element inserted at the end\n");
+}
+
+void deleteFromBeginning() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+free(temp);
+printf("Element deleted from the beginning\n");
+}
+
+void deleteAtPosition(int position) {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+if (position == 1) {
+deleteFromBeginning();
+return;
+}
+struct Node* temp = head;
+for (int i = 1; i < position; i++) {
+if (temp == NULL) {
+printf("Invalid position\n");
+return;
+}
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Invalid position\n");
+return;
+}
+if (temp->next != NULL) {
+temp->next->prev = temp->prev;
+}
+if (temp->prev != NULL) {
+temp->prev->next = temp->next;
+}
+free(temp);
+printf("Element deleted at position %d\n", position);
+}
+
+void deleteFromEnd() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+if (head->next == NULL) {
+free(head);
+head = NULL;
+printf("Element deleted from the end\n");
+return;
+}
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->prev->next = NULL;
+free(temp);
+printf("Element deleted from the end\n");
+}
+
+void search(int value) {
+struct Node* temp = head;
+int position = 1;
+while (temp != NULL) {
+if (temp->data == value) {
+printf("Element %d found at position %d\n", value, position);
+return;
+}
+temp = temp->next;
+position++;
+}
+printf("Element %d not found in the list\n", value);
+}
+
+void display() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+printf("Elements in the list: ");
+while (temp != NULL) {
+printf("%d ", temp->data);
+temp = temp->next;
+}
+printf("\n");
+}
+
+int main() {
+int choice, value, position;
+do {
+printf("\nMenu:\n");
+printf("1. Insert at Beginning\n");
+printf("2. Insert at End\n");
+printf("3. Insert at a Position\n");
+printf("4. Delete from Beginning\n");
+printf("5. Delete from End\n");
+printf("6. Delete at a Position\n");
+printf("7. Search for an Element\n");
+printf("8. Display the List\n");
+printf("9. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the element: ");
+scanf("%d", &value);
+insertAtBeginning(value);
+break;
+case 2:
+printf("Enter the element: ");
+scanf("%d", &value);
+insertAtEnd(value);
+break;
+case 3:
+printf("Enter the element: ");
+scanf("%d", &value);
+printf("Enter the position: ");
+scanf("%d", &position);
+insertAtPosition(value, position);
+break;
+case 4:
+deleteFromBeginning();
+break;
+case 5:
+deleteFromEnd();
+break;
+case 6:
+printf("Enter the position: ");
+scanf("%d", &position);
+deleteAtPosition(position);
+break;
+case 7:
+printf("Enter the element to search: ");
+scanf("%d", &value);
+search(value);
+break;
+case 8:
+display();
+break;
+case 9:
+printf("Exiting program\n");
+break;
+default:
+printf("Invalid choice! Please try again.\n");
+}
+} while (choice != 9);
+return 0;
+}

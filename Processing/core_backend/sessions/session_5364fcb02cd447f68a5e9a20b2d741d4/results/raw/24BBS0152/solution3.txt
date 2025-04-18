@@ -1,0 +1,108 @@
+struct Node {
+int data;
+struct Node* next;
+}
+
+void f_r_Queue(struct CircularQueue* queue) {
+queue->front = -1;
+queue->rear = -1;
+}
+
+int isFull(struct CircularQueue* queue) {
+return (queue->rear + 1) % n == queue->front;
+}
+
+int isEmpty(struct CircularQueue* queue) {
+return queue->front == -1;
+}
+
+void Enqueue(struct CircularQueue* queue, int value) {
+if (isFull(queue)) {
+printf("Queue Overflow! Cannot enqueue %d\n", value);
+} else {
+if (queue->front == -1) {
+queue->front = 0;
+}
+queue->rear = (queue->rear + 1) % n;
+queue->arr[queue->rear] = value;
+printf("Enqueued %d to the queue.\n", value);
+}
+}
+
+void insert_at_beginning(struct Node** head, int value) {
+struct Node* newNode = createNode(value);
+newNode->next = *head;
+*head = newNode;
+printf("Inserted %d at the beginning.\n", value);
+}
+
+void Dequeue(struct CircularQueue* queue) {
+if (isEmpty(queue)) {
+printf("Queue Underflow! Cannot dequeue.\n");
+} else {
+int dequeuedValue = queue->arr[queue->front];
+if (queue->front == queue->rear) {
+queue->front = queue->rear = -1;
+} else {
+queue->front = (queue->front + 1) % n;
+}
+printf("Dequeued %d from the queue.\n", dequeuedValue);
+}
+}
+
+void Display(struct CircularQueue* queue) {
+if (isEmpty(queue)) {
+printf("Queue is empty!\n");
+} else {
+printf("Queue elements: ");
+int i = queue->front;
+while (i != queue->rear) {
+printf("%d ", queue->arr[i]);
+i = (i + 1) % n;
+}
+printf("%d\n", queue->arr[queue->rear]);
+}
+}
+
+void insert_at_end(struct Node** head, int value) {
+struct Node* newNode = createNode(value);
+if (*head == NULL) {
+*head = newNode;
+} else {
+struct Node* temp = *head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+}
+printf("Inserted %d at the end.\n", value);
+}
+
+int main() {
+struct CircularQueue queue;
+f_r_Queue(&queue);
+int choice, value,t=1;
+while (t==1) {
+printf("\nMenu:\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\nEnter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter value to enqueue: ");
+scanf("%d", &value);
+Enqueue(&queue, value);
+break;
+case 2:
+Dequeue(&queue);
+break;
+case 3:
+Display(&queue);
+break;
+case 4:
+t=0;
+break;
+default:
+printf("Invalid choice! Please try again.\n");
+}
+}
+return 0;
+}

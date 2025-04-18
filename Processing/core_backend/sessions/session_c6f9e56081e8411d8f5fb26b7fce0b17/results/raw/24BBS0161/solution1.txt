@@ -1,0 +1,118 @@
+struct Node {
+int data;
+struct Node* next;
+}
+
+void initQueue(CircularQueue *q) {
+q->front = -1;
+q->rear = -1;
+q->size = 0;
+}
+
+int isFull(CircularQueue *q) {
+return (q->size == MAX_SIZE);
+}
+
+int isEmpty(CircularQueue *q) {
+return (q->size == 0);
+}
+
+void enqueue(CircularQueue *q, int value) {
+if (isFull(q)) {
+printf("Queue is full. Cannot enqueue.\n");
+return;
+}
+if (isEmpty(q)) {
+q->front = 0;
+}
+q->rear = (q->rear + 1) % MAX_SIZE;
+q->items[q->rear] = value;
+q->size++;
+printf("%d added to the queue.\n", value);
+}
+
+void insertAtBeginning(Node** head, int data) {
+Node* newNode = createNode(data);
+newNode->next = *head;
+*head = newNode;
+printf("Inserted %d at the beginning.\n", data);
+}
+
+int dequeue(CircularQueue *q) {
+int item;
+if (isEmpty(q)) {
+printf("Queue is empty. Cannot dequeue.\n");
+return -1;
+}
+item = q->items[q->front];
+q->front = (q->front + 1) % MAX_SIZE;
+q->size--;
+if (isEmpty(q)) {
+q->front = -1;
+q->rear = -1;
+}
+printf("%d removed from the queue.\n", item);
+return item;
+}
+
+void display(CircularQueue *q) {
+int i, count;
+if (isEmpty(q)) {
+printf("Queue is empty.\n");
+return;
+}
+printf("Queue elements: ");
+for (i = 0, count = 0; count < q->size; i = (i + 1) % MAX_SIZE, count++) {
+printf("%d ", q->items[i]);
+}
+printf("\n");
+}
+
+void insertAtEnd(Node** head, int data) {
+Node* newNode = createNode(data);
+if (*head == NULL) {
+*head = newNode;
+printf("Inserted %d at the end.\n", data);
+return;
+}
+Node* temp = *head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+printf("Inserted %d at the end.\n", data);
+}
+
+int main() {
+CircularQueue q;
+int choice, value;
+initQueue(&q);
+while (1) {
+printf("\nCircular Queue Operations Menu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter value to enqueue: ");
+scanf("%d", &value);
+enqueue(&q, value);
+break;
+case 2:
+dequeue(&q);
+break;
+case 3:
+display(&q);
+break;
+case 4:
+printf("Exiting program.\n");
+exit(0);
+default:
+printf("Invalid choice. Try again.\n");
+}
+}
+return 0;
+}

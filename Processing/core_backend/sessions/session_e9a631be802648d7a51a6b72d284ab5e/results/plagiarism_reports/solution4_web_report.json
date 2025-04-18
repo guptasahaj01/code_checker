@@ -1,0 +1,129 @@
+{
+  "DOC3SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC3SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:23.490139",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int mask = 0; mask < (1 << n); ++mask) {\nfor (int i = 0; i < npVertices.size(); ++i) {\nif (dp[mask][i]) {\nfor (int j = 0; j < n; ++j) {\nif (!(mask & (1 << j))) {\n// Update dp[mask | (1 << j)][newIndex]\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC6SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC6SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:24.720325",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"compute\" algorithm cpp implementation site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,\nint>>>& plots)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC5SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC5SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:25.218765",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,\nint>>>& plots)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int, int>>>& plots) { // Build quadtree from npVertices // Recursively divide NP and attempt to cover each quadrant return false; // Placeholder }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC7SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC7SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:25.856720",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,\nint>>>& plots)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int, int>>>& plots) { // Formulate ILP to minimize uncovered area // Solve ILP using a solver return false; // Placeholder }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC2SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC2SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:26.461233",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"backtrack\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"backtrack\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC1SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC1SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:27.790328",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"isExactCover\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int mask = 1; mask < (1 << n); ++mask) {\nvector<pair<int, int>> coveredArea;\nfor (int i = 0; i < n; ++i) {\nif (mask & (1 << i)) {\n// Add plot[i] to coveredArea\ncoveredArea.push_back(plots[i].first);\ncoveredArea.push_back(plots[i].second);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC8SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC8SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:28.567969",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,\nint>>>& plots)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int, int>>>& plots) { // Randomly select subsets of plots and check coverage return false; // Placeholder }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC4SAM_sol4.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution4/DOC4SAM_sol4.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:30.021822",
+    "queries_used": [
+      "\"canCoverNPWithPlots\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"sort(plots.begin()\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (const auto& plot : plots) {\n// Try to add plot to coveredArea\nif (isExactCover(npVertices, coveredArea)) {\nreturn true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  }
+}

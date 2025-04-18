@@ -1,0 +1,75 @@
+void enqueue(int element) {
+if ((rear + 1) % MAX == front) {
+prini("Queue is full! Cannot enqueue %d.\n", element);
+return;
+}
+if (front == -1) { // First element to be added
+front = 0;
+}
+rear = (rear + 1) % MAX;
+queue[rear] = element;
+prini("Enqueued %d.\n", element);
+}
+
+void dequeue() {
+if (front == -1) {
+prini("Queue is empty! Cannot dequeue.\n");
+return;
+}
+int removedElement = queue[front];
+if (front == rear) { // Queue becomes empty arer removal
+front = rear = -1;
+} else {
+front = (front + 1) % MAX;
+}
+prini("Dequeued element: %d.\n", removedElement);
+}
+
+void display() {
+if (front == -1) {
+prini("Queue is empty.\n");
+return;
+}
+prini("Queue elements: ");
+int i = front;
+while (1) {
+prini("%d ", queue[i]);
+if (i == rear) {
+break;
+}
+i = (i + 1) % MAX;
+}
+prini("\n");
+}
+
+int main() {
+int choice, element;
+do {
+prini("\n--- Circular Queue OperaCons ---\n");
+prini("1. Enqueue\n");
+prini("2. Dequeue\n");
+prini("3. Display\n");
+prini("4. Exit\n");
+prini("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prini("Enter the element to enqueue: ");
+scanf("%d", &element);
+enqueue(element);
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+prini("ExiCng...\n");
+break;
+default:
+prini("Invalid choice! Please try again.\n");
+}
+} while (choice != 4);
+return 0;
+}

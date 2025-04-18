@@ -1,0 +1,59 @@
+void push(int data){
+if(top==n-1)
+printf("Stack is overflow\n");
+else{
+top++;
+stack[top]=data;
+}
+}
+
+void pop(){
+if(top==-1)
+printf("Stack is underflow\n");
+else
+printf("The popped element is:%d\n",stack[top]);
+top--;
+}
+
+void display(){
+for(int i=top;i>=0;i--)
+printf("%d\n",stack[i]);
+}
+
+int main()
+{
+push(1);
+push(2);
+push(3);
+push(4);
+push(5);
+push(6);
+pop();
+display();
+return 0;
+}
+
+int main()
+{
+push(1);
+push(2);
+push(3);
+push(4);
+pop();
+pop();
+pop();
+pop();
+pop();
+display();
+return 0;
+}
+
+int main()
+{
+push(1);
+push(2);
+push(3);
+push(4);
+pop();
+display();
+return 0; }

@@ -1,0 +1,177 @@
+struct Node {
+int data;
+struct Node* next;
+}
+
+void display() {
+if (front == -1) {
+printf("Circular Queue is
+empty.\n");
+} else {
+printf("Circular Queue elements
+are: ");
+int i = front;
+while (1) {
+printf("%d ", circularQueue[i]);
+if (i == rear)
+break;
+i = (i + 1) % MAX;
+}
+printf("\n");
+}
+}
+
+void insertB(int value) {
+Node* newNode =
+(Node*)malloc(sizeof(Node));
+newNode->data = value;
+newNode->next = head;
+head = newNode;
+printf("Inserted %d at the
+beginning.\n", value);
+}
+
+void insertE(int value) {
+Node* newNode =
+(Node*)malloc(sizeof(Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+}
+printf("Inserted %d at the end.\n",
+value);
+}
+
+void insertN(int value, int pos) {
+Node* newNode =
+(Node*)malloc(sizeof(Node));
+newNode->data = value;
+if (pos == 1) {
+newNode->next = head;
+head = newNode;
+} else {
+Node* temp = head;
+for (int i = 1; i < pos - 1 && temp !=
+NULL; i++) {
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Invalid position!\n");
+free(newNode);
+return;
+}
+newNode->next = temp->next;
+temp->next = newNode;
+}
+printf("Inserted %d at position
+%d.\n", value, pos);
+}
+
+void deleteB() {
+if (head == NULL) {
+printf("List is empty!\n");
+return;
+}
+Node* temp = head;
+head = head->next;
+printf("Deleted %d from the
+beginning.\n", temp->data);
+free(temp);
+}
+
+void deleteE() {
+if (head == NULL) {
+printf("List is empty!\n");
+return;
+}
+if (head->next == NULL) {
+printf("Deleted %d from the
+end.\n", head->data);
+free(head);
+head = NULL;
+return;
+}
+Node* temp = head;
+while (temp->next->next != NULL) {
+temp = temp->next;
+}
+printf("Deleted %d from the end.\n",
+temp->next->data);
+free(temp->next);
+temp->next = NULL;
+}
+
+int main() {
+int choice, value, pos;
+do {
+printf("\nMenu:\n");
+printf("1. Insert at Beginning\n");
+printf("2. Insert at End\n");
+printf("3. Insert at Position\n");
+printf("4. Delete from
+Beginning\n");
+printf("5. Delete from End\n");
+printf("6. Delete from Position\n");
+printf("7. Search\n");
+printf("8. Display\n");
+printf("9. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter value to insert at
+beginning: ");
+scanf("%d", &value);
+insertB(value);
+break;
+case 2:
+printf("Enter value to insert at
+end: ");
+scanf("%d", &value);
+insertE(value);
+break;
+case 3:
+printf("Enter value and
+position to insert: ");
+scanf("%d%d", &value, &pos);
+insertN(value, pos);
+break;
+case 4:
+deleteB();
+break;
+case 5:
+deleteE();
+break;
+case 6:
+printf("Enter position to
+delete: ");
+scanf("%d", &pos);
+deleteN(pos);
+break;
+case 7:
+printf("Enter value to search:
+");
+scanf("%d", &value);
+search(value);
+break;
+case 8:
+display();
+break;
+case 9:
+printf("Exiting...\n");
+break;
+default:
+printf("Invalid choice! Try
+again.\n");
+}
+}
+while (choice != 9);
+return 0;
+}

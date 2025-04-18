@@ -1,0 +1,102 @@
+[
+  {
+    "title": "How can I get the current window's title with char * format in ...",
+    "link": "https://stackoverflow.com/questions/16409282/how-can-i-get-the-current-windows-title-with-char-format-in-c-on-windows",
+    "snippet": "I want the write the current window title in console and/or file, and I have trouble with LPWSTR to char * or const char *.",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Convert filesystem::path into char* on windows - c++",
+    "link": "https://stackoverflow.com/questions/54109159/convert-filesystempath-into-char-on-windows",
+    "snippet": "You can use the *string() and generic_*string() member functions of the std::filesystem::path object to convert the path into either a native or a generic (ie, ...",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "What does the 'L' in front a string mean in C++?",
+    "link": "https://stackoverflow.com/questions/6384118/what-does-the-l-in-front-a-string-mean-in-c",
+    "snippet": "A wchar_t is twice big as a simple char. In daily use you don't need to use wchar_t, but if you are using windows.h you are going to need it.",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "how do i run this cpp file in ros - c++",
+    "link": "https://stackoverflow.com/questions/70978962/how-do-i-run-this-cpp-file-in-ros",
+    "snippet": "If you're trying to use rosrun the command should be: rosrun roscv linefollowing. Notice the .cpp isn't included here. This is because what you were trying to ...",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Every time a string is turned to LPCWSTR or LPARAM it ...",
+    "link": "https://stackoverflow.com/questions/66088629/every-time-a-string-is-turned-to-lpcwstr-or-lparam-it-turns-into-chinese",
+    "snippet": "I'm doing a desktop app using winapi. It only happens whenever I try to do it with variables, whenever I pass just text, everything works correctly.",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "README.md - MartinStokroos/TrueRMS",
+    "link": "https://github.com/MartinStokroos/TrueRMS/blob/master/README.md",
+    "snippet": "This repository contains the TrueRMS C++ library for Arduino. With this library it is possible to calculate the average value and the rms (root mean square) ...",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "how to search \"n bits\" in a byte array? - c++",
+    "link": "https://stackoverflow.com/questions/2943632/how-to-search-n-bits-in-a-byte-array",
+    "snippet": "i have a byte array. Now i need to know the count of appearances of a bit pattern which length is N. For example, my byte array is \"00100100 ...",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "make sounds (beep) with c++",
+    "link": "https://stackoverflow.com/questions/4060601/make-sounds-beep-with-c",
+    "snippet": "Beep() function plays sound via speakers, not through motherboard's physical buzzer. According to microsoft website:",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "ros_tutorials/opencv_tut/src/simpleCanny.cpp at master",
+    "link": "https://github.com/epsilonorion/ros_tutorials/blob/master/opencv_tut/src/simpleCanny.cpp",
+    "snippet": "/*here is a simple program which demonstrates the use of ros and opencv to do image manipulations on video streams given out as image topics from the ...",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Generate a list of strings with a sliding window using ...",
+    "link": "https://stackoverflow.com/questions/8408117/generate-a-list-of-strings-with-a-sliding-window-using-itertools-yield-and-ite",
+    "snippet": "I'm trying to generate a sliding window function in Python. I figured out how to do it but not all inside the function. itertools, yield, and iter() are ...",
+    "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.7,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

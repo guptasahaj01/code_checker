@@ -1,0 +1,25 @@
+int longestSubstringWithKUnique(string s, int k) {
+multiset<char> window;
+unordered_map<char, int> freq;
+int start = 0, ans = -1;
+for (int end = 0; end < s.length(); end++) {
+window.insert(s[end]);
+freq[s[end]]++;
+while (freq.size() > k) {
+char ch = s[start];
+window.erase(window.find(ch));
+if (--freq[ch] == 0) freq.erase(ch);
+start++;
+}
+if (freq.size() == k)
+ans = max(ans, end - start + 1);
+}
+return ans;
+}
+
+int main() {
+string s = "aabacbebebe";
+int k = 3;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

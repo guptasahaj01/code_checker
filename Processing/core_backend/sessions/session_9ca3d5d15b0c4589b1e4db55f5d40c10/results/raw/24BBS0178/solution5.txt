@@ -1,0 +1,121 @@
+int delete(){
+int m;
+printf("1=Beginning \n2=End \n3=Given Position \nWhere do you wish to delete
+node: ");
+scanf("%d",&m);
+if(m==1){
+if(head==NULL){
+printf("List is empty.\n");
+return 0;
+}
+node* temp=head;
+head=(*head).next;
+if(head!=NULL){
+(*head).prev=NULL;
+}
+printf("%d deleted from the beginning.\n",(*temp).data);
+free(temp);
+}
+else if(m==2){
+if(head==NULL){
+printf("List is empty.\n");
+return 0;
+}
+if((*head).next==NULL){
+printf("%d deleted from the end.\n",(*head).data);
+free(head);
+head=NULL;
+return 0;
+}
+node* temp=head;
+while((*temp).next!=NULL){
+temp=(*temp).next;
+}
+(*(*temp).prev).next=NULL;
+printf("%d deleted from the end.\n",(*temp).data);
+free(temp);
+}
+else if(m==3){
+int pos;
+printf("Enter position to delete data: ");
+scanf("%d",&pos);
+if(pos<1||head==NULL){
+printf("Invalid position or list is empty.\n");
+return 0;
+}
+if(pos==1){
+node* temp=head;
+head=(*head).next;
+if(head!=NULL){
+(*head).prev=NULL;
+}
+printf("%d deleted from position %d.\n",(*temp).data,pos);
+free(temp);
+return 0;
+}
+node* temp=head;
+for(int i=1;i<pos&&temp!=NULL;i++){
+temp=(*temp).next;
+}
+if(temp==NULL){
+printf("Position out of range.\n");
+return 0;
+}
+(*(*temp).prev).next=(*temp).next;
+if((*temp).next!=NULL){
+(*(*temp).next).prev=(*temp).prev;
+}
+printf("%d deleted from position %d.\n",(*temp).data,pos);
+free(temp);
+}
+return 0;
+}
+
+int search(){
+int data;
+printf("Enter data to search: ");
+scanf("%d",&data);
+node* temp=head;
+int pos=1;
+while(temp!=NULL){
+if((*temp).data==data){
+printf("%d found at position %d.\n",data,pos);
+return 0;
+}
+temp=(*temp).next;
+pos++;
+}
+printf("%d not found in the list.\n",data);
+return 0;
+}
+
+int main(){
+while(cont==1){
+int m=0;
+printf("1: Insert \n2: Delete \n3: Search \nEnter selection: ");
+scanf("%d",&m);
+if(m==1){
+insert();
+}
+else if(m==2){
+delete();
+}
+else if(m==3){
+search();
+}
+else{
+printf("Incorrect input!\n");
+cont=0;
+break;
+}
+printf("Do you wish to continue? (1/0): ");
+scanf("%d",&cont);
+}
+if(cont==0){
+printf("Terminated.\n");
+}
+else{
+printf("Incorrect input!\nTerminated.\n");
+}
+return 0;
+}

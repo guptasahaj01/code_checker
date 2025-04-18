@@ -1,0 +1,72 @@
+void dequeue() {
+346 if (front == -1 || front > rear) {
+347 printf("Queue Underflow! No element to dequeue.\n");
+348 } else {
+349 printf("Element %d dequeued from the queue.\n", queue[front]);
+350 front++;
+351 if (front > rear) {
+352 front = rear = -1; // Reset the queue if empty
+353 }
+354 }
+355 }
+
+void display() {
+276 if (front == -1) {
+277 printf("Queue is empty.\n");
+278 } else {
+279 printf("Queue elements are:\n");
+280 for (int i = front; i <= rear; i++) {
+281 printf("%d ", queue[i]);
+282 }
+283 printf("\n");
+284 }
+285 }
+
+void enqueue() {
+330 int value;
+331 if (rear == MAX - 1) {
+332 printf("Queue Overflow! Cannot enqueue element.\n");
+333 } else {
+334 printf("Enter the value to be enqueued: ");
+335 scanf("%d", &value);
+336 if (front == -1) {
+337 front = 0;
+338 }
+339 rear++;
+340 queue[rear] = value;
+341 printf("Element %d enqueued into the queue.\n", value);
+342 }
+343 }
+
+int main() {
+288 int choice;
+
+290 while (1) {
+291 printf("\nQueue Operations Menu:\n");
+292 printf("1. Enqueue\n");
+293 printf("2. Dequeue\n");
+294 printf("3. Display\n");
+295 printf("4. Exit\n");
+296 printf("Enter your choice: ");
+297 scanf("%d", &choice);
+
+299 switch (choice) {
+300 case 1:
+301 enqueue();
+302 break;
+303 case 2:
+304 dequeue();
+305 break;
+306 case 3:
+307 display();
+308 break;
+309 case 4:
+310 printf("Exiting program. Goodbye!\n");
+311 exit(0);
+312 default:
+313 printf("Invalid choice! Please try again.\n");
+314 }
+315 }
+
+317 return 0;
+318 }

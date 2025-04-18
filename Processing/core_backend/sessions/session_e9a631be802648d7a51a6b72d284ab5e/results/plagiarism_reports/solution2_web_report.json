@@ -1,0 +1,1428 @@
+{
+  "DOC6SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC6SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:05:27.577039",
+    "queries_used": [
+      "\"traverseBoundary\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res) { for (int i = 0; i < m; i++) res.push_back(mat[0][i]); for (int i = 1; i < n; i++)\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Boundary Level Order Traversal of Binary Tree",
+        "link": "https://www.tutorialspoint.com/boundary-level-order-traversal-of-a-binary-tree",
+        "snippet": "In the traverseBoundary() function, execute the return statement if the head is null. Otherwise, print the value of the head node. Step 4 ? Call ...",
+        "query": "\"traverseBoundary\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3479863074524845,
+        "is_plagiarism": true
+      },
+      {
+        "title": "what does this ''(const vector<vector<int> > &A)\" segment of ...",
+        "link": "https://stackoverflow.com/questions/57232276/what-does-this-const-vectorvectorint-a-segment-of-code-mean",
+        "snippet": "I'm facing some issue in understanding the following segment of code (const vector<vector<int> > &A) . Will it define a 2D array? c++ \u00b7 c++11.",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3479863074524845,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Vector of Vectors in C++ STL with Examples",
+        "link": "https://www.geeksforgeeks.org/vector-of-vectors-in-c-stl-with-examples/",
+        "snippet": "Below example demonstrates the insertion operation in a vector of vectors. The code creates a 2D vector by using the push_back() function and ...",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3479863074524845,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Avoiding parallel arrays with Objective-C and C++",
+        "link": "https://stackoverflow.com/questions/17599343/avoiding-parallel-arrays-with-objective-c-and-c",
+        "snippet": "I make a function call to trace all isolated bodies of pixels within a ... traverseBoundary next.x and next.y %d, %d\", next.x, next.y ...",
+        "query": "\"traverseBoundary\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.08445426195426195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Help with vectors - C++ Forum",
+        "link": "https://cplusplus.com/forum/beginner/263920/",
+        "snippet": "So today, I decided to learn vectors. Nothing much. Learned how to read data from file to a vector and all basic vectors functions.",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.08445426195426195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Returning Vectors in C++: Practical Guide | by ryan",
+        "link": "https://medium.com/@ryan_forrester_/returning-vectors-in-c-practical-guide-75c842539f97",
+        "snippet": "This article explores various methods to return vectors in C++, discussing their pros and cons and providing practical examples. The Basics: ...",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.08445426195426195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Vectors (With Examples)",
+        "link": "https://www.programiz.com/cpp-programming/vectors",
+        "snippet": "In C++, vectors are used to store elements of similar data types. However, unlike arrays, the size of a vector can grow dynamically.",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.08445426195426195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "2D Vectors in C++ - A Practical Guide ...",
+        "link": "https://www.digitalocean.com/community/tutorials/2d-vectors-in-c-plus-plus",
+        "snippet": "Also referred to as vector of vectors, 2D vectors in C++ form the basis of creating matrices, tables, or any other structures, dynamically.",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.08445426195426195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Vector in C++ STL",
+        "link": "https://www.geeksforgeeks.org/vector-in-cpp-stl/",
+        "snippet": "In C++, vector is a dynamic array that stores collection of elements same type in contiguous memory. It has the ability to resize itself ...",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.08445426195426195,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 9,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "Boundary Level Order Traversal of Binary Tree",
+        "link": "https://www.tutorialspoint.com/boundary-level-order-traversal-of-a-binary-tree",
+        "snippet": "In the traverseBoundary() function, execute the return statement if the head is null. Otherwise, print the value of the head node. Step 4 ? Call ...",
+        "query": "\"traverseBoundary\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3479863074524845,
+        "is_plagiarism": true
+      },
+      {
+        "title": "what does this ''(const vector<vector<int> > &A)\" segment of ...",
+        "link": "https://stackoverflow.com/questions/57232276/what-does-this-const-vectorvectorint-a-segment-of-code-mean",
+        "snippet": "I'm facing some issue in understanding the following segment of code (const vector<vector<int> > &A) . Will it define a 2D array? c++ \u00b7 c++11.",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3479863074524845,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Vector of Vectors in C++ STL with Examples",
+        "link": "https://www.geeksforgeeks.org/vector-of-vectors-in-c-stl-with-examples/",
+        "snippet": "Below example demonstrates the insertion operation in a vector of vectors. The code creates a 2D vector by using the push_back() function and ...",
+        "query": "\"void traverseBoundary(const vector<vector<int>>& mat, int n, int m, vector<int>& res)\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3479863074524845,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://www.tutorialspoint.com/boundary-level-order-traversal-of-a-binary-tree",
+      "https://stackoverflow.com/questions/57232276/what-does-this-const-vectorvectorint-a-segment-of-code-mean",
+      "https://www.geeksforgeeks.org/vector-of-vectors-in-c-stl-with-examples/"
+    ]
+  },
+  "DOC3SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC3SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:05:42.495238",
+    "queries_used": [
+      "\"for (int j = 0; j < m; j++) {\nresult.push_back(matrix[0][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 1; i < n; i++) {\nresult.push_back(matrix[i][m - 1]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int j = m - 2; j >= 0; j--) {\nresult.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC5SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC5SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:05:54.047062",
+    "queries_used": [
+      "\"while (j < m) res.push_back(matrix[0][j++]);\ni = 1; j = m - 1;\nwhile (i < n) res.push_back(matrix[i++][j]);\ni = n - 1; j = m - 2;\nif (n > 1)\nwhile (j >= 0) res.push_back(matrix[i][j--]);\ni = n - 2; j = 0;\nif (m > 1)\nwhile (i > 0) res.push_back(matrix[i--][j]);\nreturn res;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.47669750460206084,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.45679300541159296,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Boundary elements of a Matrix",
+        "link": "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+        "snippet": "vector< int > result = boundaryTraversal(matrix, n, m);. // Print the non-boundary elements. cout << \"Boundary Traversal: \" ;. for ( int i = 0 ...",
+        "query": "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4435087031892023,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.41153677700009206,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Design a simple C++ iterator for Matrix",
+        "link": "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.292319022897713,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ custom iterator for matrix class",
+        "link": "https://stackoverflow.com/questions/41106753/c-custom-iterator-for-matrix-class",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.292319022897713,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Most efficient way to populate vector with indices ...",
+        "link": "https://stackoverflow.com/questions/53461322/most-efficient-way-to-populate-vector-with-indices-corresponding-to-columns-of-a",
+        "snippet": "... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); // Iterators for rows are simple, becuase we have vectors of columns. Use ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.292319022897713,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Fortran macro function for literal string?",
+        "link": "https://stackoverflow.com/questions/31523615/fortran-macro-function-for-literal-string",
+        "snippet": "For example: print*, 'Now giving information about Matrix1' call mysub ... matrix, size(matrix,1), size(matrix,2)) print*, 'About to do ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.29037457845326853,
+        "is_plagiarism": false
+      },
+      {
+        "title": "davidm/lua-matrix",
+        "link": "https://github.com/davidm/lua-matrix/blob/master/lua/matrix.lua",
+        "snippet": "... matrix.size matrix.solve matrix.sqrt matrix.sub matrix.subm matrix.tostring matrix.transpose matrix.type See code and test_matrix.lua. ... See code and ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.21376387911703804,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ray2501/tcl-opencv: Tcl extension for OpenCV library",
+        "link": "https://github.com/ray2501/tcl-opencv",
+        "snippet": "See BUILDING.md to know how to build the extension. Implement commands. Matrix. MATRIX dims MATRIX size MATRIX rows MATRIX cols ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.17715963456466247,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.47669750460206084,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.45679300541159296,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Boundary elements of a Matrix",
+        "link": "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+        "snippet": "vector< int > result = boundaryTraversal(matrix, n, m);. // Print the non-boundary elements. cout << \"Boundary Traversal: \" ;. for ( int i = 0 ...",
+        "query": "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4435087031892023,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.41153677700009206,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+      "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+      "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+      "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced"
+    ]
+  },
+  "DOC2SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC2SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:06:04.165140",
+    "queries_used": [
+      "\"for (int col = 0; col < cols; col++)\nboundary.push_back(matrix[0][col]);\nfor (int row = 1; row < rows; row++)\nboundary.push_back(matrix[row][cols - 1]);\nif (rows > 1)\nfor (int col = cols - 2; col >= 0; col--)\nboundary.push_back(matrix[rows - 1][col]);\nif (cols > 1)\nfor (int row = rows - 2; row > 0; row--)\nboundary.push_back(matrix[row][0]);\nreturn boundary;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "c++ - How to use push_back with double* pointer",
+        "link": "https://stackoverflow.com/questions/38007898",
+        "snippet": "So, for example, say you create your array with one element x: double * left_edge; int length = 1; left_edge = new double[ length ]; left_edge[ ...",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.41391081871345026,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Assigning data from file to matrix C++ - arrays",
+        "link": "https://stackoverflow.com/questions/10669794/assigning-data-from-file-to-matrix-c",
+        "snippet": "I want to assign the content of the file \"REL\", which is a matrix of 46x2 [no blank lines]: 28 28 28 6 28 21 28 30 28 16 22 22 22",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.1725657894736842,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a \"push_back\" Function for Array - c++",
+        "link": "https://stackoverflow.com/questions/42777334/creating-a-push-back-function-for-array",
+        "snippet": "My assignment is to create push_back and pop_back functions for a SimpleVector which have to do basically what you imagine they have to do.",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Vectors: Error in push_back member function call",
+        "link": "https://stackoverflow.com/questions/72471441/c-vectors-error-in-push-back-member-function-call",
+        "snippet": "I am trying to create the transpose of a matrix - by traversing into 2-D vectors and assigning the values of indices accordingly.",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Creating a custom vector class. Push_back function only ...",
+        "link": "https://stackoverflow.com/questions/64774762/creating-a-custom-vector-class-push-back-function-only-working-for-the-first-va",
+        "snippet": "in push_back function allocate a new array with new size and copy data from existing array. After deleting existing array and we see this ...",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      },
+      {
+        "title": "My matrix class crash on initialisation [duplicate] - c++",
+        "link": "https://stackoverflow.com/questions/33659686/my-matrix-class-crash-on-initialisation",
+        "snippet": "The reason for your issues is that you're using a pointer member, and attempting to write to uninitialized memory.",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      },
+      {
+        "title": "leetcode-cpp-practices/885. Spiral Matrix III.cpp at master",
+        "link": "https://github.com/keineahnung2345/leetcode-cpp-practices/blob/master/885.%20Spiral%20Matrix%20III.cpp",
+        "snippet": "We can walk in a spiral shape from the starting square, ignoring whether we stay in the grid or not. Eventually, we must have reached every square in the grid.",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How to make a minor of a matrix using vectors C++",
+        "link": "https://stackoverflow.com/questions/74254914/how-to-make-a-minor-of-a-matrix-using-vectors-c",
+        "snippet": "I am making a program for calculating a determinant of a matrix in C++ and I want to do so by using vectors, after this I will make a program that inverts a ...",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      },
+      {
+        "title": "boundary cases in a median filter (2D int) c++",
+        "link": "https://stackoverflow.com/questions/52637399/boundary-cases-in-a-median-filter-2d-int-c",
+        "snippet": "While developing a 2D integer median filter, I have run into a problem while finding the median for the boundary values of the 2D array.",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - Linked List pushback member function implementation",
+        "link": "https://stackoverflow.com/questions/39606977/linked-list-pushback-member-function-implementation",
+        "snippet": "I am trying to implement a pushback function for my Linked List by using a tail pointer. It seems straightforward enough, but I have a nagging feeling that I ...",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07625,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "c++ - How to use push_back with double* pointer",
+        "link": "https://stackoverflow.com/questions/38007898",
+        "snippet": "So, for example, say you create your array with one element x: double * left_edge; int length = 1; left_edge = new double[ length ]; left_edge[ ...",
+        "query": "\"boundary push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.41391081871345026,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/38007898"
+    ]
+  },
+  "DOC7SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC7SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:06:34.541689",
+    "queries_used": [
+      "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "z3/examples/c++/example.cpp at master \u00b7 Z3Prover/z3",
+        "link": "https://github.com/Z3Prover/z3/blob/master/examples/c++/example.cpp",
+        "snippet": "{0,4,0,9,7,0,0,0,0}};. for (unsigned i = 0; i < 9; i++). for (unsigned j = 0; j < 9; j++). if (instance[i][j] != 0). s.add(x[i * 9 + j] == instance[i][j]);.",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.5349494788159265,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Antti Laaksonen Learning and Improving Algorithms ...",
+        "link": "https://csunibo.github.io/algoritmi-e-strutture-di-dati/libri/guide-to-competitive-programming-learning-and-improving-algorithms.pdf",
+        "snippet": "For example, the time complexity of the following code is O(nm): for (int i = 1; i <= n; i++) { for (int j = 1; j <= m; j++) { ... } } The time complexity ...",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4605736849524954,
+        "is_plagiarism": true
+      },
+      {
+        "title": "push_back problem on vector<vector<int> > - c++",
+        "link": "https://stackoverflow.com/questions/5305010/push-back-problem-on-vectorvectorint",
+        "snippet": "I wanted to store these 2 vectors in one container called no_1_2 and I used no_1_2[0].push_back(no1.at(i)) and no_1_2[1].push_back(no2.at(j)) ...",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.3231682692476468,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Dijkstra's Algo Implementation using STL",
+        "link": "https://stackoverflow.com/questions/40316141/dijkstras-algo-implementation-using-stl",
+        "snippet": "You never write to the visited array. Hence edges might be scanned multiple times. Simple fix: Add a single line after the if(visited[x]) ...",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.3146819417390293,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Vector of Vectors of different sizes : r/cpp_questions",
+        "link": "https://www.reddit.com/r/cpp_questions/comments/nm5z91/vector_of_vectors_of_different_sizes/",
+        "snippet": "I created a vector of Vectors in which each vector had to be of different size (making an adjacency list) but I got a segmentation fault.",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.24816512546395333,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Double/integer conversion with cpp11 - c++",
+        "link": "https://stackoverflow.com/questions/76807210/double-integer-conversion-with-cpp11",
+        "snippet": "The issue is that the C++ function cpp_get_fe_gnl_() doesn't like the matrix obsCluster , which is a matrix of integers. If we cast it as ...",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.24816512546395333,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Given an array with n elements and an integer k. Divide the ...",
+        "link": "https://stackoverflow.com/questions/55930905/given-an-array-with-n-elements-and-an-integer-k-divide-the-array-into-subarrays",
+        "snippet": "First divide the array into (n+k-1)/k segment and insert the value into a vector. convert each segment values into a string and create a user ...",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.24816512546395333,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Inserting into a double vector - C++ Forum",
+        "link": "https://cplusplus.com/forum/beginner/29841/",
+        "snippet": "Just use the same syntax for a 2D array: Because you have a vector of vectors then saying matrix[i] returns a vector which you can then dereference using [j].",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.23467586268798962,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how inialize a vector <vector <int>> with int array [][]?",
+        "link": "https://stackoverflow.com/questions/29620058/how-inialize-a-vector-vector-int-with-int-array",
+        "snippet": "You can simply pre-allocate memory for the vector<vector<int>>, and copy the matrix into it in a double loop.",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.21869827259464847,
+        "is_plagiarism": false
+      },
+      {
+        "title": "CCC-Hackerrank/March-2023-CCC.md at main",
+        "link": "https://github.com/VikashPR/CCC-Hackerrank/blob/main/March-2023-CCC.md",
+        "snippet": "R 101 : Eat Less Python n = int(input()) c = [] while not c: c = list(map(int,input().split())) c.sort(reverse = True) result = 0 for i in range(",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.19057055176111015,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Algorithm-Notes/README.md at master",
+        "link": "https://github.com/xuezzou/Algorithm-Notes/blob/master/README.md",
+        "snippet": "class Solution { public: /* * @param nums: A list of integers * @return: A list of integers includes the index of the first number and the index of the last ...",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.09552438004589578,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Vectors: Error in push_back member function call",
+        "link": "https://stackoverflow.com/questions/72471441/c-vectors-error-in-push-back-member-function-call",
+        "snippet": "I am trying to create the transpose of a matrix - by traversing into 2-D vectors and assigning the values of indices accordingly.",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Solving a Leetcode problem daily \u2014 Day 3: Spiral Matrix",
+        "link": "https://medium.com/@subhradeep_saha/solving-a-leetcode-problem-daily-day-3-spiral-matrix-e225fa1f15a9",
+        "snippet": "Struggling with LeetCode's spiral order matrix problem? This comprehensive guide breaks it down with an efficient C++ code and detained ...",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Ford Fulkerson Algorithm for Maximum Flow",
+        "link": "https://www.srcmake.com/home/cpp-ford-fulkerson-max-flow",
+        "snippet": "The maximum flow problem is about finding the maximum amount of capacity, through a set of edges, that can get to an end destination.",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "cpp-contest/ccc all templates.cpp at master \u00b7 sunny-lan/cpp-contest",
+        "link": "https://github.com/sunny-lan/cpp-contest/blob/master/ccc%20all%20templates.cpp",
+        "snippet": "Almost all the problems I've done. Contribute to sunny-lan/cpp-contest development by creating an account on GitHub.",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Abhishek Kumar Singh's Post",
+        "link": "https://www.linkedin.com/posts/abhishekolympics_leetcode-blind75-codingjourney-activity-7189621579448750080-OMLP",
+        "snippet": "Reverse revision of Blind 75 Just cracked the problem 62 of LeetCode's Blind 75 series! Problem: Rotate Image Problem link: ...",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Solved Hi, i'm new to C++ and i need help with these",
+        "link": "https://www.chegg.com/homework-help/questions-and-answers/hi-m-new-c-need-help-exerciseassuming-matrix-generated-randomly-code-index-0-0-start-botto-q113114981",
+        "snippet": "Question: Hi, i'm new to C++ and i need help with these exerciseassuming i have these matrix which is generated randomly from my code, ...",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "int *array = new int[n]; what is this function actually doing?",
+        "link": "https://stackoverflow.com/questions/5776529/int-array-new-intn-what-is-this-function-actually-doing",
+        "snippet": "The new operator is allocating space for a block of n integers and assigning the memory address of that block to the int* variable array . The ...",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "algorithm - Converging maze: Largest cycle",
+        "link": "https://stackoverflow.com/questions/38583322/converging-maze-largest-cycle",
+        "snippet": "The cells are named with an integer value from 0 to N-1. You need to find the the length of the largest cycle in the maze. Return -1 if there are no cycles.",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "uclaacm/advanced-interview-prep20: UCLA ACM ICPC ...",
+        "link": "https://github.com/uclaacm/advanced-interview-prep20",
+        "snippet": "Array questions, often interchangeable with string questions are some of the most common questions asked during technical interviews.",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - How to find the size of an int[]?",
+        "link": "https://stackoverflow.com/questions/2037736/how-to-find-the-size-of-an-int",
+        "snippet": "In order to correctly print the sizeof an array inside any function, pass the array by reference to that function (but you need to know the size ...",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Problem: Shortest path in a grid between multiple point ...",
+        "link": "https://stackoverflow.com/questions/62765947/problem-shortest-path-in-a-grid-between-multiple-point-with-a-constraint",
+        "snippet": "It is a bfs function it will iterate over the toHome map and find the shortest distance between the last food position to home.",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "no match for 'operator='(operand type are 'std::vector<int> ...",
+        "link": "https://stackoverflow.com/questions/44455669/no-match-for-operator-operand-type-are-stdvectorint-and-int",
+        "snippet": "I'm new to c++ and I'm learning about vector. I wrote a basic code to see how it works but i get the following errors.",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ - No matching member function for call to 'push_back'",
+        "link": "https://stackoverflow.com/questions/61306798/c-no-matching-member-function-for-call-to-push-back",
+        "snippet": "The method push_back is there. The type that you send probably doesn't match. Try to read the compilation error and figure out what type was expected.",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ 3sum complexity",
+        "link": "https://stackoverflow.com/questions/45093010/c-3sum-complexity",
+        "snippet": "I was trying to solve the 3 sum problem in cpp. Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique ...",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "emerencia/topcoder: Source code and lessons learned ...",
+        "link": "https://github.com/emerencia/topcoder",
+        "snippet": "This repository contains source code I wrote and things I learned from doing daily Topcoder programming competitions from 2013-2015.",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Finding all possible combinations of numbers to reach a ...",
+        "link": "https://stackoverflow.com/questions/4632322/finding-all-possible-combinations-of-numbers-to-reach-a-given-sum",
+        "snippet": "This problem can be solved with a recursive combinations of all possible sums filtering out those that reach the target.",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Print a given matrix in spiral form",
+        "link": "https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/",
+        "snippet": "We can print the matrix in a spiral order by dividing it into loops or boundaries. We print the elements of the outer boundary first, then move inward to print ...",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.059939164370982546,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 28,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "z3/examples/c++/example.cpp at master \u00b7 Z3Prover/z3",
+        "link": "https://github.com/Z3Prover/z3/blob/master/examples/c++/example.cpp",
+        "snippet": "{0,4,0,9,7,0,0,0,0}};. for (unsigned i = 0; i < 9; i++). for (unsigned j = 0; j < 9; j++). if (instance[i][j] != 0). s.add(x[i * 9 + j] == instance[i][j]);.",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.5349494788159265,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Antti Laaksonen Learning and Improving Algorithms ...",
+        "link": "https://csunibo.github.io/algoritmi-e-strutture-di-dati/libri/guide-to-competitive-programming-learning-and-improving-algorithms.pdf",
+        "snippet": "For example, the time complexity of the following code is O(nm): for (int i = 1; i <= n; i++) { for (int j = 1; j <= m; j++) { ... } } The time complexity ...",
+        "query": "\"for (int j = 0; j < m; j++) {\nres.push_back(matrix[0][j]);\nvisited[0][j] = true;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4605736849524954,
+        "is_plagiarism": true
+      },
+      {
+        "title": "push_back problem on vector<vector<int> > - c++",
+        "link": "https://stackoverflow.com/questions/5305010/push-back-problem-on-vectorvectorint",
+        "snippet": "I wanted to store these 2 vectors in one container called no_1_2 and I used no_1_2[0].push_back(no1.at(i)) and no_1_2[1].push_back(no2.at(j)) ...",
+        "query": "\"for (int j = m - 2; j >= 0; j--) {\nif (!visited[n - 1][j]) res.push_back(matrix[n - 1][j]);\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.3231682692476468,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Dijkstra's Algo Implementation using STL",
+        "link": "https://stackoverflow.com/questions/40316141/dijkstras-algo-implementation-using-stl",
+        "snippet": "You never write to the visited array. Hence edges might be scanned multiple times. Simple fix: Add a single line after the if(visited[x]) ...",
+        "query": "\"for (int i = 1; i < n; i++) {\nres.push_back(matrix[i][m - 1]);\nvisited[i][m - 1] = true;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.3146819417390293,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://github.com/Z3Prover/z3/blob/master/examples/c++/example.cpp",
+      "https://csunibo.github.io/algoritmi-e-strutture-di-dati/libri/guide-to-competitive-programming-learning-and-improving-algorithms.pdf",
+      "https://stackoverflow.com/questions/5305010/push-back-problem-on-vectorvectorint",
+      "https://stackoverflow.com/questions/40316141/dijkstras-algo-implementation-using-stl"
+    ]
+  },
+  "DOC4SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC4SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:07:01.520392",
+    "queries_used": [
+      "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"result push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "How to use Chat-GPT to solve Coding Problems?",
+        "link": "https://www.geeksforgeeks.org/how-to-use-chat-gpt-to-solve-coding-problems/",
+        "snippet": "Example: Convert the below code into Java. C++. C++. #include <bits ... result.push_back(matrix[top][i]);. } top++;. for ( int i = top; i ...",
+        "query": "\"result push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.49136376210722776,
+        "is_plagiarism": true
+      },
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4874988555534219,
+        "is_plagiarism": true
+      },
+      {
+        "title": "LeetCode/C++/054. Spiral Matrix.cpp at master",
+        "link": "https://github.com/liuchuo/LeetCode/blob/master/C++/054.%20Spiral%20Matrix.cpp",
+        "snippet": "For example, Given the following matrix: [ [ 1, 2, 3 ], [ 4, 5, 6 ] ... result.push_back(matrix[x][j]); for (int i = x + 1; i <= m - 1; i++) result ...",
+        "query": "\"result push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.47946858901949985,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.44207000606260327,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.37909668610780445,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Design a simple C++ iterator for Matrix",
+        "link": "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.31515042280636557,
+        "is_plagiarism": true
+      },
+      {
+        "title": "c++ custom iterator for matrix class",
+        "link": "https://stackoverflow.com/questions/41106753/c-custom-iterator-for-matrix-class",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.31515042280636557,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Most efficient way to populate vector with indices ...",
+        "link": "https://stackoverflow.com/questions/53461322/most-efficient-way-to-populate-vector-with-indices-corresponding-to-columns-of-a",
+        "snippet": "... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); // Iterators for rows are simple, becuase we have vectors of columns. Use ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.31515042280636557,
+        "is_plagiarism": true
+      },
+      {
+        "title": "cv::Mat Class Reference",
+        "link": "https://docs.opencv.org/3.4/d3/d63/classcv_1_1Mat.html",
+        "snippet": "This is an O(1) operation, regardless of the matrix size. The underlying data of the new matrix is shared with the original matrix. Here is the example of one ...",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3134004228063656,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Vector push_back resulting in doubled int",
+        "link": "https://cplusplus.com/forum/beginner/109739/",
+        "snippet": "Hi everyone, I am having a problem. I am piping 10 ints into this program(from another program provided to me), and for some reason it is taking the 9th int ...",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3134004228063656,
+        "is_plagiarism": true
+      },
+      {
+        "title": "CSES DP section editorial",
+        "link": "https://codeforces.com/blog/entry/70018",
+        "snippet": "So we can locate x position by binary search (std::lower_bound in C++ directly gives position x+1). The final answer is the length of the dp array after ...",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3134004228063656,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Fortran macro function for literal string?",
+        "link": "https://stackoverflow.com/questions/31523615/fortran-macro-function-for-literal-string",
+        "snippet": "For example: print*, 'Now giving information about Matrix1' call mysub ... matrix, size(matrix,1), size(matrix,2)) print*, 'About to do ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3134004228063656,
+        "is_plagiarism": true
+      },
+      {
+        "title": "davidm/lua-matrix",
+        "link": "https://github.com/davidm/lua-matrix/blob/master/lua/matrix.lua",
+        "snippet": "... matrix.size matrix.solve matrix.sqrt matrix.sub matrix.subm matrix.tostring matrix.transpose matrix.type See code and test_matrix.lua. ... See code and ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.1802992358643061,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ray2501/tcl-opencv: Tcl extension for OpenCV library",
+        "link": "https://github.com/ray2501/tcl-opencv",
+        "snippet": "See BUILDING.md to know how to build the extension. Implement commands. Matrix. MATRIX dims MATRIX size MATRIX rows MATRIX cols ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.1494253700388731,
+        "is_plagiarism": false
+      },
+      {
+        "title": "leetcode/solution/0000-0099/0054.Spiral Matrix ...",
+        "link": "https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0054.Spiral%20Matrix/README_EN.md",
+        "snippet": "Given an mxn matrix, return all elements of the matrix in spiral order. Example 1: Input: matrix = [[1,2,3],[4,5,6],[7,8,9]] Output: [1,2,3,6,9,8,7,4,5]",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.10777623592574247,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Vectors: Error in push_back member function call",
+        "link": "https://stackoverflow.com/questions/72471441/c-vectors-error-in-push-back-member-function-call",
+        "snippet": "I am trying to create the transpose of a matrix - by traversing into 2-D vectors and assigning the values of indices accordingly.",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07470355731225298,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ \"AddressSanitizer\" error involving a vector. What is ...",
+        "link": "https://www.reddit.com/r/cpp_questions/comments/eeodtl/c_addresssanitizer_error_involving_a_vector_what/",
+        "snippet": "I am doing a Leetcode problem that passes all testcases when the same logic is used using Java, but when I do it in C++ using a vector, I get an \" ...",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07470355731225298,
+        "is_plagiarism": false
+      },
+      {
+        "title": "LeetCode \u2014 Spiral Matrix. Problem statement",
+        "link": "https://medium.com/nerd-for-tech/leetcode-spiral-matrix-60d7568b50ca",
+        "snippet": "So the problem can be solved by dividing the matrix into boundaries. We need to use four loops that print the array element in the spiral ...",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07470355731225298,
+        "is_plagiarism": false
+      },
+      {
+        "title": "2D vector usage - C++ Forum",
+        "link": "https://cplusplus.com/forum/beginner/121741/",
+        "snippet": "I know there are multiple threads relating to the declaration and usage of 2D vectors, but I'm having trouble wrapping my head around how it ...",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07470355731225298,
+        "is_plagiarism": false
+      },
+      {
+        "title": "LeetCode_problems_solution/source-code/Spiral_Matrix. ...",
+        "link": "https://github.com/kaidul/LeetCode_problems_solution/blob/master/source-code/Spiral_Matrix.cpp",
+        "snippet": "Solutions to all problems of Leetcode online judge written in C++ and Java - LeetCode_problems_solution/source-code/Spiral_Matrix.cpp at master ...",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07470355731225298,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Solution Guide - Developers Wiki",
+        "link": "https://www.hackerearth.com/docs/wiki/developers/solution-guide/",
+        "snippet": "You can see the practice problems list and select a problem from there. Then, you need to select the language from tabs and write your code in the editor.",
+        "query": "\"for (int i = 0; i < m; ++i) result.push_back(matrix[0][i]);\nfor (int i = 1; i < n - 1; ++i) result.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 1; i >= 0; --i) result.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) result.push_back(matrix[i][0]);\nreturn result;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07470355731225298,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 21,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "How to use Chat-GPT to solve Coding Problems?",
+        "link": "https://www.geeksforgeeks.org/how-to-use-chat-gpt-to-solve-coding-problems/",
+        "snippet": "Example: Convert the below code into Java. C++. C++. #include <bits ... result.push_back(matrix[top][i]);. } top++;. for ( int i = top; i ...",
+        "query": "\"result push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.49136376210722776,
+        "is_plagiarism": true
+      },
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4874988555534219,
+        "is_plagiarism": true
+      },
+      {
+        "title": "LeetCode/C++/054. Spiral Matrix.cpp at master",
+        "link": "https://github.com/liuchuo/LeetCode/blob/master/C++/054.%20Spiral%20Matrix.cpp",
+        "snippet": "For example, Given the following matrix: [ [ 1, 2, 3 ], [ 4, 5, 6 ] ... result.push_back(matrix[x][j]); for (int i = x + 1; i <= m - 1; i++) result ...",
+        "query": "\"result push_back matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.47946858901949985,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.44207000606260327,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.37909668610780445,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://www.geeksforgeeks.org/how-to-use-chat-gpt-to-solve-coding-problems/",
+      "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+      "https://github.com/liuchuo/LeetCode/blob/master/C++/054.%20Spiral%20Matrix.cpp",
+      "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+      "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced"
+    ]
+  },
+  "DOC1SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC1SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:07:17.476134",
+    "queries_used": [
+      "\"for (int i = 0; i < m; i++) res.push_back(matrix[0][i]);\nfor (int i = 1; i < n; i++) res.push_back(matrix[i][m - 1]);\nif (n > 1)\nfor (int i = m - 2; i >= 0; i--) res.push_back(matrix[n - 1][i]);\nif (m > 1)\nfor (int i = n - 2; i > 0; i--) res.push_back(matrix[i][0]);\nreturn res;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.49108174325395665,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Boundary elements of a Matrix",
+        "link": "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+        "snippet": "vector< int > result = boundaryTraversal(matrix, n, m);. // Print the non-boundary elements. cout << \"Boundary Traversal: \" ;. for ( int i = 0 ...",
+        "query": "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.46567795637855414,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.44600915842329314,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3826795738083392,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Design a simple C++ iterator for Matrix",
+        "link": "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.31873331050690035,
+        "is_plagiarism": true
+      },
+      {
+        "title": "c++ custom iterator for matrix class",
+        "link": "https://stackoverflow.com/questions/41106753/c-custom-iterator-for-matrix-class",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.31873331050690035,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Most efficient way to populate vector with indices ...",
+        "link": "https://stackoverflow.com/questions/53461322/most-efficient-way-to-populate-vector-with-indices-corresponding-to-columns-of-a",
+        "snippet": "... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); // Iterators for rows are simple, becuase we have vectors of columns. Use ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.31873331050690035,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Fortran macro function for literal string?",
+        "link": "https://stackoverflow.com/questions/31523615/fortran-macro-function-for-literal-string",
+        "snippet": "For example: print*, 'Now giving information about Matrix1' call mysub ... matrix, size(matrix,1), size(matrix,2)) print*, 'About to do ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3169833105069003,
+        "is_plagiarism": true
+      },
+      {
+        "title": "davidm/lua-matrix",
+        "link": "https://github.com/davidm/lua-matrix/blob/master/lua/matrix.lua",
+        "snippet": "... matrix.size matrix.solve matrix.sqrt matrix.sub matrix.subm matrix.tostring matrix.transpose matrix.type See code and test_matrix.lua. ... See code and ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.1886505225235278,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ray2501/tcl-opencv: Tcl extension for OpenCV library",
+        "link": "https://github.com/ray2501/tcl-opencv",
+        "snippet": "See BUILDING.md to know how to build the extension. Implement commands. Matrix. MATRIX dims MATRIX size MATRIX rows MATRIX cols ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.15634660901902098,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.49108174325395665,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Boundary elements of a Matrix",
+        "link": "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+        "snippet": "vector< int > result = boundaryTraversal(matrix, n, m);. // Print the non-boundary elements. cout << \"Boundary Traversal: \" ;. for ( int i = 0 ...",
+        "query": "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.46567795637855414,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.44600915842329314,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3826795738083392,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Design a simple C++ iterator for Matrix",
+        "link": "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.31873331050690035,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+      "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+      "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+      "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+      "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix"
+    ]
+  },
+  "DOC8SAM_sol2.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution2/DOC8SAM_sol2.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:07:24.974487",
+    "queries_used": [
+      "\"for (int j = 0; j < m; ++j) push(0, j);\nfor (int i = 1; i < n; ++i) push(i, m - 1);\nif (n > 1)\nfor (int j = m - 2; j >= 0; --j) push(n - 1, j);\nif (m > 1)\nfor (int i = n - 2; i > 0; --i) push(i, 0);\nreturn res;\n}\n\nint main() {\nvector<vector<int>> matrix = {\n{1, 2, 3, 4}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Boundary elements of a Matrix",
+        "link": "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+        "snippet": "vector< int > result = boundaryTraversal(matrix, n, m);. // Print the non-boundary elements. cout << \"Boundary Traversal: \" ;. for ( int i = 0 ...",
+        "query": "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.46900472674385074,
+        "is_plagiarism": true
+      },
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4562851339001558,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.39355591023335257,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.38477771358359314,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Design a simple C++ iterator for Matrix",
+        "link": "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3163740897531966,
+        "is_plagiarism": true
+      },
+      {
+        "title": "c++ custom iterator for matrix class",
+        "link": "https://stackoverflow.com/questions/41106753/c-custom-iterator-for-matrix-class",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3163740897531966,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Most efficient way to populate vector with indices ...",
+        "link": "https://stackoverflow.com/questions/53461322/most-efficient-way-to-populate-vector-with-indices-corresponding-to-columns-of-a",
+        "snippet": "... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); // Iterators for rows are simple, becuase we have vectors of columns. Use ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3163740897531966,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Fortran macro function for literal string?",
+        "link": "https://stackoverflow.com/questions/31523615/fortran-macro-function-for-literal-string",
+        "snippet": "For example: print*, 'Now giving information about Matrix1' call mysub ... matrix, size(matrix,1), size(matrix,2)) print*, 'About to do ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3147831806622875,
+        "is_plagiarism": true
+      },
+      {
+        "title": "davidm/lua-matrix",
+        "link": "https://github.com/davidm/lua-matrix/blob/master/lua/matrix.lua",
+        "snippet": "... matrix.size matrix.solve matrix.sqrt matrix.sub matrix.subm matrix.tostring matrix.transpose matrix.type See code and test_matrix.lua. ... See code and ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.13490773499227496,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ray2501/tcl-opencv: Tcl extension for OpenCV library",
+        "link": "https://github.com/ray2501/tcl-opencv",
+        "snippet": "See BUILDING.md to know how to build the extension. Implement commands. Matrix. MATRIX dims MATRIX size MATRIX rows MATRIX cols ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.11399885052158473,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "Boundary elements of a Matrix",
+        "link": "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+        "snippet": "vector< int > result = boundaryTraversal(matrix, n, m);. // Print the non-boundary elements. cout << \"Boundary Traversal: \" ;. for ( int i = 0 ...",
+        "query": "\"result boundaryTraversal matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.46900472674385074,
+        "is_plagiarism": true
+      },
+      {
+        "title": "assign a double matrix to CvMat opencv - c++",
+        "link": "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+        "snippet": "I think you need to set these first: matrix size, matrix type. Example in C++: double d[2]; cv::Mat* cvdata = new cv::Mat(1, 2, CV_64F);",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4562851339001558,
+        "is_plagiarism": true
+      },
+      {
+        "title": "JAERO/JAERO/aerol.cpp at master \u00b7 jontio/JAERO",
+        "link": "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+        "snippet": "... <matrix.size()); matrix[k]=block[entry]; k++; } } return matrix; } QVector<int> &AeroLInterleaver::deinterleave(QVector<int> &block) { assert(block.size ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.39355591023335257,
+        "is_plagiarism": true
+      },
+      {
+        "title": "\"Unhandled exception\"/\"Access violation writing location\" error ...",
+        "link": "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+        "snippet": "... matrix size (matrix is square) c = new change *[count]; //resize pointers with matrix size for(i=0; i<count; i++) c[i] = new change[count]; file.clear ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.38477771358359314,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Design a simple C++ iterator for Matrix",
+        "link": "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix",
+        "snippet": "I also provide a complete and tested source code example. The source ... matrix size Matrix(size_t numberOfRows, size_t numberOfColumns); ...",
+        "query": "\"matrix size matrix\" cpp code example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3163740897531966,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://www.geeksforgeeks.org/boundary-elements-matrix/",
+      "https://stackoverflow.com/questions/9958397/assign-a-double-matrix-to-cvmat-opencv",
+      "https://github.com/jontio/JAERO/blob/master/JAERO/aerol.cpp",
+      "https://stackoverflow.com/questions/2881454/unhandled-exception-access-violation-writing-location-error-with-referenced",
+      "https://stackoverflow.com/questions/56816493/design-a-simple-c-iterator-for-matrix"
+    ]
+  }
+}

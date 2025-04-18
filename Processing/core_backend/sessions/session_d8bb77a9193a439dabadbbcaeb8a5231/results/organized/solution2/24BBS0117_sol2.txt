@@ -1,0 +1,94 @@
+struct Node {
+int data;
+struct Node* next;
+}
+
+void enqueue(int value) {
+if ((front == 0 && rear == SIZE - 1) || (rear + 1 == front)) {
+printf("Queue Overflow\n");
+} else {
+if (front == -1) {
+front = 0;
+}
+rear = (rear + 1) % SIZE;
+cQueue[rear] = value;
+printf("Enqueued %d into the circular queue\n", value);
+}
+}
+
+void insertAtBeginning(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = head;
+head = newNode;
+printf("Inserted %d at the beginning\n", value);
+}
+
+void dequeue() {
+if (front == -1) {
+printf("Queue Underflow\n");
+} else {
+printf("Dequeued element: %d\n", cQueue[front]);
+if (front == rear) {
+front = rear = -1;
+} else {
+front = (front + 1) % SIZE;
+}
+}
+}
+
+void display() {
+if (front == -1) {
+printf("Queue is empty\n");
+} else {
+printf("Queue elements are: ");
+int i = front;
+while (i != rear) {
+printf("%d ", cQueue[i]);
+i = (i + 1) % SIZE;
+}
+printf("%d\n", cQueue[i]);
+}
+}
+
+void insertAtEnd(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+}
+printf("Inserted %d at the end\n", value);
+}
+
+int main() {
+int choice, value;
+while (1) {
+printf("\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\nEnter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter value to enqueue: ");
+scanf("%d", &value);
+enqueue(value);
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+return 0;
+default:
+printf("Invalid choice\n");
+}
+}
+return 0;
+}

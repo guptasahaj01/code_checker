@@ -1,0 +1,38 @@
+int longestSubstringWithKUnique(string s, int k) {
+int freq[26] = {0};
+int unique = 0, left = 0, maxLen = -1;
+for (int right = 0; right < s.size(); ++right) {
+if (freq[s[right] - 'a']++ == 0) unique++;
+while (unique > k) {
+if (--freq[s[left] - 'a'] == 0) unique--;
+left++;
+}
+if (unique == k)
+maxLen = max(maxLen, right - left + 1);
+}
+return maxLen;
+}
+
+vector<int> boundaryTraversal(vector<vector<int>>& matrix) {
+int rows = matrix.size();
+int cols = matrix[0].size();
+vector<int> boundary;
+for (int col = 0; col < cols; col++)
+boundary.push_back(matrix[0][col]);
+for (int row = 1; row < rows; row++)
+boundary.push_back(matrix[row][cols - 1]);
+if (rows > 1)
+for (int col = cols - 2; col >= 0; col--)
+boundary.push_back(matrix[rows - 1][col]);
+if (cols > 1)
+for (int row = rows - 2; row > 0; row--)
+boundary.push_back(matrix[row][0]);
+return boundary;
+}
+
+int main() {
+string s = "aabacbebebe";
+int k = 3;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

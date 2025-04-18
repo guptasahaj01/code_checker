@@ -1,0 +1,84 @@
+int isEmpty() {
+return (front == -1 && rear == -1);
+}
+
+int isFull() {
+return ((rear + 1) % MAX_SIZE == front);
+}
+
+void enqueue(int data) {
+if (isFull()) {
+printf("Queue Overflow!\n");
+} else {
+if (isEmpty()) {
+front = rear = 0;
+} else {
+rear = (rear + 1) % MAX_SIZE;
+}
+queue[rear] = data;
+printf("%d enqueued to queue\n", data);
+}
+}
+
+int dequeue() {
+if (isEmpty()) {
+printf("Queue Underflow!\n");
+return -1;
+} else {
+int data = queue[front];
+if (front == rear) {
+front = rear = -1;
+} else {
+front = (front + 1) % MAX_SIZE;
+}
+return data;
+}
+}
+
+void display() {
+if (isEmpty()) {
+printf("Queue is empty!\n");
+} else {
+printf("Queue elements:\n");
+int i = front;
+do {
+printf("%d ", queue[i]);
+i = (i + 1) % MAX_SIZE;
+} while (i != (rear + 1) % MAX_SIZE);
+printf("\n");
+}
+}
+
+int main() {
+int choice, data;
+while (1) {
+printf("\nMenu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter data to enqueue: ");
+scanf("%d", &data);
+enqueue(data);
+break;
+case 2:
+data = dequeue();
+if (data != -1) {
+printf("%d dequeued from queue\n", data);
+}
+break;
+case 3:
+display();
+break;
+case 4:
+exit(0);
+default:
+printf("Invalid choice!\n");
+}
+}
+return 0;
+}

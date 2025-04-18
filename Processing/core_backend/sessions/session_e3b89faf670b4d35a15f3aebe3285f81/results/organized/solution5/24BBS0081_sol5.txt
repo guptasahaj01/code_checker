@@ -1,0 +1,181 @@
+void insertAtBeginning(int num) {
+struct Node* newNode = createNode(num);
+if (head == NULL) {
+head = newNode;
+} else {
+newNode->next = head;
+head->prev = newNode;
+head = newNode;
+}
+}
+
+void insertAtPosition(int num, int position) {
+if (position == 0) {
+insertAtBeginning(num);
+return;
+}
+struct Node* newNode = createNode(num);
+struct Node* temp = head;
+for (int i = 0; i < position - 1 && temp != NULL; i++) {
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Invalid Position\n");
+free(newNode);
+return;
+}
+newNode->next = temp->next;
+newNode->prev = temp;
+if (temp->next != NULL) {
+temp->next->prev = newNode;
+}
+temp->next = newNode;
+}
+
+void insertAtEnd(int num) {
+struct Node* newNode = createNode(num);
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+newNode->prev = temp;
+}
+}
+
+void deleteAtBeginning() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+free(temp);
+}
+
+void deleteAtPosition(int position) {
+if (position == 0) {
+deleteAtBeginning();
+return;
+}
+struct Node* temp = head;
+for (int i = 0; i < position && temp != NULL; i++) {
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Invalid Position\n");
+return;
+}
+if (temp->prev != NULL) {
+temp->prev->next = temp->next;
+}
+if (temp->next != NULL) {
+temp->next->prev = temp->prev;
+}
+free(temp);
+}
+
+void deleteAtEnd() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+if (temp->prev != NULL) {
+temp->prev->next = NULL;
+} else {
+head = NULL;
+}
+free(temp);
+}
+
+void search(int num) {
+int position = 0;
+struct Node* temp = head;
+while (temp != NULL) {
+if (temp->data == num) {
+printf("Element found at position: %d\n", position);
+return;
+}
+temp = temp->next;
+position++;
+}
+printf("Element not found\n");
+}
+
+void display() {
+struct Node* temp = head;
+if (temp == NULL) {
+printf("List is empty\n");
+return;
+}
+printf("Doubly Linked List: ");
+while (temp != NULL) {
+printf("%d <-> ", temp->data);
+temp = temp->next;
+}
+printf("NULL\n");
+}
+
+int main() {
+int c, value, position;
+do {
+printf("\n1. Insert at Beginning\n2. Insert at End\n3.
+Insert at Position\n");
+printf("4. Delete at Beginning\n5. Delete at End\n6.
+Delete at Position\n");
+printf("7. Search\n8. Display\n9. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &c);
+switch (c) {
+case 1:
+printf("Enter value to insert: ");
+scanf("%d", &value);
+insertAtBeginning(value);
+break;
+case 2:
+printf("Enter value to insert: ");
+scanf("%d", &value);
+insertAtEnd(value);
+break;
+case 3:
+printf("Enter value to insert: ");
+scanf("%d", &value);
+printf("Enter position: ");
+scanf("%d", &position);
+insertAtPosition(value, position);
+break;
+case 4:
+deleteAtBeginning();
+break;
+case 5:
+deleteAtEnd();
+break;
+case 6:
+printf("Enter position to delete: ");
+scanf("%d", &position);
+deleteAtPosition(position);
+break;
+case 7:
+printf("Enter value to search: ");
+scanf("%d", &value);
+search(value);
+break;
+case 8:
+display();
+break;
+case 9:
+printf("Thank you\n");
+break;
+}
+} while (c != 9);
+}

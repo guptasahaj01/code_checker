@@ -1,0 +1,66 @@
+int pop()
+{
+if (isempty()) {
+printf("Stack underflow");
+return 0;
+}
+int k=s[top];
+top--;
+return k;
+}
+
+int isempty()
+{
+if (top==-1)
+return 1;
+return 0;
+}
+
+void push(int x)
+{
+if (isfull()) {
+printf("Stack overflow");
+}
+else {
+top++;
+s[top]=x;
+}
+}
+
+int isfull()
+{
+if (top==n-1)
+return 1;
+return 0;
+}
+
+int main()
+{
+int r,x,choice,c;
+printf("Enter range:");
+scanf("%d",&r);
+while (1) {
+printf("\n1. Push element into stack\n");
+printf("2. Pop element from stack\n");
+printf("3. Display the stack\n");
+scanf("%d",&choice);
+switch (choice) {
+case 1:
+printf("Enter element:");
+scanf("%d",&x);
+push(x);
+break;
+case 2:
+c=pop();
+printf("Popped element:%d\n",c);
+break;
+case 3:
+if (top==-1) {
+printf("Stack underflow");
+}
+for (int i=top;i>-1;i--) {
+printf("%d\n", s[i]);
+}
+}
+}
+}

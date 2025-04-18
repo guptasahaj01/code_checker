@@ -1,0 +1,138 @@
+void search(int value) {
+struct Node* temp = head;
+int position = 1;
+while (temp != NULL) {
+if (temp->data == value) {
+printf("Element %d found at position %d.\n", value, position);
+return;
+}
+temp = temp->next;
+position++;
+}
+printf("Element %d not found in the list.\n", value);
+}
+
+void display() {
+if (head == NULL) {
+printf("List is empty.\n");
+return;
+}
+struct Node* temp = head;
+printf("Doubly Linked List: ");
+while (temp != NULL) {
+printf("%d ", temp->data);
+temp = temp->next;
+}
+printf("\n");
+}
+
+void deleteAtEnd() {
+if (head == NULL) {
+printf("List is empty.\n");
+return;
+}
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+if (temp->prev != NULL) {
+temp->prev->next = NULL;
+} else {
+head = NULL;
+}
+printf("Deleted %d from the end.\n", temp->data);
+free(temp);
+}
+
+void deleteAtPosition(int position) {
+if (head == NULL) {
+printf("List is empty.\n");
+return;
+}
+if (position == 1) {
+deleteAtBeginning();
+return;
+}
+struct Node* temp = head;
+for (int i = 1; i < position; i++) {
+if (temp == NULL) {
+printf("Position out of bounds.\n");
+return;
+}
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Position out of bounds.\n");
+return;
+}
+if (temp->next != NULL) {
+temp->next->prev = temp->prev;
+}
+if (temp->prev != NULL) {
+temp->prev->next = temp->next;
+}
+printf("Deleted %d from position %d.\n", temp->data, position);
+free(temp);
+}
+
+int main() {
+int choice, value, position;
+do {
+printf("\nDoubly Linked List Operations:\n");
+printf("1. Insert at Beginning\n");
+printf("2. Insert at End\n");
+printf("3. Insert at Position\n");
+printf("4. Delete at Beginning\n");
+printf("5. Delete at End\n");
+printf("6. Delete at Position\n");
+printf("7. Search\n");
+printf("8. Display\n");
+printf("9. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter value to insert at beginning: ");
+scanf("%d", &value);
+insertAtBeginning(value);
+break;
+case 2:
+printf("Enter value to insert at end: ");
+scanf("%d", &value);
+insertAtEnd(value);
+break;
+case 3:
+printf("Enter value to insert: ");
+scanf("%d", &value);
+printf("Enter position: ");
+scanf("%d", &position);
+insertAtPosition(value, position);
+break;
+case 4:
+deleteAtBeginning();
+break;
+case 5:
+deleteAtEnd();
+break;
+case 6:
+printf("Enter position to delete: ");
+scanf("%d", &position);
+deleteAtPosition(position);
+break;
+case 7:
+printf("Enter value to search: ");
+scanf("%d", &value);
+search(value);
+break;
+case 8:
+display();
+break;
+case 9:
+printf("Exiting...\n");
+break;
+default:
+printf("Invalid choice! Please try again.\n");
+}
+} while (choice != 9);
+return 0;
+}

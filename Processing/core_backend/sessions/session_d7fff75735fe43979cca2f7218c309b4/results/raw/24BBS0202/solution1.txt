@@ -1,0 +1,216 @@
+struct Node {
+int data;
+struct Node *prev;
+struct Node *next;
+}
+
+void insertEnd(int data) {
+struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
+struct Node *temp = head;
+newNode->data = data;
+newNode->next = NULL;
+if (head == NULL) {
+newNode->prev = NULL;
+head = newNode;
+printf("Node inserted at the end.\n");
+return;
+}
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+newNode->prev = temp;
+}
+
+void insertBeginning(int data) {
+struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
+newNode->data = data;
+newNode->prev = NULL;
+newNode->next = head;
+if (head != NULL) {
+head->prev = newNode;
+}
+head = newNode;
+}
+
+void insertAtPosition(int data, int position) {
+if (position <= 0) {
+printf("Invalid position.\n");
+return;
+}
+struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
+struct Node *temp = head;
+int i;
+newNode->data = data;
+if (position == 1) {
+newNode->prev = NULL;
+newNode->next = head;
+if (head != NULL) {
+head->prev = newNode;
+}
+head = newNode;
+return;
+}
+for (i = 1; i < position - 1; i++) {
+if (temp == NULL) {
+printf("Position exceeds the size of the list.\n");
+free(newNode);
+return;
+}
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Position exceeds the size of the list.\n");
+free(newNode);
+return;
+}
+newNode->next = temp->next;
+newNode->prev = temp;
+if (temp->next != NULL) {
+temp->next->prev = newNode;
+}
+temp->next = newNode;
+printf("Node inserted at position %d.\n", position);
+}
+
+void deleteBeginning() {
+if (head == NULL) {
+printf("The list is empty.\n");
+return;
+}
+struct Node *temp = head;
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+printf("Deleted element is %d.\n", temp->data);
+free(temp);
+}
+
+void deleteEnd() {
+if (head == NULL) {
+printf("The list is empty.\n");
+return;
+}
+struct Node *temp = head;
+if (head->next == NULL) {
+head = NULL;
+printf("Deleted element is %d.\n", temp->data);
+free(temp);
+return;
+}
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->prev->next = NULL;
+printf("Deleted element is %d.\n", temp->data);
+free(temp);
+}
+
+void deleteAtPosition(int position) {
+if (head == NULL) {
+printf("The list is empty.\n");
+return;
+}
+if (position <= 0) {
+printf("Invalid position.\n");
+return;
+}
+struct Node *temp = head;
+int i;
+if (position == 1) {
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+printf("Deleted element is %d.\n", temp->data);
+free(temp);
+return;
+}
+for (i = 1; i < position; i++) {
+if (temp == NULL) {
+printf("Position exceeds the size of the list.\n");
+return;
+}
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Position exceeds the size of the list.\n");
+return;
+}
+if (temp->next != NULL) {
+temp->next->prev = temp->prev;
+}
+if (temp->prev != NULL) {
+temp->prev->next = temp->next;
+}
+printf("Deleted element is %d.\n", temp->data);
+free(temp);
+}
+
+void search(int key) {
+struct Node *temp = head;
+int flag=0;
+while (temp != NULL) {
+if (temp->data == key) {
+flag=1;
+}
+temp = temp->next;
+}
+if (flag==1){
+printf("Element found .\n");
+}
+else{
+printf("Element not found .");
+}
+}
+
+int main() {
+int choice, data, position;
+while (1) {
+printf("Enter Choice (Insert: 1-Beg 2-End 3-Pos Deletion: 4-Beg 5-End 6-Pos
+7-Search , 8-END):");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter data to insert at the beginning: ");
+scanf("%d", &data);
+insertBeginning(data);
+break;
+case 2:
+printf("Enter data to insert at the end: ");
+scanf("%d", &data);
+insertEnd(data);
+break;
+case 3:
+printf("Enter data to insert: ");
+scanf("%d", &data);
+printf("Enter position to insert at: ");
+scanf("%d", &position);
+insertAtPosition(data, position);
+break;
+case 4:
+deleteBeginning();
+break;
+case 5:
+deleteEnd();
+break;
+case 6:
+printf("Enter position to delete from: ");
+scanf("%d", &position);
+deleteAtPosition(position);
+break;
+case 7:
+printf("Enter element to search for: ");
+scanf("%d", &data);
+search(data);
+break;
+case 9:
+printf("Exiting program.\n");
+exit(0);
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+return 0;
+}

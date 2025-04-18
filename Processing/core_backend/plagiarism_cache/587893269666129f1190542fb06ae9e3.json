@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Longest substring with k unique characters",
+    "link": "https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/",
+    "snippet": "A straightforward approach is to generate all substrings and check if each contains exactly k unique characters.",
+    "query": "\"int main() { string s = \"aabacbebebe\"; int k = 3; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+    "query_priority": 0.56,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

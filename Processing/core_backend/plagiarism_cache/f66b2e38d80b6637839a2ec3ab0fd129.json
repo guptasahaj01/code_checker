@@ -1,0 +1,102 @@
+[
+  {
+    "title": "In a \"i < vector.size()\" loop condition, is size() called each ...",
+    "link": "https://stackoverflow.com/questions/3901630/in-a-i-vector-size-loop-condition-is-size-called-each-iteration",
+    "snippet": "In theory, it is called each time, since a for loop: for(initialization; condition; increment) body;. is expanded to something like",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Sliding Window Algorithm Code Template",
+    "link": "https://labuladong.online/algo/en/essential-technique/sliding-window-framework/",
+    "snippet": "The sliding window technique is a fast-slow pointer technique where two pointers move in tandem, creating a window that contains the elements between them.",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Core Guidelines",
+    "link": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+    "snippet": "The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++.",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Vec in std",
+    "link": "https://doc.rust-lang.org/std/vec/struct.Vec.html",
+    "snippet": "This method is allowed to allocate for more elements than capacity . If capacity is zero, the vector will not allocate. It is important to note that although ...",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "25 Rewriting R code in C++ - Advanced R - Hadley Wickham",
+    "link": "https://adv-r.hadley.nz/rcpp.html",
+    "snippet": "In this chapter you'll learn how to improve performance by rewriting key functions in C++. This magic comes by way of the Rcpp package119 (with key ...",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "cv::Mat Class Reference",
+    "link": "https://docs.opencv.org/4.x/d3/d63/classcv_1_1Mat.html",
+    "snippet": "The Mat::clone() method can be used to get a full (deep) copy of the array when you need it. Construct a header for a part of another array. It can be a single ...",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "paq6-emilcont-jackdamarioum.cpp",
+    "link": "http://mattmahoney.net/dc///paq6-emilcont-jackdamarioum.cpp",
+    "snippet": "The data is compressed as if all the files were concatenated into one long string. PAQ5 uses predictive arithmetic coding. The string, y, is compressed by ...",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ - How do I iterate over the words of a string?",
+    "link": "https://stackoverflow.com/questions/3616605",
+    "snippet": "I like to use the boost/regex methods for this task since they provide maximum flexibility for specifying the splitting criteria.",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "cudaDeviceSynchronize() takes time - CUDA Programming ...",
+    "link": "https://forums.developer.nvidia.com/t/cudadevicesynchronize-takes-time/260647",
+    "snippet": "I've written a code in C++/Cuda. I think something is wrong with the cudaDeviceSynchronize(); that I'm using in my program.",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Data Structures and Algorithms: 20 Problem-Solving ...",
+    "link": "https://hackernoon.com/data-structures-and-algorithms-20-problem-solving-techniques-qz1q3z1o",
+    "snippet": "This is the article I wish I had read when I started coding. I will dive deep into 20 problem-solving techniques that you must know to excel ...",
+    "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.5,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

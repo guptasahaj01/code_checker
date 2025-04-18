@@ -1,0 +1,27 @@
+bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,
+int>>>& plots) {
+int n = plots.size();
+vector<vector<bool>> dp(1 << n, vector<bool>(npVertices.size(), false));
+dp[0][0] = true;
+for (int mask = 0; mask < (1 << n); ++mask) {
+for (int i = 0; i < npVertices.size(); ++i) {
+if (dp[mask][i]) {
+for (int j = 0; j < n; ++j) {
+if (!(mask & (1 << j))) {
+// Update dp[mask | (1 << j)][newIndex]
+}
+}
+}
+}
+}
+return dp[(1 << n) - 1][npVertices.size() - 1];
+}
+
+int main() {
+vector<pair<int, int>> np = {{0,0}, {0,2}, {2,2}, {2,0}};
+vector<pair<pair<int, int>, pair<int, int>>> plots = {
+{{0,0}, {1,1}}, {{1,0}, {2,1}}, {{0,1}, {1,2}}, {{1,1}, {2,2}}
+};
+cout << (canCoverNPWithPlots(np, plots) ? "Yes" : "No") << endl;
+return 0;
+}

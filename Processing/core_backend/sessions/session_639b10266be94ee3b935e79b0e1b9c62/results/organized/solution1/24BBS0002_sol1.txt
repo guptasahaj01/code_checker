@@ -1,0 +1,21 @@
+int longestSubstringWithKUnique(string s, int k) {
+int freq[26] = {0};
+int unique = 0, left = 0, maxLen = -1;
+for (int right = 0; right < s.size(); ++right) {
+if (freq[s[right] - 'a']++ == 0) unique++;
+while (unique > k) {
+if (--freq[s[left] - 'a'] == 0) unique--;
+left++;
+}
+if (unique == k)
+maxLen = max(maxLen, right - left + 1);
+}
+return maxLen;
+}
+
+int main() {
+string s = "aabacbebebe";
+int k = 3;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

@@ -1,0 +1,32 @@
+bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,
+int>>>& plots) {
+vector<pair<int, int>> currentCover;
+return backtrack(0, npVertices, plots, currentCover);
+}
+
+bool backtrack(int idx, vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,
+int>>>& plots, vector<pair<int, int>>& currentCover) {
+if (idx == plots.size()) {
+return isExactCover(npVertices, currentCover);
+}
+currentCover.push_back(plots[idx].first);
+currentCover.push_back(plots[idx].second);
+if (backtrack(idx + 1, npVertices, plots, currentCover)) return true;
+currentCover.pop_back();
+currentCover.pop_back();
+if (backtrack(idx + 1, npVertices, plots, currentCover)) return true;
+return false;
+}
+
+bool isExactCover(vector<pair<int, int>>& npVertices, vector<pair<int, int>>& coveredArea) {
+return false; // placeholder
+}
+
+int main() {
+vector<pair<int, int>> np = {{0,0}, {0,2}, {2,2}, {2,0}};
+vector<pair<pair<int, int>, pair<int, int>>> plots = {
+{{0,0}, {1,1}}, {{1,0}, {2,1}}, {{0,1}, {1,2}}, {{1,1}, {2,2}}
+};
+cout << (canCoverNPWithPlots(np, plots) ? "Yes" : "No") << endl;
+return 0;
+}

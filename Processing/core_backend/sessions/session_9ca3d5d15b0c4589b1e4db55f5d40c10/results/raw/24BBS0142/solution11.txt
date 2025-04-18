@@ -1,0 +1,38 @@
+void Insert(int value) {
+if (count >= MAX) {
+printf("List is full\n");
+return;
+}
+list[count][0] = value;
+list[count][1] = (count == 0) ? -1 : count - 1;
+count++;
+}
+
+void Display() {
+if (count == 0) {
+printf("List is empty\n");
+return;
+}
+for (int i = count - 1; i >= 0; i--) {
+printf("Inserted element:%d\n", list[i][0]);
+}
+printf("\n");
+}
+
+void Delete() {
+if (count == 0) {
+printf("List is empty\n");
+return;
+}
+count--;
+}
+
+int main() {
+Insert(10);
+Insert(20);
+Insert(30);
+Display();
+Delete();
+Display();
+return 0;
+}

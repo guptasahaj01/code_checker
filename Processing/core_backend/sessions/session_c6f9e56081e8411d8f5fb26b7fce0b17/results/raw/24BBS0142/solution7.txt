@@ -1,0 +1,48 @@
+void Enqueue(int value) {
+if ((rear + 1) % MAX == front) {
+printf("Queue is Full!\n");
+} else {
+if (front == -1) front = 0;
+rear = (rear + 1) % MAX;
+queue[rear] = value;
+printf("enqueued value:%d\n", value);
+}
+}
+
+void Dequeue() {
+if (front == -1) {
+printf("Queue is Empty!\n");
+} else {
+printf("dequeued value:%d\n", queue[front]);
+if (front == rear) {
+front = rear = -1;
+} else {
+front = (front + 1) % MAX;
+}
+}
+}
+
+void Display() {
+if (front == -1) {
+printf("Queue is Empty!\n");
+} else {
+int i = front;
+while (i != rear) {
+printf("%d\n", queue[i]);
+i = (i + 1) % MAX;
+}
+printf("%d\n", queue[rear]);
+}
+}
+
+int main() {
+Enqueue(10);
+Enqueue(20);
+Enqueue(30);
+Enqueue(40);
+Enqueue(50);
+Dequeue();
+Enqueue(60);
+Display();
+return 0;
+}

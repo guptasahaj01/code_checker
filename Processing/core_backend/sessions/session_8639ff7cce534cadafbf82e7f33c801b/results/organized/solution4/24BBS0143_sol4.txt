@@ -1,0 +1,59 @@
+void push() {
+int value;
+if (top == SIZE - 1) {
+prin(cid:414)("Stack Overflow! Cannot add more elements.\n");
+} else {
+prin(cid:414)("Enter the value to push: ");
+scanf("%d", &value);
+stack[++top] = value;
+prin(cid:414)("%d pushed into the stack.\n", value);
+}
+}
+
+void pop() {
+if (top == -1) {
+prin(cid:414)("Stack Underflow! No elements to pop.\n");
+} else {
+prin(cid:414)("%d popped from the stack.\n", stack[top--]);
+}
+}
+
+void display() {
+if (top == -1) {
+prin(cid:414)("Stack is empty.\n");
+} else {
+prin(cid:414)("Stack elements are:\n");
+for (int i = top; i >= 0; i--) {
+prin(cid:414)("%d\n", stack[i]);
+}
+}
+}
+
+int main() {
+int choice;
+while (1) {
+prin(cid:414)("\nStack Opera(cid:415)ons Menu:\n");
+prin(cid:414)("1. PUSH\n");
+prin(cid:414)("2. POP\n");
+prin(cid:414)("3. Display\n");
+prin(cid:414)("4. Exit\n");
+prin(cid:414)("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+push();
+break;
+case 2:
+pop();
+break;
+case 3:
+display();
+break;
+case 4:
+prin(cid:414)("Exi(cid:415)ng the program.\n");
+exit(0);
+default:
+prin(cid:414)("Invalid choice! Please try again.\n");
+}
+}
+return 0;}

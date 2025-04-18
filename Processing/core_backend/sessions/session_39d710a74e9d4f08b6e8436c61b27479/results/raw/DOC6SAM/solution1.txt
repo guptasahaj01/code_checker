@@ -1,0 +1,28 @@
+int longestSubstringWithKUnique(string s, int k) {
+unordered_map<char, int> m; // character frequency
+deque<char> window; // simulate a sliding window
+int maxLen = -1, start = 0; // result and left index
+// expand the window
+for (int end = 0; end < s.length(); ++end) {
+m[s[end]]++; // update count
+window.push_back(s[end]); // add to window
+// reduce size if too many unique chars
+while (m.size() > k) {
+m[window.front()]--; // reduce frequency
+if (m[window.front()] == 0) m.erase(window.front()); // remove if count zero
+window.pop_front(); // move left
+start++; // increment start pointer
+}
+// check if condition is satisfied
+if (m.size() == k)
+maxLen = max(maxLen, end - start + 1); // update max length
+}
+return maxLen; // final result
+}
+
+int main() {
+string s = "aabacbebebe";
+int k = 3;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

@@ -1,0 +1,63 @@
+void pop() {
+if (top == -1) {
+prini("Stack Underflow! No elements to pop.\n");
+return;
+}
+int poppedElement = stack[top];
+top--;
+prini("Popped element: %d\n", poppedElement);
+}
+
+void display() {
+if (top == -1) {
+prini("Stack is empty.\n");
+return;
+}
+prini("Stack elements: ");
+for (int i = top; i >= 0; i--) {
+prini("%d ", stack[i]);
+}
+prini("\n");
+}
+
+void push(int element) {
+if (top == MAX - 1) {
+prini("Stack Overflow! Cannot push %d onto the stack.\n", element);
+return;
+}
+top++;
+stack[top] = element;
+prini("Pushed %d onto the stack.\n", element);
+}
+
+int main() {
+int choice, element;
+do {
+prini("\n--- Stack OperaCons Menu ---\n");
+prini("1. Push\n");
+prini("2. Pop\n");
+prini("3. Display\n");
+prini("4. Exit\n");
+prini("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prini("Enter the element to push: ");
+scanf("%d", &element);
+push(element);
+break;
+case 2:
+pop();
+break;
+case 3:
+display();
+break;
+case 4:
+prini("ExiCng...\n");
+break;
+default:
+prini("Invalid choice. Please try again.\n");
+}
+} while (choice != 4);
+return 0;
+}

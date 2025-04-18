@@ -1,0 +1,120 @@
+struct node{
+int data;
+struct node* next;
+}
+
+struct Node {
+int data;
+struct Node *prev;
+struct Node *next;
+}
+
+void search(struct node* start, int data)
+{
+struct node* p=start;
+int counter=0;
+while(p!=NULL)
+{
+counter++;
+if(p->data==data)
+{
+printf("The given data exists in the linked list at %d position\n",counter);
+return;
+}
+p=p->next;
+}
+printf("The given data does not exist in the linked list\n");
+return;
+}
+
+void display(struct node* start)
+{
+struct node* p=start;
+printf("THE LINKED LIST \n");
+while(p!=NULL)
+{
+printf("%d =>",p->data);
+p=p->next;
+}
+printf("NULL \n");
+return;
+}
+
+int main()
+{
+struct node* start=NULL;
+int choice=1;
+printf("CHOICE OF OPERATIONS \n");
+printf("1 for INSERTION AT BEGINNING \n");
+printf("2 for INSERTION AT END \n");
+printf("3 for INSERTION AT A PARTICULAR POSITION \n");
+printf("4 for DELETION AT BEGINNING \n");
+printf("5 for DELETION AT END \n");
+printf("6 for DELETION AT A PARTICULAR POSITION \n");
+printf("7 for SEARCHING AN ELEMENT IN THE LINKED LIST \n");
+do{
+int x;
+printf("ENTER CHOICE \n");
+scanf("%d",&x);
+switch(x)
+{
+case 1:{
+int data;
+printf("Enter the data to be added to the linked list: ");
+scanf("%d",&data);
+start=insertAtBeg(start,data);
+printf("Data added\n");
+break;
+}
+case 2:{
+int data;
+printf("Enter the data to be added at the end of the linked list\n");
+scanf("%d",&data);
+start=insertAtEnd(start,data);
+printf("Data added\n");
+break;
+}
+case 3:{
+int data,pos;
+printf("Enter the data to be added \n");
+scanf("%d",&data);
+printf("\nEnter the position at which data has to be added\n");
+scanf("%d",&pos);
+start=insertAtPos(start,data,pos-1);
+printf("Data added\n");
+break;
+}
+case 4:{
+start=deleteAtBeg(start);
+printf("Data deleted\n");
+break;
+}
+case 5:{
+start=deleteAtEnd(start);
+printf("Data deleted\n");
+break;
+}
+case 6:{
+int pos;
+printf("Enter the position for the data to be deleted: ");
+scanf("%d",&pos);
+start=deleteAtPos(start,pos);
+printf("\nData Deleted\n");
+break;
+}
+case 7:{
+int data;
+printf("Enter data to be searched in the linked list\n");
+scanf("%d",&data);
+search(start,data);
+break;
+}
+default:
+printf("Invalid choice.\n");
+}
+display(start);
+printf("Enter 1 to continue use of program or else any other integer\n");
+scanf("%d",&choice);
+}while(choice==1);
+return 0;
+}

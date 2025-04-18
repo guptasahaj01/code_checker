@@ -1,0 +1,113 @@
+void insertAtPosition() {
+int value, position;
+printf("Enter position: ");
+scanf("%d", &position);
+if (position < 1) return;
+struct node *newNode = (struct node *)malloc(sizeof(struct node));
+if (newNode == NULL) return;
+printf("Enter value: ");
+scanf("%d", &value);
+newNode->data = value;
+if (position == 1) {
+newNode->next = head;
+head = newNode;
+} else {
+struct node *temp = head;
+for (int i = 1; i < position - 1 && temp != NULL; i++) temp = temp->next;
+if (temp == NULL) return;
+newNode->next = temp->next;
+temp->next = newNode;
+}
+}
+
+void deleteFromBeginning() {
+if (head == NULL) return;
+struct node *temp = head;
+head = head->next;
+free(temp);
+}
+
+void deleteFromEnd() {
+if (head == NULL) return;
+if (head->next == NULL) {
+free(head);
+head = NULL;
+return;
+}
+struct node *temp = head;
+while (temp->next->next != NULL) temp = temp->next;
+free(temp->next);
+temp->next = NULL;
+}
+
+void deleteFromPosition() {
+int position;
+printf("Enter position: ");
+scanf("%d", &position);
+if (position < 1 || head == NULL) return;
+if (position == 1) {
+struct node *temp = head;
+head = head->next;
+free(temp);
+return;
+}
+struct node *temp = head, *prev = NULL;
+for (int i = 1; i < position && temp != NULL; i++) {
+prev = temp;
+temp = temp->next;
+}
+if (temp == NULL) return;
+prev->next = temp->next;
+free(temp);
+}
+
+void search() {
+int value;
+printf("Enter value: ");
+scanf("%d", &value);
+struct node *temp = head;
+int position = 1;
+while (temp != NULL) {
+if (temp->data == value) {
+printf("%d found at position %d.\n", value, position);
+return;
+}
+temp = temp->next;
+position++;
+}
+printf("%d not found.\n", value);
+}
+
+void display() {
+if (head == NULL) {
+printf("List is empty.\n");
+return;
+}
+struct node *temp = head;
+while (temp != NULL) {
+printf("%d ", temp->data);
+temp = temp->next;
+}
+printf("\n");
+}
+
+int main() {
+int choice;
+while (1) {
+printf("\n1. Insert at Beginning\n2. Insert at End\n3. Insert at Position\n4. Delete from Beginning\n5.
+Delete from End\n6. Delete from Position\n7. Search\n8. Display\n9. Exit\n");
+printf("Enter choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1: insertAtBeginning(); break;
+case 2: insertAtEnd(); break;
+case 3: insertAtPosition(); break;
+case 4: deleteFromBeginning(); break;
+case 5: deleteFromEnd(); break;
+case 6: deleteFromPosition(); break;
+case 7: search(); break;
+case 8: display(); break;
+case 9: return 0;
+}
+}
+}

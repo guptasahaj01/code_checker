@@ -1,0 +1,537 @@
+struct Node {
+int data;
+struct Node* next;
+struct Node* prev;
+}
+
+struct Node {
+int data;
+struct Node *next;
+}
+
+void insertion_beginning() {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+printf("Enter data: ");
+scanf("%d", &newNode->data);
+newNode->next = head;
+head = newNode;
+printf("Node inserted at the beginning\n");
+}
+
+void insertion_beginning() {
+int value;
+printf("Enter data: ");
+scanf("%d", &value);
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+newNode->next = head;
+newNode->prev = NULL;
+if (head != NULL) {
+head->prev = newNode;
+}
+head = newNode;
+printf("Node inserted at the beginning\n");
+}
+
+void insertion_end() {
+int value;
+printf("Enter data: ");
+scanf("%d", &value);
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+newNode->prev = NULL;
+head = newNode;
+printf("Node inserted at the end\n");
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+newNode->prev = temp;
+printf("Node inserted at the end\n");
+}
+}
+
+void insertion_end() {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+printf("Enter data: ");
+scanf("%d", &newNode->data);
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+}
+printf("Node inserted at the end\n");
+}
+
+void insertion_at_position() {
+int value, position;
+printf("Enter position: ");
+scanf("%d", &position);
+printf("Enter data: ");
+scanf("%d", &value);
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+if (position == 1) {
+newNode->next = head;
+newNode->prev = NULL;
+if (head != NULL) {
+head->prev = newNode;
+}
+head = newNode;
+printf("Node inserted at position 1\n");
+} else {
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL) {
+printf("Invalid position\n");
+return;
+}
+temp = temp->next;
+}
+newNode->next = temp->next;
+if (temp->next != NULL) {
+temp->next->prev = newNode;
+}
+temp->next = newNode;
+newNode->prev = temp;
+printf("Node inserted at position %d\n", position);
+}
+}
+
+void insertion_at_position() {
+int position, value;
+printf("Enter position: ");
+scanf("%d", &position);
+printf("Enter data: ");
+scanf("%d", &value);
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+if (position == 1) {
+newNode->next = head;
+head = newNode;
+printf("Node inserted at position 1\n");
+} else {
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL) {
+printf("Invalid position\n");
+return;
+}
+temp = temp->next;
+}
+newNode->next = temp->next;
+temp->next = newNode;
+printf("Node inserted at position %d\n", position);
+}
+}
+
+void deletion_beginning() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+free(temp);
+printf("Node deleted from the beginning\n");
+}
+
+void deletion_beginning() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+free(temp);
+printf("Node deleted from the beginning\n");
+}
+
+void deletion_end() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+if (head->next == NULL) {
+free(head);
+head = NULL;
+printf("Node deleted from the end\n");
+return;
+}
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->prev->next = NULL;
+free(temp);
+printf("Node deleted from the end\n");
+}
+
+void deletion_end() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+if (head->next == NULL) {
+free(head);
+head = NULL;
+printf("Node deleted from the end\n");
+return;
+}
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+free(temp);
+printf("Node deleted from the end\n");
+}
+
+void deletion_at_position() {
+int position;
+printf("Enter position: ");
+scanf("%d", &position);
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+if (position == 1) {
+struct Node* temp = head;
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+free(temp);
+printf("Node deleted from position 1\n");
+return;
+}
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL || temp->next == NULL) {
+printf("Invalid position\n");
+return;
+}
+temp = temp->next;
+}
+struct Node* toDelete = temp->next;
+temp->next = temp->next->next;
+if (temp->next != NULL) {
+temp->next->prev = temp;
+}
+free(toDelete);
+printf("Node deleted from position %d\n", position);
+}
+
+void deletion_at_position() {
+int position;
+printf("Enter position: ");
+scanf("%d", &position);
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+if (position == 1) {
+struct Node* temp = head;
+head = head->next;
+free(temp);
+printf("Node deleted from position 1\n");
+return;
+}
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL || temp->next == NULL) {
+printf("Invalid position\n");
+return;
+}
+temp = temp->next;
+}
+struct Node* toDelete = temp->next;
+temp->next = temp->next->next;
+free(toDelete);
+printf("Node deleted from position %d\n", position);
+}
+
+void search() {
+int value;
+printf("Enter value to search: ");
+scanf("%d", &value);
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+while (temp != NULL) {
+if (temp->data == value) {
+printf("Element %d found\n", value);
+return;
+}
+temp = temp->next;
+}
+printf("Element %d not found\n", value);
+}
+
+void search() {
+int value;
+printf("Enter value to search: ");
+scanf("%d", &value);
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+while (temp != NULL) {
+if (temp->data == value) {
+printf("Element %d found\n", value);
+return;
+}
+temp = temp->next;
+}
+printf("Element %d not found\n", value);
+}
+
+void display() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+printf("List elements: ");
+while (temp != NULL) {
+printf("%d ", temp->data);
+temp = temp->next;
+}
+printf("\n");
+}
+
+void enqueue() {
+int value;
+if ((rear + 1) % MAX == front) {
+printf("Queue Overflow (Queue is full)\n");
+return;
+}
+if (front == -1) {
+front = 0;
+rear = 0;
+} else {
+rear = (rear + 1) % MAX;
+}
+printf("Enter element to enqueue: ");
+scanf("%d", &value);
+queue[rear] = value;
+printf("%d added to the queue\n", value);
+}
+
+void enqueue() {
+int value;
+if (rear == MAX - 1) {
+printf("Queue Overflow\n");
+return;
+}
+if (front == -1) {
+front = 0;
+}
+printf("Enter element to enqueue: ");
+scanf("%d", &value);
+rear++;
+queue[rear] = value;
+printf("%d added to the queue\n", value);
+}
+
+void dequeue() {
+if (front == -1) {
+printf("Queue Underflow (Queue is empty)\n");
+return;
+}
+int value = queue[front];
+if (front == rear) {
+front = rear = -1; // Queue becomes empty
+} else {
+front = (front + 1) % MAX;
+}
+printf("%d dequeued from the queue\n", value);
+}
+
+void dequeue() {
+if (front == -1 || front > rear) {
+printf("Queue Underflow\n");
+return;
+}
+int value = queue[front];
+front++;
+if (front > rear) {
+front = rear = -1;
+}
+printf("%d dequeued from the queue\n", value);
+}
+
+void display() {
+if (front == -1) {
+printf("Queue is empty\n");
+return;
+}
+printf("Queue elements: ");
+for (int i = front; i <= rear; i++) {
+printf("%d ", queue[i]);
+}
+printf("\n");
+}
+
+void display() {
+if (front == -1) {
+printf("Queue is empty\n");
+return;
+}
+printf("Queue elements: ");
+int i = front;
+while (i != rear) {
+printf("%d ", queue[i]);
+i = (i + 1) % MAX;
+}
+printf("%d\n", queue[rear]);
+}
+
+void display() {
+if (head == NULL) {
+printf("List is empty\n");
+return;
+}
+struct Node* temp = head;
+printf("List elements: ");
+while (temp != NULL) {
+printf("%d ", temp->data);
+temp = temp->next;
+}
+printf("\n");
+}
+
+int main() {
+int choice;
+while (1) {
+printf("\nMenu:\n");
+printf("1. Insertion at Beginning\n");
+printf("2. Insertion at End\n");
+printf("3. Insertion at Given Position\n");
+printf("4. Deletion at Beginning\n");
+printf("5. Deletion at End\n");
+printf("6. Deletion at Given Position\n");
+printf("7. Search an Element\n");
+printf("8. Display List\n");
+printf("9. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1: insertion_beginning(); break;
+case 2: insertion_end(); break;
+case 3: insertion_at_position(); break;
+case 4: deletion_beginning(); break;
+case 5: deletion_end(); break;
+case 6: deletion_at_position(); break;
+case 7: search(); break;
+case 8: display(); break;
+case 9: exit(0);
+default: printf("Invalid choice, try again.\n");
+}
+}
+return 0;
+}
+
+int main() {
+int choice;
+while (1) {
+printf("\nMenu:\n");
+printf("1. Insertion at Beginning\n");
+printf("2. Insertion at End\n");
+printf("3. Insertion at Given Position\n");
+printf("4. Deletion at Beginning\n");
+printf("5. Deletion at End\n");
+printf("6. Deletion at Given Position\n");
+printf("7. Search an Element\n");
+printf("8. Display List\n");
+printf("9. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1: insertion_beginning(); break;
+case 2: insertion_end(); break;
+case 3: insertion_at_position(); break;
+case 4: deletion_beginning(); break;
+case 5: deletion_end(); break;
+case 6: deletion_at_position(); break;
+case 7: search(); break;
+case 8: display(); break;
+case 9: exit(0);
+default: printf("Invalid choice, try again.\n");
+}
+}
+return 0;
+}
+
+int main() {
+int choice;
+while (1) {
+printf("\nMenu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+enqueue();
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+return 0;
+default:
+printf("Invalid choice, try again\n");
+}
+}
+}
+
+int main() {
+int choice;
+while (1) {
+printf("\nMenu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+enqueue();
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+return 0;
+default:
+printf("Invalid choice, try again\n");
+}
+}
+}

@@ -1,0 +1,36 @@
+{
+  "24BBS0213_sol4.txt": {
+    "file": "24BBS0213_sol4.txt",
+    "is_ai_generated": false,
+    "technical_score": 26.748549542952638,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.11595836012728859,
+      "formatting_consistency_score": 0.7483870967741937,
+      "similarity_score": 0.20916838447152009,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.2674854954295264
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7483870967741937
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.20916838447152009
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.11595836012728859
+      }
+    ]
+  }
+}

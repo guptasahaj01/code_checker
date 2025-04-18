@@ -1,0 +1,71 @@
+int isEmpty() {
+return (top == -1);
+}
+
+int isFull() {
+return (top == max - 1);
+}
+
+void push(int data) {
+if (isFull()) {
+printf("Stack overflow!\n");
+} else {
+stack[++top] = data;
+printf("%d pushed to stack\n", data);
+}
+}
+
+int pop() {
+if (isEmpty()) {
+printf("Stack underflow!\n");
+return -1;
+} else {
+return stack[top--];
+}
+}
+
+void display() {
+if (isEmpty()) {
+printf("Stack is empty!\n");
+} else {
+printf("Stack elements:\n");
+for (int i = top; i >= 0; i--) {
+printf("%d ", stack[i]);
+}
+printf("\n");
+}
+}
+
+int main() {
+int choice, data;
+while (1) {
+printf("\nMenu:\n");
+printf("1. Push\n");
+printf("2. Pop\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter data to push: ");
+scanf("%d", &data);
+push(data);
+break;
+case 2:
+data = pop();
+if (data != -1) {
+printf("%d popped from stack\n", data);
+}
+break;
+case 3:
+display();
+break;
+case 4:
+exit(0);
+default:
+printf("Invalid choice!\n");
+}
+}
+return 0;
+}

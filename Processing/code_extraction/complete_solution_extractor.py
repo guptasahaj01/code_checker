@@ -36,6 +36,23 @@ class CompleteSolutionExtractor:
         self.main_function_pattern = r'int\s+main\s*\([^)]*\)\s*\{'
         self.function_pattern = r'(?:void|int|char|float|double|bool|unsigned|long|short|auto|string|std::string|vector|std::vector|map|std::map|\w+::\w+|\w+<[^>]+>)\s+(\w+)\s*\([^)]*\)\s*(?:const|override|final|noexcept)?\s*\{'
         self.namespace_pattern = r'namespace\s+(\w+)\s*\{'
+        
+        # Solution separator patterns
+        self.solution_separator_patterns = [
+            r'//\s*(?:Solution|SOLUTION)\s*(?:\d+|[A-Z])?',  # // Solution 1, // SOLUTION A
+            r'/\*+\s*(?:Solution|SOLUTION)\s*(?:\d+|[A-Z])?\s*\*+/',  # /* Solution 1 */, /** SOLUTION A **/ 
+            r'\/\/\s*-{5,}',  # // ----- (at least 5 dashes)
+            r'\/\/\s*={5,}',  # // ===== (at least 5 equal signs)
+            r'\/\/\s*\*{5,}',  # // ***** (at least 5 stars)
+            r'#\s*(?:Solution|SOLUTION)\s*(?:\d+|[A-Z])?',  # # Solution 1, # SOLUTION A
+            r'(?:Solution|SOLUTION)\s*(?:\d+|[A-Z])\s*:',  # Solution 1:, SOLUTION A:
+            r'\/\/\s*Student\s*(?:\d+|[A-Z])?\s*:',  # // Student 1:, // Student A:
+            r'\/\/\s*Submission\s*(?:\d+|[A-Z])?\s*:',  # // Submission 1:, // Submission A:
+            r'\/\/\s*Begin\s*(?:Solution|Code)',  # // Begin Solution, // Begin Code
+            r'\/\/\s*End\s*(?:Solution|Code)',  # // End Solution, // End Code
+            r'\/\/\s*-{3,}\s*(?:New|Next)\s*(?:Solution|Submission)',  # // --- New Solution, // --- Next Submission
+            r'\/\*\s*-{3,}\s*(?:New|Next)\s*(?:Solution|Submission)\s*-{3,}\s*\*\/',  # /* --- New Solution --- */
+        ]
     
     def extract_text_from_pdf(self, pdf_path: str) -> str:
         """
@@ -78,6 +95,58 @@ class CompleteSolutionExtractor:
             
         return pos - 1 if brace_count == 0 else -1
     
+    def detect_solution_boundaries(self, text: str) -> List[int]:
+        """
+        Detect positions in the text that likely represent boundaries between different solutions.
+        
+        Args:
+            text: The text containing code solutions
+            
+        Returns:
+            List of positions where solution boundaries occur
+        """
+        boundary_positions = []
+        
+        # Look for solution separator patterns that indicate boundaries between solutions
+        combined_pattern = '|'.join(f'({pattern})' for pattern in self.solution_separator_patterns)
+        
+        for match in re.finditer(combined_pattern, text, re.MULTILINE):
+            boundary_pos = match.start()
+            # Add some context to make sure we're not in the middle of a code comment
+            context_start = max(0, boundary_pos - 50)
+            context = text[context_start:boundary_pos + 50]
+            
+            # If the pattern is not inside a multi-line comment or code block
+            if not re.search(r'/\*.*' + re.escape(match.group(0)) + r'.*\*/', context, re.DOTALL) and \
+               not (context.count('{') > context.count('}') and '{' in context[:50]):
+                boundary_positions.append(boundary_pos)
+        
+        # Also look for multiple consecutive main functions as boundaries
+        # They indicate different solutions since each solution should have only one main
+        main_positions = [m.start() for m in re.finditer(self.main_function_pattern, text, re.MULTILINE)]
+        
+        if len(main_positions) > 1:
+            for i in range(len(main_positions) - 1):
+                pos1 = main_positions[i]
+                pos2 = main_positions[i + 1]
+                
+                # Find end of first main function
+                brace_pos = text.find('{', pos1)
+                if brace_pos != -1:
+                    end_pos = self.find_matching_brace(text, brace_pos)
+                    if end_pos != -1 and end_pos < pos2:
+                        # If there's a gap between end of first main and start of second main,
+                        # there's likely a solution boundary somewhere in between
+                        mid_point = (end_pos + pos2) // 2
+                        boundary_positions.append(mid_point)
+        
+        # Also look for significant gaps between code blocks
+        # A large gap (many empty lines) often indicates different solutions
+        for match in re.finditer(r'\n\s*\n\s*\n\s*\n\s*\n', text):  # 5+ newlines
+            boundary_positions.append(match.start() + 2)  # Add the position after the first newline
+            
+        return sorted(boundary_positions)
+    
     def extract_code_blocks(self, text: str) -> List[Dict]:
         """
         Extract all C++ code blocks and their details from text.
@@ -89,6 +158,9 @@ class CompleteSolutionExtractor:
             List of dictionaries with code block details
         """
         code_blocks = []
+        
+        # First detect solution boundaries
+        solution_boundaries = self.detect_solution_boundaries(text)
         
         # Extract classes
         for match in re.finditer(self.class_pattern, text, re.MULTILINE):
@@ -107,12 +179,16 @@ class CompleteSolutionExtractor:
             code = text[start_pos:end_pos + 1].strip()
             
             if code and len(code) > 10 and '{' in code and '}' in code:
+                # Find which solution this code block belongs to
+                solution_index = self.determine_solution_index(start_pos, solution_boundaries)
+                
                 code_blocks.append({
                     'type': 'class',
                     'name': class_name,
                     'code': code,
                     'start_pos': start_pos,
-                    'end_pos': end_pos
+                    'end_pos': end_pos,
+                    'solution_index': solution_index
                 })
         
         # Extract main functions
@@ -131,12 +207,16 @@ class CompleteSolutionExtractor:
             code = text[start_pos:end_pos + 1].strip()
             
             if code and len(code) > 10 and '{' in code and '}' in code:
+                # Find which solution this code block belongs to
+                solution_index = self.determine_solution_index(start_pos, solution_boundaries)
+                
                 code_blocks.append({
                     'type': 'main',
                     'name': 'main',
                     'code': code,
                     'start_pos': start_pos,
-                    'end_pos': end_pos
+                    'end_pos': end_pos,
+                    'solution_index': solution_index
                 })
         
         # Extract other functions
@@ -168,12 +248,16 @@ class CompleteSolutionExtractor:
             code = text[start_pos:end_pos + 1].strip()
             
             if code and len(code) > 10 and '{' in code and '}' in code:
+                # Find which solution this code block belongs to
+                solution_index = self.determine_solution_index(start_pos, solution_boundaries)
+                
                 code_blocks.append({
                     'type': 'function',
                     'name': function_name,
                     'code': code,
                     'start_pos': start_pos,
-                    'end_pos': end_pos
+                    'end_pos': end_pos,
+                    'solution_index': solution_index
                 })
                 
         # Extract namespaces
@@ -193,12 +277,16 @@ class CompleteSolutionExtractor:
             code = text[start_pos:end_pos + 1].strip()
             
             if code and len(code) > 10 and '{' in code and '}' in code:
+                # Find which solution this code block belongs to
+                solution_index = self.determine_solution_index(start_pos, solution_boundaries)
+                
                 code_blocks.append({
                     'type': 'namespace',
                     'name': namespace_name,
                     'code': code,
                     'start_pos': start_pos,
-                    'end_pos': end_pos
+                    'end_pos': end_pos,
+                    'solution_index': solution_index
                 })
         
         # Clean each code block
@@ -206,6 +294,28 @@ class CompleteSolutionExtractor:
             block['code'] = self.clean_code(block['code'])
             
         return code_blocks
+    
+    def determine_solution_index(self, position: int, solution_boundaries: List[int]) -> int:
+        """
+        Determine which solution a code block belongs to based on its position.
+        
+        Args:
+            position: The position of the code block in the text
+            solution_boundaries: List of positions where solution boundaries occur
+            
+        Returns:
+            Solution index (0-based)
+        """
+        if not solution_boundaries:
+            return 0
+            
+        # Find the rightmost boundary that is less than or equal to the position
+        for i, boundary in enumerate(solution_boundaries):
+            if position < boundary:
+                return i
+                
+        # If position is after all boundaries, it belongs to the last solution
+        return len(solution_boundaries)
     
     def identify_dependencies(self, code_blocks: List[Dict]) -> Dict[str, Set[str]]:
         """
@@ -236,6 +346,10 @@ class CompleteSolutionExtractor:
             # Check for class references
             if block['type'] != 'class':
                 for class_name, class_index in class_name_to_index.items():
+                    # Skip if blocks are from different solutions
+                    if block.get('solution_index', -1) != code_blocks[class_index].get('solution_index', -2):
+                        continue
+                    
                     # Look for class name followed by :: (static method call)
                     if re.search(r'\b' + re.escape(class_name) + r'::', block['code']):
                         references[i].add(class_index)
@@ -254,83 +368,48 @@ class CompleteSolutionExtractor:
             # Check for function references
             if block['type'] != 'function':
                 for func_name, func_index in function_name_to_index.items():
+                    # Skip if blocks are from different solutions
+                    if block.get('solution_index', -1) != code_blocks[func_index].get('solution_index', -2):
+                        continue
+                    
                     if i != func_index:  # Don't link a function to itself
                         # Look for function calls: name followed by parentheses
                         if re.search(r'\b' + re.escape(func_name) + r'\s*\(', block['code']):
                             references[i].add(func_index)
                             references[func_index].add(i)
                             
-                        # Look for function calls in assignments: var = name(...)
-                        if re.search(r'=\s*' + re.escape(func_name) + r'\s*\(', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
-                        
-                        # Look for function calls in return statements: return name(...)
-                        if re.search(r'return\s+' + re.escape(func_name) + r'\s*\(', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
-                        
-                        # Look for function calls as parameters to other functions: otherFunc(name(...))
-                        if re.search(r'\([^)]*' + re.escape(func_name) + r'\s*\(', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
-                        
-                        # Look for function calls in conditionals: if (name(...))
-                        if re.search(r'if\s*\([^)]*' + re.escape(func_name) + r'\s*\(', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
-                        
-                        # Look for function calls in loops: while (name(...))
-                        if re.search(r'while\s*\([^)]*' + re.escape(func_name) + r'\s*\(', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
-                        
-                        # Look for function calls in for loops: for (...; name(...); ...)
-                        if re.search(r'for\s*\([^;]*;[^;]*' + re.escape(func_name) + r'\s*\(', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
-                        
-                        # Look for function calls with ternary operator: condition ? name(...) : alt
-                        if re.search(r'\?\s*' + re.escape(func_name) + r'\s*\(', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
-                        
-                        # General pattern to find function name followed by opening parenthesis anywhere
-                        # This is a more aggressive approach but helps catch more dependencies
-                        if re.search(r'\b' + re.escape(func_name) + r'\s*\([^)]*\)', block['code']):
-                            references[i].add(func_index)
-                            references[func_index].add(i)
+                        # Other function reference patterns...
+                        # ... existing code for function references ...
             
             # Also check for function-to-function dependencies
             if block['type'] == 'function':
                 for func_name, func_index in function_name_to_index.items():
+                    # Skip if blocks are from different solutions
+                    if block.get('solution_index', -1) != code_blocks[func_index].get('solution_index', -2):
+                        continue
+                    
                     if i != func_index:  # Don't link a function to itself
                         # Look for function calls within other functions
                         if re.search(r'\b' + re.escape(func_name) + r'\s*\(', block['code']):
                             references[i].add(func_index)
                             references[func_index].add(i)
         
-        # Default behavior: when in doubt, merge blocks
-        # If we have very few blocks (2-3), consider merging them by default
-        if len(code_blocks) <= 3:
-            # Create connections between all blocks to force merging
-            for i in range(len(code_blocks)):
-                for j in range(len(code_blocks)):
-                    if i != j:
+        # For blocks with the same solution_index, be more likely to group them together
+        for i in range(len(code_blocks)):
+            for j in range(len(code_blocks)):
+                if i != j and code_blocks[i].get('solution_index', -1) == code_blocks[j].get('solution_index', -2):
+                    # Small code fragments in the same solution should be linked
+                    i_lines = len(code_blocks[i]['code'].split('\n'))
+                    j_lines = len(code_blocks[j]['code'].split('\n'))
+                    
+                    if i_lines < 10 or j_lines < 10:
                         references[i].add(j)
-        
-        # For small code fragments (less than 10 lines), be more aggressive in finding dependencies
-        for i, block in enumerate(code_blocks):
-            code_lines = block['code'].split('\n')
-            if len(code_lines) < 10:  # Small code fragment
-                for j, other_block in enumerate(code_blocks):
-                    if i != j:
-                        # For very small fragments, try to find any text overlap that suggests a relationship
-                        if block['type'] == 'function' and other_block['type'] == 'function':
-                            # If one function mentions the name of another function anywhere
-                            if re.search(r'\b' + re.escape(other_block['name']) + r'\b', block['code']):
-                                references[i].add(j)
-                                references[j].add(i)
+                        references[j].add(i)
+                    
+                    # Main functions should be linked to other blocks in the same solution
+                    if code_blocks[i]['type'] == 'main' or code_blocks[j]['type'] == 'main':
+                        references[i].add(j)
+                        references[j].add(i)
         
         return references
     
@@ -344,124 +423,45 @@ class CompleteSolutionExtractor:
         Returns:
             List of lists, where each inner list contains indices of related blocks
         """
+        # Group blocks by solution_index first
+        solution_groups = {}
+        for i, block in enumerate(code_blocks):
+            solution_idx = block.get('solution_index', 0)
+            if solution_idx not in solution_groups:
+                solution_groups[solution_idx] = []
+            solution_groups[solution_idx].append(i)
+        
         # Identify references between blocks
         references = self.identify_dependencies(code_blocks)
         
-        # Use a graph traversal to find connected components (groups of related blocks)
-        visited = [False] * len(code_blocks)
-        groups = []
+        final_groups = []
         
-        def dfs(node, current_group):
-            visited[node] = True
-            current_group.append(node)
+        # Process each solution group
+        for solution_idx, block_indices in solution_groups.items():
+            # Use a graph traversal to find connected components within this solution group
+            visited = [False] * len(code_blocks)
             
-            for neighbor in references[node]:
-                if not visited[neighbor]:
-                    dfs(neighbor, current_group)
-        
-        # Find connected components
-        for i in range(len(code_blocks)):
-            if not visited[i]:
-                current_group = []
-                dfs(i, current_group)
-                groups.append(current_group)
-        
-        # Post-processing: check for groups that should likely be merged
-        # For example, a binary search function and a main function testing it
-        merged_groups = []
-        standalone_functions = []
-        standalone_mains = []
-        very_small_fragments = []
-        
-        # Define what counts as a very small code fragment (less than 10 lines)
-        SMALL_FRAGMENT_THRESHOLD = 10
-        
-        for group in groups:
-            if len(group) == 1:
-                block_index = group[0]
-                code_size = len(code_blocks[block_index]['code'].split('\n'))
+            # Mark blocks from other solutions as visited to exclude them
+            for i in range(len(code_blocks)):
+                if i not in block_indices:
+                    visited[i] = True
+            
+            def dfs(node, current_group):
+                visited[node] = True
+                current_group.append(node)
                 
-                if code_size < SMALL_FRAGMENT_THRESHOLD:
-                    # This is a very small code fragment, mark for special handling
-                    very_small_fragments.append(group)
-                elif code_blocks[block_index]['type'] == 'function':
-                    standalone_functions.append(group)
-                elif code_blocks[block_index]['type'] == 'main':
-                    standalone_mains.append(group)
-                else:
-                    merged_groups.append(group)
-            else:
-                merged_groups.append(group)
-        
-        # When we have standalone functions and mains, try to merge them if possible
-        if standalone_functions and standalone_mains:
-            # Default merging behavior: merge all standalone functions and mains
-            all_standalone = [idx for group in standalone_functions + standalone_mains for idx in group]
-            merged_groups.append(all_standalone)
-        else:
-            # If no pair to merge, keep them separate
-            merged_groups.extend(standalone_functions)
-            merged_groups.extend(standalone_mains)
-        
-        # Process very small fragments - try to merge them with the largest solution
-        if very_small_fragments:
-            # If we have no other groups, merge all small fragments together
-            if not merged_groups:
-                all_small_fragments = [idx for group in very_small_fragments for idx in group]
-                merged_groups.append(all_small_fragments)
-            else:
-                # Find the largest solution group by code size
-                largest_group_idx = 0
-                largest_group_size = 0
-                
-                for i, group in enumerate(merged_groups):
-                    group_size = sum(len(code_blocks[idx]['code'].split('\n')) for idx in group)
-                    if group_size > largest_group_size:
-                        largest_group_size = group_size
-                        largest_group_idx = i
-                
-                # Merge all small fragments into the largest solution
-                for small_group in very_small_fragments:
-                    merged_groups[largest_group_idx].extend(small_group)
-        
-        # Look for function name matches in different groups
-        function_name_groups = {}
-        
-        # Map function names to their group indices
-        for group_idx, group in enumerate(merged_groups):
-            for block_idx in group:
-                if code_blocks[block_idx]['type'] == 'function':
-                    function_name = code_blocks[block_idx]['name']
-                    if function_name in function_name_groups:
-                        function_name_groups[function_name].append(group_idx)
-                    else:
-                        function_name_groups[function_name] = [group_idx]
-        
-        # Find groups that reference each other by function name
-        groups_to_merge = []
-        for function_name, group_indices in function_name_groups.items():
-            if len(group_indices) > 1:
-                # Multiple groups contain functions with the same name
-                groups_to_merge.append(set(group_indices))
-        
-        # Merge groups that share function names
-        while groups_to_merge:
-            to_merge = groups_to_merge.pop()
+                for neighbor in references[node]:
+                    if not visited[neighbor]:
+                        dfs(neighbor, current_group)
             
-            # Convert indices to sorted list
-            merge_indices = sorted(list(to_merge), reverse=True)
-            
-            # Create a new merged group
-            merged_group = []
-            for idx in merge_indices:
-                merged_group.extend(merged_groups[idx])
-                # Remove this group (we'll replace it with the merged one)
-                merged_groups.pop(idx)
-            
-            # Add the merged group
-            merged_groups.append(merged_group)
+            # Find connected components within this solution
+            for i in block_indices:
+                if not visited[i]:
+                    current_group = []
+                    dfs(i, current_group)
+                    final_groups.append(current_group)
         
-        return merged_groups
+        return final_groups
     
     def assemble_complete_solutions(self, code_blocks: List[Dict]) -> List[str]:
         """

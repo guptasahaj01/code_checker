@@ -1,0 +1,143 @@
+void insertAtEnd(int data) {
+struct Node* newNode = createNode(data);
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+newNode->prev = temp;
+}
+prin(cid:414)("Inserted %d at the end.\n", data);
+}
+
+void deleteFromBeginning() {
+if (head == NULL) {
+prin(cid:414)("List is empty!\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+prin(cid:414)("Deleted %d from the beginning.\n", temp->data);
+free(temp);
+}
+
+void deleteFromEnd() {
+if (head == NULL) {
+prin(cid:414)("List is empty!\n");
+return;
+}
+struct Node* temp = head;
+if (temp->next == NULL) {
+head = NULL;
+} else {
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->prev->next = NULL;
+}
+prin(cid:414)("Deleted %d from the end.\n", temp->data);
+free(temp);
+}
+
+void search(int key) {
+struct Node* temp = head;
+int posi(cid:415)on = 1;
+while (temp != NULL) {
+if (temp->data == key) {
+prin(cid:414)("Element %d found at posi(cid:415)on %d.\n", key, posi(cid:415)on);
+return;
+}
+temp = temp->next;
+posi(cid:415)on++;
+}
+prin(cid:414)("Element %d not found in the list.\n", key);
+}
+
+void display() {
+if (head == NULL) {
+prin(cid:414)("List is empty!\n");
+return;
+}
+struct Node* temp = head;
+prin(cid:414)("Doubly Linked List: ");
+while (temp != NULL) {
+prin(cid:414)("%d ", temp->data);
+temp = temp->next;
+}
+prin(cid:414)("\n");
+}
+
+int main() {
+int choice, subChoice, data, posi(cid:415)on;
+while (1) {
+prin(cid:414)("\nMain Menu:\n");
+prin(cid:414)("1. Insert\n");
+prin(cid:414)("2. Delete\n");
+prin(cid:414)("3. Search\n");
+prin(cid:414)("4. Display\n");
+prin(cid:414)("5. Exit\n");
+prin(cid:414)("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prin(cid:414)("\nInsert Op(cid:415)ons:\n");
+prin(cid:414)("1. At Beginning\n");
+prin(cid:414)("2. At End\n");
+prin(cid:414)("3. At Posi(cid:415)on\n");
+prin(cid:414)("Enter your sub-choice: ");
+scanf("%d", &subChoice);
+prin(cid:414)("Enter data to insert: ");
+scanf("%d", &data);
+if (subChoice == 1) {
+insertAtBeginning(data);
+} else if (subChoice == 2) {
+insertAtEnd(data);
+} else if (subChoice == 3) {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+insertAtPosi(cid:415)on(data, posi(cid:415)on);
+} else {
+prin(cid:414)("Invalid sub-choice!\n");
+}
+break;
+case 2:
+prin(cid:414)("\nDelete Op(cid:415)ons:\n");
+prin(cid:414)("1. From Beginning\n");
+prin(cid:414)("2. From End\n");
+prin(cid:414)("3. From Posi(cid:415)on\n");
+prin(cid:414)("Enter your sub-choice: ");
+scanf("%d", &subChoice);
+if (subChoice == 1) {
+deleteFromBeginning();
+} else if (subChoice == 2) {
+deleteFromEnd();
+} else if (subChoice == 3) {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+deleteFromPosi(cid:415)on(posi(cid:415)on);
+} else {
+prin(cid:414)("Invalid sub-choice!\n");
+}
+break;
+case 3:
+prin(cid:414)("Enter element to search: ");
+scanf("%d", &data);
+search(data);
+break;
+case 4:
+display();
+break;
+case 5:
+exit(0);
+default:
+prin(cid:414)("Invalid choice! Please try again.\n");
+}
+}
+return 0;
+}

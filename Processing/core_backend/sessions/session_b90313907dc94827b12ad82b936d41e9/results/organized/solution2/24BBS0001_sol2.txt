@@ -1,0 +1,23 @@
+vector<int> boundaryTraversal(vector<vector<int>>& matrix) {
+int n = matrix.size(), m = matrix[0].size();
+vector<int> res;
+for (int i = 0; i < m; i++) res.push_back(matrix[0][i]);
+for (int i = 1; i < n; i++) res.push_back(matrix[i][m - 1]);
+if (n > 1)
+for (int i = m - 2; i >= 0; i--) res.push_back(matrix[n - 1][i]);
+if (m > 1)
+for (int i = n - 2; i > 0; i--) res.push_back(matrix[i][0]);
+return res;
+}
+
+int main() {
+vector<vector<int>> matrix = {
+{1, 2, 3},
+{4, 5, 6},
+{7, 8, 9}
+};
+vector<int> result = boundaryTraversal(matrix);
+for (int x : result) cout << x << " ";
+cout << endl;
+return 0;
+}

@@ -1,0 +1,33 @@
+class CharWindow {
+unordered_map<char, int> counts;
+public:
+void add(char c) { counts[c]++; }
+void remove(char c) {
+counts[c]--;
+if (counts[c] == 0) counts.erase(c);
+}
+int size() { return counts.size(); }
+}
+
+int longestSubstringWithKUnique(string s, int k) {
+CharWindow window;
+int i = 0, j = 0, maxLen = -1;
+while (j < s.length()) {
+window.add(s[j]);
+while (window.size() > k) {
+window.remove(s[i]);
+i++;
+}
+if (window.size() == k)
+maxLen = max(maxLen, j - i + 1);
+j++;
+}
+return maxLen;
+}
+
+int main() {
+string s = "aabacbebebe";
+int k = 3;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

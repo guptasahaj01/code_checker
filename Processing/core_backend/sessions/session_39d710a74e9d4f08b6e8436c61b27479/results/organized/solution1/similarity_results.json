@@ -1,0 +1,540 @@
+{
+  "high_confidence_pairs": [],
+  "needs_review_pairs": [
+    {
+      "pair": [
+        "DOC6SAM_sol1.txt",
+        "DOC4SAM_sol1.txt"
+      ],
+      "similarity": 0.6370794602719876,
+      "tfidf_similarity": 0.43317712442162515,
+      "ast_similarity": 0.9429329640475312,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC7SAM_sol1.txt",
+        "DOC8SAM_sol1.txt"
+      ],
+      "similarity": 0.5165028430349571,
+      "tfidf_similarity": 0.37425072151667255,
+      "ast_similarity": 0.729881025312384,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC3SAM_sol1.txt",
+        "DOC1SAM_sol1.txt"
+      ],
+      "similarity": 0.5585630525265192,
+      "tfidf_similarity": 0.3655314568976581,
+      "ast_similarity": 0.8481104459698108,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC2SAM_sol1.txt",
+        "DOC1SAM_sol1.txt"
+      ],
+      "similarity": 0.5248411324402329,
+      "tfidf_similarity": 0.34066844203815155,
+      "ast_similarity": 0.801100168043355,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC4SAM_sol1.txt",
+        "DOC8SAM_sol1.txt"
+      ],
+      "similarity": 0.5094848986966973,
+      "tfidf_similarity": 0.33446881195733086,
+      "ast_similarity": 0.7720090288057471,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC6SAM_sol1.txt",
+        "DOC8SAM_sol1.txt"
+      ],
+      "similarity": 0.4965429918378206,
+      "tfidf_similarity": 0.33338209648900036,
+      "ast_similarity": 0.7412843348610509,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC2SAM_sol1.txt",
+        "DOC7SAM_sol1.txt"
+      ],
+      "similarity": 0.5147171186451123,
+      "tfidf_similarity": 0.3232588064677366,
+      "ast_similarity": 0.8019045869111758,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC3SAM_sol1.txt",
+        "DOC2SAM_sol1.txt"
+      ],
+      "similarity": 0.5303524853830863,
+      "tfidf_similarity": 0.3227169142353588,
+      "ast_similarity": 0.8418058421046777,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC7SAM_sol1.txt",
+        "DOC4SAM_sol1.txt"
+      ],
+      "similarity": 0.4983012388301125,
+      "tfidf_similarity": 0.2898427546957345,
+      "ast_similarity": 0.8109889650316795,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC6SAM_sol1.txt",
+        "DOC7SAM_sol1.txt"
+      ],
+      "similarity": 0.504303635134459,
+      "tfidf_similarity": 0.2837759561571225,
+      "ast_similarity": 0.8350951536004638,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC7SAM_sol1.txt",
+        "DOC1SAM_sol1.txt"
+      ],
+      "similarity": 0.43958090180954845,
+      "tfidf_similarity": 0.21938031405900316,
+      "ast_similarity": 0.7698817834353664,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC2SAM_sol1.txt",
+        "DOC8SAM_sol1.txt"
+      ],
+      "similarity": 0.4127061042271552,
+      "tfidf_similarity": 0.18197776580572442,
+      "ast_similarity": 0.7587986118593013,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC6SAM_sol1.txt",
+        "DOC2SAM_sol1.txt"
+      ],
+      "similarity": 0.449916394998961,
+      "tfidf_similarity": 0.1675170146749852,
+      "ast_similarity": 0.8735154654849246,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC6SAM_sol1.txt",
+        "DOC1SAM_sol1.txt"
+      ],
+      "similarity": 0.43746627288434314,
+      "tfidf_similarity": 0.15964509927430987,
+      "ast_similarity": 0.854198033299393,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC3SAM_sol1.txt",
+        "DOC7SAM_sol1.txt"
+      ],
+      "similarity": 0.38928684034743266,
+      "tfidf_similarity": 0.15916788702175372,
+      "ast_similarity": 0.7344652703359511,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC8SAM_sol1.txt",
+        "DOC1SAM_sol1.txt"
+      ],
+      "similarity": 0.3764273684711633,
+      "tfidf_similarity": 0.1573104741705901,
+      "ast_similarity": 0.7051027099220232,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC5SAM_sol1.txt",
+        "DOC8SAM_sol1.txt"
+      ],
+      "similarity": 0.38808856344630066,
+      "tfidf_similarity": 0.1480918221205375,
+      "ast_similarity": 0.7480836754349454,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC2SAM_sol1.txt",
+        "DOC4SAM_sol1.txt"
+      ],
+      "similarity": 0.4359227226333736,
+      "tfidf_similarity": 0.144076750949354,
+      "ast_similarity": 0.873691680159403,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC6SAM_sol1.txt",
+        "DOC3SAM_sol1.txt"
+      ],
+      "similarity": 0.41004575910595076,
+      "tfidf_similarity": 0.11733397170495362,
+      "ast_similarity": 0.8491134402074464,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC3SAM_sol1.txt",
+        "DOC8SAM_sol1.txt"
+      ],
+      "similarity": 0.3488828092729479,
+      "tfidf_similarity": 0.11107714393852695,
+      "ast_similarity": 0.7055913072745794,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC3SAM_sol1.txt",
+        "DOC5SAM_sol1.txt"
+      ],
+      "similarity": 0.34070592083394313,
+      "tfidf_similarity": 0.0956531928898527,
+      "ast_similarity": 0.7082850127500788,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC3SAM_sol1.txt",
+        "DOC4SAM_sol1.txt"
+      ],
+      "similarity": 0.38252199979265,
+      "tfidf_similarity": 0.0894480375841834,
+      "ast_similarity": 0.8221329431053499,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "DOC4SAM_sol1.txt",
+        "DOC1SAM_sol1.txt"
+      ],
+      "similarity": 0.3811873468767268,
+      "tfidf_similarity": 0.08507084037733112,
+      "ast_similarity": 0.8253621066258202,
+      "detection_method": "Combined"
+    }
+  ],
+  "all_suspicious_pairs": [
+    [
+      "DOC6SAM_sol1.txt",
+      "DOC4SAM_sol1.txt"
+    ],
+    [
+      "DOC7SAM_sol1.txt",
+      "DOC8SAM_sol1.txt"
+    ],
+    [
+      "DOC3SAM_sol1.txt",
+      "DOC1SAM_sol1.txt"
+    ],
+    [
+      "DOC2SAM_sol1.txt",
+      "DOC1SAM_sol1.txt"
+    ],
+    [
+      "DOC4SAM_sol1.txt",
+      "DOC8SAM_sol1.txt"
+    ],
+    [
+      "DOC6SAM_sol1.txt",
+      "DOC8SAM_sol1.txt"
+    ],
+    [
+      "DOC2SAM_sol1.txt",
+      "DOC7SAM_sol1.txt"
+    ],
+    [
+      "DOC3SAM_sol1.txt",
+      "DOC2SAM_sol1.txt"
+    ],
+    [
+      "DOC6SAM_sol1.txt",
+      "DOC5SAM_sol1.txt"
+    ],
+    [
+      "DOC7SAM_sol1.txt",
+      "DOC4SAM_sol1.txt"
+    ],
+    [
+      "DOC6SAM_sol1.txt",
+      "DOC7SAM_sol1.txt"
+    ],
+    [
+      "DOC5SAM_sol1.txt",
+      "DOC7SAM_sol1.txt"
+    ],
+    [
+      "DOC7SAM_sol1.txt",
+      "DOC1SAM_sol1.txt"
+    ],
+    [
+      "DOC2SAM_sol1.txt",
+      "DOC8SAM_sol1.txt"
+    ],
+    [
+      "DOC6SAM_sol1.txt",
+      "DOC2SAM_sol1.txt"
+    ],
+    [
+      "DOC5SAM_sol1.txt",
+      "DOC4SAM_sol1.txt"
+    ],
+    [
+      "DOC6SAM_sol1.txt",
+      "DOC1SAM_sol1.txt"
+    ],
+    [
+      "DOC3SAM_sol1.txt",
+      "DOC7SAM_sol1.txt"
+    ],
+    [
+      "DOC8SAM_sol1.txt",
+      "DOC1SAM_sol1.txt"
+    ],
+    [
+      "DOC5SAM_sol1.txt",
+      "DOC8SAM_sol1.txt"
+    ],
+    [
+      "DOC5SAM_sol1.txt",
+      "DOC2SAM_sol1.txt"
+    ],
+    [
+      "DOC2SAM_sol1.txt",
+      "DOC4SAM_sol1.txt"
+    ],
+    [
+      "DOC5SAM_sol1.txt",
+      "DOC1SAM_sol1.txt"
+    ],
+    [
+      "DOC6SAM_sol1.txt",
+      "DOC3SAM_sol1.txt"
+    ],
+    [
+      "DOC3SAM_sol1.txt",
+      "DOC8SAM_sol1.txt"
+    ],
+    [
+      "DOC3SAM_sol1.txt",
+      "DOC5SAM_sol1.txt"
+    ],
+    [
+      "DOC3SAM_sol1.txt",
+      "DOC4SAM_sol1.txt"
+    ],
+    [
+      "DOC4SAM_sol1.txt",
+      "DOC1SAM_sol1.txt"
+    ]
+  ],
+  "detection_methods": [
+    "TF-IDF",
+    "AST"
+  ],
+  "tfidf_similarity_matrix": [
+    [
+      0.9999999999999996,
+      0.11733397170495362,
+      0.2970759181468502,
+      0.1675170146749852,
+      0.2837759561571225,
+      0.43317712442162515,
+      0.33338209648900036,
+      0.15964509927430987
+    ],
+    [
+      0.11733397170495362,
+      0.9999999999999999,
+      0.0956531928898527,
+      0.3227169142353588,
+      0.15916788702175372,
+      0.0894480375841834,
+      0.11107714393852695,
+      0.3655314568976581
+    ],
+    [
+      0.2970759181468502,
+      0.0956531928898527,
+      1.0000000000000064,
+      0.1452710353660889,
+      0.24985573858349935,
+      0.16405026406293763,
+      0.1480918221205375,
+      0.13321235922230423
+    ],
+    [
+      0.1675170146749852,
+      0.3227169142353588,
+      0.1452710353660889,
+      1.0000000000000033,
+      0.3232588064677366,
+      0.144076750949354,
+      0.18197776580572442,
+      0.34066844203815155
+    ],
+    [
+      0.2837759561571225,
+      0.15916788702175372,
+      0.24985573858349935,
+      0.3232588064677366,
+      1.0,
+      0.2898427546957345,
+      0.37425072151667255,
+      0.21938031405900316
+    ],
+    [
+      0.43317712442162515,
+      0.0894480375841834,
+      0.16405026406293763,
+      0.144076750949354,
+      0.2898427546957345,
+      1.0000000000000002,
+      0.33446881195733086,
+      0.08507084037733112
+    ],
+    [
+      0.33338209648900036,
+      0.11107714393852695,
+      0.1480918221205375,
+      0.18197776580572442,
+      0.37425072151667255,
+      0.33446881195733086,
+      0.9999999999999937,
+      0.1573104741705901
+    ],
+    [
+      0.15964509927430987,
+      0.3655314568976581,
+      0.13321235922230423,
+      0.34066844203815155,
+      0.21938031405900316,
+      0.08507084037733112,
+      0.1573104741705901,
+      0.9999999999999996
+    ]
+  ],
+  "tfidf_average_similarity": 0.22236745410104203,
+  "tfidf_max_similarity": 0.43317712442162515,
+  "ast_similarity_matrix": [
+    [
+      1.0,
+      0.8491134402074464,
+      0.6837047593241832,
+      0.8735154654849246,
+      0.8350951536004638,
+      0.9429329640475312,
+      0.7412843348610509,
+      0.854198033299393
+    ],
+    [
+      0.8491134402074464,
+      1.0,
+      0.7082850127500788,
+      0.8418058421046777,
+      0.7344652703359511,
+      0.8221329431053499,
+      0.7055913072745794,
+      0.8481104459698108
+    ],
+    [
+      0.6837047593241832,
+      0.7082850127500788,
+      1.0,
+      0.6665966964872903,
+      0.606637697011658,
+      0.6977885399972645,
+      0.7480836754349454,
+      0.6931960662900349
+    ],
+    [
+      0.8735154654849246,
+      0.8418058421046777,
+      0.6665966964872903,
+      1.0,
+      0.8019045869111758,
+      0.873691680159403,
+      0.7587986118593013,
+      0.801100168043355
+    ],
+    [
+      0.8350951536004638,
+      0.7344652703359511,
+      0.606637697011658,
+      0.8019045869111758,
+      1.0,
+      0.8109889650316795,
+      0.729881025312384,
+      0.7698817834353664
+    ],
+    [
+      0.9429329640475312,
+      0.8221329431053499,
+      0.6977885399972645,
+      0.873691680159403,
+      0.8109889650316795,
+      1.0,
+      0.7720090288057471,
+      0.8253621066258202
+    ],
+    [
+      0.7412843348610509,
+      0.7055913072745794,
+      0.7480836754349454,
+      0.7587986118593013,
+      0.729881025312384,
+      0.7720090288057471,
+      1.0,
+      0.7051027099220232
+    ],
+    [
+      0.854198033299393,
+      0.8481104459698108,
+      0.6931960662900349,
+      0.801100168043355,
+      0.7698817834353664,
+      0.8253621066258202,
+      0.7051027099220232,
+      1.0
+    ]
+  ],
+  "ast_average_similarity": 0.7750449397747462,
+  "ast_max_similarity": 0.9429329640475312,
+  "average_similarity": 0.4434384483705237,
+  "max_similarity": 0.9429329640475312,
+  "summary": {
+    "total_submissions": 0,
+    "high_confidence_count": 0,
+    "needs_review_count": 23,
+    "total_suspicious_pairs": 28,
+    "detection_methods": [
+      "TF-IDF",
+      "AST"
+    ],
+    "suspicious_submissions_count": 8,
+    "tfidf_avg_similarity": 0.22236745410104203,
+    "tfidf_max_similarity": 0.43317712442162515,
+    "ast_avg_similarity": 0.7750449397747462,
+    "ast_max_similarity": 0.9429329640475312,
+    "combined_avg_similarity": 0.4434384483705237,
+    "combined_max_similarity": 0.9429329640475312
+  }
+}

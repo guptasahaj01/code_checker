@@ -1,0 +1,81 @@
+struct node {
+int data;
+struct node *next;
+}
+
+void push() {
+int num;
+struct node *t = (struct node *)malloc(sizeof(struct node));
+if (t == NULL) {
+printf("Memory allocation failed.\n");
+return;
+}
+printf("Enter the data to be pushed: ");
+scanf("%d", &num);
+t->data = num;
+t->next = start;
+start = t;
+printf("%d pushed onto the stack.\n", num);
+}
+
+void pop() {
+if (start == NULL) {
+printf("Stack is empty. Cannot perform POP operation.\n");
+} else {
+struct node *t = start;
+printf("%d popped from the stack.\n", t->data);
+start = start->next;
+free(t);
+}
+}
+
+void display() {
+if (start == NULL) {
+printf("Stack is empty.\n");
+} else {
+struct node *temp = start;
+printf("Stack contents: ");
+while (temp != NULL) {
+printf("%d ", temp->data);
+temp = temp->next;
+}
+printf("\n");
+}
+}
+
+int main()
+{
+int n;
+while(1)
+{
+printf("Enter the way to proceed:\n");
+printf("1.pop\n2.push\n3.display\n4.Exit\n");
+scanf("%d",&n);
+switch(n)
+{
+case 1:
+{
+pop();
+break;
+}
+case 2:
+{
+push();
+break;
+}
+case 3:
+{
+display();
+break;
+}
+case 4:
+{
+printf("Exiting");
+break;
+}
+default:
+printf(“Enter a valid choice\n”);
+break;
+}
+}
+}

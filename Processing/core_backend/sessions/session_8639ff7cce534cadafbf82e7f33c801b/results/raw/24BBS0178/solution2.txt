@@ -1,0 +1,68 @@
+void pop(int arr[]){
+if (top==-1){
+printf("Stack is empty!\n");
+}
+else {
+arr[top]=0;
+--top;
+printf("Element popped!\n");
+}
+}
+
+void display(int arr[]){
+if (top==-1){
+printf("Stack is empty!\n");
+}
+else {
+for (int i=0; i<=top; i++){
+printf("Element %d: %d\n", i+1, arr[i]);
+}
+}
+}
+
+void push(int arr[]){
+if (top==s-1){
+printf("Stack is full!\n");
+}
+else {
+int data;
+printf("Enter data to push: ");
+scanf("%d", &data);
+++top;
+arr[top]=data;
+printf("Data pushed!\n");
+}
+}
+
+int main(){
+printf("Enter size of stack: ");
+scanf("%d", &s);
+int a[s];
+while (cont==1){
+int m=0;
+printf("1: Push \n2: Pop \n3: Display \nEnter selection: ");
+scanf("%d", &m);
+if (m==1){
+push(a);
+}
+else if (m==2){
+pop(a);
+}
+else if (m==3){
+display(a);
+}
+else {
+printf("Incorrect input!\n");
+cont=0;
+break;
+}
+printf("Do you wish to continue? (1/0): ");
+scanf("%d", &cont);
+}
+if (cont==0){
+printf("Terminated.\n");
+}
+else {
+printf("Incorrect input!\nTerminated.");
+}
+}

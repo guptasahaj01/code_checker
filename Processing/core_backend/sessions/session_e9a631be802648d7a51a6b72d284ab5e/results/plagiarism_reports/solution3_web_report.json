@@ -1,0 +1,1334 @@
+{
+  "DOC6SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC6SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:07:44.032914",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); i++) {\nchar c = expression[i];\nif (isdigit(c)) {\ncurrentNum = currentNum * 10 + (c - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!numStack.empty()) {\nsum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "MyCuteGuineaPig/Leetcode",
+        "link": "https://github.com/MyCuteGuineaPig/Leetcode",
+        "snippet": "... while(cur || !stk.empty()){ if(cur){ stk.push(cur); sum -= cur->val; cur = cur->left; }else{ cur = stk.top(); if(!cur->right && !cur->left && sum == 0) ...",
+        "query": "\"while (!numStack.empty()) {\nsum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.49262924219459814,
+        "is_plagiarism": true
+      },
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4655428826916068,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.39989289758997326,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.31515263287080036,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3014060106570728,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2975171217681839,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2975171217681839,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2975171217681839,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2762559674207843,
+        "is_plagiarism": false
+      },
+      {
+        "title": "get the sum of stack<int> in c++ without destroying stack",
+        "link": "https://stackoverflow.com/questions/48665770/get-the-sum-of-stackint-in-c-without-destroying-stack",
+        "snippet": "You can't iterate over stack so there isn't an easy way. You can use dequeue<int> or stack<int> to insert each top element.",
+        "query": "\"while (!numStack.empty()) {\nsum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0695868101410771,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Henry-Xing/LeecodeNoteFor2023",
+        "link": "https://github.com/Henry-Xing/LeecodeNoteFor2023",
+        "snippet": "CPP \u4e24\u79cd\u65b9\u6cd5\uff0c\u7b2c\u4e00\u79cd\u65b9\u6cd5\u4ea4\u6362\u6cd5\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u5143\u7d20\u90fd\u5c5e\u4e8e1~n\uff0c \u90a3\u4e48\u5f53\u524d\u5143\u7d20nums[i]\u7684\u4f4d\u7f6e\u5e94\u8be5\u662fnums[i] - 1, \u6240\u4ee5\u4ea4\u6362nums[nums[i] - 1]\u548cnums[i]\uff0c\u6700\u540e\u518d\u53bb\u904d\u5386\u4e00\u6b21\uff0c\u5982\u679c\u51fa\u73b0 ...",
+        "query": "\"while (!numStack.empty()) {\nsum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05090157171380316,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "CodeSummary.md - cookieisaac/leetcode",
+        "link": "https://github.com/cookieisaac/leetcode/blob/master/CodeSummary.md",
+        "snippet": "Coding interview preparation based on Leetcode. Contribute to cookieisaac/leetcode development by creating an account on GitHub.",
+        "query": "\"while (!numStack.empty()) {\nsum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ShiyuLiuColumbia.github.io/content.json at master \u00b7 ...",
+        "link": "https://github.com/ShiyuLiuColumbia/ShiyuLiuColumbia.github.io/blob/master/content.json",
+        "snippet": "... When I developing this test report module, I also discovered some addtional tasks. For example, when I write the share to user component of web page which ...",
+        "query": "\"while (!numStack.empty()) {\nsum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 15,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "MyCuteGuineaPig/Leetcode",
+        "link": "https://github.com/MyCuteGuineaPig/Leetcode",
+        "snippet": "... while(cur || !stk.empty()){ if(cur){ stk.push(cur); sum -= cur->val; cur = cur->left; }else{ cur = stk.top(); if(!cur->right && !cur->left && sum == 0) ...",
+        "query": "\"while (!numStack.empty()) {\nsum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.49262924219459814,
+        "is_plagiarism": true
+      },
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4655428826916068,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.39989289758997326,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.31515263287080036,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3014060106570728,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://github.com/MyCuteGuineaPig/Leetcode",
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+      "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function"
+    ]
+  },
+  "DOC3SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC3SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:07:50.291618",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); i++) {\nchar currentChar = expression[i];\nif (isdigit(currentChar)) {\ncurrentNumber = currentNumber * 10 + (currentChar - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!numberStack.empty()) {\ntemp += numberStack.top();\nnumberStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4576176346332723,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.38882861206620967,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.320590205053631,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3077766687030705,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30486000203640384,
+        "is_plagiarism": true
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30486000203640384,
+        "is_plagiarism": true
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30486000203640384,
+        "is_plagiarism": true
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.27696188883506856,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4576176346332723,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.38882861206620967,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.320590205053631,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3077766687030705,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30486000203640384,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+      "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+      "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter"
+    ]
+  },
+  "DOC5SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC5SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:07:55.768769",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); i++) {\nchar c = expression[i];\nif (isdigit(c)) {\ncurrentNum = currentNum * 10 + (c - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!numStack.empty()) {\ntempSum += numStack.top();\nnumStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.47485700550230414,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.41036563670468557,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3090626432832313,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29484715391992256,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29047215391992254,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29047215391992254,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29047215391992254,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.26297866216178634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.47485700550230414,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.41036563670468557,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3090626432832313,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form"
+    ]
+  },
+  "DOC2SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC2SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:00.915456",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); i++) {\nchar c = expression[i];\nif (isdigit(c)) {\ncurrentNumber = currentNumber * 10 + (c - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!numbers.empty()) {\nsum += numbers.top();\nnumbers.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4733447893929818,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4046611098550774,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3132911592560531,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29884609336641954,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2944710933664195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2944710933664195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2944710933664195,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.26622714268288306,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4733447893929818,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4046611098550774,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3132911592560531,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form"
+    ]
+  },
+  "DOC7SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC7SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:07.376279",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); i++) {\nchar currentChar = expression[i];\nif (isdigit(currentChar)) {\ncurrentNum = currentNum * 10 + (currentChar - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!valueStack.empty()) {\ninsideParentheses += valueStack.top();\nvalueStack.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.47367338291472694,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.40891404897592804,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30810976861497186,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2940445305825363,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2896695305825363,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2896695305825363,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2896695305825363,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2622900280364059,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.47367338291472694,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.40891404897592804,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30810976861497186,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form"
+    ]
+  },
+  "DOC4SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC4SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:12.829035",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); ++i) {\nchar c = expression[i];\nif (isdigit(c)) {\nnum = num * 10 + (c - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!values.empty()) {\nresultInParentheses += values.top();\nvalues.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.46288570042016647,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.39858836202866116,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3060027332129333,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29284501907464644,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2889561301857575,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2889561301857575,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2889561301857575,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2704408224030088,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.46288570042016647,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.39858836202866116,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3060027332129333,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form"
+    ]
+  },
+  "DOC1SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC1SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:19.461173",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); ++i) {\nchar c = expression[i];\nif (isdigit(c)) {\nnum = num * 10 + (c - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (!nums.empty()) {\ntemp += nums.top();\nnums.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.47277342697451036,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4040696323915851,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.312664503634965,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.29850295611151756,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2941279561115176,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2941279561115176,
+        "is_plagiarism": false
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2941279561115176,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2657032118682119,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.47277342697451036,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4040696323915851,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.312664503634965,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form"
+    ]
+  },
+  "DOC8SAM_sol3.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution3/DOC8SAM_sol3.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:08:22.188537",
+    "queries_used": [
+      "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < expression.size(); i++) {\nchar ch = expression[i];\nif (isdigit(ch)) {\nnum = num * 10 + (ch - '0');\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (nums.top() != -1) {\nsum += nums.top();\nnums.pop();\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4661173699388279,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3988098938714899,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.32179541889723484,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3079835779005804,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30409468901169145,
+        "is_plagiarism": true
+      },
+      {
+        "title": "c++: LLDB + Python - how to print a std::string in the ...",
+        "link": "https://stackoverflow.com/questions/39401848/c-lldb-python-how-to-print-a-stdstring-in-the-python-script",
+        "snippet": "... EvaluateExpression(\"buffer.c_str()\").GetValueAsUnsigned(), 0xffffff ... Calling C++ function which accepts and returns std::string from Python ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30409468901169145,
+        "is_plagiarism": true
+      },
+      {
+        "title": "lldb: custom summary for a vector's elements (c++)",
+        "link": "https://stackoverflow.com/questions/25665838/lldb-custom-summary-for-a-vectors-elements-c",
+        "snippet": "Indeed, in the EvaluateExpression, we use \"name\" returned by GetName(). it's working correctly for a single String because GetName() returns ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30409468901169145,
+        "is_plagiarism": true
+      },
+      {
+        "title": "how to evaluate an Expression inside ExpressionVisitor?",
+        "link": "https://stackoverflow.com/questions/8764662/how-to-evaluate-an-expression-inside-expressionvisitor",
+        "snippet": "protected static object EvaluateExpression(Expression expression, ParameterExpression parameterX) { var lambda = Expression.Lambda(expression ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.2798174625042794,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ExpressionEvaluator/evaluator.cpp at master",
+        "link": "https://github.com/jongilm/ExpressionEvaluator/blob/master/evaluator.cpp",
+        "snippet": "// Each recursed call will return when a close brace is encountered. value1 = EvaluateExpression(&pExpr->substr(i),&iNumberOfCharactersProcessed);. #ifdef ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Cannot retrieve data values from array quadraticExpression",
+        "link": "https://stackoverflow.com/questions/48471548/cannot-retrieve-data-values-from-array-quadraticexpression",
+        "snippet": "And here is the .cpp tester file #include <iostream> #include \"QuadraticExpression.h\" using namespace std; void evaluateExpression(const ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "assert macro that prints the values which are passed in",
+        "link": "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+        "snippet": "... evaluateExpression( char *format, va_list args ) { int x = va_arg( args, int ); int y = va_arg( args, int ); printf( \"evaluating \\\"%s\\\" with ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.4661173699388279,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate infix string expression consisting of only addition ...",
+        "link": "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+        "snippet": "int evaluateExpression(string s) { stack<int> operandStack; stack<char> operatorStack; string token = \"\"; for(char &c : s) { if(c ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3988098938714899,
+        "is_plagiarism": true
+      },
+      {
+        "title": "How to evaluate a math expression given in string form?",
+        "link": "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+        "snippet": "... expression (an abstract syntax tree) ... expression, Double expectedResult) { assertEquals(expectedResult,evaluateExpression(expression)); }.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.32179541889723484,
+        "is_plagiarism": true
+      },
+      {
+        "title": "C++: Easiest way to access main variable from function?",
+        "link": "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+        "snippet": "... evaluateExpression(string expression) { // sample expression : (* (/ a 1) (+ b 2)) if (expression.substr(0,2)==\"(+\") {cout << \"add found ...",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3079835779005804,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Evaluate Expression LLDB Python C++ Type Formatter",
+        "link": "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter",
+        "snippet": "EvaluateExpression(\".index()\").GetValueAsUnsigned() print(a) print(b). b always results in no value, a is fine. python \u00b7 c++ \u00b7 formatting \u00b7 lldb.",
+        "query": "\"evaluateExpression\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.30409468901169145,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://stackoverflow.com/questions/31593604/assert-macro-that-prints-the-values-which-are-passed-in",
+      "https://stackoverflow.com/questions/63063876/evaluate-infix-string-expression-consisting-of-only-addition-and-multiplication",
+      "https://stackoverflow.com/questions/3422673/how-to-evaluate-a-math-expression-given-in-string-form",
+      "https://stackoverflow.com/questions/9668985/c-easiest-way-to-access-main-variable-from-function",
+      "https://stackoverflow.com/questions/70416372/evaluate-expression-lldb-python-c-type-formatter"
+    ]
+  }
+}

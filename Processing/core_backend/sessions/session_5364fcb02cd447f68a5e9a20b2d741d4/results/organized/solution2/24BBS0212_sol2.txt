@@ -1,0 +1,89 @@
+struct node {
+int data;
+struct node *next;
+}
+
+void dequeue() {
+if (front == NULL) {
+printf("Queue is empty. Cannot perform DEQUEUE operation.\n");
+} else {
+struct node *t = front;
+printf("%d dequeued from the queue.\n", t->data);
+front = front->next;
+if (front == NULL) {
+rear = NULL;
+}
+free(t);
+}
+}
+
+void enqueue() {
+int num;
+struct node *t = (struct node *)malloc(sizeof(struct node));
+if (t == NULL) {
+printf("Memory allocation failed.\n");
+return;
+}
+printf("Enter the data to enqueue: ");
+scanf("%d", &num);
+t->data = num;
+t->next = NULL;
+if (rear == NULL) {
+front = rear = t;
+} else {
+rear->next = t;
+rear = t;
+}
+printf("%d enqueued into the queue.\n", num);
+}
+
+void display() {
+if (front == NULL) {
+printf("Queue is empty.\n");
+} else {
+struct node *temp = front;
+printf("Queue contents: ");
+while (temp != NULL) {
+printf("%d ", temp->data);
+temp = temp->next;
+}
+printf("\n");
+}
+}
+
+int main()
+{
+int n;
+while(1)
+{
+printf("Enter the way to proceed:\n");
+printf("1.Dequeue\n2.Enqueue\n3.display\n4.Exit\n");
+scanf("%d",&n);
+switch(n)
+{
+case 1:
+{
+dequeue();
+break;
+}
+case 2:
+{
+enqueue();
+break;
+}
+case 3:
+{
+display();
+break;
+}
+case 4:
+{
+printf("Exiting");
+return 0;
+}
+default:
+printf("Enter a valid choice");
+break;
+}
+}
+}

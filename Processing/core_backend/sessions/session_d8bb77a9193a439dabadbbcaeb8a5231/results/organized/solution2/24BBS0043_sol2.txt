@@ -1,0 +1,218 @@
+struct Node {
+786 int data;
+787 struct Node* prev;
+788 struct Node* next;
+789 }
+
+void deleteFromEnd() {
+654 if (head == NULL) {
+655 printf("List is empty. Nothing to delete.\n");
+656 } else if (head->next == NULL) {
+657 printf("Node with value %d deleted from the end.\n", head->data);
+658 free(head);
+659 head = NULL;
+660 } else {
+661 struct Node* temp = head;
+662 while (temp->next->next != NULL) {
+663 temp = temp->next;
+664 }
+665 printf("Node with value %d deleted from the end.\n", temp->next->data);
+666 free(temp->next);
+667 temp->next = NULL;
+668 }
+669 }
+
+void deleteFromPosition() {
+672 int pos;
+673 printf("Enter the position to delete: ");
+674 scanf("%d", &pos);
+
+676 if (head == NULL) {
+677 printf("List is empty. Nothing to delete.\n");
+678 } else if (pos == 1) {
+679 struct Node* temp = head;
+680 head = head->next;
+681 printf("Node with value %d deleted from position 1.\n", temp->data);
+682 free(temp);
+683 } else {
+684 struct Node* temp = head;
+685 for (int i = 1; i < pos - 1 && temp != NULL; i++) {
+686 temp = temp->next;
+687 }
+688 if (temp == NULL || temp->next == NULL) {
+689 printf("Invalid position!\n");
+690 return;
+691 }
+692 struct Node* toDelete = temp->next;
+693 temp->next = toDelete->next;
+694 printf("Node with value %d deleted from position %d.\n", toDelete->data, pos);
+695 free(toDelete);
+696 }
+697 }
+
+void search() {
+700 int value, pos = 1;
+701 printf("Enter the value to search: ");
+702 scanf("%d", &value);
+
+704 struct Node* temp = head;
+705 while (temp != NULL) {
+706 if (temp->data == value) {
+707 printf("Element %d found at position %d.\n", value, pos);
+708 return;
+709 }
+710 temp = temp->next;
+711 pos++;
+712 }
+713 printf("Element %d not found in the list.\n", value);
+714 }
+
+void display() {
+717 if (head == NULL) {
+718 printf("List is empty.\n");
+719 } else {
+720 printf("List elements are: ");
+721 struct Node* temp = head;
+722 while (temp != NULL) {
+723 printf("%d -> ", temp->data);
+724 temp = temp->next;
+725 }
+726 printf("NULL\n");
+727 }
+728 }
+
+void insertAtBeginning() {
+803 int value;
+804 printf("Enter the value to insert at the beginning: ");
+805 scanf("%d", &value);
+806 struct Node* newNode = createNode(value);
+
+808 if (head == NULL) {
+809 head = newNode;
+810 } else {
+811 newNode->next = head;
+812 head->prev = newNode;
+813 head = newNode;
+814 }
+815 printf("Node inserted at the beginning.\n");
+816 }
+
+void insertAtEnd() {
+819 int value;
+820 printf("Enter the value to insert at the end: ");
+821 scanf("%d", &value);
+822 struct Node* newNode = createNode(value);
+
+824 if (head == NULL) {
+825 head = newNode;
+826 } else {
+827 struct Node* temp = head;
+828 while (temp->next != NULL) {
+829 temp = temp->next;
+830 }
+831 temp->next = newNode;
+832 newNode->prev = temp;
+833 }
+834 printf("Node inserted at the end.\n");
+835 }
+
+void insertAtPosition() {
+838 int value, pos;
+839 printf("Enter the value to insert: ");
+840 scanf("%d", &value);
+841 printf("Enter the position to insert: ");
+842 scanf("%d", &pos);
+
+844 struct Node* newNode = createNode(value);
+
+846 if (pos == 1) {
+847 newNode->next = head;
+848 if (head != NULL) {
+849 head->prev = newNode;
+850 }
+851 head = newNode;
+852 } else {
+853 struct Node* temp = head;
+854 for (int i = 1; i < pos - 1 && temp != NULL; i++) {
+855 temp = temp->next;
+856 }
+857 if (temp == NULL) {
+858 printf("Invalid position!\n");
+859 free(newNode);
+860 return;
+861 }
+862 newNode->next = temp->next;
+863 newNode->prev = temp;
+864 if (temp->next != NULL) {
+865 temp->next->prev = newNode;
+866 }
+867 temp->next = newNode;
+868 }
+869 printf("Node inserted at position %d.\n", pos);
+870 }
+
+void deleteFromBeginning() {
+873 if (head == NULL) {
+874 printf("List is empty. Nothing to delete.\n");
+875 } else {
+876 struct Node* temp = head;
+877 head = head->next;
+878 if (head != NULL) {
+879 head->prev = NULL;
+880 }
+881 printf("Node with value %d deleted from the beginning.\n", temp->data);
+882 free(temp);
+883 }
+884 }
+
+int main() {
+731 int choice;
+732 while (1) {
+733 printf("\nSingly Linked List Operations Menu:\n");
+734 printf("1. Insert at Beginning\n");
+735 printf("2. Insert at End\n");
+736 printf("3. Insert at Position\n");
+737 printf("4. Delete from Beginning\n");
+738 printf("5. Delete from End\n");
+739 printf("6. Delete from Position\n");
+740 printf("7. Search\n");
+741 printf("8. Display\n");
+742 printf("9. Exit\n");
+743 printf("Enter your choice: ");
+744 scanf("%d", &choice);
+
+746 switch (choice) {
+747 case 1:
+748 insertAtBeginning();
+749 break;
+750 case 2:
+751 insertAtEnd();
+752 break;
+753 case 3:
+754 insertAtPosition();
+755 break;
+756 case 4:
+757 deleteFromBeginning();
+758 break;
+759 case 5:
+760 deleteFromEnd();
+761 break;
+762 case 6:
+763 deleteFromPosition();
+764 break;
+765 case 7:
+766 search();
+767 break;
+768 case 8:
+769 display();
+770 break;
+771 case 9:
+772 printf("Exiting program. Goodbye!\n");
+773 exit(0);
+774 default:
+775 printf("Invalid choice! Please try again.\n");
+776 }
+777 }
+
+779 return 0;
+780 }

@@ -1,0 +1,83 @@
+struct CircularQueue {
+int arr[n];
+int front;
+int rear;
+}
+
+void f_r_Queue(struct Queue* queue) {
+queue->front = -1;
+queue->rear = -1;
+}
+
+int isFull(struct Queue* queue) {
+return queue->rear == n - 1;
+}
+
+int isEmpty(struct Queue* queue) {
+return queue->front == -1 || queue->front > queue->rear;
+}
+
+void Enqueue(struct Queue* queue, int value) {
+if (isFull(queue)) {
+printf("Queue Overflow! Cannot enqueue %d\n", value);
+} else {
+if (queue->front == -1) {
+queue->front = 0;
+}
+queue->arr[++(queue->rear)] = value;
+printf("Enqueued %d to the queue.\n", value);
+}
+}
+
+void Dequeue(struct Queue* queue) {
+if (isEmpty(queue)) {
+printf("Queue Underflow! Cannot dequeue.\n");
+} else {
+int dequeuedValue = queue->arr[(queue->front)++];
+printf("Dequeued %d from the queue.\n", dequeuedValue);
+if (queue->front > queue->rear) {
+queue->front = queue->rear = -1;
+}
+}
+}
+
+void Display(struct Queue* queue) {
+if (isEmpty(queue)) {
+printf("Queue is empty!\n");
+} else {
+printf("Queue elements: ");
+for (int i = queue->front; i <= queue->rear; i++) {
+printf("%d ", queue->arr[i]);
+}
+printf("\n");
+}
+}
+
+int main() {
+struct Queue queue;
+initQueue(&queue);
+int choice, value,t=1;
+while (t==1) {
+printf("\nMenu:\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\nEnter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter value to enqueue: ");
+scanf("%d", &value);
+Enqueue(&queue, value);
+break;
+case 2:
+Dequeue(&queue);
+break;
+case 3:
+Display(&queue);
+break;
+case 4:
+t==0;
+break;
+default:
+printf("Invalid choice! Please try again.\n");
+}
+}
+return 0;
+}

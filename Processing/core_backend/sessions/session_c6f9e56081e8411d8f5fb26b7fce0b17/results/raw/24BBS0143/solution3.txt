@@ -1,0 +1,130 @@
+struct Node {
+int data;
+struct Node* prev;
+struct Node* next;
+}
+
+void deleteAtBeginning() {
+if (head == NULL) {
+prin(cid:414)("List is empty\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+prin(cid:414)("Deleted %d from the beginning\n", temp->data);
+free(temp);
+}
+
+void deleteAtEnd() {
+if (head == NULL) {
+prin(cid:414)("List is empty\n");
+return;
+}
+if (head->next == NULL) {
+prin(cid:414)("Deleted %d from the end\n", head->data);
+free(head);
+head = NULL;
+return;
+}
+struct Node* temp = head;
+while (temp->next->next != NULL) {
+temp = temp->next;
+}
+prin(cid:414)("Deleted %d from the end\n", temp->next->data);
+free(temp->next);
+temp->next = NULL;
+}
+
+void search(int value) {
+struct Node* temp = head;
+int posi(cid:415)on = 1;
+while (temp != NULL) {
+if (temp->data == value) {
+prin(cid:414)("Element %d found at posi(cid:415)on %d\n", value, posi(cid:415)on);
+return;
+}
+temp = temp->next;
+posi(cid:415)on++;
+}
+prin(cid:414)("Element %d not found\n", value);
+}
+
+void display() {
+if (head == NULL) {
+prin(cid:414)("List is empty\n");
+return;
+}
+struct Node* temp = head;
+prin(cid:414)("List elements: ");
+while (temp != NULL) {
+prin(cid:414)("%d ", temp->data);
+temp = temp->next;
+}
+prin(cid:414)("\n");
+}
+
+void insertAtBeginning(int data) {
+struct Node* newNode = createNode(data);
+if (head == NULL) {
+head = newNode;
+} else {
+newNode->next = head;
+head->prev = newNode;
+head = newNode;
+}
+prin(cid:414)("Inserted %d at the beginning.\n", data);
+}
+
+int main() {
+int choice, value, posi(cid:415)on;
+while (1) {
+prin(cid:414)("\n1. Insert\n2. Delete\n3. Search\n4. Display\n5. Exit\nEnter your
+choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prin(cid:414)("1. Beginning\n2. End\n3. At a given posi(cid:415)on\nEnter your
+choice: ");
+scanf("%d", &posi(cid:415)on);
+prin(cid:414)("Enter value: ");
+scanf("%d", &value);
+if (posi(cid:415)on == 1)
+insertAtBeginning(value);
+else if (posi(cid:415)on == 2)
+insertAtEnd(value);
+else {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+insertAtPosi(cid:415)on(value, posi(cid:415)on);
+}
+break;
+case 2:
+prin(cid:414)("1. Beginning\n2. End\n3. At a given posi(cid:415)on\nEnter your
+choice: ");
+scanf("%d", &posi(cid:415)on);
+if (posi(cid:415)on == 1)
+deleteAtBeginning();
+else if (posi(cid:415)on == 2)
+deleteAtEnd();
+else {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+deleteAtPosi(cid:415)on(posi(cid:415)on);
+}
+break;
+case 3:
+prin(cid:414)("Enter value to search: ");
+scanf("%d", &value);
+search(value);
+break;
+case 4:
+display();
+break;
+case 5:
+return 0;
+default:
+prin(cid:414)("Invalid choice\n");
+}
+}
+return 0;
+}

@@ -1,0 +1,63 @@
+void InsertBeginning(int value) {
+if (rear == MAX - 1) {
+printf("Queue is full\n");
+} else {
+if (front == -1) front = 0;
+for (int i = rear; i >= front; i--) {
+queue[i + 1] = queue[i];
+}
+queue[front] = value;
+rear++;
+}
+}
+
+void InsertEnd(int value) {
+if (rear == MAX - 1) {
+printf("Queue is full\n");
+} else {
+if (front == -1) front = 0;
+queue[rear + 1] = value;
+rear++;
+}
+}
+
+void DeleteBeginning() {
+if (front == -1 || front > rear) {
+printf("Queue is empty\n");
+} else {
+printf("Deleted value: %d\n", queue[front]);
+front++;
+}
+}
+
+void DeleteEnd() {
+if (front == -1 || front > rear) {
+printf("Queue is empty\n");
+} else {
+printf("Deleted value: %d\n", queue[rear]);
+rear--;
+}
+}
+
+void Display() {
+if (front == -1 || front > rear) {
+printf("Queue is empty\n");
+} else {
+for (int i = front; i <= rear; i++) {
+printf("%d\n", queue[i]);
+}
+printf("\n");
+}
+}
+
+int main() {
+InsertBeginning(10);
+InsertEnd(20);
+Display();
+DeleteBeginning();
+Display();
+InsertEnd(30);
+DeleteEnd();
+Display();
+return 0;
+}

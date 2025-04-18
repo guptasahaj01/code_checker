@@ -1,0 +1,84 @@
+int Isfull(){
+if (top==n-1){
+return 1;
+}
+else {
+return 0;
+}
+}
+
+void PUSH(int x)
+{
+if (Isfull()){
+printf("Stack Overflow \n");
+}
+else {
+++top;
+stack[top]=x;
+}
+}
+
+int Isempty(){
+if(top==-1){
+return 1;
+}
+else {
+return 0;
+}
+}
+
+void POP(){
+if (Isempty()){
+printf("Stack Underflow \n");
+}
+else {
+int temp;
+temp=stack[top];
+top--;
+printf("%d \n",temp);
+}
+}
+
+void DISPLAY(){
+if (Isempty()){
+printf("Stack Empty \n");
+}
+else {
+for(int i=top;i>=0;i--){
+printf("%d \n",stack[i]);
+}
+}
+}
+
+int main()
+{
+int i=1;
+while (i==1)
+{
+int y;
+printf("Enter Choice(1-Push , 2-Pop , 3-Display , 4-stop):" );
+scanf("%d",&y);
+switch (y)
+{
+case 1:
+int a;
+printf("Enter Element:");
+scanf("%d",&a);
+PUSH(a);
+break;
+case 2:
+POP();
+break;
+case 3:
+DISPLAY();
+break;
+case 4:
+i=0;
+break;
+default :
+printf("Enter Valid Choice");
+break;
+}
+}
+return 0;
+}

@@ -1,0 +1,233 @@
+struct node{
+struct node* prev;
+int data;
+struct node* next;
+}
+
+void insertAtPos(struct node** start, struct node** tail, int data, int pos) {
+struct node *newNode = createNewNode(data);
+if(pos == 0) {
+insertAtBeg(start, tail, data);
+return;
+}
+struct node* p = *start;
+for(int i=0; i<pos-1 && p != NULL; i++) {
+p = p->next;
+}
+if(p == NULL) {
+printf("There is not enough spaces in the linked list.\n\n");
+free(newNode);
+return;
+}
+newNode->next = p->next;
+newNode->prev = p;
+p->next->prev = newNode;
+p->next = newNode;
+return;
+}
+
+void deleteAtBeg(struct node** start, struct node** tail) {
+if (*start == NULL) {
+printf("List is empty. Nothing to delete.\n\n");
+return;
+}
+struct node* temp = *start;
+*start = (*start)->next;
+if (*start != NULL) {
+(*start)->prev = NULL;
+}
+else {
+*tail = NULL;
+}
+free(temp);
+printf("First node deleted.\n\n");
+}
+
+void deleteAtPos(struct node** start, struct node** tail, int pos) {
+if (*start == NULL) {
+printf("List is empty. Nothing to delete.\n");
+return;
+}
+struct node* temp = *start;
+int curr = 1;
+while (temp != NULL && curr < pos) {
+temp = temp->next;
+curr++;
+}
+if (temp == NULL) {
+printf("Invalid position %d. No node found.\n", pos);
+return;
+}
+if (temp == *start) {
+deleteAtBeg(start, tail);
+}
+else if (temp == *tail) {
+deleteAtEnd(start, tail);
+}
+else {
+temp->prev->next = temp->next;
+temp->next->prev = temp->prev;
+}
+free(temp);
+printf("Node at position %d deleted.\n", pos);
+}
+
+void deleteAtEnd(struct node** start, struct node** tail) {
+if (*tail == NULL) {
+printf("List is empty. Nothing to delete.\n\n");
+return;
+}
+struct node* temp = *tail;
+if (*tail == *start) {
+*start = NULL;
+*tail = NULL;
+} else {
+*tail = (*tail)->prev;
+(*tail)->next = NULL;
+}
+free(temp);
+printf("Last node deleted.\n\n");
+}
+
+void search(struct node* start, int data) {
+struct node* p = start;
+int counter = 0;
+while(p != NULL) {
+counter++;
+if(p->data == data) {
+printf("The provided data exists in the linked list at %d position.\n\n", counter);
+return;
+}
+p = p->next;
+}
+printf("The given data does not exist in the linked list.\n\n");
+return;
+}
+
+void display(struct node* start) {
+struct node* p = start;
+printf("\n\nLIST : NULL -> ");
+while(p != NULL) {
+printf("%d -> ", p->data);
+p = p->next;
+}
+printf("NULL\n");
+p = start;
+printf(" NULL <- ");
+while(p != NULL) {
+printf("%d <- ", p->data);
+p = p->next;
+}
+printf("NULL\n\n");
+return;
+}
+
+void insertAtBeg(struct node** start,struct node** tail, int data)
+{
+struct node* newNode=createNewNode(data);
+if(*start==NULL)
+{
+*start=newNode;
+*tail=newNode;
+return;
+}
+newNode->next=start;
+(*start)->prev=newNode;
+*start=newNode;
+return;
+}
+
+void insertAtEnd(struct node** start,struct node** tail, int data)
+{
+struct node* newNode=createNewNode(data);
+if(*start==NULL)
+{
+*start=newNode;
+*tail=newNode;
+return;
+}
+(tail)->next=newNode;
+newNode->prev=*tail;
+*tail=newNode;
+return;
+}
+
+int main() {
+struct node *start = NULL;
+struct node *tail = NULL;
+int choice = 1;
+printf("Enter 1 for insertion at the beginning.\n");
+printf("Enter 2 for insertion at the end.\n");
+printf("Enter 3 for insertion at a particular position.\n");
+printf("4 for deleting the first node.\n"
+printf("Enter 5 for deleting the last node.\n");
+printf("Enter 6 for deleting the node at a particular position.\n");
+printf("Enter 7 for searching an element in the linked list.\n");
+do {
+int x;
+printf("Enter Choice \n");
+scanf("%d", &x);
+printf("\n\n");
+switch(x) {
+case 1 : {
+int data;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+insertAtBeg(&start, &tail, data);
+printf("Data added.\n\n");
+break;
+}
+case 2 : {
+int data;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+insertAtEnd(&start, &tail, data);
+printf("Data added.\n\n");
+break;
+}
+case 3 : {
+int data, pos;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+printf("Enter the position for the data to be added : ");
+scanf("%d", &pos);
+insertAtPos(&start, &tail, data, pos-1);
+printf("Data added.\n\n");
+break;
+}
+case 4 : {
+deleteAtBeg(&start, &tail);
+printf("Data deleted.\n\n");
+break;
+}
+case 5 : {
+deleteAtEnd(&start, &tail);
+printf("Data deleted.\n\n");
+break;
+}
+case 6 : {
+int pos;
+printf("Enter the position for the data to be deleted : ");
+scanf("%d", &pos);
+deleteAtPos(&start, &tail, pos);
+printf("Data deleted.\n\n");
+break;
+}
+case 7 : {
+int data;
+printf("Enter the data to be searched for : ");
+scanf("%d", &data);
+search(start, data);
+break;
+}
+default : {
+printf("Invalid choice.\n\n");
+}
+}
+display(start);
+printf("Enter 1 to continue use of the program.\nEnter any other integer to
+exit.\nCHOICE : ");
+scanf("%d", &choice);
+} while(choice == 1);
+return 0;
+}

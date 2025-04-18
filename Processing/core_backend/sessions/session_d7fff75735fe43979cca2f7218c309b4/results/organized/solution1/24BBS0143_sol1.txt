@@ -1,0 +1,515 @@
+struct Queue {
+int arr[MAX];
+int front, rear;
+}
+
+struct Node {
+int data;
+struct Node* next;
+}
+
+struct Node {
+int data;
+struct Node* prev;
+struct Node* next;
+}
+
+void enqueue(int value) {
+if ((front == 0 && rear == SIZE - 1) || (rear + 1 == front)) {
+prin(cid:414)("Queue Overflow\n");
+} else {
+if (front == -1) {
+front = 0;
+}
+rear = (rear + 1) % SIZE;
+cQueue[rear] = value;
+prin(cid:414)("Enqueued %d into the circular queue\n", value);
+}
+}
+
+void enqueue(struct Queue* q, int value) {
+if (isFull(q)) {
+prin(cid:414)("Queue is full! Cannot enqueue %d.\n", value);
+} else {
+if (q->front == -1) {
+q->front = 0;
+}
+q->rear++;
+q->arr[q->rear] = value;
+prin(cid:414)("%d enqueued successfully.\n", value);
+}
+}
+
+int isFull(struct Queue* q) {return (q->rear == MAX - 1);}
+
+void dequeue() {
+if (front == -1) {
+prin(cid:414)("Queue Underflow\n");
+} else {
+prin(cid:414)("Dequeued element: %d\n", cQueue[front]);
+if (front == rear) {
+front = rear = -1;
+} else {
+front = (front + 1) % SIZE;
+}
+}
+}
+
+int dequeue(struct Queue* q) {
+if (isEmpty(q)) {
+prin(cid:414)("Queue is empty! Cannot dequeue.\n");
+return -1;
+} else {
+int dequeuedValue = q->arr[q->front];
+q->front++;
+if (q->front > q->rear) {
+q->front = q->rear = -1;
+}
+return dequeuedValue;
+}
+}
+
+int isEmpty(struct Queue* q) {return (q->front == -1 || q->front > q->rear);}
+
+void display(struct Queue* q) {
+if (isEmpty(q)) {
+prin(cid:414)("Queue is empty! Nothing to display.\n");
+} else {
+prin(cid:414)("Queue elements: ");
+for (int i = q->front; i <= q->rear; i++) {
+prin(cid:414)("%d ", q->arr[i]);
+}
+prin(cid:414)("\n");
+}
+}
+
+void display() {
+if (head == NULL) {
+prin(cid:414)("List is empty!\n");
+return;
+}
+struct Node* temp = head;
+prin(cid:414)("Doubly Linked List: ");
+while (temp != NULL) {
+prin(cid:414)("%d ", temp->data);
+temp = temp->next;
+}
+prin(cid:414)("\n");
+}
+
+void push() {
+int value;
+if (top == SIZE - 1) {
+prin(cid:414)("Stack Overflow! Cannot add more elements.\n");
+} else {
+prin(cid:414)("Enter the value to push: ");
+scanf("%d", &value);
+stack[++top] = value;
+prin(cid:414)("%d pushed into the stack.\n", value);
+}
+}
+
+void pop() {
+if (top == -1) {
+prin(cid:414)("Stack Underflow! No elements to pop.\n");
+} else {
+prin(cid:414)("%d popped from the stack.\n", stack[top--]);
+}
+}
+
+void deleteAtBeginning() {
+if (head == NULL) {
+prin(cid:414)("List is empty\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+prin(cid:414)("Deleted %d from the beginning\n", temp->data);
+free(temp);
+}
+
+void deleteAtEnd() {
+if (head == NULL) {
+prin(cid:414)("List is empty\n");
+return;
+}
+if (head->next == NULL) {
+prin(cid:414)("Deleted %d from the end\n", head->data);
+free(head);
+head = NULL;
+return;
+}
+struct Node* temp = head;
+while (temp->next->next != NULL) {
+temp = temp->next;
+}
+prin(cid:414)("Deleted %d from the end\n", temp->next->data);
+free(temp->next);
+temp->next = NULL;
+}
+
+void insertAtBeginning(int data) {
+struct Node* newNode = createNode(data);
+if (head == NULL) {
+head = newNode;
+} else {
+newNode->next = head;
+head->prev = newNode;
+head = newNode;
+}
+prin(cid:414)("Inserted %d at the beginning.\n", data);
+}
+
+void insertAtBeginning(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = head;
+head = newNode;
+prin(cid:414)("Inserted %d at the beginning\n", value);
+}
+
+void insertAtEnd(int data) {
+struct Node* newNode = createNode(data);
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+newNode->prev = temp;
+}
+prin(cid:414)("Inserted %d at the end.\n", data);
+}
+
+void insertAtEnd(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+}
+prin(cid:414)("Inserted %d at the end\n", value);
+}
+
+void deleteFromBeginning() {
+if (head == NULL) {
+prin(cid:414)("List is empty!\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+if (head != NULL) {
+head->prev = NULL;
+}
+prin(cid:414)("Deleted %d from the beginning.\n", temp->data);
+free(temp);
+}
+
+void deleteFromEnd() {
+if (head == NULL) {
+prin(cid:414)("List is empty!\n");
+return;
+}
+struct Node* temp = head;
+if (temp->next == NULL) {
+head = NULL;
+} else {
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->prev->next = NULL;
+}
+prin(cid:414)("Deleted %d from the end.\n", temp->data);
+free(temp);
+}
+
+void search(int key) {
+struct Node* temp = head;
+int posi(cid:415)on = 1;
+while (temp != NULL) {
+if (temp->data == key) {
+prin(cid:414)("Element %d found at posi(cid:415)on %d.\n", key, posi(cid:415)on);
+return;
+}
+temp = temp->next;
+posi(cid:415)on++;
+}
+prin(cid:414)("Element %d not found in the list.\n", key);
+}
+
+void search(int value) {
+struct Node* temp = head;
+int posi(cid:415)on = 1;
+while (temp != NULL) {
+if (temp->data == value) {
+prin(cid:414)("Element %d found at posi(cid:415)on %d\n", value, posi(cid:415)on);
+return;
+}
+temp = temp->next;
+posi(cid:415)on++;
+}
+prin(cid:414)("Element %d not found\n", value);
+}
+
+void display() {
+if (top == -1) {
+prin(cid:414)("Stack is empty.\n");
+} else {
+prin(cid:414)("Stack elements are:\n");
+for (int i = top; i >= 0; i--) {
+prin(cid:414)("%d\n", stack[i]);
+}
+}
+}
+
+void display() {
+if (front == -1) {
+prin(cid:414)("Queue is empty\n");
+} else {
+prin(cid:414)("Queue elements are: ");
+int i = front;
+while (i != rear) {
+prin(cid:414)("%d ", cQueue[i]);
+i = (i + 1) % SIZE;
+}
+prin(cid:414)("%d\n", cQueue[i]);
+}
+}
+
+void display() {
+if (head == NULL) {
+prin(cid:414)("List is empty\n");
+return;
+}
+struct Node* temp = head;
+prin(cid:414)("List elements: ");
+while (temp != NULL) {
+prin(cid:414)("%d ", temp->data);
+temp = temp->next;
+}
+prin(cid:414)("\n");
+}
+
+int main() {
+struct Queue q;
+ini(cid:415)alize(&q);
+int choice, value;
+while (1) {
+prin(cid:414)("\nQueue Opera(cid:415)ons Menu:\n");
+prin(cid:414)("1. Enqueue\n");
+prin(cid:414)("2. Dequeue\n");
+prin(cid:414)("3. Display\n");
+prin(cid:414)("4. Exit\n");
+prin(cid:414)("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prin(cid:414)("Enter the value to enqueue: ");
+scanf("%d", &value);
+enqueue(&q, value);
+break;
+case 2:
+value = dequeue(&q);
+if (value != -1) {
+prin(cid:414)("Dequeued value: %d\n", value);
+}
+break;
+case 3:
+display(&q);
+break;
+case 4:
+prin(cid:414)("Exi(cid:415)ng program.\n");
+exit(0);
+default:
+prin(cid:414)("Invalid choice! Please try again.\n");
+}
+}
+return 0;
+}
+
+int main() {
+int choice, value;
+while (1) {
+prin(cid:414)("\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\nEnter your
+choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prin(cid:414)("Enter value to enqueue: ");
+scanf("%d", &value);
+enqueue(value);
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+return 0;
+default:
+prin(cid:414)("Invalid choice\n");
+}
+}
+return 0;
+}
+
+int main() {
+int choice;
+while (1) {
+prin(cid:414)("\nStack Opera(cid:415)ons Menu:\n");
+prin(cid:414)("1. PUSH\n");
+prin(cid:414)("2. POP\n");
+prin(cid:414)("3. Display\n");
+prin(cid:414)("4. Exit\n");
+prin(cid:414)("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+push();
+break;
+case 2:
+pop();
+break;
+case 3:
+display();
+break;
+case 4:
+prin(cid:414)("Exi(cid:415)ng the program.\n");
+exit(0);
+default:
+prin(cid:414)("Invalid choice! Please try again.\n");
+}
+}
+return 0;}
+
+int main() {
+int choice, value, posi(cid:415)on;
+while (1) {
+prin(cid:414)("\n1. Insert\n2. Delete\n3. Search\n4. Display\n5. Exit\nEnter your
+choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prin(cid:414)("1. Beginning\n2. End\n3. At a given posi(cid:415)on\nEnter your
+choice: ");
+scanf("%d", &posi(cid:415)on);
+prin(cid:414)("Enter value: ");
+scanf("%d", &value);
+if (posi(cid:415)on == 1)
+insertAtBeginning(value);
+else if (posi(cid:415)on == 2)
+insertAtEnd(value);
+else {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+insertAtPosi(cid:415)on(value, posi(cid:415)on);
+}
+break;
+case 2:
+prin(cid:414)("1. Beginning\n2. End\n3. At a given posi(cid:415)on\nEnter your
+choice: ");
+scanf("%d", &posi(cid:415)on);
+if (posi(cid:415)on == 1)
+deleteAtBeginning();
+else if (posi(cid:415)on == 2)
+deleteAtEnd();
+else {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+deleteAtPosi(cid:415)on(posi(cid:415)on);
+}
+break;
+case 3:
+prin(cid:414)("Enter value to search: ");
+scanf("%d", &value);
+search(value);
+break;
+case 4:
+display();
+break;
+case 5:
+return 0;
+default:
+prin(cid:414)("Invalid choice\n");
+}
+}
+return 0;
+}
+
+int main() {
+int choice, subChoice, data, posi(cid:415)on;
+while (1) {
+prin(cid:414)("\nMain Menu:\n");
+prin(cid:414)("1. Insert\n");
+prin(cid:414)("2. Delete\n");
+prin(cid:414)("3. Search\n");
+prin(cid:414)("4. Display\n");
+prin(cid:414)("5. Exit\n");
+prin(cid:414)("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+prin(cid:414)("\nInsert Op(cid:415)ons:\n");
+prin(cid:414)("1. At Beginning\n");
+prin(cid:414)("2. At End\n");
+prin(cid:414)("3. At Posi(cid:415)on\n");
+prin(cid:414)("Enter your sub-choice: ");
+scanf("%d", &subChoice);
+prin(cid:414)("Enter data to insert: ");
+scanf("%d", &data);
+if (subChoice == 1) {
+insertAtBeginning(data);
+} else if (subChoice == 2) {
+insertAtEnd(data);
+} else if (subChoice == 3) {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+insertAtPosi(cid:415)on(data, posi(cid:415)on);
+} else {
+prin(cid:414)("Invalid sub-choice!\n");
+}
+break;
+case 2:
+prin(cid:414)("\nDelete Op(cid:415)ons:\n");
+prin(cid:414)("1. From Beginning\n");
+prin(cid:414)("2. From End\n");
+prin(cid:414)("3. From Posi(cid:415)on\n");
+prin(cid:414)("Enter your sub-choice: ");
+scanf("%d", &subChoice);
+if (subChoice == 1) {
+deleteFromBeginning();
+} else if (subChoice == 2) {
+deleteFromEnd();
+} else if (subChoice == 3) {
+prin(cid:414)("Enter posi(cid:415)on: ");
+scanf("%d", &posi(cid:415)on);
+deleteFromPosi(cid:415)on(posi(cid:415)on);
+} else {
+prin(cid:414)("Invalid sub-choice!\n");
+}
+break;
+case 3:
+prin(cid:414)("Enter element to search: ");
+scanf("%d", &data);
+search(data);
+break;
+case 4:
+display();
+break;
+case 5:
+exit(0);
+default:
+prin(cid:414)("Invalid choice! Please try again.\n");
+}
+}
+return 0;
+}

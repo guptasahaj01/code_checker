@@ -1,0 +1,26 @@
+int longestSubstringWithKUnique(string s, int k) {
+unordered_map<char, int> count; // map to store frequency of characters in current window
+int left = 0, right = 0, maxLen = -1; // window pointers and result variable
+// iterate through the string with right pointer
+while (right < s.length()) {
+count[s[right]]++; // include character at right in map
+// shrink window from left if unique character count exceeds k
+while (count.size() > k) {
+count[s[left]]--;
+if (count[s[left]] == 0) count.erase(s[left]); // remove character if frequency is zero
+left++; // move left pointer forward
+}
+// check if current window has exactly k unique characters
+if (count.size() == k)
+maxLen = max(maxLen, right - left + 1); // update maximum length
+right++; // move right pointer
+}
+return maxLen; // return the maximum length found
+}
+
+int main() {
+string s = "abcba";
+int k = 2;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

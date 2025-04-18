@@ -1,0 +1,114 @@
+struct Node {
+573 int data;
+574 struct Node* next;
+575 }
+
+void insertAtBeginning() {
+588 int value;
+589 printf("Enter the value to insert at the beginning: ");
+590 scanf("%d", &value);
+591 struct Node* newNode = createNode(value);
+592 newNode->next = head;
+593 head = newNode;
+594 printf("Node inserted at the beginning.\n");
+595 }
+
+void insertAtEnd() {
+598 int value;
+599 printf("Enter the value to insert at the end: ");
+600 scanf("%d", &value);
+601 struct Node* newNode = createNode(value);
+602 if (head == NULL) {
+603 head = newNode;
+604 } else {
+605 struct Node* temp = head;
+606 while (temp->next != NULL) {
+607 temp = temp->next;
+608 }
+609 temp->next = newNode;
+610 }
+611 printf("Node inserted at the end.\n");
+612 }
+
+void insertAtPosition() {
+615 int value, pos;
+616 printf("Enter the value to insert: ");
+617 scanf("%d", &value);
+618 printf("Enter the position to insert: ");
+619 scanf("%d", &pos);
+
+621 struct Node* newNode = createNode(value);
+622 if (pos == 1) {
+623 newNode->next = head;
+624 head = newNode;
+625 } else {
+626 struct Node* temp = head;
+627 for (int i = 1; i < pos - 1 && temp != NULL; i++) {
+628 temp = temp->next;
+629 }
+630 if (temp == NULL) {
+631 printf("Invalid position!\n");
+632 free(newNode);
+633 return;
+634 }
+635 newNode->next = temp->next;
+636 temp->next = newNode;
+637 }
+638 printf("Node inserted at position %d.\n", pos);
+639 }
+
+void deleteFromBeginning() {
+643 if (head == NULL) {
+644 printf("List is empty. Nothing to delete.\n");
+645 } else {
+646 struct Node* temp = head;
+647 head = head->next;
+648 printf("Node with value %d deleted from the beginning.\n", temp->data);
+649 free(temp);
+650 }
+651 }
+
+void display() {
+525 if (front == -1) {
+526 printf("Queue is empty.\n");
+527 } else {
+528 printf("Queue elements are:\n");
+529 for (int i = front; i <= rear; i++) {
+530 printf("%d ", queue[i]);
+531 }
+532 printf("\n");
+533 }
+534 }
+
+int main() {
+537 int choice;
+
+539 while (1) {
+540 printf("\nQueue Operations Menu:\n");
+541 printf("1. Enqueue\n");
+542 printf("2. Dequeue\n");
+543 printf("3. Display\n");
+544 printf("4. Exit\n");
+545 printf("Enter your choice: ");
+546 scanf("%d", &choice);
+
+548 switch (choice) {
+549 case 1:
+550 enqueue();
+551 break;
+552 case 2:
+553 dequeue();
+554 break;
+555 case 3:
+556 display();
+557 break;
+558 case 4:
+559 printf("Exiting program. Goodbye!\n");
+560 exit(0);
+561 default:
+562 printf("Invalid choice! Please try again.\n");
+563 }
+564 }
+
+566 return 0;
+567 }

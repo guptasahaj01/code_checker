@@ -1,0 +1,27 @@
+bool canCoverNPWithPlots(vector<pair<int, int>>& npVertices, vector<pair<pair<int, int>, pair<int,
+int>>>& plots) {
+sort(plots.begin(), plots.end(), [](const auto& a, const auto& b) {
+return area(a) > area(b); // Sort plots by area in descending order
+});
+vector<pair<int, int>> coveredArea;
+for (const auto& plot : plots) {
+// Try to add plot to coveredArea
+if (isExactCover(npVertices, coveredArea)) {
+return true;
+}
+}
+return false;
+}
+
+int main() {
+// Example for npVertices and plots can be provided here
+vector<pair<int, int>> npVertices = {{0, 0}, {1, 0}, {1, 1}, {0, 1}};
+vector<pair<pair<int, int>, pair<int, int>>> plots = {
+{{0, 0}, {1, 0}},
+{{1, 0}, {1, 1}},
+{{1, 1}, {0, 1}},
+{{0, 1}, {0, 0}}
+};
+cout << (canCoverNPWithPlots(npVertices, plots) ? "Yes" : "No") << endl;
+return 0;
+}

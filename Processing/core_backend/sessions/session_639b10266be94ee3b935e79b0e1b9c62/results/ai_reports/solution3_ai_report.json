@@ -1,0 +1,270 @@
+{
+  "24BBS0001_sol3.txt": {
+    "file": "24BBS0001_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 29.06557681349296,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.21870838881491345,
+      "formatting_consistency_score": 0.7505263157894738,
+      "similarity_score": 0.3363528122213577,
+      "ml_prediction_score": 0.26,
+      "overall_score": 0.2906557681349296
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7505263157894738
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.3363528122213577
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.26
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.21870838881491345
+      }
+    ]
+  },
+  "24BBS0006_sol3.txt": {
+    "file": "24BBS0006_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 33.12435079329178,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.2022848034006376,
+      "formatting_consistency_score": 0.7374358974358975,
+      "similarity_score": 0.3214270140371875,
+      "ml_prediction_score": 0.42,
+      "overall_score": 0.3312435079329178
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7374358974358975
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.42
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.3214270140371875
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.2022848034006376
+      }
+    ]
+  },
+  "24BBS0007_sol3.txt": {
+    "file": "24BBS0007_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 31.603440800942156,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.19572490706319703,
+      "formatting_consistency_score": 0.7500000000000001,
+      "similarity_score": 0.24087835974970995,
+      "ml_prediction_score": 0.42,
+      "overall_score": 0.31603440800942156
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7500000000000001
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.42
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.24087835974970995
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.19572490706319703
+      }
+    ]
+  },
+  "24BBS0008_sol3.txt": {
+    "file": "24BBS0008_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 28.081534349219105,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.20871121718377086,
+      "formatting_consistency_score": 0.7400000000000001,
+      "similarity_score": 0.30254330457312695,
+      "ml_prediction_score": 0.26,
+      "overall_score": 0.28081534349219106
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7400000000000001
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.30254330457312695
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.26
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.20871121718377086
+      }
+    ]
+  },
+  "24BBS0002_sol3.txt": {
+    "file": "24BBS0002_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 27.35043496878442,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.0631578947368421,
+      "formatting_consistency_score": 0.7557894736842107,
+      "similarity_score": 0.2733112221234316,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.2735043496878442
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7557894736842107
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.2733112221234316
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.0631578947368421
+      }
+    ]
+  },
+  "24BBS0003_sol3.txt": {
+    "file": "24BBS0003_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 30.94810098399947,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.047398843930635835,
+      "formatting_consistency_score": 0.7377777777777779,
+      "similarity_score": 0.2385225829186635,
+      "ml_prediction_score": 0.48,
+      "overall_score": 0.3094810098399947
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7377777777777779
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.48
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.2385225829186635
+      }
+    ]
+  },
+  "24BBS0005_sol3.txt": {
+    "file": "24BBS0005_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 33.51346021284009,
+    "ai_likelihood": "40%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.20072164948453605,
+      "formatting_consistency_score": 0.7476923076923079,
+      "similarity_score": 0.3343625427593713,
+      "ml_prediction_score": 0.42,
+      "overall_score": 0.33513460212840085
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7476923076923079
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.42
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.3343625427593713
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.20072164948453605
+      }
+    ]
+  },
+  "24BBS0004_sol3.txt": {
+    "file": "24BBS0004_sol3.txt",
+    "is_ai_generated": false,
+    "technical_score": 26.530393840860512,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.05934861278648976,
+      "formatting_consistency_score": 0.752820512820513,
+      "similarity_score": 0.3273928478377735,
+      "ml_prediction_score": 0.26,
+      "overall_score": 0.2653039384086051
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.752820512820513
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.3273928478377735
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.26
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.05934861278648976
+      }
+    ]
+  }
+}

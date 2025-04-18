@@ -279,7 +279,11 @@ def analyze_ai_plagiarism(solutions_dir, language="cpp"):
 
 
 def analyze_web_plagiarism(solutions_dir, api_key, language="cpp", threshold=0.3):
-
+    # Skip web plagiarism detection for now
+    print("Web plagiarism detection skipped - disabled by user request")
+    return {}
+    
+    # The following code is kept but will not execute
     if not WEB_CHECKER_AVAILABLE:
         print("Web plagiarism detection skipped - module not available")
         return {}

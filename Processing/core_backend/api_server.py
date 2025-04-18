@@ -49,7 +49,7 @@ CORS(app)  # Enable CORS for all origins
 # Configure upload parameters
 SESSIONS_FOLDER = os.path.join(os.path.dirname(__file__), 'sessions')
 ALLOWED_EXTENSIONS = {'pdf'}
-MAX_CONTENT_LENGTH = 50 * 1024 * 1024  # 50MB limit
+MAX_CONTENT_LENGTH = 150 * 1024 * 1024  # 150MB limit (for ~70 files)
 
 # Ensure directory exist
 

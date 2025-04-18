@@ -1,0 +1,270 @@
+{
+  "DOC6SAM_sol1.txt": {
+    "file": "DOC6SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 24.383218208694817,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.22613065326633167,
+      "formatting_consistency_score": 0.6733333333333335,
+      "similarity_score": 0.30456292048499206,
+      "ml_prediction_score": 0.16,
+      "overall_score": 0.24383218208694818
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.6733333333333335
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.30456292048499206
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.22613065326633167
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.16
+      }
+    ]
+  },
+  "DOC3SAM_sol1.txt": {
+    "file": "DOC3SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 23.285413959887407,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.134070796460177,
+      "formatting_consistency_score": 0.7553846153846155,
+      "similarity_score": 0.28717913911077597,
+      "ml_prediction_score": 0.14,
+      "overall_score": 0.23285413959887408
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7553846153846155
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.28717913911077597
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.14
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.134070796460177
+      }
+    ]
+  },
+  "DOC5SAM_sol1.txt": {
+    "file": "DOC5SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 19.379435625477207,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.028450966776093076,
+      "formatting_consistency_score": 0.7367741935483872,
+      "similarity_score": 0.24505291103050003,
+      "ml_prediction_score": 0.1,
+      "overall_score": 0.19379435625477207
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7367741935483872
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.24505291103050003
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.1
+      }
+    ]
+  },
+  "DOC2SAM_sol1.txt": {
+    "file": "DOC2SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 23.266262365382666,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.15,
+      "formatting_consistency_score": 0.7500000000000001,
+      "similarity_score": 0.3383131182691331,
+      "ml_prediction_score": 0.1,
+      "overall_score": 0.23266262365382664
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7500000000000001
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.3383131182691331
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.15
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.1
+      }
+    ]
+  },
+  "DOC7SAM_sol1.txt": {
+    "file": "DOC7SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 22.881723849138552,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.17413793103448275,
+      "formatting_consistency_score": 0.7511111111111113,
+      "similarity_score": 0.30014941084773206,
+      "ml_prediction_score": 0.1,
+      "overall_score": 0.22881723849138552
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7511111111111113
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.30014941084773206
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.17413793103448275
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.1
+      }
+    ]
+  },
+  "DOC4SAM_sol1.txt": {
+    "file": "DOC4SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 22.05734960025703,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.13088552915766738,
+      "formatting_consistency_score": 0.7650000000000001,
+      "similarity_score": 0.2809533331446009,
+      "ml_prediction_score": 0.1,
+      "overall_score": 0.2205734960025703
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7650000000000001
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.2809533331446009
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.13088552915766738
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.1
+      }
+    ]
+  },
+  "DOC8SAM_sol1.txt": {
+    "file": "DOC8SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 21.304159110033872,
+    "ai_likelihood": "5%",
+    "risk_level": "MINIMAL RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.06411827548803543,
+      "formatting_consistency_score": 0.7704347826086958,
+      "similarity_score": 0.28929316192914517,
+      "ml_prediction_score": 0.1,
+      "overall_score": 0.2130415911003387
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7704347826086958
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.28929316192914517
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.1
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.06411827548803543
+      }
+    ]
+  },
+  "DOC1SAM_sol1.txt": {
+    "file": "DOC1SAM_sol1.txt",
+    "is_ai_generated": false,
+    "technical_score": 29.72851017770899,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.21581986143187065,
+      "formatting_consistency_score": 0.6854545454545455,
+      "similarity_score": 0.2704697037206375,
+      "ml_prediction_score": 0.36,
+      "overall_score": 0.2972851017770899
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.6854545454545455
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.36
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.2704697037206375
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.21581986143187065
+      }
+    ]
+  }
+}

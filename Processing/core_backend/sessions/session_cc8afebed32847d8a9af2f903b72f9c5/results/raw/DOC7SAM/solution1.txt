@@ -1,0 +1,19 @@
+int longestSubstringWithKUnique(string s, int k) {
+int maxLen = -1;
+for (int i = 0; i < s.length(); ++i) {
+unordered_map<char, int> freq;
+for (int j = i; j < s.length(); ++j) {
+freq[s[j]]++;
+if (freq.size() == k) maxLen = max(maxLen, j - i + 1);
+if (freq.size() > k) break;
+}
+}
+return maxLen;
+}
+
+int main() {
+string s = "aabacbebebe";
+int k = 3;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

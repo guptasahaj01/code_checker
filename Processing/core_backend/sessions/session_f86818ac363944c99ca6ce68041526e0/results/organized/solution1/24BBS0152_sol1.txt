@@ -1,0 +1,81 @@
+struct Stack {
+int arr[n];
+int top;
+}
+
+struct Queue {
+int arr[n];
+int front;
+int rear;
+}
+
+void top_Stack(struct Stack* stack) {
+stack->top = -1;
+}
+
+int isFull(struct Stack* stack) {
+return stack->top == n- 1;
+}
+
+int isEmpty(struct Stack* stack) {
+return stack->top == -1;
+}
+
+void PUSH(struct Stack* stack, int value) {
+if (isFull(stack)) {
+printf("Stack is full and insertion is not possible!");
+} else {
+stack->arr[++(stack->top)] = value;
+printf("Pushed %d onto the stack.\n", value);
+}
+}
+
+void POP(struct Stack* stack) {
+if (isEmpty(stack)) {
+printf("Stack is empty and deletion is not possible!");
+} else {
+int poppedValue = stack->arr[(stack->top)--];
+printf("Popped %d from the stack.\n", poppedValue);
+}
+}
+
+void Display(struct Stack* stack) {
+if (isEmpty(stack)) {
+printf("Stack is empty!\n");
+} else {
+printf("Stack elements: ");
+for (int i = stack->top; i >= 0; i--) {
+printf("%d ", stack->arr[i]);
+}
+printf("\n");
+}
+}
+
+int main() {
+struct Stack stack;
+top_Stack(&stack);
+int choice, value, t=1;
+while (t==1) {
+printf("\nMenu:\n1. PUSH\n2. POP\n3. Display\n4. Exit\nEnter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter value to push: ");
+scanf("%d", &value);
+PUSH(&stack, value);
+break;
+case 2:
+POP(&stack);
+break;
+case 3:
+Display(&stack);
+break;
+case 4:
+t=0;
+break;
+default:
+printf("Invalid choice! Please try again.\n");
+}
+}
+return 0;
+}

@@ -1,0 +1,162 @@
+struct
+typedef {
+int
+*items;
+int
+top;
+int
+maxSize;
+}
+
+int
+initializeStack(Stack *s, n) {
+s->maxSize =n;
+int int
+s->items =( *)malloc(n * sizeof( ));
+s->top =-1;
+}
+
+int
+isFull(Stack *s) {return s->top==s->maxSize - 1;
+}
+
+int
+isEmpty(Stack *s) {
+return s->top == -1;
+}
+
+int
+push(Stack *s, element) {
+if (isFull(s)) {
+printf("Stack Overflow! Cannot push %d.\n", element);
+return;
+}
+s->items[++(s->top)] = element;
+printf("%d pushed onto the stack.\n", element);
+}
+
+int
+pop(Stack *s) {
+if (isEmpty(s)) {
+printf("Stack Underflow! No elements to pop.\n");
+return -1;
+}
+return s->items[(s->top)--];
+}
+
+void
+display(Stack *s) {
+if (isEmpty(s)) {
+printf("Stack is empty.\n");
+return;
+}
+printf("Stack elements: ");
+int
+for ( i = s->top; i >= 0; i--) {
+printf("%d ", s->items[i]);
+}
+printf("\n");
+}
+
+int
+for ( i = s->top; i >= 0; i--) {
+printf("%d ", s->items[i]);
+}
+
+void
+freeStack(Stack *s) {
+free(s->items);
+}
+
+int
+main() {
+Stack s;
+int
+n, choice, value;
+printf("Size of stack= ");
+scanf("%d", &n);
+initializeStack(&s, n);
+printf("\nEnter choice of operation\n");
+printf("1. Push\n");
+printf("2. Pop\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+while (1) {
+printf("Enter your choice: ");scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the value to push: ");
+scanf("%d", &value);
+push(&s, value);
+break;
+case 2:
+value = pop(&s);
+if (value != -1) {
+printf("Popped element: %d\n", value);
+}
+break;
+case 3:
+display(&s);
+break;
+case 4:
+printf("Exiting program.\n");
+freeStack(&s);
+exit(0);
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+return 0;
+}
+
+void initializeQueue(Queue *q, int size) {
+q->maxSize = size;
+q->items = (int *)malloc(size * sizeof(int));
+q->front = -1;
+q->rear = -1;
+}
+
+int isFull(Queue *q) {
+return (q->rear + 1) % q->maxSize == q->front;
+}
+
+int
+main() {
+Stack s;
+int
+n, choice, value;
+printf("Size of stack= ");
+scanf("%d", &n);
+initializeStack(&s, n);
+printf("\nEnter choice of operation\n");
+printf("1. Push\n");
+printf("2. Pop\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+while (1) {
+printf("Enter your choice: ");scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the value to push: ");
+scanf("%d", &value);
+push(&s, value);
+break;
+case 2:
+value = pop(&s);
+if (value != -1) {
+printf("Popped element: %d\n", value);
+}
+break;
+case 3:
+display(&s);
+break;
+case 4:
+printf("Exiting program.\n");
+freeStack(&s);
+exit(0);
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+return 0;
+}

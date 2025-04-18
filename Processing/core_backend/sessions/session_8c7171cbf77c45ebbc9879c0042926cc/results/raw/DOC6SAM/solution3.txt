@@ -1,0 +1,40 @@
+int evaluateExpression(string expression) {
+stack<int> numStack;
+int currentNum = 0;
+char currentOp = '+';
+expression += '+'; // Append '+' to ensure last number is processed
+for (int i = 0; i < expression.size(); i++) {
+char c = expression[i];
+if (isdigit(c)) {
+currentNum = currentNum * 10 + (c - '0');
+}
+if ((c == '+' || c == '-' || c == '(' || c == ')') || i == expression.size() - 1) {
+if (currentOp == '+') numStack.push(currentNum);
+else if (currentOp == '-') numStack.push(-currentNum);
+if (c == '(') {
+numStack.push(currentNum); // Temporarily store
+} else if (c == ')') {
+int sum = 0;
+while (!numStack.empty()) {
+sum += numStack.top();
+numStack.pop();
+}
+numStack.push(sum); // Calculate the sum of numbers inside parentheses
+}
+if (c == '+' || c == '-') currentOp = c;
+currentNum = 0;
+}
+}
+int total = 0;
+while (!numStack.empty()) {
+total += numStack.top();
+numStack.pop();
+}
+return total;
+}
+
+int main() {
+string expr = "2+(3-1)+4";
+cout << evaluateExpression(expr) << endl;
+return 0;
+}

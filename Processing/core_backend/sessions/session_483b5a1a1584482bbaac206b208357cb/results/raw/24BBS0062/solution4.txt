@@ -1,0 +1,104 @@
+struct node {
+int data;
+struct node* next;
+}
+
+void search(struct node* start, int data) {
+struct node* p = start;
+int counter = 0;
+while(p != NULL) {
+counter++;
+if(p->data == data) {
+printf("The provided data exists in the linked list at %d position.\n\n", counter);
+return;
+}
+p = p->next;
+}
+printf("The given data does not exist in the linked list.\n\n");
+return;
+}
+
+void display(struct node* start) {
+struct node* p = start;
+printf("\n\nLIST : ");
+while(p != NULL) {
+printf("%d -> ", p->data);
+p = p->next;
+}
+printf("NULL\n\n");
+return;
+}
+
+int main() {
+struct node* start = NULL;
+int choice = 1;
+do {
+int x;
+printf("Enter 1 for insertion at the beginning.\nEnter 2 for insertion at the end.\nEnter 3 for insertion
+at a particular position.\nEnter 4 for deleting the first node.\nEnter 5 for deleting the last node.\nEnter 6
+for deleting the node at a particular position.\nEnter 7 for searching an element in the linked list.\nCHOICE
+: ");
+scanf("%d", &x);
+printf("\n\n");
+switch(x) {
+case 1 : {
+int data;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+start = insertAtBeg(start, data);
+printf("Data added.\n\n");
+break;
+}
+case 2 : {
+int data;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+start = insertAtEnd(start, data);
+printf("Data added.\n\n");
+break;
+}
+case 3 : {
+int data, pos;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+printf("Enter the position for the data to be added : ");
+scanf("%d", &pos);
+start = insertAtPos(start, data, pos-1);
+printf("Data added.\n\n");
+break;
+}
+case 4 : {
+start = deleteAtBeg(start);
+printf("Data deleted.\n\n");
+break;
+}
+case 5 : {
+start = deleteAtEnd(start);
+printf("Data deleted.\n\n");
+break;
+}
+case 6 : {
+int pos;
+printf("Enter the position for the data to be deleted : ");
+scanf("%d", &pos);
+start = deleteAtPos(start, pos-1);
+printf("Data deleted.\n\n");
+break;
+}
+case 7 : {
+int data;
+printf("Enter the data to be searched for : ");
+scanf("%d", &data);
+search(start, data);
+break;
+}
+default : {
+printf("Invalid choice.\n\n");
+}
+}
+display(start);
+printf("Enter 1 to continue use of the program.\nEnter any other integer to exit.\nCHOICE : ");
+scanf("%d", &choice);
+} while(choice == 1);
+return 0;
+}

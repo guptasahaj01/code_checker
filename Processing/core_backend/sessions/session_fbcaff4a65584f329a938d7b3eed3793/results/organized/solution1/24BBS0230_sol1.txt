@@ -1,0 +1,200 @@
+struct Node {
+int data;
+struct Node* next;
+}
+
+void insertAtBeginning(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+newNode->next = head;
+head = newNode;
+Printf("Element inserted at the beginning\n");
+}
+
+void insertAtEnd(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+}
+Printf("Element inserted at the end\n");
+}
+
+void insertAtPosition(int value, int position) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct
+Node));
+newNode->data = value;
+if (position == 1) {
+newNode->next = head;
+head = newNode;
+} else {
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL) {
+Printf("Invalid position\n");
+free(newNode);
+return;
+}
+temp = temp->next;
+}
+newNode->next = temp->next;
+temp->next = newNode;
+}
+Printf("Element inserted at position %d\n", position);
+}
+
+void deleteFromBeginning() {
+if (head == NULL) {
+Printf("List is empty\n");
+} else {
+struct Node* temp = head;
+head = head->next;
+free(temp);
+Printf("Element deleted from the beginning\n");
+}
+}
+
+void deleteFromEnd() {
+if (head == NULL) {
+Printf("List is empty\n");
+} else if (head->next == NULL) {
+free(head);
+head = NULL;
+Printf("Element deleted from the end\n");
+} else {
+struct Node* temp = head;
+while (temp->next->next != NULL) {
+temp = temp->next;
+}
+free(temp->next);
+temp->next = NULL;
+Printf("Element deleted from the end\n");
+}
+}
+
+void deleteAtPosition(int position) {
+if (head == NULL) {
+Printf("List is empty\n");
+} else if (position == 1) {
+struct Node* temp = head;
+head = head->next;
+free(temp);
+Printf("Element deleted from position %d\n", position);
+} else {
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL || temp->next == NULL) {
+Printf("Invalid position\n");
+return;
+}
+temp = temp->next;
+}
+struct Node* deleteNode = temp->next;
+if (deleteNode == NULL) {
+Printf("Invalid position\n");
+} else {
+temp->next = deleteNode->next;
+free(deleteNode);
+Printf("Element deleted from position %d\n", position);
+}
+}
+}
+
+void search(int value) {
+struct Node* temp = head;
+int position = 1;
+while (temp != NULL) {
+if (temp->data == value) {
+Printf("Element %d found at position %d\n", value, position);
+return;
+}
+temp = temp->next;
+position++;
+}
+Printf("Element %d not found in the list\n", value);
+}
+
+void display() {
+if (head == NULL) {
+Printf("List is empty\n");
+} else {
+struct Node* temp = head;
+Printf("Elements in the list: ");
+while (temp != NULL) {
+Printf("%d ", temp->data);
+temp = temp->next;
+}
+Printf("\n");
+}
+}
+
+int main() {
+int choice, value, position;
+do {
+Printf("\nMenu:\n");
+Printf("1. Insert at Beginning\n");
+Printf("2. Insert at End\n");
+Printf("3. Insert at a Position\n");
+Printf("4. Delete from Beginning\n");
+Printf("5. Delete from End\n");
+Printf("6. Delete at a Position\n");
+Printf("7. Search for an Element\n");
+Printf("8. Display the List\n");
+Printf("9. Exit\n");
+Printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+Printf("Enter the element: ");
+scanf("%d", &value);
+insertAtBeginning(value);
+break;
+case 2:
+Printf("Enter the element: ");
+scanf("%d", &value);
+insertAtEnd(value);
+break;
+case 3:
+Printf("Enter the element: ");
+scanf("%d", &value);
+Printf("Enter the position: ");
+scanf("%d", &position);
+insertAtPosition(value, position);
+break;
+case 4:
+deleteFromBeginning();
+break;
+case 5:
+deleteFromEnd();
+break;
+case 6:
+Printf("Enter the position: ");
+scanf("%d", &position);
+deleteAtPosition(position);
+break;
+case 7:
+Printf("Enter the element to search: ");
+scanf("%d", &value);
+search(value);
+break;
+case 8:
+display();
+break;
+case 9:
+Printf("Exiting program\n");
+break;
+default:
+Printf("Invalid choice! Please try again.\n");
+}
+} while (choice != 9);
+return 0;
+}

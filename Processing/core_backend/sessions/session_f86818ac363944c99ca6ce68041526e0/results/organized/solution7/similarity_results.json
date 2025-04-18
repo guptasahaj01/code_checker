@@ -1,0 +1,68 @@
+{
+  "high_confidence_pairs": [],
+  "needs_review_pairs": [
+    {
+      "pair": [
+        "24BBS0043_sol7.txt",
+        "24BBS0142_sol7.txt"
+      ],
+      "similarity": 0.4156078320339081,
+      "tfidf_similarity": 0.4156078320339081,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    }
+  ],
+  "all_suspicious_pairs": [
+    [
+      "24BBS0043_sol7.txt",
+      "24BBS0142_sol7.txt"
+    ]
+  ],
+  "detection_methods": [
+    "TF-IDF",
+    "AST"
+  ],
+  "tfidf_similarity_matrix": [
+    [
+      0.9999999999999981,
+      0.4156078320339081
+    ],
+    [
+      0.4156078320339081,
+      0.9999999999999929
+    ]
+  ],
+  "tfidf_average_similarity": 0.4156078320339081,
+  "tfidf_max_similarity": 0.4156078320339081,
+  "ast_similarity_matrix": [
+    [
+      1.0,
+      0.6919088372133391
+    ],
+    [
+      0.6919088372133391,
+      1.0
+    ]
+  ],
+  "ast_average_similarity": 0.6919088372133391,
+  "ast_max_similarity": 0.6919088372133391,
+  "average_similarity": 0.5261282341056804,
+  "max_similarity": 0.6919088372133391,
+  "summary": {
+    "total_submissions": 0,
+    "high_confidence_count": 0,
+    "needs_review_count": 1,
+    "total_suspicious_pairs": 1,
+    "detection_methods": [
+      "TF-IDF",
+      "AST"
+    ],
+    "suspicious_submissions_count": 2,
+    "tfidf_avg_similarity": 0.4156078320339081,
+    "tfidf_max_similarity": 0.4156078320339081,
+    "ast_avg_similarity": 0.6919088372133391,
+    "ast_max_similarity": 0.6919088372133391,
+    "combined_avg_similarity": 0.5261282341056804,
+    "combined_max_similarity": 0.6919088372133391
+  }
+}

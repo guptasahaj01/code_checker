@@ -1,0 +1,58 @@
+void cenqueue(int value) {
+if ((crear + 1) % SIZE == cfront) {
+printf("Circular Queue Overflow\n");
+} else { if (cfront == -1) cfront = 0;
+crear = (crear + 1) % SIZE;
+cqueue[crear] = value;
+printf("%d enqueued to circular queue\n", value);
+}
+}
+
+void cdequeue() {
+if (cfront == -1) {
+printf("Circular Queue Underflow\n");
+} else {
+printf("Dequeued: %d\n", cqueue[cfront]);
+if (cfront == crear) {
+cfront = crear = -1;
+} else {
+cfront = (cfront + 1) % SIZE;
+}
+}
+}
+
+void display_cqueue() {
+if (cfront == -1) {
+printf("Circular Queue is empty\n");
+} else { printf("Circular Queue elements: ");
+int i = cfront;
+while (1) {
+printf("%d ", cqueue[i]);
+if (i == crear) break;
+i = (i + 1) % SIZE;
+}
+printf("\n");
+}
+}
+
+int main() {
+int choice, value;
+while (1) {
+printf("\nCircular Queue Menu:\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\nEnter
+your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1: printf("Enter value to enqueue: ");
+scanf("%d", &value);
+cenqueue(value);
+break;
+case 2: cdequeue();
+break;
+case 3: display_cqueue();
+break;
+case 4: printf("Exiting...\n");
+return 0;
+default: printf("Invalid choice!\n");
+}
+}
+}

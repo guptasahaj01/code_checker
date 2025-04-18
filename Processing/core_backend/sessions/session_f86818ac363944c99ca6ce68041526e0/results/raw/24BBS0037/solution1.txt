@@ -1,0 +1,103 @@
+struct Node {
+int data;
+struct Node* next;
+}
+
+void enqueue() {
+int value;
+if ((rear + 1) % SIZE == front) {
+printf("Queue is Full!\n");
+} else {
+printf("Enter value: ");
+scanf("%d", &value);
+if (front == -1) front = 0;
+rear = (rear + 1) % SIZE;
+queue[rear] = value;
+printf("%d enqueued.\n", value);
+}
+}
+
+void insertAtBeginning(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = head;
+head = newNode;
+printf("%d inserted at the beginning.\n", value);
+}
+
+void dequeue() {
+if (front == -1) {
+printf("Queue is Empty!\n");
+} else {
+printf("%d dequeued.\n", queue[front]);
+if (front == rear) {
+front = rear = -1;
+} else {
+front = (front + 1) % SIZE;
+}
+}
+}
+
+void display() {
+if (front == -1) {
+printf("Queue is Empty!\n");
+} else {
+printf("Queue: ");
+int i = front;
+while (1) {
+printf("%d ", queue[i]);
+if (i == rear) break;
+i = (i + 1) % SIZE;
+}
+printf("\n");
+}
+}
+
+void insertAtEnd(int value) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) temp = temp->next;
+temp->next = newNode;
+}
+printf("%d inserted at the end.\n", value);
+}
+
+void insertAtPosition(int value, int pos) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+if (pos == 1) {
+newNode->next = head;
+head = newNode;
+} else {
+struct Node* temp = head;
+for (int i = 1; i < pos - 1 && temp != NULL; i++) temp = temp->next;
+if (temp == NULL) {
+printf("Invalid position.\n");
+free(newNode);
+return;
+}
+newNode->next = temp->next;
+temp->next = newNode;
+}
+printf("%d inserted at position %d.\n", value, pos);
+}
+
+int main() {
+int choice;
+while (1) {
+printf("\n1.Enqueue\n2.Dequeue\n3.Display\n4.Exit\nEnter choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1: enqueue(); break;
+case 2: dequeue(); break;
+case 3: display(); break;
+case 4: return 0;
+default: printf("Invalid choice!\n");
+}
+}
+}

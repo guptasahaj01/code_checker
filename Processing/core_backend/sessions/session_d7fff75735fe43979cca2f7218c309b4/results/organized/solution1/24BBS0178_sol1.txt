@@ -1,0 +1,381 @@
+struct node{
+int data;
+node *next;
+}
+
+struct node{
+int data;
+struct node* next;
+struct node* prev;
+}
+
+int insert(){
+int m,data;
+struct node* newNode=(struct node*)malloc(sizeof(node));
+(*newNode).prev=NULL;
+(*newNode).next=NULL;
+printf("1=Beginning \n2=End \n3=Given Position \nWhere do you wish to insert
+node: ");
+scanf("%d",&m);
+if(m==1){
+printf("Enter data: ");
+scanf("%d",&data);
+(*newNode).data=data;
+(*newNode).next=head;
+if(head!=NULL){
+(*head).prev=newNode;
+}
+head=newNode;
+}
+else if(m==2){
+printf("Enter data: ");
+scanf("%d",&data);
+(*newNode).data=data;
+if(head==NULL){
+head=newNode;
+}
+else{
+node* temp=head;
+while((*temp).next!=NULL){
+temp=(*temp).next;
+}
+(*temp).next=newNode;
+(*newNode).prev=temp;
+}
+}
+else if(m==3){
+int pos;
+printf("Enter position to insert data: ");
+scanf("%d",&pos);
+printf("Enter data: ");
+scanf("%d",&data);
+if(pos<1){
+printf("Invalid position.\n");
+return 0;
+}
+(*newNode).data=data;
+if(pos==1){
+(*newNode).next=head;
+if(head!=NULL){
+(*head).prev=newNode;
+}
+head=newNode;
+printf("%d inserted at position %d.\n",data,pos);
+return 0;
+}
+node* temp=head;
+for(int i=1;i<pos-1&&temp!=NULL;i++){
+temp=(*temp).next;
+}
+if(temp==NULL){
+printf("Position out of range.\n");
+free(newNode);
+return 0;
+}
+(*newNode).next=(*temp).next;
+(*newNode).prev=temp;
+if((*temp).next!=NULL){
+(*(*temp).next).prev=newNode;
+}
+(*temp).next=newNode;
+printf("%d inserted at position %d.\n",data,pos);
+}
+return 0;
+}
+
+int insert(){
+int m, data;
+struct node* newNode = (struct Node*)malloc(sizeof(node));
+printf("1=Beggining \n2=End \n3=Given Position \nWhere do you wish to insert
+node: ");
+scanf("%d", &m);
+if (m==1){
+printf("Enter data: ");
+scanf("%d", &data);
+(*newNode).data=data;
+(*newNode).next=head;
+head=newNode;
+}
+else if (m==2){
+printf("Enter data: ");
+scanf("%d", &data);
+node *newNode=(node*)malloc(sizeof(node));
+(*newNode).data=data;
+(*newNode).next=NULL;
+if (head==NULL) {
+head=newNode;
+}
+else {
+struct node *temp=head;
+while ((*temp).next!=NULL) {
+temp=(*temp).next;
+}
+(*temp).next=newNode;
+}
+}
+else if (m==3){
+int pos;
+printf("Enter position to insert data: ");
+scanf("%d", &pos);
+printf("Enter data: ");
+scanf("%d", &data);
+if (pos<1) {
+printf("Invalid position.\n");
+return;
+}
+node* newNode=(node*)malloc(sizeof(node));
+(*newNode).data=data;
+if (pos==1) {
+(*newNode).next=head;
+head=newNode;
+printf("%d inserted at position %d.\n", data, pos);
+return;
+}
+node* temp=head;
+for (int i=1; i<pos-1 && temp!=NULL; i++) {
+temp = (*temp).next;
+}
+if (temp==NULL) {
+printf("Position out of range.\n");
+free(newNode);
+return;
+}
+(*newNode).next=(*temp).next;
+(*temp).next=newNode;
+printf("%d inserted at position %d.\n", data, pos);
+}
+}
+
+int delete(){
+int m;
+printf("1=Beginning \n2=End \n3=Given Position \nWhere do you wish to delete
+node: ");
+scanf("%d",&m);
+if(m==1){
+if(head==NULL){
+printf("List is empty.\n");
+return 0;
+}
+node* temp=head;
+head=(*head).next;
+if(head!=NULL){
+(*head).prev=NULL;
+}
+printf("%d deleted from the beginning.\n",(*temp).data);
+free(temp);
+}
+else if(m==2){
+if(head==NULL){
+printf("List is empty.\n");
+return 0;
+}
+if((*head).next==NULL){
+printf("%d deleted from the end.\n",(*head).data);
+free(head);
+head=NULL;
+return 0;
+}
+node* temp=head;
+while((*temp).next!=NULL){
+temp=(*temp).next;
+}
+(*(*temp).prev).next=NULL;
+printf("%d deleted from the end.\n",(*temp).data);
+free(temp);
+}
+else if(m==3){
+int pos;
+printf("Enter position to delete data: ");
+scanf("%d",&pos);
+if(pos<1||head==NULL){
+printf("Invalid position or list is empty.\n");
+return 0;
+}
+if(pos==1){
+node* temp=head;
+head=(*head).next;
+if(head!=NULL){
+(*head).prev=NULL;
+}
+printf("%d deleted from position %d.\n",(*temp).data,pos);
+free(temp);
+return 0;
+}
+node* temp=head;
+for(int i=1;i<pos&&temp!=NULL;i++){
+temp=(*temp).next;
+}
+if(temp==NULL){
+printf("Position out of range.\n");
+return 0;
+}
+(*(*temp).prev).next=(*temp).next;
+if((*temp).next!=NULL){
+(*(*temp).next).prev=(*temp).prev;
+}
+printf("%d deleted from position %d.\n",(*temp).data,pos);
+free(temp);
+}
+return 0;
+}
+
+int delete(){
+int m, data;
+printf("1=Beggining \n2=End \n3=Given Position \nWhere do you wish to delete
+node: ");
+scanf("%d", &m);
+if (m==1){
+if(head==NULL) {
+printf("List is empty.\n");
+return;
+}
+node *temp=head;
+head=(*head).next;
+printf("%d deleted from the beginning.\n", (*temp).data);
+free(temp);
+}
+else if (m==2){
+if(head==NULL) {
+printf("List is empty.\n");
+return;
+}
+if((*head).next==NULL) {
+printf("%d deleted from the end.\n", (*head).data);
+free(head);
+head=NULL;
+return;
+}
+node *temp=head;
+while((*(*temp).next).next!=NULL) {
+temp=(*temp).next;
+}
+printf("%d deleted from the end.\n", (*(*temp).next).data);
+free((*temp).next);
+(*temp).next=NULL;
+}
+else if (m==3){
+int pos;
+printf("Enter position to delete data: ");
+scanf("%d", &pos);
+if(pos<1||head==NULL) {
+printf("Invalid position or list is empty.\n");
+return;
+}
+if(pos==1) {
+node *temp=head;
+head=(*head).next;
+printf("%d deleted from position %d.\n", (*temp).data, pos);
+free(temp);
+return;
+}
+node *temp=head;
+for(int i=1;i<pos-1&&temp!=NULL;i++) {
+temp=(*temp).next;
+}
+if(temp==NULL||(*temp).next==NULL) {
+printf("Position out of range.\n");
+return;
+}
+node *delNode=(*temp).next;
+(*temp).next=(*delNode).next;
+printf("%d deleted from position %d.\n", (*delNode).data, pos);
+free(delNode);
+}
+}
+
+int search(){
+int data;
+printf("Enter data to search: ");
+scanf("%d",&data);
+node* temp=head;
+int pos=1;
+while(temp!=NULL){
+if((*temp).data==data){
+printf("%d found at position %d.\n",data,pos);
+return 0;
+}
+temp=(*temp).next;
+pos++;
+}
+printf("%d not found in the list.\n",data);
+return 0;
+}
+
+int search(){
+int data;
+printf("Enter data to search: ");
+scanf("%d", &data);
+node *temp=head;
+int pos=1;
+while(temp!=NULL) {
+if((*temp).data==data) {
+printf("%d found at position %d.\n", data, pos);
+return;
+}
+temp=(*temp).next;
+pos++;
+}
+printf("%d not found in the list.\n", data);
+}
+
+int main(){
+while (cont==1){
+int m=0;
+printf("1: Insert \n2: Delete \n3: Search \nEnter selection: ");
+scanf("%d", &m);
+if (m==1){
+insert();
+}
+else if (m==2){
+delete();
+}
+else if (m==3){
+search();
+}
+else {
+printf("Incorrect input!\n");
+cont=0;
+break;
+}
+printf("Do you wish to continue? (1/0): ");
+scanf("%d", &cont);
+}
+if (cont==0){
+printf("Terminated.\n");
+}
+else {
+printf("Incorrect input!\nTerminated.");
+}
+return 0;
+}
+
+int main(){
+while(cont==1){
+int m=0;
+printf("1: Insert \n2: Delete \n3: Search \nEnter selection: ");
+scanf("%d",&m);
+if(m==1){
+insert();
+}
+else if(m==2){
+delete();
+}
+else if(m==3){
+search();
+}
+else{
+printf("Incorrect input!\n");
+cont=0;
+break;
+}
+printf("Do you wish to continue? (1/0): ");
+scanf("%d",&cont);
+}
+if(cont==0){
+printf("Terminated.\n");
+}
+else{
+printf("Incorrect input!\nTerminated.\n");
+}
+return 0;
+}

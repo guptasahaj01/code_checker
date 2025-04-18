@@ -1,0 +1,208 @@
+void pop() {
+if (top == -1) {
+printf("Stack Underflow. No elements to pop.\n");
+} else {
+printf("Popped element: %d\n", stack[top]);
+top--;
+}
+}
+
+void display() {
+if (front == -1) {
+printf("Queue is empty.\n");
+} else {
+printf("Queue elements are: ");
+int i = front;
+while (1) {
+printf("%d ", queue[i]);
+if (i == rear) {
+break;
+}
+i = (i + 1) % MAX;
+}
+printf("\n");
+}
+}
+
+void enqueue() {
+int element;
+if ((rear + 1) % MAX == front) {
+printf("Queue Overflow. Cannot enqueue element.\n");
+} else {
+printf("Enter the element to enqueue: ");
+scanf("%d", &element);
+if (front == -1) {
+front = 0;
+}
+rear = (rear + 1) % MAX;
+queue[rear] = element;
+printf("Element %d enqueued.\n", element);
+}
+}
+
+void enqueue() {
+if (rear == MAX - 1) {
+printf("Queue is Overflow\n");
+return;
+}
+int element;
+printf("Enter the element you want in queue: ");
+scanf("%d", &element);
+if (front == -1) {
+front = 0;
+}
+queue[++rear] = element;
+printf("Element enqueued successfully\n");
+}
+
+void dequeue() {
+if (front == -1) {
+printf("Queue Underflow. No elements to dequeue.\n");
+} else {
+printf("Dequeued element: %d\n", queue[front]);
+if (front == rear) {
+front = -1;
+rear = -1;
+} else {
+front = (front + 1) % MAX;
+}
+}
+}
+
+void dequeue() {
+if (front == -1 || front > rear) {
+printf("Queue is Underflow\n");
+return;
+}
+printf("Dequeued element: %d\n", queue[front++]);
+if (front > rear) {
+front = rear = -1;
+}
+}
+
+void display() {
+if (top == -1) {
+printf("Stack is empty.\n");
+} else {
+printf("Stack elements are: ");
+for (int i = 0; i <= top; i++) {
+printf("%d ", stack[i]);
+}
+printf("\n");
+}
+}
+
+void display() {
+if (front == -1) {
+printf("Queue is empty\n");
+return;
+}
+printf("Queue elements: ");
+for (int i = front; i <= rear; i++) {
+printf("%d ", queue[i]);
+}
+printf("\n");
+}
+
+void push() {
+int element;
+if (top == MAX - 1) {
+printf("Stack Overflow. Cannot push element.\n");
+} else {
+printf("Enter the element to push: ");
+scanf("%d", &element);
+top++;
+stack[top] = element;
+printf("Element %d pushed onto the stack.\n", element);
+}
+}
+
+int main() {
+int choice;
+do {
+printf("\tMenu:\n");
+printf("1. PUSH\n");
+printf("2. POP\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+push();
+break;
+case 2:
+pop();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("Exiting program...\n");
+break;
+default:
+printf("Invalid choice.\n");
+}
+} while (choice != 4);
+return 0;
+}
+
+int main() {
+int choice;
+do {
+printf("Menu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+enqueue();
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("Exiting program...\n");
+break;
+default:
+printf("Invalid choice.\n");
+}
+} while (choice != 4);
+return 0;
+}
+
+int main() {
+int choice;
+do {
+printf("Menu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+enqueue();
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("Exiting program...\n");
+break;
+default:
+printf("Invalid choice. Please try again.\n");
+}
+} while (choice != 4);
+return 0;
+}

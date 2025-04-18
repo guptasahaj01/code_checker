@@ -1,0 +1,179 @@
+void Enqueue(int x){
+if(Isqueuefull()){
+printf("Queue is Full \n");
+}
+else{
+if(front==-1){
+front=0;
+}
+rear=(rear+1)%n;
+queue[rear]=x;
+}
+}
+
+int Isqueuefull(){
+if((rear+1)%n == front){
+return 1;
+}
+else {
+return 0;
+}
+}
+
+void Dequeue(){
+int temp;
+if(Isqueueempty()){
+printf("Queue is empty \n");
+}
+else if (front==rear) {
+temp=queue[front];
+front=rear=-1;
+printf("%d \n",temp);
+}
+else {
+temp=queue[front];
+front=(front+1)%n;
+printf("%d \n",temp);
+}
+}
+
+int Isqueueempty(){
+if(front==-1 && rear==-1){
+return 1;
+}
+else {
+return 0;
+}
+}
+
+void Display(){
+int i=front;
+if(Isqueueempty()){
+printf("Queue is empty \n");
+}
+else{
+while(i!=rear){
+printf("%d \n",queue[i]);
+i=(i+1)%n;
+}
+printf("%d \n",queue[rear]);
+}
+}
+
+void Display(){
+if (IsQueueempty()){
+printf("Queue is empty \n");
+}
+else {
+for (int i=front ; i<=rear; i++){
+printf("%d \n",queue[i]);
+}
+}
+}
+
+int IsQueueempty(){
+if (front==-1 || front>rear){
+return 1;
+}
+else {
+return 0;
+}
+}
+
+void Dequeue(){
+int temp;
+if (IsQueueempty()){
+printf("Queue is empty \n");
+}
+else {
+temp=queue[front];
+front+=1;
+printf("%d \n",temp);
+}
+}
+
+void Enqueue(int x){
+if (IsQueuefull()){
+printf("Queue is Full \n");
+}
+else{
+if (front==-1){
+front+=1;
+}
+rear+=1;
+queue[rear]=x;
+}
+}
+
+int IsQueuefull(){
+if (rear==n-1){
+return 1;
+}
+else {
+return 0;
+}
+}
+
+int main() {
+int i=1;
+while (i==1)
+{
+int y;
+printf("Enter Choice(1-Enqueue , 2-Dequeue , 3-Display , 4-stop):" );
+scanf("%d",&y);
+switch (y)
+{
+case 1:
+int a;
+printf("Enter Element:");
+scanf("%d",&a);
+Enqueue(a);
+break;
+case 2:
+Dequeue();
+break;
+case 3:
+Display();
+break;
+case 4:
+i=0;
+break;
+default :
+printf("Enter Valid Choice \n");
+break;
+}
+}
+return 0;
+}
+
+int main() {
+int i=1;
+while (i==1)
+{
+int y;
+printf("Enter Choice(1-Enqueue , 2-Dequeue , 3-Display , 4-stop):" );
+scanf("%d",&y);
+switch (y)
+{
+case 1:
+int a;
+printf("Enter Element:");
+scanf("%d",&a);
+Enqueue(a);
+break;
+case 2:
+Dequeue();
+break;
+case 3:
+Display();
+break;
+case 4:
+i=0;
+break;
+default :
+printf("Enter Valid Choice \n");
+break;
+}
+}
+return 0;
+}

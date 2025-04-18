@@ -1,0 +1,57 @@
+void enqueue() {
+int value;
+if (rear == MAX - 1)
+printf("Queue Overflow\n");
+else {
+if (front == -1){
+++front;
+}
+printf("Enter value to enqueue: ");
+scanf("%d", &value);
+queue[++rear] = value;
+}
+}
+
+void dequeue() {
+if (front == -1 || front > rear){
+printf("Queue Underflow\n");
+}
+else{
+printf("Dequeued: %d\n", queue[front++]);
+}
+}
+
+void display() {
+if (front == -1 || front > rear){
+printf("Queue is Empty\n");
+}
+else {
+printf("Queue elements: ");
+for (int i = front; i <= rear; i++)
+printf("%d ", queue[i]);
+printf("\n");
+}
+}
+
+int main() {
+int c;
+do {
+printf("\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &c);
+switch (c) {
+case 1:
+enqueue();
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("Thank you\n");
+break;
+}
+} while (c != 4);
+}

@@ -1,0 +1,109 @@
+struct node {
+int data;
+struct node *next;
+}
+
+void enqueue() {
+int num;
+printf("Enter the data to enqueue: ");
+scanf("%d", &num);
+if ((rear + 1) % MAX == front) {
+printf("Queue is full. Cannot enqueue %d.\n", num);
+} else {
+if (front == -1) {
+front = 0;
+}
+rear = (rear + 1) % MAX;
+circularQueue[rear] = num;
+printf("%d enqueued into the circular queue.\n", num);
+}
+}
+
+void dequeue() {
+if (front == -1) {
+printf("Queue is empty. Cannot perform DEQUEUE operation.\n");
+} else {
+int num = circularQueue[front];
+printf("%d dequeued from the circular queue.\n", num);
+if (front == rear) {
+// Queue becomes empty
+front = rear = -1;
+} else {
+front = (front + 1) % MAX;
+}
+}
+}
+
+void display() {
+if (front == -1) {
+printf("Queue is empty.\n");
+} else {
+printf("Circular Queue contents: ");
+int i = front;
+while (1) {
+printf("%d ", circularQueue[i]);
+if (i == rear) {
+break;
+}
+i = (i + 1) % MAX;
+}
+printf("\n");
+}
+}
+
+void insertAtBeginning() {
+int value;
+struct node *newNode = (struct node *)malloc(sizeof(struct node));
+if (newNode == NULL) return;
+printf("Enter value: ");
+scanf("%d", &value);
+newNode->data = value;
+newNode->next = head;
+head = newNode;
+}
+
+void insertAtEnd() {
+int value;
+struct node *newNode = (struct node *)malloc(sizeof(struct node));
+if (newNode == NULL) return;
+printf("Enter value: ");
+scanf("%d", &value);
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+struct node *temp = head;
+while (temp->next != NULL) temp = temp->next;
+temp->next = newNode;
+}
+}
+
+int main() {
+int choice;
+while (1) {
+printf("\nMenu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+enqueue();
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("Exiting program.\n");
+return 0;
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+}

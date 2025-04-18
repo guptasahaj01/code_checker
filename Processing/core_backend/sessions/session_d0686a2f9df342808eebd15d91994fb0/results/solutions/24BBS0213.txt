@@ -1,0 +1,5 @@
+// Sample extracted code from 24BBS0213.pdf
+int main() {
+    printf("Hello, World!");
+    return 0;
+}

@@ -1,0 +1,143 @@
+struct Node {
+int data;
+struct Node *prev, *next;
+}
+
+void deleteAtBeginning() {
+if (head == NULL) {
+printf("List is empty.\n");
+} else {
+struct Node* temp = head;
+head = head->next;
+printf("%d deleted from the beginning.\n", temp->data);
+free(temp);
+}
+}
+
+void insertAtBeginning(int value) {
+struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->prev = NULL;
+newNode->next = head;
+if (head != NULL) head->prev = newNode;
+head = newNode;
+printf("%d inserted at the beginning.\n", value);
+}
+
+void deleteAtEnd() {
+if (head == NULL) {
+printf("List is empty.\n");
+} else if (head->next == NULL) {
+printf("%d deleted from the end.\n", head->data);
+free(head);
+head = NULL;
+} else {
+struct Node* temp = head;
+while (temp->next->next != NULL) temp = temp->next;
+printf("%d deleted from the end.\n", temp->next->data);
+free(temp->next);
+temp->next = NULL;
+}
+}
+
+void deleteAtPosition(int pos) {
+if (head == NULL) {
+printf("List is empty.\n");
+} else if (pos == 1) {
+struct Node* temp = head;
+head = head->next;
+printf("%d deleted from position %d.\n", temp->data, pos);
+free(temp);
+} else {
+struct Node* temp = head;
+for (int i = 1; i < pos - 1 && temp != NULL; i++) temp = temp->next;
+if (temp == NULL || temp->next == NULL) {
+printf("Invalid position.\n");
+} else {
+struct Node* toDelete = temp->next;
+temp->next = toDelete->next;
+printf("%d deleted from position %d.\n", toDelete->data, pos);
+free(toDelete);
+}
+}
+}
+
+void search(int value) {
+struct Node* temp = head;
+int pos = 1;
+while (temp != NULL) {
+if (temp->data == value) {
+printf("%d found at position %d.\n", value, pos);
+return;
+}
+temp = temp->next;
+pos++;
+}
+printf("%d not found in the list.\n", value);
+}
+
+void insertAtEnd(int value) {
+struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = NULL;
+if (head == NULL) {
+newNode->prev = NULL;
+head = newNode;
+} else {
+struct Node *temp = head;
+while (temp->next != NULL) temp = temp->next;
+temp->next = newNode;
+newNode->prev = temp;
+}
+printf("%d inserted at the end.\n", value);
+}
+
+void insertAtPosition(int value, int pos) {
+struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
+newNode->data = value;
+if (pos == 1) {
+newNode->prev = NULL;
+newNode->next = head;
+if (head != NULL) head->prev = newNode;
+head = newNode;
+} else {
+struct Node *temp = head;
+for (int i = 1; i < pos - 1 && temp != NULL; i++) temp = temp->next;
+if (temp == NULL) {
+printf("Invalid position.\n");
+free(newNode);
+return;
+}
+newNode->next = temp->next;
+newNode->prev = temp;
+if (temp->next != NULL) temp->next->prev = newNode;
+temp->next = newNode;
+}
+printf("%d inserted at position %d.\n", value, pos);
+}
+
+int main() {
+int choice, value, pos;
+while (1) {
+printf("\n1.Insert Beginning\n2.Insert End\n3.Insert at Position\n");
+printf("4.Delete Beginning\n5.Delete End\n6.Delete at Position\n");
+printf("7.Search\n8.Exit\nEnter choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1: printf("Enter value: "); scanf("%d", &value);
+insertAtBeginning(value); break;
+case 2: printf("Enter value: "); scanf("%d", &value);
+insertAtEnd(value); break;
+case 3: printf("Enter value and position: "); scanf("%d%d",
+&value, &pos); insertAtPosition(value, pos); break;
+case 4: deleteAtBeginning(); break;
+case 5: deleteAtEnd(); break;
+case 6: printf("Enter position: "); scanf("%d", &pos);
+deleteAtPosition(pos); break;
+case 7: printf("Enter value to search: "); scanf("%d", &value);
+search(value); break;
+case 8: return 0;
+default: printf("Invalid choice!\n");
+}
+}
+}

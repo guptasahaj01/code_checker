@@ -1,0 +1,631 @@
+struct node{
+struct node* prev;
+int data;
+struct node* next;
+}
+
+struct node{
+int data;
+struct node* next;
+}
+
+void deleteAtBeg(struct node** start, struct node** tail) {
+if (*start == NULL) {
+printf("List is empty. Nothing to delete.\n\n");
+return;
+}
+struct node* temp = *start;
+*start = (*start)->next;
+if (*start != NULL) {
+(*start)->prev = NULL;
+}
+else {
+*tail = NULL;
+}
+free(temp);
+printf("First node deleted.\n\n");
+}
+
+void deleteAtPos(struct node** start, struct node** tail, int pos) {
+if (*start == NULL) {
+printf("List is empty. Nothing to delete.\n");
+return;
+}
+struct node* temp = *start;
+int curr = 1;
+while (temp != NULL && curr < pos) {
+temp = temp->next;
+curr++;
+}
+if (temp == NULL) {
+printf("Invalid position %d. No node found.\n", pos);
+return;
+}
+if (temp == *start) {
+deleteAtBeg(start, tail);
+}
+else if (temp == *tail) {
+deleteAtEnd(start, tail);
+}
+else {
+temp->prev->next = temp->next;
+temp->next->prev = temp->prev;
+}
+free(temp);
+printf("Node at position %d deleted.\n", pos);
+}
+
+void deleteAtEnd(struct node** start, struct node** tail) {
+if (*tail == NULL) {
+printf("List is empty. Nothing to delete.\n\n");
+return;
+}
+struct node* temp = *tail;
+if (*tail == *start) {
+*start = NULL;
+*tail = NULL;
+} else {
+*tail = (*tail)->prev;
+(*tail)->next = NULL;
+}
+free(temp);
+printf("Last node deleted.\n\n");
+}
+
+void insertAtPos(struct node** start, struct node** tail, int data, int pos) {
+struct node *newNode = createNewNode(data);
+if(pos == 0) {
+insertAtBeg(start, tail, data);
+return;
+}
+struct node* p = *start;
+for(int i=0; i<pos-1 && p != NULL; i++) {
+p = p->next;
+}
+if(p == NULL) {
+printf("There is not enough spaces in the linked list.\n\n");
+free(newNode);
+return;
+}
+newNode->next = p->next;
+newNode->prev = p;
+p->next->prev = newNode;
+p->next = newNode;
+return;
+}
+
+void search(struct node* start, int data) {
+struct node* p = start;
+int counter = 0;
+while(p != NULL) {
+counter++;
+if(p->data == data) {
+printf("The provided data exists in the linked list at %d position.\n\n", counter);
+return;
+}
+p = p->next;
+}
+printf("The given data does not exist in the linked list.\n\n");
+return;
+}
+
+void search(struct node* start, int data)
+{
+struct node* p=start;
+int counter=0;
+while(p!=NULL)
+{
+counter++;
+if(p->data==data)
+{
+printf("The given data exists in the linked list at %d position\n",counter);
+return;
+}
+p=p->next;
+}
+printf("The given data does not exist in the linked list\n");
+return;
+}
+
+void display(struct node* start) {
+struct node* p = start;
+printf("\n\nLIST : NULL -> ");
+while(p != NULL) {
+printf("%d -> ", p->data);
+p = p->next;
+}
+printf("NULL\n");
+p = start;
+printf(" NULL <- ");
+while(p != NULL) {
+printf("%d <- ", p->data);
+p = p->next;
+}
+printf("NULL\n\n");
+return;
+}
+
+void initializeStack(Stack *s, int n) {
+s->maxSize =n;
+s->items =(int *)malloc(n * sizeof(int));
+s->top =-1;
+}
+
+void push(Stack *s, int element) {
+if (isFull(s)) {
+printf("Stack Overflow! Cannot push %d.\n", element);
+return;
+}
+s->items[++(s->top)] = element;
+printf("%d pushed onto the stack.\n", element);
+}
+
+int isFull(Stack *s) {
+return s->top==s->maxSize - 1;
+}
+
+int isFull(CircularQueue *q) {
+return (q->rear + 1) % q->maxSize == q->front;
+}
+
+int isFull(Queue *q) {
+return (q->rear + 1) % q->maxSize == q->front;
+}
+
+void enqueue(Queue *q, int element) {
+if (isFull(q)) {
+printf("Queue Overflow! Cannot enqueue %d.\n", element);
+return;
+}
+if (isEmpty(q)) q->front = 0;
+q->rear = (q->rear + 1) % q->maxSize;
+q->items[q->rear] = element;
+printf("%d enqueued to the queue.\n", element);
+}
+
+void enqueue(CircularQueue *q, int element) {
+if (isFull(q)) {
+printf("Queue Overflow! Cannot enqueue %d.\n", element);
+return;
+}
+if (isEmpty(q))
+q->front = 0;
+q->rear = (q->rear + 1) % q->maxSize;
+q->items[q->rear] = element;
+printf("%d enqueued to the queue.\n", element);
+}
+
+void initializeQueue(CircularQueue *q, int size) {
+q->maxSize = size;
+q->items = (int *)malloc(size * sizeof(int));
+q->front = q->rear = -1;
+}
+
+int dequeue(CircularQueue *q) {
+if (isEmpty(q)) {
+printf("Queue Underflow! No elements to dequeue.\n");
+return -1;
+}
+int element = q->items[q->front];
+if (q->front == q->rear)
+q->front = q->rear = -1;
+else
+q->front = (q->front + 1) % q->maxSize;
+return element;
+}
+
+int dequeue(Queue *q) {
+if (isEmpty(q)) {
+printf("Queue Underflow! No elements to dequeue.\n");
+return -1;
+}
+int element = q->items[q->front];
+if (q->front == q->rear) {
+q->front = -1;
+q->rear = -1;
+} else {
+q->front = (q->front + 1) % q->maxSize;
+}
+return element;
+}
+
+int isEmpty(CircularQueue *q) {
+return q->front == -1;
+}
+
+int isEmpty(Stack *s) {
+return s->top == -1;
+}
+
+int isEmpty(Queue *q) {
+return q->front == -1;
+}
+
+int pop(Stack *s) {
+if (isEmpty(s)) {
+printf("Stack Underflow! No elements to pop.\n");
+return -1;
+}
+return s->items[(s->top)--];
+}
+
+void display(Stack *s) {
+if (isEmpty(s)) {
+printf("Stack is empty.\n");
+return;
+}
+printf("Stack elements: ");
+for (int i = s->top; i >= 0; i--) {
+printf("%d ", s->items[i]);
+}
+printf("\n");
+}
+
+void display(Queue *q) {
+if (isEmpty(q)) {
+printf("Queue is empty.\n");
+return;
+}
+printf("Queue elements: ");
+int i = q->front;
+while (1) {
+printf("%d ", q->items[i]);
+if (i == q->rear) break;
+i = (i + 1) % q->maxSize;
+}
+printf("\n");
+}
+
+void display(CircularQueue *q) {
+if (isEmpty(q)) {
+printf("Queue is empty.\n");
+return;
+}
+printf("Queue elements: ");
+for (int i = q->front;; i = (i + 1) % q->maxSize) {
+printf("%d ", q->items[i]);
+if (i == q->rear)
+break;
+}
+printf("\n");
+}
+
+void freeQueue(CircularQueue *q) {
+free(q->items);
+}
+
+void freeQueue(Queue *q) {
+free(q->items);
+}
+
+void initializeQueue(Queue *q, int size) {
+q->maxSize = size;
+q->items = (int *)malloc(size * sizeof(int));
+q->front = -1;
+q->rear = -1;
+}
+
+void freeStack(Stack *s) {
+free(s->items);
+}
+
+void display(struct node* start)
+{
+struct node* p=start;
+printf("THE LINKED LIST \n");
+while(p!=NULL)
+{
+printf("%d =>",p->data);
+p=p->next;
+}
+printf("NULL \n");
+return;
+}
+
+void insertAtBeg(struct node** start,struct node** tail, int data)
+{
+struct node* newNode=createNewNode(data);
+if(*start==NULL)
+{
+*start=newNode;
+*tail=newNode;
+return;
+}
+newNode->next=start;
+(*start)->prev=newNode;
+*start=newNode;
+return;
+}
+
+void insertAtEnd(struct node** start,struct node** tail, int data)
+{
+struct node* newNode=createNewNode(data);
+if(*start==NULL)
+{
+*start=newNode;
+*tail=newNode;
+return;
+}
+(tail)->next=newNode;
+newNode->prev=*tail;
+*tail=newNode;
+return;
+}
+
+int main()
+{
+struct node* start=NULL;
+int choice=1;
+printf("CHOICE OF OPERATIONS \n");
+printf("1 for INSERTION AT BEGINNING \n");
+printf("2 for INSERTION AT END \n");
+printf("3 for INSERTION AT A PARTICULAR POSITION \n");
+printf("4 for DELETION AT BEGINNING \n");
+printf("5 for DELETION AT END \n");
+printf("6 for DELETION AT A PARTICULAR POSITION \n");
+printf("7 for SEARCHING AN ELEMENT IN THE LINKED LIST \n");
+do{
+int x;
+printf("ENTER CHOICE \n");
+scanf("%d",&x);
+switch(x)
+{
+case 1:{
+int data;
+printf("Enter the data to be added to the linked list: ");
+scanf("%d",&data);
+start=insertAtBeg(start,data);
+printf("Data added\n");
+break;
+}
+case 2:{
+int data;
+printf("Enter the data to be added at the end of the linked list\n");
+scanf("%d",&data);
+start=insertAtEnd(start,data);
+printf("Data added\n");
+break;
+}
+case 3:{
+int data,pos;
+printf("Enter the data to be added \n");
+scanf("%d",&data);
+printf("\nEnter the position at which data has to be added\n");
+scanf("%d",&pos);
+start=insertAtPos(start,data,pos-1);
+printf("Data added\n");
+break;
+}
+case 4:{
+start=deleteAtBeg(start);
+printf("Data deleted\n");
+break;
+}
+case 5:{
+start=deleteAtEnd(start);
+printf("Data deleted\n");
+break;
+}
+case 6:{
+int pos;
+printf("Enter the position for the data to be deleted: ");
+scanf("%d",&pos);
+start=deleteAtPos(start,pos);
+printf("\nData Deleted\n");
+break;
+}
+case 7:{
+int data;
+printf("Enter data to be searched in the linked list\n");
+scanf("%d",&data);
+search(start,data);
+break;
+}
+default:
+printf("Invalid choice.\n");
+}
+display(start);
+printf("Enter 1 to continue use of program or else any other integer\n");
+scanf("%d",&choice);
+}while(choice==1);
+return 0;
+}
+
+int main() {
+struct node *start = NULL;
+struct node *tail = NULL;
+int choice = 1;
+printf("Enter 1 for insertion at the beginning.\n");
+printf("Enter 2 for insertion at the end.\n");
+printf("Enter 3 for insertion at a particular position.\n");
+printf("4 for deleting the first node.\n"
+printf("Enter 5 for deleting the last node.\n");
+printf("Enter 6 for deleting the node at a particular position.\n");
+printf("Enter 7 for searching an element in the linked list.\n");
+do {
+int x;
+printf("Enter Choice \n");
+scanf("%d", &x);
+printf("\n\n");
+switch(x) {
+case 1 : {
+int data;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+insertAtBeg(&start, &tail, data);
+printf("Data added.\n\n");
+break;
+}
+case 2 : {
+int data;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+insertAtEnd(&start, &tail, data);
+printf("Data added.\n\n");
+break;
+}
+case 3 : {
+int data, pos;
+printf("Enter the data to be added : ");
+scanf("%d", &data);
+printf("Enter the position for the data to be added : ");
+scanf("%d", &pos);
+insertAtPos(&start, &tail, data, pos-1);
+printf("Data added.\n\n");
+break;
+}
+case 4 : {
+deleteAtBeg(&start, &tail);
+printf("Data deleted.\n\n");
+break;
+}
+case 5 : {
+deleteAtEnd(&start, &tail);
+printf("Data deleted.\n\n");
+break;
+}
+case 6 : {
+int pos;
+printf("Enter the position for the data to be deleted : ");
+scanf("%d", &pos);
+deleteAtPos(&start, &tail, pos);
+printf("Data deleted.\n\n");
+break;
+}
+case 7 : {
+int data;
+printf("Enter the data to be searched for : ");
+scanf("%d", &data);
+search(start, data);
+break;
+}
+default : {
+printf("Invalid choice.\n\n");
+}
+}
+display(start);
+printf("Enter 1 to continue use of the program.\nEnter any other integer to
+exit.\nCHOICE : ");
+scanf("%d", &choice);
+} while(choice == 1);
+return 0;
+}
+
+int main() {
+Stack s;
+int n, choice, value;
+printf("Size of stack= ");
+scanf("%d", &n);
+initializeStack(&s, n);
+printf("\nEnter choice of operation\n");
+printf("1. Push\n");
+printf("2. Pop\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+while (1) {
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the value to push: ");
+scanf("%d", &value);
+push(&s, value);
+break;
+case 2:
+value = pop(&s);
+if (value != -1) {
+printf("Popped element: %d\n", value);
+}
+break;
+case 3:
+display(&s);
+break;
+case 4:
+printf("Exiting program.\n");
+freeStack(&s);
+exit(0);
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+return 0;
+}
+
+int main() {
+Queue q;
+int size, choice, value;
+printf("Enter the size of the queue: ");
+scanf("%d", &size);
+initializeQueue(&q, size);
+printf("\nEnter choice of operation\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+while (1) {
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the value to enqueue: ");
+scanf("%d", &value);
+enqueue(&q, value);
+break;
+case 2:
+value = dequeue(&q);
+if (value != -1) {
+printf("Dequeued element: %d\n", value);
+}
+break;
+case 3:
+display(&q);
+break;
+case 4:
+printf("Exiting program.\n");
+freeQueue(&q);
+exit(0);
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+return 0;
+}
+
+int main() {
+CircularQueue q;
+int size, choice, value;
+printf("Enter the size of the circular queue: ");
+scanf("%d", &size);
+initializeQueue(&q, size);
+printf("\nChoice of Operations\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+while (1) {
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the value to enqueue: ");
+scanf("%d", &value);
+enqueue(&q, value);
+break;
+case 2:
+value = dequeue(&q);
+if (value != -1)
+printf("Dequeued element: %d\n", value);
+break;
+case 3:
+display(&q);
+break;
+case 4:
+freeQueue(&q);
+printf("Exiting program.\n");
+return 0;
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+return 0;
+}

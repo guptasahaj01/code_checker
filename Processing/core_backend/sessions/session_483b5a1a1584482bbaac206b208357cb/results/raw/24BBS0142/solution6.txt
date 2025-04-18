@@ -1,0 +1,11 @@
+int main() {
+Enqueue();
+Enqueue();
+Enqueue();
+Enqueue();
+Enqueue();
+Enqueue();
+Dequeue();
+Display();
+return 0;
+}

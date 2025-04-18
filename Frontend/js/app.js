@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Check if backend is available
     function checkBackendConnection() {
-        fetch('http://127.0.0.1:5010/api/health')
+        fetch('http://127.0.0.1:5003/api/health')
             .then(response => response.json())
             .then(data => {
                 console.log('Backend connection successful:', data);
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formData.append('difficulty', difficulty);
         
         // Upload files and process
-        fetch('http://127.0.0.1:5010/api/plagiarism/process', {
+        fetch('http://127.0.0.1:5003/api/plagiarism/process', {
             method: 'POST',
             body: formData
         })

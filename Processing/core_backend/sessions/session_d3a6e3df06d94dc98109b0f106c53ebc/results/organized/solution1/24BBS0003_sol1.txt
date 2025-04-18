@@ -1,0 +1,27 @@
+int longestSubstringWithKUnique(string s, int k) {
+unordered_map<char, int> m;
+int left = 0, right = 0, len = -1, uniqueCount = 0;
+while (right < s.size()) {
+if (m[s[right]] == 0) uniqueCount++;
+m[s[right]]++;
+while (uniqueCount > k) {
+m[s[left]]--;
+if (m[s[left]] == 0) {
+m.erase(s[left]);
+uniqueCount--;
+}
+left++;
+}
+if (uniqueCount == k)
+len = max(len, right - left + 1);
+right++;
+}
+return len;
+}
+
+int main() {
+string s = "aabacbebebe";
+int k = 3;
+cout << longestSubstringWithKUnique(s, k) << endl;
+return 0;
+}

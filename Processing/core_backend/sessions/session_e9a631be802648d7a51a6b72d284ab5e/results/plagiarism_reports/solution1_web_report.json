@@ -1,0 +1,1055 @@
+{
+  "DOC6SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC6SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:00:27.691559",
+    "queries_used": [
+      "\"longestSubstringWithKUnique\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "cudaDeviceSynchronize() takes time - CUDA Programming ...",
+        "link": "https://forums.developer.nvidia.com/t/cudadevicesynchronize-takes-time/260647",
+        "snippet": "I've written a code in C++/Cuda. I think something is wrong with the cudaDeviceSynchronize(); that I'm using in my program.",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3194484264406719,
+        "is_plagiarism": true
+      },
+      {
+        "title": "cv::Mat Class Reference",
+        "link": "https://docs.opencv.org/4.x/d3/d63/classcv_1_1Mat.html",
+        "snippet": "The Mat::clone() method can be used to get a full (deep) copy of the array when you need it. Construct a header for a part of another array. It can be a single ...",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.23645340122312872,
+        "is_plagiarism": false
+      },
+      {
+        "title": "In a \"i < vector.size()\" loop condition, is size() called each ...",
+        "link": "https://stackoverflow.com/questions/3901630/in-a-i-vector-size-loop-condition-is-size-called-each-iteration",
+        "snippet": "In theory, it is called each time, since a for loop: for(initialization; condition; increment) body;. is expanded to something like",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.07793873596410707,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Sliding Window Algorithm Code Template",
+        "link": "https://labuladong.online/algo/en/essential-technique/sliding-window-framework/",
+        "snippet": "The sliding window technique is a fast-slow pointer technique where two pointers move in tandem, creating a window that contains the elements between them.",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.06178708310345056,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Core Guidelines",
+        "link": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+        "snippet": "The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++.",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Vec in std",
+        "link": "https://doc.rust-lang.org/std/vec/struct.Vec.html",
+        "snippet": "This method is allowed to allocate for more elements than capacity . If capacity is zero, the vector will not allocate. It is important to note that although ...",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "25 Rewriting R code in C++ - Advanced R - Hadley Wickham",
+        "link": "https://adv-r.hadley.nz/rcpp.html",
+        "snippet": "In this chapter you'll learn how to improve performance by rewriting key functions in C++. This magic comes by way of the Rcpp package119 (with key ...",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "paq6-emilcont-jackdamarioum.cpp",
+        "link": "http://mattmahoney.net/dc///paq6-emilcont-jackdamarioum.cpp",
+        "snippet": "The data is compressed as if all the files were concatenated into one long string. PAQ5 uses predictive arithmetic coding. The string, y, is compressed by ...",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ - How do I iterate over the words of a string?",
+        "link": "https://stackoverflow.com/questions/3616605",
+        "snippet": "I like to use the boost/regex methods for this task since they provide maximum flexibility for specifying the splitting criteria.",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Data Structures and Algorithms: 20 Problem-Solving ...",
+        "link": "https://hackernoon.com/data-structures-and-algorithms-20-problem-solving-techniques-qz1q3z1o",
+        "snippet": "This is the article I wish I had read when I started coding. I will dive deep into 20 problem-solving techniques that you must know to excel ...",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "cudaDeviceSynchronize() takes time - CUDA Programming ...",
+        "link": "https://forums.developer.nvidia.com/t/cudadevicesynchronize-takes-time/260647",
+        "snippet": "I've written a code in C++/Cuda. I think something is wrong with the cudaDeviceSynchronize(); that I'm using in my program.",
+        "query": "\"for (int end = 0; end < s.length(); ++end) {\nm[s[end]]++; // update count\nwindow.push_back(s[end]); // add to window\n// reduce size if too many unique chars\nwhile (m.size() > k) {\nm[window.front()]--; // reduce frequency\nif (m[window.front()] == 0) m.erase(window.front()); // remove if count zero\nwindow.pop_front(); // move left\nstart++; // increment start pointer\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.3194484264406719,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://forums.developer.nvidia.com/t/cudadevicesynchronize-takes-time/260647"
+    ]
+  },
+  "DOC3SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC3SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:00:28.524216",
+    "queries_used": [
+      "\"longestSubstringWithKUnique\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (right < s.size()) {\nif (m[s[right]] == 0) uniqueCount++;\nm[s[right]]++;\nwhile (uniqueCount > k) {\nm[s[left]]--;\nif (m[s[left]] == 0) {\nm.erase(s[left]);\nuniqueCount--;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"int main() { string s = \"aabacbebebe\"; int k = 3; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Longest substring with k unique characters",
+        "link": "https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/",
+        "snippet": "A straightforward approach is to generate all substrings and check if each contains exactly k unique characters.",
+        "query": "\"int main() { string s = \"aabacbebebe\"; int k = 3; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.56,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 1,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC5SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC5SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:02:48.978415",
+    "queries_used": [
+      "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"CharWindow\" class cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Code Errors - unordered_map program - C++ Forum",
+        "link": "https://cplusplus.com/forum/beginner/250121/",
+        "snippet": "To use operator[], the unordered_map must be non-const (it inserts the key into the map if the key does not exist\"). Instead, we can use at() on the const ...",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.33423234898723625,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Borland\u00ae ObjectWindows",
+        "link": "http://bitsavers.informatik.uni-stuttgart.de/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+        "snippet": "... charWindow->GetOcRemView(); if (tpl == &worksheetLink) (. II Create TOleWorksheetWindow. 358 ObjectWindows Programmer's Guide. Page 374. II and return ...",
+        "query": "\"CharWindow\" class cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.33167069496290524,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Borland\u00ae ObjectWindows",
+        "link": "https://bitsavers.org/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+        "snippet": "... charWindow->GetOcRemView(); if (tpl == &worksheetLink) (. II Create TOleWorksheetWindow. 358 ObjectWindows Programmer's Guide. Page 374. II and return ...",
+        "query": "\"CharWindow\" class cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.33167069496290524,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Convert filesystem::path into char* on windows - c++",
+        "link": "https://stackoverflow.com/questions/54109159/convert-filesystempath-into-char-on-windows",
+        "snippet": "You can use the *string() and generic_*string() member functions of the std::filesystem::path object to convert the path into either a native or a generic (ie, ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3261375359470292,
+        "is_plagiarism": true
+      },
+      {
+        "title": "README.md - MartinStokroos/TrueRMS",
+        "link": "https://github.com/MartinStokroos/TrueRMS/blob/master/README.md",
+        "snippet": "This repository contains the TrueRMS C++ library for Arduino. With this library it is possible to calculate the average value and the rms (root mean square) ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3261375359470292,
+        "is_plagiarism": true
+      },
+      {
+        "title": "make sounds (beep) with c++",
+        "link": "https://stackoverflow.com/questions/4060601/make-sounds-beep-with-c",
+        "snippet": "Beep() function plays sound via speakers, not through motherboard's physical buzzer. According to microsoft website:",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3261375359470292,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Generate a list of strings with a sliding window using ...",
+        "link": "https://stackoverflow.com/questions/8408117/generate-a-list-of-strings-with-a-sliding-window-using-itertools-yield-and-ite",
+        "snippet": "I'm trying to generate a sliding window function in Python. I figured out how to do it but not all inside the function. itertools, yield, and iter() are ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3261375359470292,
+        "is_plagiarism": true
+      },
+      {
+        "title": "unordered_map count() in C++",
+        "link": "https://www.geeksforgeeks.org/unordered_map-count-in-c/",
+        "snippet": "The unordered_map::count() is a builtin method in C++ which is used to count the number of elements present in an unordered_map with a given key.",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.2844129238507972,
+        "is_plagiarism": false
+      },
+      {
+        "title": "How can I get the current window's title with char * format in ...",
+        "link": "https://stackoverflow.com/questions/16409282/how-can-i-get-the-current-windows-title-with-char-format-in-c-on-windows",
+        "snippet": "I want the write the current window title in console and/or file, and I have trouble with LPWSTR to char * or const char *.",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.057510364785026344,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ count chars in a string",
+        "link": "https://stackoverflow.com/questions/19929758/c-count-chars-in-a-string",
+        "snippet": "I need to count the number of an input character there is in an input sentence. I am so close however I keep getting this error.",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "unordered_map Class",
+        "link": "https://learn.microsoft.com/en-us/cpp/standard-library/unordered-map-class?view=msvc-170",
+        "snippet": "API reference for the C++ Standard Library container class `unordered_map`, which controls a varying-length sequence of elements.",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Unordered Map",
+        "link": "https://www.programiz.com/cpp-programming/unordered-map",
+        "snippet": "In C++, the STL unordered_map is an unordered associative container that provides the functionality of an unordered map or dictionary data structure.",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "STL std::unordered_map (C++11) | Modern Cpp Series Ep. 129",
+        "link": "https://www.youtube.com/watch?v=pvVrNwZzCgk",
+        "snippet": "unordered map is an associative data structure that allows for one entry into the map data structure.",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "c++ special characters - C++ Forum",
+        "link": "https://cplusplus.com/forum/general/284717/",
+        "snippet": "I am trying to solve the below using c++. Any idea how to display special characters using STL and open source libraries?",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Unordered Map in C++ STL",
+        "link": "https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/",
+        "snippet": "In C++, unordered_map is an unordered associative container that stores data in the form of unique key-value pairs.",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "What does the 'L' in front a string mean in C++?",
+        "link": "https://stackoverflow.com/questions/6384118/what-does-the-l-in-front-a-string-mean-in-c",
+        "snippet": "A wchar_t is twice big as a simple char. In daily use you don't need to use wchar_t, but if you are using windows.h you are going to need it.",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how do i run this cpp file in ros - c++",
+        "link": "https://stackoverflow.com/questions/70978962/how-do-i-run-this-cpp-file-in-ros",
+        "snippet": "If you're trying to use rosrun the command should be: rosrun roscv linefollowing. Notice the .cpp isn't included here. This is because what you were trying to ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Every time a string is turned to LPCWSTR or LPARAM it ...",
+        "link": "https://stackoverflow.com/questions/66088629/every-time-a-string-is-turned-to-lpcwstr-or-lparam-it-turns-into-chinese",
+        "snippet": "I'm doing a desktop app using winapi. It only happens whenever I try to do it with variables, whenever I pass just text, everything works correctly.",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "how to search \"n bits\" in a byte array? - c++",
+        "link": "https://stackoverflow.com/questions/2943632/how-to-search-n-bits-in-a-byte-array",
+        "snippet": "i have a byte array. Now i need to know the count of appearances of a bit pattern which length is N. For example, my byte array is \"00100100 ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      },
+      {
+        "title": "ros_tutorials/opencv_tut/src/simpleCanny.cpp at master",
+        "link": "https://github.com/epsilonorion/ros_tutorials/blob/master/opencv_tut/src/simpleCanny.cpp",
+        "snippet": "/*here is a simple program which demonstrates the use of ros and opencv to do image manipulations on video streams given out as image topics from the ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.05662135372415746,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 20,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "Code Errors - unordered_map program - C++ Forum",
+        "link": "https://cplusplus.com/forum/beginner/250121/",
+        "snippet": "To use operator[], the unordered_map must be non-const (it inserts the key into the map if the key does not exist\"). Instead, we can use at() on the const ...",
+        "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.33423234898723625,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Borland\u00ae ObjectWindows",
+        "link": "http://bitsavers.informatik.uni-stuttgart.de/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+        "snippet": "... charWindow->GetOcRemView(); if (tpl == &worksheetLink) (. II Create TOleWorksheetWindow. 358 ObjectWindows Programmer's Guide. Page 374. II and return ...",
+        "query": "\"CharWindow\" class cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.33167069496290524,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Borland\u00ae ObjectWindows",
+        "link": "https://bitsavers.org/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+        "snippet": "... charWindow->GetOcRemView(); if (tpl == &worksheetLink) (. II Create TOleWorksheetWindow. 358 ObjectWindows Programmer's Guide. Page 374. II and return ...",
+        "query": "\"CharWindow\" class cpp example  OR  OR  OR code example",
+        "query_priority": 0.7000000000000001,
+        "initial_score": 0.0,
+        "similarity_score": 0.33167069496290524,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Convert filesystem::path into char* on windows - c++",
+        "link": "https://stackoverflow.com/questions/54109159/convert-filesystempath-into-char-on-windows",
+        "snippet": "You can use the *string() and generic_*string() member functions of the std::filesystem::path object to convert the path into either a native or a generic (ie, ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3261375359470292,
+        "is_plagiarism": true
+      },
+      {
+        "title": "README.md - MartinStokroos/TrueRMS",
+        "link": "https://github.com/MartinStokroos/TrueRMS/blob/master/README.md",
+        "snippet": "This repository contains the TrueRMS C++ library for Arduino. With this library it is possible to calculate the average value and the rms (root mean square) ...",
+        "query": "\"class CharWindow\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.7,
+        "initial_score": 0.0,
+        "similarity_score": 0.3261375359470292,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://cplusplus.com/forum/beginner/250121/",
+      "http://bitsavers.informatik.uni-stuttgart.de/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+      "https://bitsavers.org/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+      "https://stackoverflow.com/questions/54109159/convert-filesystempath-into-char-on-windows",
+      "https://github.com/MartinStokroos/TrueRMS/blob/master/README.md"
+    ]
+  },
+  "DOC2SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC2SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:03:24.792845",
+    "queries_used": [
+      "\"longestSubstringWithKUnique\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Number of Substrings Containing All Three Characters",
+        "link": "https://gist.github.com/SuryaPratapK/2f6bb46531c8b15658193506a1f99783",
+        "snippet": "int numberOfSubstrings(string s) {. int n=s.size();. int subarrays=0;. vector<int> freq(3,0);. int left=0,right=0;. while(right<n){. freq[s[right]-'a']++;. // ...",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.5933067497867287,
+        "is_plagiarism": true
+      },
+      {
+        "title": "https://research.cs.wisc.edu/wpis/examples/pcca/gz...",
+        "link": "https://research.cs.wisc.edu/wpis/examples/pcca/gzip/gzip.c",
+        "snippet": "*/ } while (--prev_length != 0); match_available = 0; match_length = MIN_MATCH-1; strstart++; if (flush) FLUSH_BLOCK(0), block_start = strstart; } else if ...",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4142350291346887,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Longest Repeating Character Replacement: Brute Force ...",
+        "link": "https://medium.com/@letslearnnow/longest-repeating-character-replacement-brute-force-better-and-best-approaches-with-tips-and-3dde651668b6",
+        "snippet": "Intuition: Use a sliding window (two pointers left and right ). Keep track of character frequency in the current window.",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.2853118834730261,
+        "is_plagiarism": false
+      },
+      {
+        "title": "CSES Tree section editorial",
+        "link": "https://codeforces.com/blog/entry/79048",
+        "snippet": "This is a classical problem having multiple solutions. One easy to implement solution is using 2 Breadth First Searches (BFS).",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.2853118834730261,
+        "is_plagiarism": false
+      },
+      {
+        "title": "count number of valid substrings",
+        "link": "https://stackoverflow.com/questions/79507460/count-number-of-valid-substrings",
+        "snippet": "Count how many substrings are there in the input string such that frequency of any character inside the substring is not more than the number of ...",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "mike-ravkine/rosettacode-parsed \u00b7 Datasets at Hugging Face",
+        "link": "https://huggingface.co/datasets/mike-ravkine/rosettacode-parsed",
+        "snippet": "We're on a journey to advance and democratize artificial intelligence through open source and open science.",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Minimum characters required to be removed to make ...",
+        "link": "https://www.geeksforgeeks.org/minimum-characters-required-to-be-removed-to-make-frequency-of-each-character-unique/",
+        "snippet": "The task is to find the minimum count of characters that need to be deleted from the string such that the frequency of each character of the string is unique.",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest substring with K unique characters using Binary ...",
+        "link": "https://www.geeksforgeeks.org/longest-substring-with-k-unique-characters-using-binary-search/",
+        "snippet": "Given a string str and an integer K, the task is to print the length of the longest possible substring that has exactly K unique characters.",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Towards Algorithms and Competitive Programming",
+        "link": "https://github.com/dirkneuhaeuser/algorithms",
+        "snippet": "An implementation view on algorithms in competitive programming. Most of the explanations are very brief and require knowledge in this field.",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "dosbox-x/src/dosbox.cpp at master",
+        "link": "https://github.com/joncampbell123/dosbox-x/blob/master/src/dosbox.cpp",
+        "snippet": "DOSBox-X fork of the DOSBox project. Contribute to joncampbell123/dosbox-x development by creating an account on GitHub.",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Stockfish/src/syzygy/tbprobe.cpp at master",
+        "link": "https://github.com/official-stockfish/Stockfish/blob/master/src/syzygy/tbprobe.cpp",
+        "snippet": "A free and strong UCI chess engine. Contribute to official-stockfish/Stockfish development by creating an account on GitHub.",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "metasploit-framework/data/jtr/john.conf at master",
+        "link": "https://github.com/rapid7/metasploit-framework/blob/master/data/jtr/john.conf",
+        "snippet": "# Everything, including all KoreLogic and the rest of included hashcat rules. # Only for very fast hashes and/or Single mode. Some of these rules are of.",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Algorithm-Notes/README.md at master",
+        "link": "https://github.com/xuezzou/Algorithm-Notes/blob/master/README.md",
+        "snippet": "Notes about coding questions on Leetcode, Lintcode - Algorithm-Notes/README.md at master \u00b7 xuezzou/Algorithm-Notes.",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Number of sub-strings that contain the given character ...",
+        "link": "https://www.geeksforgeeks.org/number-of-sub-strings-that-contain-the-given-character-exactly-k-times/",
+        "snippet": "The task is to find the number of sub-strings that contain the character c exactly k times. Examples: Input: str = \u201cabada\u201d, c = 'a', K = 2",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest substring with k unique characters",
+        "link": "https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/",
+        "snippet": "A straightforward approach is to generate all substrings and check if each contains exactly k unique characters.",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05814814814814814,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Check if frequency of each element in given array is unique ...",
+        "link": "https://www.geeksforgeeks.org/check-if-frequency-of-each-element-in-given-array-is-unique-or-not/",
+        "snippet": "The task is to check whether the frequency of the elements in the array is unique or not. If all the frequency is unique then print \u201cYes\u201d, else print \u201cNo\u201d.",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05702155817821348,
+        "is_plagiarism": false
+      },
+      {
+        "title": "jdk11u/src/hotspot/share/opto/block.cpp at master",
+        "link": "https://github.com/openjdk/jdk11u/blob/master/src/hotspot/share/opto/block.cpp",
+        "snippet": "// Connector blocks need no further processing. if (block->is_connector()) {. assert((i+1) == number_of_blocks() || get_block( ...",
+        "query": "\"while (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.049999999999999996,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 17,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "Number of Substrings Containing All Three Characters",
+        "link": "https://gist.github.com/SuryaPratapK/2f6bb46531c8b15658193506a1f99783",
+        "snippet": "int numberOfSubstrings(string s) {. int n=s.size();. int subarrays=0;. vector<int> freq(3,0);. int left=0,right=0;. while(right<n){. freq[s[right]-'a']++;. // ...",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.5933067497867287,
+        "is_plagiarism": true
+      },
+      {
+        "title": "https://research.cs.wisc.edu/wpis/examples/pcca/gz...",
+        "link": "https://research.cs.wisc.edu/wpis/examples/pcca/gzip/gzip.c",
+        "snippet": "*/ } while (--prev_length != 0); match_available = 0; match_length = MIN_MATCH-1; strstart++; if (flush) FLUSH_BLOCK(0), block_start = strstart; } else if ...",
+        "query": "\"for (int right = 0; right < s.size(); ++right) {\nif (freq[s[right] - 'a']++ == 0) unique++;\nwhile (unique > k) {\nif (--freq[s[left] - 'a'] == 0) unique--;\nleft++;\n}\" cpp example  OR  OR  OR code example",
+        "query_priority": 0.5,
+        "initial_score": 0.0,
+        "similarity_score": 0.4142350291346887,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://gist.github.com/SuryaPratapK/2f6bb46531c8b15658193506a1f99783",
+      "https://research.cs.wisc.edu/wpis/examples/pcca/gzip/gzip.c"
+    ]
+  },
+  "DOC7SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC7SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:03:46.433483",
+    "queries_used": [
+      "\"longestSubstringWithKUnique\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"int main() { string s = \"aabacbebebe\"; int k = 3; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Algorithm-Notes/README.md at master",
+        "link": "https://github.com/xuezzou/Algorithm-Notes/blob/master/README.md",
+        "snippet": "size() == 0 || grid[0].size() == 0) { return 0; } int count = 0; for(int i = 0; i < grid.size(); ++i) { for(int j = 0; j < grid[0].size(); ++j) { if(grid[i][j] ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.5977921810332677,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Leetcode_practice/Solution/0003.cpp at main",
+        "link": "https://github.com/come880412/Leetcode_practice/blob/main/Solution/0003.cpp",
+        "snippet": "class Solution { public: int lengthOfLongestSubstring(string s) { int n = s.length(); unordered_map<char, int> map; int prev = -1; int result = 0; for (int ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.5448248760394343,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Algorithm(7) Two pointers and hash table (Part A)(By ...",
+        "link": "https://wangzhezhe.github.io/2019/06/15/Algorithm-7-hash-table-and-two-pointers-1/",
+        "snippet": "\u79fb\u52a8\u6307\u9488\u7684\u65f6\u5019\u5e38\u7528\u7684\u5957\u8def\u5c31\u662f\u6bcf\u6b21\u79fb\u52a8\u4e4b\u540e\u518d\u8fdb\u884c\u6bd4\u8f83\u3002\u4e00\u822c\u662f\u4e00\u4e2afor loop + while loop \u5916\u5c42for loop \u6709O(N)\u7684\u590d\u6742\u5ea6\uff0c\u5185\u5c42\u5982\u679c\u662ffor\u5c31\u6210\u4e86O(N^2)\u7684\u7b97\u6cd5 ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.2788338780009668,
+        "is_plagiarism": false
+      },
+      {
+        "title": "CCC March | PDF | Software Engineering",
+        "link": "https://www.scribd.com/document/533588553/CCC-March-2",
+        "snippet": "The document contains code snippets from different programming languages (C++, Java, Python) that solve various algorithm problems.",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.2788338780009668,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest Substring with At Most K Distinct Characters",
+        "link": "https://thejat.in/code/longest-substring-with-at-most-k-distinct-characters",
+        "snippet": "Problem Statement. You are given a string s and an integer k. Your task is to find the length of the longest substring in s that contains at most k distinct ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05063520871143377,
+        "is_plagiarism": false
+      },
+      {
+        "title": "First unique character in string using Unordered_map c++",
+        "link": "https://stackoverflow.com/questions/39609492/first-unique-character-in-string-using-unordered-map-c",
+        "snippet": "If I try to debug it in eclipse it says could not resolve unordered_map. I could not find the bug in my code. Please help me in understanding ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05063520871143377,
+        "is_plagiarism": false
+      },
+      {
+        "title": "String Algorithm[1] | PDF | Pointer (Computer Programming)",
+        "link": "https://www.scribd.com/document/842618886/String-Algorithm-1",
+        "snippet": "The document provides a guide on common string patterns used in programming, including the Sliding Window, Two Pointer, Dynamic Programming, ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05063520871143377,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Can someone please help me find a better approach?(C++)",
+        "link": "https://www.reddit.com/r/CodingHelp/comments/1f5g5wd/can_someone_please_help_me_find_a_better_approachc/",
+        "snippet": "The absolute difference |a_i\u2212a_j| must be equal to the maximum absolute difference over all the pairs in the array. More formally, |a_i\u2212a_j|=max ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05063520871143377,
+        "is_plagiarism": false
+      },
+      {
+        "title": "amztheory/alpaca-code-CPlus \u00b7 Datasets at Hugging Face",
+        "link": "https://huggingface.co/datasets/amztheory/alpaca-code-CPlus",
+        "snippet": "Create a C++ function that finds the frequency of each character in a string and stores in a hashtable. #include <iostream> #include <unordered_map> std:: ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05063520871143377,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest substring with k unique characters",
+        "link": "https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/",
+        "snippet": "A straightforward approach is to generate all substrings and check if each contains exactly k unique characters.",
+        "query": "\"int main() { string s = \"aabacbebebe\"; int k = 3; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.56,
+        "initial_score": 0.0,
+        "similarity_score": 0.05063520871143377,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Arrays and Strings and HashMap(?) | by LiveRunGrow - Medium",
+        "link": "https://liverungrow.medium.com/arrays-and-strings-b00dcaabefbb",
+        "snippet": "StringBuilder is a useful class for constructing and manipulating strings in a performant and memory-efficient way.",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.03563520871143377,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 11,
+    "plagiarism_detected": true,
+    "plagiarism_results": [
+      {
+        "title": "Algorithm-Notes/README.md at master",
+        "link": "https://github.com/xuezzou/Algorithm-Notes/blob/master/README.md",
+        "snippet": "size() == 0 || grid[0].size() == 0) { return 0; } int count = 0; for(int i = 0; i < grid.size(); ++i) { for(int j = 0; j < grid[0].size(); ++j) { if(grid[i][j] ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.5977921810332677,
+        "is_plagiarism": true
+      },
+      {
+        "title": "Leetcode_practice/Solution/0003.cpp at main",
+        "link": "https://github.com/come880412/Leetcode_practice/blob/main/Solution/0003.cpp",
+        "snippet": "class Solution { public: int lengthOfLongestSubstring(string s) { int n = s.length(); unordered_map<char, int> map; int prev = -1; int result = 0; for (int ...",
+        "query": "\"for (int i = 0; i < s.length(); ++i) {\nunordered_map<char, int> freq;\nfor (int j = i; j < s.length(); ++j) {\nfreq[s[j]]++;\nif (freq.size() == k) maxLen = max(maxLen, j - i + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.5448248760394343,
+        "is_plagiarism": true
+      }
+    ],
+    "similarity_threshold": 0.3,
+    "matching_sources": [
+      "https://github.com/xuezzou/Algorithm-Notes/blob/master/README.md",
+      "https://github.com/come880412/Leetcode_practice/blob/main/Solution/0003.cpp"
+    ]
+  },
+  "DOC4SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC4SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:04:17.136870",
+    "queries_used": [
+      "\"longestSubstringWithKUnique\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int end = 0; end < s.length(); end++) {\nwindow.insert(s[end]);\nfreq[s[end]]++;\nwhile (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "Algorithm-Notes/README.md at master",
+        "link": "https://github.com/xuezzou/Algorithm-Notes/blob/master/README.md",
+        "snippet": "size() - 1; // pivot is k using quicksort while(start <= end) { while(start ... size() > k) { if(--charCount[s[start]] == 0) { charCount.erase(s[start]); ...",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.2882929717653331,
+        "is_plagiarism": false
+      },
+      {
+        "title": "interval map implementation - c++",
+        "link": "https://stackoverflow.com/questions/50518179/interval-map-implementation",
+        "snippet": "The task is to implement an interval map assignment operation. I sent them my solution, but it did not pass the second requirement (correct behavior).",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.2862341482359213,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Efficient way to find Frequency of a character in a String in ...",
+        "link": "https://stackoverflow.com/questions/6215486/efficient-way-to-find-frequency-of-a-character-in-a-string-in-java-on",
+        "snippet": "I'd use an array rather than a hash map. If we're limited to ascii, that's just 256 entries; if we're using Unicode, 64k.",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.05345882352941176,
+        "is_plagiarism": false
+      },
+      {
+        "title": "heatherx11/heather.cpp at master",
+        "link": "https://github.com/themadinventor/heatherx11/blob/master/heather.cpp",
+        "snippet": "... of the current ot last holdover event. // The value is shown in GREEN if the holdover event ended before Heather. // was started. It is shown in YELLOW if a ...",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0514,
+        "is_plagiarism": false
+      },
+      {
+        "title": "charm/doc/charm++/manual.rst at main",
+        "link": "https://github.com/UIUC-PPL/charm/blob/main/doc/charm++/manual.rst",
+        "snippet": "Charm++ provides a compiler-wrapper called charmc that handles all ci, C, C++ and Fortran source files that are part of a user program. Users can invoke charmc ...",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0514,
+        "is_plagiarism": false
+      },
+      {
+        "title": "uSDXOpen/usdxWHITEBUTTONS.ino at main \u00b7 GW8RDI ...",
+        "link": "https://github.com/GW8RDI/uSDXOpen/blob/main/usdxWHITEBUTTONS.ino",
+        "snippet": "Open firmware for all versions of the uSDX transceiver - uSDXOpen/usdxWHITEBUTTONS.ino at main \u00b7 GW8RDI/uSDXOpen.",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0514,
+        "is_plagiarism": false
+      },
+      {
+        "title": "faust/architecture/faustvst.cpp at master-dev",
+        "link": "https://github.com/grame-cncm/faust/blob/master-dev/architecture/faustvst.cpp",
+        "snippet": "Functional programming language for signal processing and sound synthesis - faust/architecture/faustvst.cpp at master-dev \u00b7 grame-cncm/faust.",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0514,
+        "is_plagiarism": false
+      },
+      {
+        "title": "dosbox-x/src/dosbox.cpp at master",
+        "link": "https://github.com/joncampbell123/dosbox-x/blob/master/src/dosbox.cpp",
+        "snippet": "DOSBox-X fork of the DOSBox project. Contribute to joncampbell123/dosbox-x development by creating an account on GitHub.",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0514,
+        "is_plagiarism": false
+      },
+      {
+        "title": "usdx/usdx.ino at master \u00b7 threeme3/usdx",
+        "link": "https://github.com/threeme3/usdx/blob/master/usdx.ino",
+        "snippet": "#define F_CPU 20007000 // Actual crystal frequency of 20MHz XTAL1, note that this declaration is just informative and does not correct the timing in Arduino ...",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0514,
+        "is_plagiarism": false
+      },
+      {
+        "title": "jdk15/src/hotspot/os/linux/os_linux.cpp at master",
+        "link": "https://github.com/openjdk/jdk15/blob/master/src/hotspot/os/linux/os_linux.cpp",
+        "snippet": "If the VM might have been created on the primordial thread, we need to resolve the. // primordial thread stack bounds and check if the ...",
+        "query": "\"while (freq.size() > k) {\nchar ch = s[start];\nwindow.erase(window.find(ch));\nif (--freq[ch] == 0) freq.erase(ch);\nstart++;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.0514,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 10,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC8SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC8SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:04:46.833802",
+    "queries_used": [
+      "\"longestSubstringWithKUnique\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"int main() { string s = \"aabacbebebe\"; int k = 3; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [
+      {
+        "title": "finding the start and end index for a max sub array",
+        "link": "https://stackoverflow.com/questions/14180308/finding-the-start-and-end-index-for-a-max-sub-array",
+        "snippet": "This program generates the max sum of sub array ..in this case its 19,using {5,9,-5,10}.. now i have to find the start and end index of this sub array.",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.09573823529411764,
+        "is_plagiarism": false
+      },
+      {
+        "title": "C++ Subarray Fully Explained",
+        "link": "https://medium.com/@ryan_forrester_/c-subarray-fully-explained-4ee25fa76aeb",
+        "snippet": "In C++, a subarray is a contiguous portion of an array. It's a slice of the original array that maintains the relative order of elements.",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "A Complete Guide to Programming in C++",
+        "link": "http://www.lmpt.univ-tours.fr/~volkov/C++.pdf",
+        "snippet": "This book was written for readers interested in learning the C++ programming language from scratch, and for both novice and advanced C++ programmers.",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest Subarray With Sum K - Naukri Code 360",
+        "link": "https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399",
+        "snippet": "You are given an array 'a' of size 'n' and an integer 'k'. Find the length of the longest subarray of 'a' whose sum is equal to 'k'. Example :",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "system.cpp source code [opencv/modules/core/src/ ...",
+        "link": "https://codebrowser.dev/opencv/opencv/modules/core/src/system.cpp.html",
+        "snippet": "Browse the source of opencv 4.9.0 using KDAB Codebrowser which provides IDE like features for browsing C, C++, Rust & Dart code in your browser.",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Kevin Liao on LinkedIn: Invert Binary Tree - LeetCode",
+        "link": "https://www.linkedin.com/posts/kevinliao2003_invert-binary-tree-leetcode-activity-7183486330289422336-9LGV",
+        "snippet": "Two Pointer Approach: This algorithm utilizes a two-pointer approach for finding pairs of elements whose sum equals zero. The pointers i and j ...",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "325. Maximum Size Subarray Sum Equals k",
+        "link": "https://algo.monster/liteproblems/325",
+        "snippet": "The problem asks us to find the maximum length of a subarray from the given array nums, such that the sum of its elements is exactly equal to the given integer ...",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest Subarray with given Sum K(Positives) - Tutorial",
+        "link": "https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/",
+        "snippet": "Problem Statement: Given an array and a sum k, we need to print the length of the longest subarray that sums to k.",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest Subarray With At Most K Distinct Integers in C++",
+        "link": "https://algocademy.com/link/?problem=longest-subarray-with-at-most-k-distinct-integers&lang=cpp&solution=1",
+        "snippet": "In this blog post, we discussed how to find the longest subarray with at most K distinct integers using a sliding window approach.",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Find the Longest Turbulent Subarray in C++",
+        "link": "https://www.tpointtech.com/find-the-longest-turbulent-subarray-in-cpp",
+        "snippet": "Find the Longest Turbulent Subarray in C++. Exploring the realm of challenges, the quest to find the subarray presents an intriguing puzzle.",
+        "query": "\"for (int end = start; end < s.length(); ++end) {\nfreq[s[end]]++;\nif (freq.size() == k) maxLen = max(maxLen, end - start + 1);\nif (freq.size() > k) break;\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.6,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      },
+      {
+        "title": "Longest substring with k unique characters",
+        "link": "https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/",
+        "snippet": "A straightforward approach is to generate all substrings and check if each contains exactly k unique characters.",
+        "query": "\"int main() { string s = \"aabacbebebe\"; int k = 3; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+        "query_priority": 0.56,
+        "initial_score": 0.0,
+        "similarity_score": 0.07786341463414634,
+        "is_plagiarism": false
+      }
+    ],
+    "total_results": 11,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  },
+  "DOC1SAM_sol1.txt": {
+    "file": "/Users/guptasahaj01/Downloads/code_checker/Processing/core_backend/sessions/session_e9a631be802648d7a51a6b72d284ab5e/results/organized/solution1/DOC1SAM_sol1.txt",
+    "language": "cpp",
+    "timestamp": "2025-04-14T16:04:54.190541",
+    "queries_used": [
+      "\"longestSubstringWithKUnique\" function cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"while (right < s.length()) {\ncount[s[right]]++; // include character at right in map\n// shrink window from left if unique character count exceeds k\nwhile (count.size() > k) {\ncount[s[left]]--;\nif (count[s[left]] == 0) count.erase(s[left]); // remove character if frequency is zero\nleft++; // move left pointer forward\n}\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com",
+      "\"int main() { string s = \"abcba\"; int k = 2; cout << longestSubstringWithKUnique(s, k) << endl; return 0; }\" cpp example site:github.com OR site:stackoverflow.com OR site:geeksforgeeks.org OR site:tutorialspoint.com"
+    ],
+    "results": [],
+    "total_results": 0,
+    "plagiarism_detected": false,
+    "plagiarism_results": [],
+    "similarity_threshold": 0.3,
+    "matching_sources": []
+  }
+}

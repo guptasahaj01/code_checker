@@ -1,0 +1,73 @@
+void enqueue() {
+if ((front == 0 && rear == MAX_SIZE - 1) || (rear + 1 == front)) {
+Printf("Queue Overflow\n");
+} else {
+int element;
+Printf("Enter the element to enqueue: ");
+scanf("%d", &element);
+if (front == -1) {
+front = 0;
+}
+rear = (rear + 1) % MAX_SIZE;
+queue[rear] = element;
+Printf("Element enqueued successfully\n");
+}
+}
+
+void dequeue() {
+if (front == -1) {
+Printf("Queue Underflow\n");
+} else {
+Printf("Dequeued element: %d\n", queue[front]);
+if (front == rear) {
+front = -1;
+rear = -1;
+} else {
+front = (front + 1) % MAX_SIZE;
+}
+}
+}
+
+void display() {
+if (front == -1) {
+Printf("Circular Queue is empty\n");
+} else {
+Printf("Circular Queue elements are: ");
+int i = front;
+do {
+Printf("%d ", queue[i]);
+i = (i + 1) % MAX_SIZE;
+} while (i != (rear + 1) % MAX_SIZE);
+Printf("\n");
+}
+}
+
+int main() {
+int choice;
+do {
+Printf("\nMenu:\n");
+Printf("1. ENQUEUE\n");
+Printf("2. DEQUEUE\n");
+Printf("3. DISPLAY\n");
+Printf("4. EXIT\n");
+Printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+enqueue();
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+Printf("Exiting program\n");
+break;
+default:
+Printf("Invalid choice! Please try again.\n");
+}
+} while (choice != 4);
+return 0;
+}

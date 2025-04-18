@@ -1,0 +1,36 @@
+{
+  "24BBS0142_sol10.txt": {
+    "file": "24BBS0142_sol10.txt",
+    "is_ai_generated": false,
+    "technical_score": 28.086523265218844,
+    "ai_likelihood": "20%",
+    "risk_level": "MEDIUM RISK",
+    "detailed_results": {
+      "educational_patterns_score": 0.0,
+      "domain_patterns_score": 0.0,
+      "code_structure_score": 0.2532348877172825,
+      "formatting_consistency_score": 0.7331034482758622,
+      "similarity_score": 0.18457241126608356,
+      "ml_prediction_score": 0.32,
+      "overall_score": 0.28086523265218843
+    },
+    "top_indicators": [
+      {
+        "name": "formatting_consistency_score",
+        "value": 0.7331034482758622
+      },
+      {
+        "name": "ml_prediction_score",
+        "value": 0.32
+      },
+      {
+        "name": "code_structure_score",
+        "value": 0.2532348877172825
+      },
+      {
+        "name": "similarity_score",
+        "value": 0.18457241126608356
+      }
+    ]
+  }
+}

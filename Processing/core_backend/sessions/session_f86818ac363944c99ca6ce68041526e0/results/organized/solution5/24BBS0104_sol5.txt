@@ -1,0 +1,101 @@
+int IsEmpty() {
+return (front == -1 && rear == -1);
+}
+
+int IsFull() {
+return (rear + 1) % MAX_SIZE == front;
+}
+
+void Enqueue(int x) {
+printf("Enqueuing %d\n", x);
+if (IsFull()) {
+printf("Error: Queue is Full\n");
+return;
+}
+if (IsEmpty()) {
+front = rear = 0;
+} else {
+rear = (rear + 1) % MAX_SIZE;
+}
+A[rear] = x;
+}
+
+int Front() {
+if (IsEmpty()) {
+printf("Error: Cannot return front from empty queue\n");
+return -1;
+}
+return A[front];
+}
+
+void Dequeue() {
+printf("Dequeuing\n");
+if (IsEmpty()) {
+printf("Error: Queue is Empty\n");
+return;
+}
+if (front == rear) {
+front = rear = -1;
+} else {
+front = (front + 1) % MAX_SIZE;
+}
+}
+
+void display() {
+int i = 0;
+if (IsEmpty()) {
+printf("Queue : Empty\n\n");
+return;
+}
+int count = (rear + MAX_SIZE - front) % MAX_SIZE + 1;
+printf("Queue : ");
+for (i = 0; i < count; i++) {
+int index = (front + i) % MAX_SIZE;
+printf("%d ", A[index]);
+}
+printf("\n\n");
+}
+
+int main() {
+printf("Enter the size of the queue: ");
+scanf("%d", &MAX_SIZE);
+if (MAX_SIZE <= 0) {
+printf("Invalid size. Exiting program.\n");
+return 0;
+}
+A = (int *)malloc(MAX_SIZE * sizeof(int));
+if (A == NULL) {
+printf("Memory allocation failed. Exiting program.\n");
+return 0;
+}
+int choice, value;
+do {
+printf("\nMenu:\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display Queue\n");
+printf("4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the element to enqueue: ");
+scanf("%d", &value);
+Enqueue(value);
+break;
+case 2:
+Dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("Exiting program.\n");
+break;
+default:
+printf("Invalid choice! Please try again.\n");
+}
+} while (choice != 4);
+free(A);
+return 0;
+}

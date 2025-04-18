@@ -1,0 +1,83 @@
+struct node {
+struct node* prev;
+int data;
+struct node* next;
+}
+
+void Enqueue(struct node** head, struct node** tail, int data) {
+struct node *newNode = createNewNode(data);
+if(*head == NULL) {
+*head = newNode;
+*tail = newNode;
+return;
+}
+(*tail)->next = newNode;
+newNode->prev = *tail;
+*tail = newNode;
+return;
+}
+
+void Display(struct node* head) {
+struct node *p = head;
+while(p != NULL) {
+printf("%d\n", p->data);
+p = p->next;
+}
+return;
+}
+
+void Dequeue(struct node** head, struct node** tail) {
+if (*head == NULL) {
+printf("List is empty. Nothing to delete.\n\n");
+return;
+}
+struct node* temp = *head;
+*head = (*head)->next;
+if (*head != NULL) {
+(*head)->prev = NULL;
+}
+else {
+*tail = NULL;
+}
+free(temp);
+}
+
+int main() {
+struct node* head = NULL;
+struct node* tail = NULL;
+printf("\n\nWelcome to queue implementation.\n\n");
+int choice = 1;
+do {
+char x;
+printf("Enter 'a' to use ENQUEUE function.\nEnter 'b' to use DEQUEUE function.\nEnter 'c' to display all
+the elements in the current queue.\nCHOICE : ");
+scanf("%s", &x);
+switch(x){
+case 'a' : {
+int dat;
+printf("Enter the data that is to be entered into the queue : ");
+scanf("%d", &dat);
+Enqueue(&head, &tail, dat);
+printf("Data has been successfully added to the queue.\n\n");
+break;
+}
+case 'b' : {
+printf("Dequeing data.\n");
+Dequeue(&head, &tail);
+break;
+}
+case 'c' : {
+printf("Displaying The data in the queue : \n");
+Display(head);
+printf("Data has been successfully printed.\n\n");
+break;
+}
+default : {
+printf("Invalid choice.\n\n");
+}
+}
+printf("Enter 1 to continue use of the program.\nEnter any other integer to exit.\nCHOICE : ");
+scanf("%d", &choice);
+}while(choice == 1);
+return 0;
+}

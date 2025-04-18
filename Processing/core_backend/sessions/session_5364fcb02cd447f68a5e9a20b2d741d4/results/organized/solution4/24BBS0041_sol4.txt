@@ -1,0 +1,79 @@
+void display() {
+if (front == -1) {
+printf("The queue is empty.\n");
+} else {
+printf("Queue elements: ");
+for (int i = front; i != rear; i = (i + 1) % MAX) {
+printf("%d ", queue[i]);
+}
+printf("%d\n", queue[rear]);
+}
+}
+
+int isFull() {
+return (front == 0 && rear == SIZE - 1) || (front == rear + 1);
+}
+
+int isEmpty() {
+return front == -1;
+}
+
+void enqueue(int value) {
+if (isFull()) {
+printf("\nQueue is Full. Cannot enqueue %d.\n", value);
+return;
+}
+if (isEmpty()) {
+front = rear = 0;
+} else {
+rear = (rear + 1) % SIZE;
+}
+circularQueue[rear] = value;
+printf("\nEnqueued: %d\n", value);
+}
+
+void dequeue() {
+if (isEmpty()) {
+printf("\nQueue is Empty. Cannot dequeue.\n");
+return;
+}
+int value = circularQueue[front];
+if (front == rear) {
+front = rear = -1; // Queue becomes empty
+} else {
+front = (front + 1) % SIZE;
+}
+printf("\nDequeued: %d\n", value);
+}
+
+int main() {
+int choice, element;
+do {
+printf("\nQueue Operations:\n");
+printf("1. ENQUEUE\n");
+printf("2. DEQUEUE\n");
+printf("3. DISPLAY\n");
+printf("4. EXIT\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the element to enqueue: ");
+scanf("%d", &element);
+enqueue(element);
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("Exiting program.\n");
+break;
+default:
+printf("Invalid choice! Please try again.\n");
+}
+} while (choice != 4);
+return 0;
+}

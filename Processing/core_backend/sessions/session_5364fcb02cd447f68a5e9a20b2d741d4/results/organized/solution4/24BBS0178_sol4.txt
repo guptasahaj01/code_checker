@@ -1,0 +1,82 @@
+void enq(int arr[]) {
+if ((rear+1) % s==front) {
+printf("Queue is full!\n");
+}
+else {
+int data;
+printf("Enter data to enqueue: ");
+scanf("%d", &data);
+if (front==-1) {
+front=0;
+}
+rear=(rear+1) % s;
+arr[rear]=data;
+printf("Data enqueued!\n");
+}
+}
+
+void deq(int arr[]) {
+if (front==-1) {
+printf("Queue is empty!\n");
+}
+else {
+printf("Element dequeued: %d\n", arr[front]);
+if (front==rear) {
+front=rear=-1;
+}
+else {
+front=(front+1) % s;
+}
+}
+}
+
+void display(int arr[]) {
+if (front==-1) {
+printf("Queue is empty!\n");
+}
+else {
+printf("Queue elements are: \n");
+int i=front;
+while (1) {
+printf("%d ", arr[i]);
+if (i==rear) {
+break;
+}
+i=(i+1) % s;
+}
+printf("\n");
+}
+}
+
+int main() {
+printf("Enter size of queue: ");
+scanf("%d", &s);
+int a[s];
+while (cont==1) {
+int m=0;
+printf("1: Enqueue \n2: Dequeue \n3: Display \nEnter selection: ");
+scanf("%d", &m);
+if (m==1) {
+enq(a);
+}
+else if (m==2) {
+deq(a);
+}
+else if (m==3) {
+display(a);
+}
+else {
+printf("Incorrect input!\n");
+cont=0;
+break;
+}
+printf("Do you wish to continue? (1/0): ");
+scanf("%d", &cont);
+}
+if (cont==0) {
+printf("Terminated.\n");
+}
+else {
+printf("Incorrect input!\nTerminated.\n");
+}
+}

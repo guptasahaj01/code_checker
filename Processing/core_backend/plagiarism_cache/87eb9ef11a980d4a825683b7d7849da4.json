@@ -1,0 +1,82 @@
+[
+  {
+    "title": "C++ count chars in a string",
+    "link": "https://stackoverflow.com/questions/19929758/c-count-chars-in-a-string",
+    "snippet": "I need to count the number of an input character there is in an input sentence. I am so close however I keep getting this error.",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Code Errors - unordered_map program - C++ Forum",
+    "link": "https://cplusplus.com/forum/beginner/250121/",
+    "snippet": "To use operator[], the unordered_map must be non-const (it inserts the key into the map if the key does not exist\"). Instead, we can use at() on the const ...",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "unordered_map Class",
+    "link": "https://learn.microsoft.com/en-us/cpp/standard-library/unordered-map-class?view=msvc-170",
+    "snippet": "API reference for the C++ Standard Library container class `unordered_map`, which controls a varying-length sequence of elements.",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "C++ Unordered Map",
+    "link": "https://www.programiz.com/cpp-programming/unordered-map",
+    "snippet": "In C++, the STL unordered_map is an unordered associative container that provides the functionality of an unordered map or dictionary data structure.",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "STL std::unordered_map (C++11) | Modern Cpp Series Ep. 129",
+    "link": "https://www.youtube.com/watch?v=pvVrNwZzCgk",
+    "snippet": "unordered map is an associative data structure that allows for one entry into the map data structure.",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "c++ special characters - C++ Forum",
+    "link": "https://cplusplus.com/forum/general/284717/",
+    "snippet": "I am trying to solve the below using c++. Any idea how to display special characters using STL and open source libraries?",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "unordered_map count() in C++",
+    "link": "https://www.geeksforgeeks.org/unordered_map-count-in-c/",
+    "snippet": "The unordered_map::count() is a builtin method in C++ which is used to count the number of elements present in an unordered_map with a given key.",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Unordered Map in C++ STL",
+    "link": "https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/",
+    "snippet": "In C++, unordered_map is an unordered associative container that stores data in the form of unique key-value pairs.",
+    "query": "\"class CharWindow { unordered_map<char, int> counts; public: void add(char c) { counts[c]++; } void remove(char c) { counts[c]--; if (counts[c]\" cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

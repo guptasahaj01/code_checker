@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Borland\u00ae ObjectWindows",
+    "link": "http://bitsavers.informatik.uni-stuttgart.de/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+    "snippet": "... charWindow->GetOcRemView(); if (tpl == &worksheetLink) (. II Create TOleWorksheetWindow. 358 ObjectWindows Programmer's Guide. Page 374. II and return ...",
+    "query": "\"CharWindow\" class cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  },
+  {
+    "title": "Borland\u00ae ObjectWindows",
+    "link": "https://bitsavers.org/pdf/borland/borland_C++/Borland_ObjectWindows_Version_2.5_Programmers_Guide_1994.pdf",
+    "snippet": "... charWindow->GetOcRemView(); if (tpl == &worksheetLink) (. II Create TOleWorksheetWindow. 358 ObjectWindows Programmer's Guide. Page 374. II and return ...",
+    "query": "\"CharWindow\" class cpp example  OR  OR  OR code example",
+    "query_priority": 0.7000000000000001,
+    "initial_score": 0.0,
+    "similarity_score": 0.0,
+    "is_plagiarism": false
+  }
+]

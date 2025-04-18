@@ -49,9 +49,6 @@
                     <button class="tab-button" data-tab="aiTab">
                         <i class="fas fa-robot"></i> AI Detection
                     </button>
-                    <button class="tab-button" data-tab="webTab">
-                        <i class="fas fa-globe"></i> Web Plagiarism
-                    </button>
                 </div>
 
                 <div class="tab-content active" id="similarityTab">
@@ -79,19 +76,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="tab-content" id="webTab">
-                    <div class="tab-header">
-                        <h3>Web Plagiarism Detection</h3>
-                        <p class="tab-description">Matches found between submissions and online sources.</p>
-                    </div>
-                    <div id="webResults" class="results-grid">
-                        <div class="loading-indicator">
-                            <div class="loading-spinner small"></div>
-                            <p>Loading web plagiarism results...</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </main>
 
@@ -115,6 +99,15 @@
         <footer class="app-footer">
             <p>&copy; 2024 Code Plagiarism Detector | <a href="#about">About</a> | <a href="#help">Help</a></p>
         </footer>
+    </div>
+
+    <!-- Cluster modal for expanded view -->
+    <div id="clusterModal" class="cluster-modal">
+        <div class="cluster-modal-content">
+            <span class="cluster-modal-close">&times;</span>
+            <h3>Detailed Connection Graph</h3>
+            <div class="expanded-cluster-container"></div>
+        </div>
     </div>
 
     <script src="js/results.js"></script>

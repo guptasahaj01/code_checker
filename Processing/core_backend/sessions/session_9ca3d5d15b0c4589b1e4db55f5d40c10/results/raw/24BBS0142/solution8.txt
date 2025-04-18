@@ -1,0 +1,14 @@
+int main() {
+Enqueue(10);
+Enqueue(20);
+Enqueue(30);
+Enqueue(40);
+Enqueue(50);
+Dequeue();
+Dequeue();
+Dequeue();
+Dequeue();
+Dequeue();
+Display();
+return 0;
+}

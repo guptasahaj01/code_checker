@@ -1,0 +1,96 @@
+struct Node {
+int data;
+struct Node* next;
+struct Node* prev;
+}
+
+struct CircularQueue {
+Node* front;
+Node* rear;
+}
+
+void initialize(CircularQueue* q) {
+q->front = NULL;
+q->rear = NULL;
+}
+
+void enqueue(CircularQueue* q, int value) {
+Node* newNode = (Node*)malloc(sizeof(Node));
+newNode->data = value;
+if (q->front == NULL) {
+q->front = q->rear = newNode;
+newNode->next = newNode->prev = newNode;
+} else {
+newNode->next = q->front;
+newNode->prev = q->rear;
+q->rear->next = newNode;
+q->front->prev = newNode;
+q->rear = newNode;
+}
+printf("%d enqueued.\n", value);
+}
+
+void dequeue(CircularQueue* q) {
+if (q->front == NULL) {
+printf("Queue is empty.\n");
+return;
+}
+Node* temp = q->front;
+int value = temp->data;
+if (q->front == q->rear) {
+q->front = q->rear = NULL;
+} else {
+q->front = q->front->next;
+q->front->prev = q->rear;
+q->rear->next = q->front;
+}
+free(temp);
+printf("%d dequeued.\n", value);
+}
+
+void display(CircularQueue* q) {
+if (q->front == NULL) {
+printf("Queue is empty.\n");
+return;
+}
+Node* temp = q->front;
+printf("Queue: ");
+do {
+printf("%d ", temp->data);
+temp = temp->next;
+} while (temp != q->front);
+printf("\n");
+}
+
+int main() {
+CircularQueue q;
+initialize(&q);
+int choice, value;
+while (1) {
+printf("\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1: {
+printf("Enter value to enqueue: ");
+scanf("%d", &value);
+enqueue(&q, value);
+break;
+}
+case 2: {
+dequeue(&q);
+break;
+}
+case 3: {
+display(&q);
+break;
+}
+case 4: {
+exit(0);
+}
+default:
+printf("Invalid choice.\n");
+}
+}
+return 0;
+}

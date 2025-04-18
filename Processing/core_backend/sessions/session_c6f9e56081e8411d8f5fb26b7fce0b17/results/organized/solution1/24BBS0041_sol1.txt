@@ -1,0 +1,133 @@
+struct Node {
+int data;
+struct Node* next;
+}
+
+void display() {
+if (isEmpty()) {
+printf("\nQueue is Empty.\n");
+return;
+}
+printf("\nCircular Queue: ");
+int i = front;
+while (1) {
+printf("%d ", circularQueue[i]);
+if (i == rear) {
+break;
+}
+i = (i + 1) % SIZE;
+}
+printf("\n");
+}
+
+void insertAtBeginning(int data) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = data;
+newNode->next = head;
+head = newNode;
+printf("Inserted %d at the beginning.\n", data);
+}
+
+void insertAtEnd(int data) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = data;
+newNode->next = NULL;
+if (head == NULL) {
+head = newNode;
+} else {
+struct Node* temp = head;
+while (temp->next != NULL) {
+temp = temp->next;
+}
+temp->next = newNode;
+}
+printf("Inserted %d at the end.\n", data);
+}
+
+void insertAtPosition(int data, int position) {
+struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = data;
+if (position == 1) {
+newNode->next = head;
+head = newNode;
+printf("Inserted %d at position %d.\n", data, position);
+return;
+}
+struct Node* temp = head;
+for (int i = 1; i < position - 1; i++) {
+if (temp == NULL) {
+printf("Position out of bounds.\n");
+free(newNode);
+return;
+}
+temp = temp->next;
+}
+if (temp == NULL) {
+printf("Position out of bounds.\n");
+free(newNode);
+return;
+}
+newNode->next = temp->next;
+temp->next = newNode;
+printf("Inserted %d at position %d.\n", data, position);
+}
+
+void deleteFromBeginning() {
+if (head == NULL) {
+printf("List is empty. Cannot delete.\n");
+return;
+}
+struct Node* temp = head;
+head = head->next;
+printf("Deleted %d from the beginning.\n", temp->data);
+free(temp);
+}
+
+void deleteFromEnd() {
+if (head == NULL) {
+printf("List is empty. Cannot delete.\n");
+return;
+}
+if (head->next == NULL) {
+printf("Deleted %d from the end.\n", head->data);
+free(head);
+head = NULL;
+return;
+}
+struct Node* temp = head;
+while (temp->next->next != NULL) {
+temp = temp->next;
+}
+printf("Deleted %d from the end.\n", temp->next->data);
+free(temp->next);
+temp->next = NULL;
+}
+
+int main() {
+int choice, value;
+do {
+printf("\nCircular Queue Operations:\n");
+printf("1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the value to enqueue: ");
+scanf("%d", &value);
+enqueue(value);
+break;
+case 2:
+dequeue();
+break;
+case 3:
+display();
+break;
+case 4:
+printf("\nExiting...\n");
+break;
+default:
+printf("\nInvalid choice! Please try again.\n");
+}
+} while (choice != 4);
+return 0;
+}

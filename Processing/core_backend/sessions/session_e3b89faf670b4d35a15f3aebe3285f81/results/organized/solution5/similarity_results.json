@@ -1,0 +1,8249 @@
+{
+  "high_confidence_pairs": [
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 1.0000000000000009,
+      "tfidf_similarity": 1.0000000000000013,
+      "ast_similarity": 1.0,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 1.0,
+      "tfidf_similarity": 1.0000000000000002,
+      "ast_similarity": 1.0,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0109_sol5.txt"
+      ],
+      "similarity": 0.9995156763766035,
+      "tfidf_similarity": 1.0,
+      "ast_similarity": 0.9987891909415088,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0108_sol5.txt"
+      ],
+      "similarity": 0.9842916571846554,
+      "tfidf_similarity": 0.9888375698124762,
+      "ast_similarity": 0.9774727882429244,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0109_sol5.txt"
+      ],
+      "similarity": 0.984371589447622,
+      "tfidf_similarity": 0.9888375698124762,
+      "ast_similarity": 0.9776726189003409,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0128_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.9123729329806565,
+      "tfidf_similarity": 0.952425190436548,
+      "ast_similarity": 0.8522945467968189,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.8639751541053008,
+      "tfidf_similarity": 0.8834691188518599,
+      "ast_similarity": 0.8347342069854621,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.8641755037539153,
+      "tfidf_similarity": 0.8834691188518599,
+      "ast_similarity": 0.8352350811069983,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.860542397460023,
+      "tfidf_similarity": 0.8739237791488979,
+      "ast_similarity": 0.8404703249267107,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.8290811454474516,
+      "tfidf_similarity": 0.8480292946189946,
+      "ast_similarity": 0.8006589216901373,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.8291279757633465,
+      "tfidf_similarity": 0.8480292946189946,
+      "ast_similarity": 0.8007759974798744,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.8201163277079657,
+      "tfidf_similarity": 0.8371730885150945,
+      "ast_similarity": 0.7945311864972727,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.8131785894140149,
+      "tfidf_similarity": 0.8238038799938058,
+      "ast_similarity": 0.7972406535443286,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0166_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.8059401921957088,
+      "tfidf_similarity": 0.7578613355493199,
+      "ast_similarity": 0.878058477165292,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0166_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.8069984370516325,
+      "tfidf_similarity": 0.7503366961216064,
+      "ast_similarity": 0.8919910484466718,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.8077506332478404,
+      "tfidf_similarity": 0.7414435451602689,
+      "ast_similarity": 0.9072112653791975,
+      "detection_method": "Combined"
+    }
+  ],
+  "needs_review_pairs": [
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7811842089172173,
+      "tfidf_similarity": 0.7875447169188109,
+      "ast_similarity": 0.771643446914827,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.7782430279695991,
+      "tfidf_similarity": 0.7727629574604724,
+      "ast_similarity": 0.7864631337332892,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7973416906144015,
+      "tfidf_similarity": 0.7546951165661993,
+      "ast_similarity": 0.8613115516867049,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7906933101311908,
+      "tfidf_similarity": 0.7523070266187614,
+      "ast_similarity": 0.8482727353998352,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7862960935609361,
+      "tfidf_similarity": 0.7463482065103808,
+      "ast_similarity": 0.8462179241367691,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7405255915936892,
+      "tfidf_similarity": 0.7427420602536107,
+      "ast_similarity": 0.7372008886038073,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7560686212602339,
+      "tfidf_similarity": 0.7394764360140484,
+      "ast_similarity": 0.7809568991295122,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0127_sol5.txt"
+      ],
+      "similarity": 0.7900542640744681,
+      "tfidf_similarity": 0.7386417959571534,
+      "ast_similarity": 0.8671729662504402,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0127_sol5.txt"
+      ],
+      "similarity": 0.7902454652646559,
+      "tfidf_similarity": 0.7386417959571534,
+      "ast_similarity": 0.8676509692259096,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7403491882728694,
+      "tfidf_similarity": 0.737130374713654,
+      "ast_similarity": 0.7451774086116927,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0127_sol5.txt"
+      ],
+      "similarity": 0.787885456960131,
+      "tfidf_similarity": 0.7351388955613425,
+      "ast_similarity": 0.8670052990583137,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.7533158844440744,
+      "tfidf_similarity": 0.7343801150276301,
+      "ast_similarity": 0.7817195385687409,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7729369844256081,
+      "tfidf_similarity": 0.7294983555673101,
+      "ast_similarity": 0.8380949277130549,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0108_sol5.txt"
+      ],
+      "similarity": 0.7582541923692432,
+      "tfidf_similarity": 0.7260224089766691,
+      "ast_similarity": 0.8066018674581041,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0109_sol5.txt"
+      ],
+      "similarity": 0.758524830638043,
+      "tfidf_similarity": 0.7260224089766691,
+      "ast_similarity": 0.8072784631301037,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0163_sol5.txt"
+      ],
+      "similarity": 0.757734612070296,
+      "tfidf_similarity": 0.7225793541729888,
+      "ast_similarity": 0.8104674989162569,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7622726414054428,
+      "tfidf_similarity": 0.7205077485442865,
+      "ast_similarity": 0.8249199806971774,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7624952204508589,
+      "tfidf_similarity": 0.7205077485442865,
+      "ast_similarity": 0.8254764283107177,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7845247439840095,
+      "tfidf_similarity": 0.7203648312413776,
+      "ast_similarity": 0.8807646130979574,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0152_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7687742627633569,
+      "tfidf_similarity": 0.7202746016569714,
+      "ast_similarity": 0.841523754422935,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.7740413773459611,
+      "tfidf_similarity": 0.7196088885406892,
+      "ast_similarity": 0.8556901105538688,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7603525305798302,
+      "tfidf_similarity": 0.7140563778016673,
+      "ast_similarity": 0.8297967597470745,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7403437172357205,
+      "tfidf_similarity": 0.7129856261747468,
+      "ast_similarity": 0.7813808538271808,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0059_sol5.txt"
+      ],
+      "similarity": 0.7564737400996695,
+      "tfidf_similarity": 0.7092943525029726,
+      "ast_similarity": 0.827242821494715,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0059_sol5.txt"
+      ],
+      "similarity": 0.7566788386084053,
+      "tfidf_similarity": 0.7092943525029726,
+      "ast_similarity": 0.8277555677665542,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.7175941365854954,
+      "tfidf_similarity": 0.7089677671905875,
+      "ast_similarity": 0.7305336906778575,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.7627177122814621,
+      "tfidf_similarity": 0.7079166619468358,
+      "ast_similarity": 0.8449192877834015,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0059_sol5.txt"
+      ],
+      "similarity": 0.7561580212536863,
+      "tfidf_similarity": 0.7054592075884203,
+      "ast_similarity": 0.8322062417515852,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7490385183858146,
+      "tfidf_similarity": 0.7036860008896537,
+      "ast_similarity": 0.817067294630056,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7490705278079727,
+      "tfidf_similarity": 0.7036860008896537,
+      "ast_similarity": 0.8171473181854512,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7618106645635708,
+      "tfidf_similarity": 0.7024835759618757,
+      "ast_similarity": 0.8508012974661134,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.7743421282547223,
+      "tfidf_similarity": 0.7024007326697632,
+      "ast_similarity": 0.8822542216321607,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.7743968787008215,
+      "tfidf_similarity": 0.7024007326697632,
+      "ast_similarity": 0.882391097747409,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7502242051960801,
+      "tfidf_similarity": 0.7003488732256978,
+      "ast_similarity": 0.8250372031516533,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.7692879533330665,
+      "tfidf_similarity": 0.6990697002018563,
+      "ast_similarity": 0.8746153330298818,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7142953651420454,
+      "tfidf_similarity": 0.6948763620632478,
+      "ast_similarity": 0.7434238697602418,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.7246167832884306,
+      "tfidf_similarity": 0.6941667043443791,
+      "ast_similarity": 0.7702919017045078,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.7246167832884306,
+      "tfidf_similarity": 0.6941667043443791,
+      "ast_similarity": 0.7702919017045078,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7543778910131027,
+      "tfidf_similarity": 0.691310998962363,
+      "ast_similarity": 0.8489782290892123,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7164587734252008,
+      "tfidf_similarity": 0.6904262911932025,
+      "ast_similarity": 0.7555074967731981,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.7095066248566517,
+      "tfidf_similarity": 0.6882474729917688,
+      "ast_similarity": 0.741395352653976,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.7577405714801972,
+      "tfidf_similarity": 0.6878069149586505,
+      "ast_similarity": 0.8626410562625175,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.725229307019223,
+      "tfidf_similarity": 0.6867923180698767,
+      "ast_similarity": 0.7828847904432423,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6999118278795301,
+      "tfidf_similarity": 0.6865922978846984,
+      "ast_similarity": 0.7198911228717776,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.7212449170436834,
+      "tfidf_similarity": 0.6846566866400602,
+      "ast_similarity": 0.7761272626491185,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.7251991964330411,
+      "tfidf_similarity": 0.6810130219346032,
+      "ast_similarity": 0.7914784581806977,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.7698613429485046,
+      "tfidf_similarity": 0.6777154774390225,
+      "ast_similarity": 0.9080801412127278,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7226365838999472,
+      "tfidf_similarity": 0.6751910598370728,
+      "ast_similarity": 0.7938048699942588,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.735709569395428,
+      "tfidf_similarity": 0.6751542937415365,
+      "ast_similarity": 0.8265424828762653,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.7130369787281388,
+      "tfidf_similarity": 0.6720670631049356,
+      "ast_similarity": 0.7744918521629434,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.7197657433587201,
+      "tfidf_similarity": 0.6683052264070204,
+      "ast_similarity": 0.7969565187862698,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.7037494106840259,
+      "tfidf_similarity": 0.6677112824326175,
+      "ast_similarity": 0.7578066030611382,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.7192919235904713,
+      "tfidf_similarity": 0.6674501722650027,
+      "ast_similarity": 0.7970545505786741,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.7192197101758472,
+      "tfidf_similarity": 0.6674501722650027,
+      "ast_similarity": 0.7968740170421138,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7224833752377884,
+      "tfidf_similarity": 0.6665941250423801,
+      "ast_similarity": 0.8063172505309009,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7282464844096427,
+      "tfidf_similarity": 0.6651235949346888,
+      "ast_similarity": 0.8229308186220736,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7282464844096427,
+      "tfidf_similarity": 0.6651235949346888,
+      "ast_similarity": 0.8229308186220736,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.706411571413204,
+      "tfidf_similarity": 0.6650455585754227,
+      "ast_similarity": 0.768460590669876,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.7131422911809835,
+      "tfidf_similarity": 0.6605105026921012,
+      "ast_similarity": 0.792089973914307,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7214417422803664,
+      "tfidf_similarity": 0.6583775732513686,
+      "ast_similarity": 0.816037995823863,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7214417422803664,
+      "tfidf_similarity": 0.6583775732513686,
+      "ast_similarity": 0.816037995823863,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.721277585569031,
+      "tfidf_similarity": 0.6551929929486154,
+      "ast_similarity": 0.8204044744996544,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.7211909886965026,
+      "tfidf_similarity": 0.6551929929486154,
+      "ast_similarity": 0.8201879823183331,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.7082093477590128,
+      "tfidf_similarity": 0.6533262825109191,
+      "ast_similarity": 0.7905339456311532,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.7082093477590128,
+      "tfidf_similarity": 0.6533262825109191,
+      "ast_similarity": 0.7905339456311532,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7214425407934298,
+      "tfidf_similarity": 0.6532292271307122,
+      "ast_similarity": 0.8237625112875062,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7467395181243577,
+      "tfidf_similarity": 0.6518553794786417,
+      "ast_similarity": 0.8890657260929316,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6845944962684971,
+      "tfidf_similarity": 0.6503415726448296,
+      "ast_similarity": 0.7359738817039981,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0127_sol5.txt"
+      ],
+      "similarity": 0.7385016375818463,
+      "tfidf_similarity": 0.6496063218095505,
+      "ast_similarity": 0.87184461124029,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0108_sol5.txt"
+      ],
+      "similarity": 0.7140116980992687,
+      "tfidf_similarity": 0.6495137101532239,
+      "ast_similarity": 0.8107586800183358,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0109_sol5.txt"
+      ],
+      "similarity": 0.7139057968811947,
+      "tfidf_similarity": 0.6495137101532239,
+      "ast_similarity": 0.8104939269731509,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.7140116980992687,
+      "tfidf_similarity": 0.6495137101532239,
+      "ast_similarity": 0.8107586800183358,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.7139057968811947,
+      "tfidf_similarity": 0.6495137101532239,
+      "ast_similarity": 0.8104939269731509,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.7203985636595495,
+      "tfidf_similarity": 0.6491065677677716,
+      "ast_similarity": 0.8273365574972161,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.6993729556567225,
+      "tfidf_similarity": 0.6481788239539223,
+      "ast_similarity": 0.7761641532109227,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0115_sol5.txt"
+      ],
+      "similarity": 0.7068775582972548,
+      "tfidf_similarity": 0.6434128008867637,
+      "ast_similarity": 0.8020746944129915,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.7068775582972548,
+      "tfidf_similarity": 0.6434128008867637,
+      "ast_similarity": 0.8020746944129915,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0127_sol5.txt"
+      ],
+      "similarity": 0.7056296994184958,
+      "tfidf_similarity": 0.640501639016743,
+      "ast_similarity": 0.8033217900211251,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.7056296994184958,
+      "tfidf_similarity": 0.640501639016743,
+      "ast_similarity": 0.8033217900211251,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0059_sol5.txt"
+      ],
+      "similarity": 0.7331471958380775,
+      "tfidf_similarity": 0.6404362868884693,
+      "ast_similarity": 0.8722135592624898,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7135082191147484,
+      "tfidf_similarity": 0.6396287651319501,
+      "ast_similarity": 0.8243274000889459,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.7135082191147484,
+      "tfidf_similarity": 0.6396287651319501,
+      "ast_similarity": 0.8243274000889459,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.6819656075161,
+      "tfidf_similarity": 0.6378340381353486,
+      "ast_similarity": 0.7481629615872271,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6707695645234374,
+      "tfidf_similarity": 0.6369175329751312,
+      "ast_similarity": 0.7215476118458968,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.6742907549550385,
+      "tfidf_similarity": 0.6359277728771097,
+      "ast_similarity": 0.7318352280719317,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0166_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.7339283328368034,
+      "tfidf_similarity": 0.6356846414138005,
+      "ast_similarity": 0.8812938699713073,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0161_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.6696821227675964,
+      "tfidf_similarity": 0.6346510589175816,
+      "ast_similarity": 0.7222287185426189,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.6657940276397427,
+      "tfidf_similarity": 0.6342165819188452,
+      "ast_similarity": 0.7131601962210888,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.6657940276397427,
+      "tfidf_similarity": 0.6342165819188452,
+      "ast_similarity": 0.7131601962210888,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6906280837048475,
+      "tfidf_similarity": 0.6326155946345505,
+      "ast_similarity": 0.7776468173102931,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.7382661851254467,
+      "tfidf_similarity": 0.6324115570532238,
+      "ast_similarity": 0.8970481272337811,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.685522089113303,
+      "tfidf_similarity": 0.627984111234168,
+      "ast_similarity": 0.7718290559320056,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0191_sol5.txt"
+      ],
+      "similarity": 0.6972688059742925,
+      "tfidf_similarity": 0.6275731885623708,
+      "ast_similarity": 0.8018122320921751,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6949187074320937,
+      "tfidf_similarity": 0.6267364079183173,
+      "ast_similarity": 0.7971921567027581,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.6893729783153595,
+      "tfidf_similarity": 0.6240606763986427,
+      "ast_similarity": 0.7873414311904348,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.7012714224294372,
+      "tfidf_similarity": 0.6235213712389431,
+      "ast_similarity": 0.8178964992151783,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.688050624917121,
+      "tfidf_similarity": 0.6228312833306959,
+      "ast_similarity": 0.7858796372967587,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.688050624917121,
+      "tfidf_similarity": 0.6228312833306959,
+      "ast_similarity": 0.7858796372967587,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.7244249308801346,
+      "tfidf_similarity": 0.6193644380447952,
+      "ast_similarity": 0.8820156701331436,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.6096702082957496,
+      "tfidf_similarity": 0.6096702082957496,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0127_sol5.txt"
+      ],
+      "similarity": 0.6946437929915872,
+      "tfidf_similarity": 0.6077898490628061,
+      "ast_similarity": 0.824924708884759,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6909472886642852,
+      "tfidf_similarity": 0.6067900379109501,
+      "ast_similarity": 0.817183164794288,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0230_sol5.txt"
+      ],
+      "similarity": 0.6940095208933332,
+      "tfidf_similarity": 0.606287692449138,
+      "ast_similarity": 0.825592263559626,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0230_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 0.6940095208933332,
+      "tfidf_similarity": 0.606287692449138,
+      "ast_similarity": 0.825592263559626,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.671179806073719,
+      "tfidf_similarity": 0.6041100251318773,
+      "ast_similarity": 0.7717844774864815,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6715500518924268,
+      "tfidf_similarity": 0.6041100251318773,
+      "ast_similarity": 0.772710092033251,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.6958925654130559,
+      "tfidf_similarity": 0.6031323350779516,
+      "ast_similarity": 0.8350329109157123,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0081_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.7131778293494946,
+      "tfidf_similarity": 0.6030419678726412,
+      "ast_similarity": 0.8783816215647746,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6707480803411358,
+      "tfidf_similarity": 0.6012467186121556,
+      "ast_similarity": 0.7750001229346059,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6720488356943499,
+      "tfidf_similarity": 0.6012451219301759,
+      "ast_similarity": 0.7782544063406112,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.7081083903722631,
+      "tfidf_similarity": 0.599744355063095,
+      "ast_similarity": 0.8706544433360154,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6757062271051419,
+      "tfidf_similarity": 0.5986982169531149,
+      "ast_similarity": 0.7912182423331826,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.5981139043890904,
+      "tfidf_similarity": 0.5981139043890904,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0178_sol5.txt"
+      ],
+      "similarity": 0.5975353185032152,
+      "tfidf_similarity": 0.5975353185032152,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0178_sol5.txt"
+      ],
+      "similarity": 0.5975353185032152,
+      "tfidf_similarity": 0.5975353185032152,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.6797931758575966,
+      "tfidf_similarity": 0.5968116712172115,
+      "ast_similarity": 0.8042654328181744,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.7044849996110528,
+      "tfidf_similarity": 0.5961841595114274,
+      "ast_similarity": 0.8669362597604908,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.7045619471567462,
+      "tfidf_similarity": 0.5961841595114274,
+      "ast_similarity": 0.8671286286247244,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6597086423217002,
+      "tfidf_similarity": 0.5950285346594926,
+      "ast_similarity": 0.7567288038150115,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0178_sol5.txt"
+      ],
+      "similarity": 0.5947015948835231,
+      "tfidf_similarity": 0.5947015948835231,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.7023380601702416,
+      "tfidf_similarity": 0.5933568435651065,
+      "ast_similarity": 0.8658098850779441,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0152_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6980957367406868,
+      "tfidf_similarity": 0.5905995031328873,
+      "ast_similarity": 0.859340087152386,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.6846631024610812,
+      "tfidf_similarity": 0.5897421117070508,
+      "ast_similarity": 0.8270445885921268,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6615970097467576,
+      "tfidf_similarity": 0.5870709841430075,
+      "ast_similarity": 0.7733860481523827,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.6821360470641193,
+      "tfidf_similarity": 0.5867698908013047,
+      "ast_similarity": 0.8251852814583412,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6573495771438489,
+      "tfidf_similarity": 0.583090892746303,
+      "ast_similarity": 0.7687376037401678,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.668894506206643,
+      "tfidf_similarity": 0.581652808955135,
+      "ast_similarity": 0.799757052083905,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6731176368928491,
+      "tfidf_similarity": 0.5791464164817596,
+      "ast_similarity": 0.8140744675094835,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6731176368928491,
+      "tfidf_similarity": 0.5791464164817596,
+      "ast_similarity": 0.8140744675094835,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6927226837263185,
+      "tfidf_similarity": 0.5768004837027326,
+      "ast_similarity": 0.8666059837616973,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.6605786935363411,
+      "tfidf_similarity": 0.5767643241390545,
+      "ast_similarity": 0.7863002476322711,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6475132084025625,
+      "tfidf_similarity": 0.575964649619952,
+      "ast_similarity": 0.7548360465764784,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0218_sol5.txt"
+      ],
+      "similarity": 0.6883740503084939,
+      "tfidf_similarity": 0.5755237414353719,
+      "ast_similarity": 0.8576495136181767,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0218_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 0.6883740503084939,
+      "tfidf_similarity": 0.5755237414353719,
+      "ast_similarity": 0.8576495136181767,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6812286138419071,
+      "tfidf_similarity": 0.5716821564129947,
+      "ast_similarity": 0.8455482999852757,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0059_sol5.txt"
+      ],
+      "similarity": 0.5714524710751201,
+      "tfidf_similarity": 0.5714524710751201,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6438970416480874,
+      "tfidf_similarity": 0.5711618802763767,
+      "ast_similarity": 0.7529997837056532,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6494185520640694,
+      "tfidf_similarity": 0.5704611129989163,
+      "ast_similarity": 0.767854710661799,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6223682076460733,
+      "tfidf_similarity": 0.5688386481345442,
+      "ast_similarity": 0.7026625469133669,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.660281799022818,
+      "tfidf_similarity": 0.5680156018225351,
+      "ast_similarity": 0.7986810948232425,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6540227318798897,
+      "tfidf_similarity": 0.5678709577787625,
+      "ast_similarity": 0.7832503930315804,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6540214238323193,
+      "tfidf_similarity": 0.5678709577787625,
+      "ast_similarity": 0.7832471229126545,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0161_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.634075730425682,
+      "tfidf_similarity": 0.5671156549602617,
+      "ast_similarity": 0.7345158436238124,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.5664033897627756,
+      "tfidf_similarity": 0.5664033897627756,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0161_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6455478504723325,
+      "tfidf_similarity": 0.5660701992623276,
+      "ast_similarity": 0.7647643272873399,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6526585369261626,
+      "tfidf_similarity": 0.5651779130395375,
+      "ast_similarity": 0.7838794727561003,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6188824864216338,
+      "tfidf_similarity": 0.5609219416149925,
+      "ast_similarity": 0.7058233036315955,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0218_sol5.txt"
+      ],
+      "similarity": 0.63435086700054,
+      "tfidf_similarity": 0.559584456541268,
+      "ast_similarity": 0.7465004826894479,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0161_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.6357892979771222,
+      "tfidf_similarity": 0.5591573460770851,
+      "ast_similarity": 0.7507372258271778,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6521149307389655,
+      "tfidf_similarity": 0.5589262473135287,
+      "ast_similarity": 0.7918979558771209,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0218_sol5.txt"
+      ],
+      "similarity": 0.6538010724011841,
+      "tfidf_similarity": 0.5565442002566714,
+      "ast_similarity": 0.7996863806179533,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6331991659101606,
+      "tfidf_similarity": 0.5539456989072026,
+      "ast_similarity": 0.7520793664145975,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0127_sol5.txt"
+      ],
+      "similarity": 0.5480678859693404,
+      "tfidf_similarity": 0.5480678859693404,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.6586958558565403,
+      "tfidf_similarity": 0.545935686571688,
+      "ast_similarity": 0.8278361097838187,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0104_sol5.txt"
+      ],
+      "similarity": 0.6535251828662063,
+      "tfidf_similarity": 0.5450901534861029,
+      "ast_similarity": 0.8161777269363614,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 0.6535251828662063,
+      "tfidf_similarity": 0.5450901534861029,
+      "ast_similarity": 0.8161777269363614,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6605352762438297,
+      "tfidf_similarity": 0.5447878686119505,
+      "ast_similarity": 0.8341563876916482,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6605352762438297,
+      "tfidf_similarity": 0.5447878686119505,
+      "ast_similarity": 0.8341563876916482,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0163_sol5.txt"
+      ],
+      "similarity": 0.6390234104193109,
+      "tfidf_similarity": 0.5382796545642111,
+      "ast_similarity": 0.7901390442019607,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.6390234104193109,
+      "tfidf_similarity": 0.5382796545642111,
+      "ast_similarity": 0.7901390442019607,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.6317689270678747,
+      "tfidf_similarity": 0.5382764072956846,
+      "ast_similarity": 0.7720077067261597,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6178767735680264,
+      "tfidf_similarity": 0.5369372814946665,
+      "ast_similarity": 0.7392860116780662,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6365865166586531,
+      "tfidf_similarity": 0.5360299159563867,
+      "ast_similarity": 0.7874214177120528,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6368320768146871,
+      "tfidf_similarity": 0.5360299159563867,
+      "ast_similarity": 0.7880353181021379,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.6340696670339766,
+      "tfidf_similarity": 0.5334878726885299,
+      "ast_similarity": 0.7849423585521466,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0178_sol5.txt"
+      ],
+      "similarity": 0.5225465895856513,
+      "tfidf_similarity": 0.5225465895856513,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.623910496909035,
+      "tfidf_similarity": 0.5219818307809886,
+      "ast_similarity": 0.7768034961011047,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0230_sol5.txt"
+      ],
+      "similarity": 0.6135323032660288,
+      "tfidf_similarity": 0.520011950784576,
+      "ast_similarity": 0.7538128319882081,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0059_sol5.txt"
+      ],
+      "similarity": 0.6267802482868703,
+      "tfidf_similarity": 0.5196679795408367,
+      "ast_similarity": 0.7874486514059209,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.6267802482868703,
+      "tfidf_similarity": 0.5196679795408367,
+      "ast_similarity": 0.7874486514059209,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.5189894276444759,
+      "tfidf_similarity": 0.5189894276444759,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.5174851471475663,
+      "tfidf_similarity": 0.5174851471475663,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6550625113774792,
+      "tfidf_similarity": 0.5169597527153535,
+      "ast_similarity": 0.8622166493706676,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.6550625113774792,
+      "tfidf_similarity": 0.5169597527153535,
+      "ast_similarity": 0.8622166493706676,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.5137141949234426,
+      "tfidf_similarity": 0.5137141949234426,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.5134765336357665,
+      "tfidf_similarity": 0.5134765336357665,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.5924455939529163,
+      "tfidf_similarity": 0.5084056919110187,
+      "ast_similarity": 0.7185054470157627,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.5924455939529163,
+      "tfidf_similarity": 0.5084056919110187,
+      "ast_similarity": 0.7185054470157627,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0218_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.6176483856308821,
+      "tfidf_similarity": 0.5075489561542416,
+      "ast_similarity": 0.7827975298458428,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.6115753008460768,
+      "tfidf_similarity": 0.5036569037831778,
+      "ast_similarity": 0.7734528964404251,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.5008603093998986,
+      "tfidf_similarity": 0.5008603093998986,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0218_sol5.txt",
+        "24BBS0230_sol5.txt"
+      ],
+      "similarity": 0.6328634045200692,
+      "tfidf_similarity": 0.4938143398281277,
+      "ast_similarity": 0.8414370015579815,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.6217714239436376,
+      "tfidf_similarity": 0.49227581637171175,
+      "ast_similarity": 0.8160148353015265,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.5847149769971778,
+      "tfidf_similarity": 0.47880864847232457,
+      "ast_similarity": 0.7435744697844574,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.4786935088975291,
+      "tfidf_similarity": 0.4786935088975291,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.47469267118598196,
+      "tfidf_similarity": 0.47469267118598196,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0178_sol5.txt"
+      ],
+      "similarity": 0.4735291408565379,
+      "tfidf_similarity": 0.4735291408565379,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0178_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.4735291408565379,
+      "tfidf_similarity": 0.4735291408565379,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0102_sol5.txt"
+      ],
+      "similarity": 0.4650121145727747,
+      "tfidf_similarity": 0.4650121145727747,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0230_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.5814074874080182,
+      "tfidf_similarity": 0.45653631879700346,
+      "ast_similarity": 0.7687142403245402,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0208_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.5948355508842897,
+      "tfidf_similarity": 0.4516962108016799,
+      "ast_similarity": 0.8095445610082046,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0102_sol5.txt"
+      ],
+      "similarity": 0.5609068697221407,
+      "tfidf_similarity": 0.4435098921812193,
+      "ast_similarity": 0.7370023360335227,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 0.5609068697221407,
+      "tfidf_similarity": 0.4435098921812193,
+      "ast_similarity": 0.7370023360335227,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0218_sol5.txt"
+      ],
+      "similarity": 0.574624598296783,
+      "tfidf_similarity": 0.44249763423764554,
+      "ast_similarity": 0.7728150443854892,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.5666146378893396,
+      "tfidf_similarity": 0.43549157505192315,
+      "ast_similarity": 0.7632992321454644,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0154_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.5666146378893396,
+      "tfidf_similarity": 0.43549157505192315,
+      "ast_similarity": 0.7632992321454644,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0191_sol5.txt",
+        "24BBS0218_sol5.txt"
+      ],
+      "similarity": 0.5663897004693629,
+      "tfidf_similarity": 0.42799760310848617,
+      "ast_similarity": 0.7739778465106779,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0161_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.42623817699788147,
+      "tfidf_similarity": 0.42623817699788147,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0230_sol5.txt"
+      ],
+      "similarity": 0.5808928710912786,
+      "tfidf_similarity": 0.4145066516470427,
+      "ast_similarity": 0.8304722002576324,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0191_sol5.txt"
+      ],
+      "similarity": 0.5353096375869084,
+      "tfidf_similarity": 0.41428702617469826,
+      "ast_similarity": 0.7168435547052235,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5475050621649921,
+      "tfidf_similarity": 0.4004994691120511,
+      "ast_similarity": 0.7680134517444035,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0230_sol5.txt"
+      ],
+      "similarity": 0.3998243711790761,
+      "tfidf_similarity": 0.3998243711790761,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0104_sol5.txt"
+      ],
+      "similarity": 0.5575550014376064,
+      "tfidf_similarity": 0.39836400056224774,
+      "ast_similarity": 0.7963415027506442,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.524318687558404,
+      "tfidf_similarity": 0.3881574455251148,
+      "ast_similarity": 0.7285605506083378,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0043_sol5.txt",
+        "24BBS0218_sol5.txt"
+      ],
+      "similarity": 0.5566743644848537,
+      "tfidf_similarity": 0.38275301890551927,
+      "ast_similarity": 0.8175563828538555,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.534952212451324,
+      "tfidf_similarity": 0.37073660251107016,
+      "ast_similarity": 0.7812756273617046,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5257677668142031,
+      "tfidf_similarity": 0.3700265604343631,
+      "ast_similarity": 0.7593795763839631,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0191_sol5.txt"
+      ],
+      "similarity": 0.5305808657884958,
+      "tfidf_similarity": 0.36625807680471933,
+      "ast_similarity": 0.7770650492641606,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0191_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 0.5305808657884958,
+      "tfidf_similarity": 0.36625807680471933,
+      "ast_similarity": 0.7770650492641606,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0191_sol5.txt",
+        "24BBS0104_sol5.txt"
+      ],
+      "similarity": 0.5515525076196361,
+      "tfidf_similarity": 0.35897851778638806,
+      "ast_similarity": 0.8404134923695081,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0166_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5342691385793119,
+      "tfidf_similarity": 0.35678828796126627,
+      "ast_similarity": 0.8004904145063803,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5318748091828379,
+      "tfidf_similarity": 0.350449109482228,
+      "ast_similarity": 0.8040133587337528,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0208_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.5197553662706647,
+      "tfidf_similarity": 0.3495825193735187,
+      "ast_similarity": 0.7750146366163836,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0191_sol5.txt",
+        "24BBS0230_sol5.txt"
+      ],
+      "similarity": 0.4994370932869158,
+      "tfidf_similarity": 0.3488641913309798,
+      "ast_similarity": 0.7252964462208198,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5009252352820985,
+      "tfidf_similarity": 0.33797877471244303,
+      "ast_similarity": 0.7453449261365818,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5009748012796698,
+      "tfidf_similarity": 0.33797877471244303,
+      "ast_similarity": 0.7454688411305099,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0136_sol5.txt"
+      ],
+      "similarity": 0.5245981597768781,
+      "tfidf_similarity": 0.3373377319407494,
+      "ast_similarity": 0.805488801531071,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 0.5245981597768781,
+      "tfidf_similarity": 0.3373377319407494,
+      "ast_similarity": 0.805488801531071,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5020041432892278,
+      "tfidf_similarity": 0.33605087889513663,
+      "ast_similarity": 0.7509340398803646,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0208_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.5040302931969712,
+      "tfidf_similarity": 0.3321794093342562,
+      "ast_similarity": 0.7618066189910436,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0104_sol5.txt"
+      ],
+      "similarity": 0.4998614444653233,
+      "tfidf_similarity": 0.3270455498527159,
+      "ast_similarity": 0.7590852863842344,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.4831396119547673,
+      "tfidf_similarity": 0.323691747347348,
+      "ast_similarity": 0.7223114088658962,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.5009814344491378,
+      "tfidf_similarity": 0.32246333394368326,
+      "ast_similarity": 0.7687585852073195,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.47714399527656354,
+      "tfidf_similarity": 0.32021284625855545,
+      "ast_similarity": 0.7125407188035756,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0128_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.5121247696814959,
+      "tfidf_similarity": 0.31560869959752125,
+      "ast_similarity": 0.8068988748074579,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.31275556559821427,
+      "tfidf_similarity": 0.31275556559821427,
+      "ast_similarity": 0.0,
+      "detection_method": "TF-IDF"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.5149967880554874,
+      "tfidf_similarity": 0.3099000777106352,
+      "ast_similarity": 0.8226418535727658,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0043_sol5.txt",
+        "24BBS0230_sol5.txt"
+      ],
+      "similarity": 0.5078773987349631,
+      "tfidf_similarity": 0.30950916965708636,
+      "ast_similarity": 0.8054297423517781,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.4655857765181802,
+      "tfidf_similarity": 0.303202630774217,
+      "ast_similarity": 0.7091604951341249,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.47840293781522447,
+      "tfidf_similarity": 0.2947580638793052,
+      "ast_similarity": 0.7538702487191034,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0136_sol5.txt",
+        "24BBS0043_sol5.txt"
+      ],
+      "similarity": 0.4837153426321782,
+      "tfidf_similarity": 0.294636817352643,
+      "ast_similarity": 0.767333130551481,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0043_sol5.txt",
+        "24BBS0154_sol5.txt"
+      ],
+      "similarity": 0.4837153426321782,
+      "tfidf_similarity": 0.294636817352643,
+      "ast_similarity": 0.767333130551481,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.4738696721382387,
+      "tfidf_similarity": 0.29380226416789174,
+      "ast_similarity": 0.743970784093759,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.47402448109771034,
+      "tfidf_similarity": 0.29380226416789174,
+      "ast_similarity": 0.7443578064924383,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.4760224679326219,
+      "tfidf_similarity": 0.29240895001605716,
+      "ast_similarity": 0.751442744807469,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.4740444941198192,
+      "tfidf_similarity": 0.28898105800827917,
+      "ast_similarity": 0.7516396482871291,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.4740444941198192,
+      "tfidf_similarity": 0.28898105800827917,
+      "ast_similarity": 0.7516396482871291,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0062_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.476341474658183,
+      "tfidf_similarity": 0.2882809561944,
+      "ast_similarity": 0.7584322523538575,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.4907845317431335,
+      "tfidf_similarity": 0.2871330677882955,
+      "ast_similarity": 0.7962617276753905,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.47497839863416114,
+      "tfidf_similarity": 0.28435972929092945,
+      "ast_similarity": 0.7609064026490087,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.48033117410249115,
+      "tfidf_similarity": 0.2818805223656134,
+      "ast_similarity": 0.7780071517078078,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.49753262474366267,
+      "tfidf_similarity": 0.2761797643896089,
+      "ast_similarity": 0.8295619152747433,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0043_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.48516813896614963,
+      "tfidf_similarity": 0.2731008089528657,
+      "ast_similarity": 0.8032691339860756,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0128_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.4725610608129939,
+      "tfidf_similarity": 0.2725283901980761,
+      "ast_similarity": 0.7726100667353706,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0191_sol5.txt",
+        "24BBS0202_sol5.txt"
+      ],
+      "similarity": 0.4531775977550699,
+      "tfidf_similarity": 0.2710560980975969,
+      "ast_similarity": 0.7263598472412793,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.4454385593699586,
+      "tfidf_similarity": 0.26861153506906893,
+      "ast_similarity": 0.7106790958212932,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.4456627301190521,
+      "tfidf_similarity": 0.26861153506906893,
+      "ast_similarity": 0.7112395226940269,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.45602240381683157,
+      "tfidf_similarity": 0.2684200328256686,
+      "ast_similarity": 0.737425960303576,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0043_sol5.txt",
+        "24BBS0102_sol5.txt"
+      ],
+      "similarity": 0.4542994792882387,
+      "tfidf_similarity": 0.26737197478251634,
+      "ast_similarity": 0.7346907360468222,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.44759542288604115,
+      "tfidf_similarity": 0.267337684255775,
+      "ast_similarity": 0.7179820308314404,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.46483903900037554,
+      "tfidf_similarity": 0.26651270846292496,
+      "ast_similarity": 0.7623285348065514,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0085_sol5.txt",
+        "24BBS0043_sol5.txt"
+      ],
+      "similarity": 0.463846701182668,
+      "tfidf_similarity": 0.2658270422567328,
+      "ast_similarity": 0.7608761895715708,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0062_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.45581655266748655,
+      "tfidf_similarity": 0.26503847676312,
+      "ast_similarity": 0.7419836665240362,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.4607592039666748,
+      "tfidf_similarity": 0.26105564660967706,
+      "ast_similarity": 0.7603145400021714,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.4423232023512298,
+      "tfidf_similarity": 0.2548594489274881,
+      "ast_similarity": 0.7235188324868422,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.4824612286322053,
+      "tfidf_similarity": 0.25127173802003455,
+      "ast_similarity": 0.8292454645504613,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.446218495721299,
+      "tfidf_similarity": 0.24756622355841118,
+      "ast_similarity": 0.7441969039656308,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0128_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.4746284248401782,
+      "tfidf_similarity": 0.24460680333933066,
+      "ast_similarity": 0.8196608570914495,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0117_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.46599160060446065,
+      "tfidf_similarity": 0.24318087367395422,
+      "ast_similarity": 0.8002076910002204,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.46095832180767965,
+      "tfidf_similarity": 0.2429628253976596,
+      "ast_similarity": 0.7879515664227097,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0128_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.4702600490931608,
+      "tfidf_similarity": 0.23867656179716146,
+      "ast_similarity": 0.8176352800371598,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0043_sol5.txt",
+        "24BBS0191_sol5.txt"
+      ],
+      "similarity": 0.45447811713107295,
+      "tfidf_similarity": 0.23484109593814975,
+      "ast_similarity": 0.7839336489204577,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0212_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.41875480477352256,
+      "tfidf_similarity": 0.22876129073382223,
+      "ast_similarity": 0.703745075833073,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.421592912063521,
+      "tfidf_similarity": 0.22755103130151627,
+      "ast_similarity": 0.7126557332065282,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0062_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.4347704063713339,
+      "tfidf_similarity": 0.22351669879809727,
+      "ast_similarity": 0.7516509677311889,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0043_sol5.txt",
+        "24BBS0104_sol5.txt"
+      ],
+      "similarity": 0.43944123942811325,
+      "tfidf_similarity": 0.22329334213622332,
+      "ast_similarity": 0.7636630853659482,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0062_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.4428331174418615,
+      "tfidf_similarity": 0.21965221946484856,
+      "ast_similarity": 0.777604464407381,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.44222615467908044,
+      "tfidf_similarity": 0.2142145215094441,
+      "ast_similarity": 0.784243604433535,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.44222615467908044,
+      "tfidf_similarity": 0.2142145215094441,
+      "ast_similarity": 0.784243604433535,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.408948752236309,
+      "tfidf_similarity": 0.2016910540072139,
+      "ast_similarity": 0.7198352995799515,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.41624105315658333,
+      "tfidf_similarity": 0.19873247360189053,
+      "ast_similarity": 0.7425039224886226,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0116_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.41624105315658333,
+      "tfidf_similarity": 0.19873247360189053,
+      "ast_similarity": 0.7425039224886226,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.4001740159496306,
+      "tfidf_similarity": 0.1936921993695323,
+      "ast_similarity": 0.709896740819778,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0041_sol5.txt"
+      ],
+      "similarity": 0.40988723991215725,
+      "tfidf_similarity": 0.18398119550456776,
+      "ast_similarity": 0.7487463065235415,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0128_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.42050152385516193,
+      "tfidf_similarity": 0.1812244084877949,
+      "ast_similarity": 0.7794171969062125,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0062_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.40752839483209674,
+      "tfidf_similarity": 0.17799061092728904,
+      "ast_similarity": 0.7518350706893082,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.41937050650956786,
+      "tfidf_similarity": 0.17753849117980602,
+      "ast_similarity": 0.7821185295042106,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0117_sol5.txt"
+      ],
+      "similarity": 0.41463601335203737,
+      "tfidf_similarity": 0.16461340922194495,
+      "ast_similarity": 0.7896699195471759,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0213_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.39033904717484846,
+      "tfidf_similarity": 0.15974860803614407,
+      "ast_similarity": 0.7362247058829051,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0037_sol5.txt"
+      ],
+      "similarity": 0.3838182258450397,
+      "tfidf_similarity": 0.14519981195713053,
+      "ast_similarity": 0.7417458466769035,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0053_sol5.txt"
+      ],
+      "similarity": 0.36463520625888135,
+      "tfidf_similarity": 0.14066744689598049,
+      "ast_similarity": 0.7005868453032327,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.37145181457987536,
+      "tfidf_similarity": 0.1308828269686364,
+      "ast_similarity": 0.7323052959967338,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0053_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.3763691945990882,
+      "tfidf_similarity": 0.1277181256024928,
+      "ast_similarity": 0.7493457980939813,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0104_sol5.txt",
+        "24BBS0059_sol5.txt"
+      ],
+      "similarity": 0.3589124574848371,
+      "tfidf_similarity": 0.12435851393326364,
+      "ast_similarity": 0.7107433728121972,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.3651364441537296,
+      "tfidf_similarity": 0.11878064483175199,
+      "ast_similarity": 0.734670143136696,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0166_sol5.txt"
+      ],
+      "similarity": 0.37898236127466706,
+      "tfidf_similarity": 0.11552810403440562,
+      "ast_similarity": 0.7741637471350591,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.3677361806859288,
+      "tfidf_similarity": 0.11503129315998208,
+      "ast_similarity": 0.7467935119748488,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0108_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.3834742224735392,
+      "tfidf_similarity": 0.11241892789575952,
+      "ast_similarity": 0.7900571643402086,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0109_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.38330238894055446,
+      "tfidf_similarity": 0.11241892789575952,
+      "ast_similarity": 0.7896275805077468,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0081_sol5.txt"
+      ],
+      "similarity": 0.3696798785644859,
+      "tfidf_similarity": 0.11232995381351563,
+      "ast_similarity": 0.7557047656909412,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0168_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.3811606121411221,
+      "tfidf_similarity": 0.11188579761640348,
+      "ast_similarity": 0.7850728339282,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0139_sol5.txt"
+      ],
+      "similarity": 0.37820938514918334,
+      "tfidf_similarity": 0.11166396738815036,
+      "ast_similarity": 0.7780275117907327,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0059_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.36538783212646847,
+      "tfidf_similarity": 0.11058633420168351,
+      "ast_similarity": 0.7475900790136459,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0037_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.3871704690669323,
+      "tfidf_similarity": 0.11026953741951076,
+      "ast_similarity": 0.8025218665380646,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0127_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.37296535037481127,
+      "tfidf_similarity": 0.10982659890848875,
+      "ast_similarity": 0.767673477574295,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0163_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.35512509118967434,
+      "tfidf_similarity": 0.10833041223309489,
+      "ast_similarity": 0.7253171096245434,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0152_sol5.txt"
+      ],
+      "similarity": 0.36361208762617897,
+      "tfidf_similarity": 0.10615931056614628,
+      "ast_similarity": 0.7497912532162281,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0115_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.3804267630822896,
+      "tfidf_similarity": 0.10470617791053631,
+      "ast_similarity": 0.7940076408399195,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0116_sol5.txt"
+      ],
+      "similarity": 0.3804267630822896,
+      "tfidf_similarity": 0.10470617791053631,
+      "ast_similarity": 0.7940076408399195,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0191_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.35412836980781504,
+      "tfidf_similarity": 0.10347222849323791,
+      "ast_similarity": 0.7301125817796807,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0161_sol5.txt"
+      ],
+      "similarity": 0.35075898832247593,
+      "tfidf_similarity": 0.10226960091487684,
+      "ast_similarity": 0.7234930694338745,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0191_sol5.txt",
+        "24BBS0212_sol5.txt"
+      ],
+      "similarity": 0.3417812561065121,
+      "tfidf_similarity": 0.0989276698455305,
+      "ast_similarity": 0.7060616354979845,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0041_sol5.txt",
+        "24BBS0143_sol5.txt"
+      ],
+      "similarity": 0.35935638514909635,
+      "tfidf_similarity": 0.09591973710876411,
+      "ast_similarity": 0.7545113572095947,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0213_sol5.txt"
+      ],
+      "similarity": 0.36430416495624307,
+      "tfidf_similarity": 0.0906354603487339,
+      "ast_similarity": 0.7748072218675068,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0102_sol5.txt",
+        "24BBS0178_sol5.txt"
+      ],
+      "similarity": 0.32864682284674906,
+      "tfidf_similarity": 0.07701731385563207,
+      "ast_similarity": 0.7060910863334244,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0208_sol5.txt"
+      ],
+      "similarity": 0.3294450325603396,
+      "tfidf_similarity": 0.060603416952038976,
+      "ast_similarity": 0.7327074559727904,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0128_sol5.txt"
+      ],
+      "similarity": 0.32301665855597483,
+      "tfidf_similarity": 0.04507302495999871,
+      "ast_similarity": 0.739932108949939,
+      "detection_method": "Combined"
+    },
+    {
+      "pair": [
+        "24BBS0143_sol5.txt",
+        "24BBS0062_sol5.txt"
+      ],
+      "similarity": 0.30579591098651526,
+      "tfidf_similarity": 0.042808188528389114,
+      "ast_similarity": 0.7002774946737045,
+      "detection_method": "Combined"
+    }
+  ],
+  "all_suspicious_pairs": [
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0109_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0108_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0109_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0166_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0166_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0108_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0109_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0163_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0152_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0108_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0109_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0115_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0166_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0081_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0152_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0163_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0208_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0154_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0166_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0208_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0136_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0208_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0043_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0062_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0043_sol5.txt"
+    ],
+    [
+      "24BBS0062_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0062_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0062_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0108_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0109_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0168_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0062_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0115_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0041_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0154_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0154_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0154_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0154_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0136_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0136_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0136_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0154_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0037_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0127_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0163_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0043_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0043_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0043_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0059_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0154_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0053_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0136_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0202_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0166_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0117_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0104_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0102_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0191_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0218_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0161_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0152_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0136_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0081_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0128_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0212_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0230_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0043_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0043_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0178_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0208_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0116_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0062_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0213_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0136_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0154_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0212_sol5.txt"
+    ],
+    [
+      "24BBS0178_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0161_sol5.txt"
+    ],
+    [
+      "24BBS0053_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0041_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0108_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0109_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0168_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0139_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0081_sol5.txt"
+    ],
+    [
+      "24BBS0127_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0230_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0117_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0166_sol5.txt"
+    ],
+    [
+      "24BBS0163_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0104_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0102_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0218_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0191_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0085_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0115_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0116_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0062_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0152_sol5.txt"
+    ],
+    [
+      "24BBS0059_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0208_sol5.txt"
+    ],
+    [
+      "24BBS0143_sol5.txt",
+      "24BBS0202_sol5.txt"
+    ],
+    [
+      "24BBS0037_sol5.txt",
+      "24BBS0142_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0128_sol5.txt"
+    ],
+    [
+      "24BBS0043_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0213_sol5.txt"
+    ],
+    [
+      "24BBS0142_sol5.txt",
+      "24BBS0143_sol5.txt"
+    ]
+  ],
+  "detection_methods": [
+    "TF-IDF",
+    "AST"
+  ],
+  "tfidf_similarity_matrix": [
+    [
+      0.9999999999999992,
+      0.1967683820410544,
+      0.1376259041777242,
+      0.09633185502136848,
+      0.19770597362748296,
+      0.19770597362748296,
+      0.3373377319407494,
+      0.2658270422567328,
+      0.4650121145727747,
+      0.41428702617469826,
+      0.06694664483199782,
+      0.3270455498527159,
+      0.09799687023862685,
+      0.15635493030934122,
+      0.1295705047139414,
+      0.279002457887517,
+      0.5565442002566714,
+      0.209038585155245,
+      0.1170390194986066,
+      0.01085170244548848,
+      0.13893999670750926,
+      0.13075218865186825,
+      0.1376259041777242,
+      0.11433043901992077,
+      0.4145066516470427,
+      0.07074596168475533,
+      0.10862208477827225,
+      0.3373377319407494,
+      0.05215984635740171,
+      0.17848010468836314,
+      0.0717839627131197,
+      0.19852608713002545,
+      0.14816937456389262,
+      0.2947580638793052,
+      0.09466350486267773
+    ],
+    [
+      0.1967683820410544,
+      0.9999999999999999,
+      0.6434128008867637,
+      0.7225793541729888,
+      0.9888375698124762,
+      0.9888375698124762,
+      0.10758545992435493,
+      0.09163256343207121,
+      0.1330554386078815,
+      0.1293903223494239,
+      0.5947015948835231,
+      0.12609458474463578,
+      0.7054592075884203,
+      0.7351388955613425,
+      0.6491065677677716,
+      0.6605105026921012,
+      0.1535330188228543,
+      0.8371730885150945,
+      0.014756942627407395,
+      0.11188579761640348,
+      0.6990697002018563,
+      0.5651779130395375,
+      0.6434128008867637,
+      0.6012451219301759,
+      0.10954892582569255,
+      0.29240895001605716,
+      0.5334878726885299,
+      0.10758545992435493,
+      0.267337684255775,
+      0.8739237791488979,
+      0.33605087889513663,
+      0.7003488732256978,
+      0.7140563778016673,
+      0.07096416472044878,
+      0.5933568435651065
+    ],
+    [
+      0.1376259041777242,
+      0.6434128008867637,
+      1.0000000000000002,
+      0.5382796545642111,
+      0.6495137101532239,
+      0.6495137101532239,
+      0.06950334074521154,
+      0.058796997948259974,
+      0.0866107269752844,
+      0.08596310276480007,
+      0.4735291408565379,
+      0.07875971425986984,
+      0.5196679795408367,
+      0.640501639016743,
+      0.6228312833306959,
+      0.6342165819188452,
+      0.09984440502517204,
+      0.6533262825109191,
+      0.010808421692996546,
+      0.10470617791053631,
+      0.6941667043443791,
+      0.5169597527153535,
+      1.0000000000000002,
+      0.5791464164817596,
+      0.06508323927286995,
+      0.2142145215094441,
+      0.5084056919110187,
+      0.06950334074521154,
+      0.19873247360189053,
+      0.6396287651319501,
+      0.28898105800827917,
+      0.6651235949346888,
+      0.6583775732513686,
+      0.04730301368603115,
+      0.5447878686119505
+    ],
+    [
+      0.09633185502136848,
+      0.7225793541729888,
+      0.5382796545642111,
+      0.9999999999999999,
+      0.7260224089766691,
+      0.7260224089766691,
+      0.08313022850084953,
+      0.05372807988180393,
+      0.07543090886635881,
+      0.07429873002830413,
+      0.5225465895856513,
+      0.08909601630570597,
+      0.6404362868884693,
+      0.6077898490628061,
+      0.599744355063095,
+      0.5382764072956846,
+      0.0834959004448522,
+      0.6359277728771097,
+      0.011844513187727048,
+      0.10833041223309489,
+      0.6240606763986427,
+      0.5219818307809886,
+      0.5382796545642111,
+      0.5680156018225351,
+      0.08569077449751172,
+      0.25127173802003455,
+      0.47880864847232457,
+      0.08313022850084953,
+      0.2429628253976596,
+      0.7523070266187614,
+      0.32246333394368326,
+      0.6031323350779516,
+      0.6518553794786417,
+      0.05293176111153983,
+      0.5716821564129947
+    ],
+    [
+      0.19770597362748296,
+      0.9888375698124762,
+      0.6495137101532239,
+      0.7260224089766691,
+      1.0,
+      1.0,
+      0.1080980993077803,
+      0.09206918805451114,
+      0.13368944117716258,
+      0.13000686082141677,
+      0.5975353185032152,
+      0.12669541919031482,
+      0.7092943525029726,
+      0.7386417959571534,
+      0.6551929929486154,
+      0.6674501722650027,
+      0.1542645960467665,
+      0.8480292946189946,
+      0.014827258727511217,
+      0.11241892789575952,
+      0.7024007326697632,
+      0.5678709577787625,
+      0.6495137101532239,
+      0.6041100251318773,
+      0.11007092102680689,
+      0.29380226416789174,
+      0.5360299159563867,
+      0.1080980993077803,
+      0.26861153506906893,
+      0.8834691188518599,
+      0.33797877471244303,
+      0.7036860008896537,
+      0.7205077485442865,
+      0.07130230544758011,
+      0.5961841595114274
+    ],
+    [
+      0.19770597362748296,
+      0.9888375698124762,
+      0.6495137101532239,
+      0.7260224089766691,
+      1.0,
+      1.0,
+      0.1080980993077803,
+      0.09206918805451114,
+      0.13368944117716258,
+      0.13000686082141677,
+      0.5975353185032152,
+      0.12669541919031482,
+      0.7092943525029726,
+      0.7386417959571534,
+      0.6551929929486154,
+      0.6674501722650027,
+      0.1542645960467665,
+      0.8480292946189946,
+      0.014827258727511217,
+      0.11241892789575952,
+      0.7024007326697632,
+      0.5678709577787625,
+      0.6495137101532239,
+      0.6041100251318773,
+      0.11007092102680689,
+      0.29380226416789174,
+      0.5360299159563867,
+      0.1080980993077803,
+      0.26861153506906893,
+      0.8834691188518599,
+      0.33797877471244303,
+      0.7036860008896537,
+      0.7205077485442865,
+      0.07130230544758011,
+      0.5961841595114274
+    ],
+    [
+      0.3373377319407494,
+      0.10758545992435493,
+      0.06950334074521154,
+      0.08313022850084953,
+      0.1080980993077803,
+      0.1080980993077803,
+      1.0000000000000013,
+      0.294636817352643,
+      0.4435098921812193,
+      0.36625807680471933,
+      0.1255559253859413,
+      0.5450901534861029,
+      0.13134638873129173,
+      0.13458409554663012,
+      0.20931924468997823,
+      0.16441024371674742,
+      0.5755237414353719,
+      0.12709861630264843,
+      0.0815926628068575,
+      0.024346020280772016,
+      0.09163788431047362,
+      0.08231962221463068,
+      0.06950334074521154,
+      0.1734483417037292,
+      0.606287692449138,
+      0.13856897252760142,
+      0.17177012727764926,
+      1.0000000000000013,
+      0.11632659828050979,
+      0.1271909709327567,
+      0.11613785919964965,
+      0.1040753796682817,
+      0.09068237936697537,
+      0.43549157505192315,
+      0.13586185927292468
+    ],
+    [
+      0.2658270422567328,
+      0.09163256343207121,
+      0.058796997948259974,
+      0.05372807988180393,
+      0.09206918805451114,
+      0.09206918805451114,
+      0.294636817352643,
+      1.0000000000000195,
+      0.26737197478251634,
+      0.23484109593814975,
+      0.052661832865630406,
+      0.22329334213622332,
+      0.09078809727261998,
+      0.09745687842308937,
+      0.08919280527809499,
+      0.13737007801534964,
+      0.38275301890551927,
+      0.10031020112360514,
+      0.059631083301378215,
+      0.006815155991275819,
+      0.06558917977658284,
+      0.06406457568432282,
+      0.058796997948259974,
+      0.08964511577807935,
+      0.30950916965708636,
+      0.055989262476992284,
+      0.07831116202030461,
+      0.294636817352643,
+      0.04001093128248783,
+      0.10148837246366423,
+      0.0529084048391275,
+      0.09637900680137974,
+      0.07580357078172263,
+      0.2731008089528657,
+      0.0681758200117882
+    ],
+    [
+      0.4650121145727747,
+      0.1330554386078815,
+      0.0866107269752844,
+      0.07543090886635881,
+      0.13368944117716258,
+      0.13368944117716258,
+      0.4435098921812193,
+      0.26737197478251634,
+      0.9999999999999992,
+      0.6275731885623708,
+      0.07701731385563207,
+      0.39836400056224774,
+      0.09816077874969044,
+      0.1308854739291071,
+      0.12923175505931928,
+      0.1936921993695323,
+      0.559584456541268,
+      0.14519981195713053,
+      0.07877563449956769,
+      0.011224857503959185,
+      0.10219629312366459,
+      0.09149249697294524,
+      0.0866107269752844,
+      0.1197282163638788,
+      0.3998243711790761,
+      0.07704275085174883,
+      0.11878064483175199,
+      0.4435098921812193,
+      0.061782619818205924,
+      0.1369750948414911,
+      0.07277574705355326,
+      0.13465851675082322,
+      0.10866761364751634,
+      0.3881574455251148,
+      0.10214121421837057
+    ],
+    [
+      0.41428702617469826,
+      0.1293903223494239,
+      0.08596310276480007,
+      0.07429873002830413,
+      0.13000686082141677,
+      0.13000686082141677,
+      0.36625807680471933,
+      0.23484109593814975,
+      0.6275731885623708,
+      0.999999999999998,
+      0.07257671753081386,
+      0.35897851778638806,
+      0.11411128853184711,
+      0.12650693518586062,
+      0.11556688918735314,
+      0.18000088690475213,
+      0.42799760310848617,
+      0.13160098415670093,
+      0.07736108177919433,
+      0.010943019199192328,
+      0.0989276698455305,
+      0.08307637443423453,
+      0.08596310276480007,
+      0.1089916111642612,
+      0.3488641913309798,
+      0.06965936147065162,
+      0.10347222849323791,
+      0.36625807680471933,
+      0.05558610560902652,
+      0.1370248393925096,
+      0.06884509462055603,
+      0.12535046574467132,
+      0.10690427421335255,
+      0.2710560980975969,
+      0.1074897272448458
+    ],
+    [
+      0.06694664483199782,
+      0.5947015948835231,
+      0.4735291408565379,
+      0.5225465895856513,
+      0.5975353185032152,
+      0.5975353185032152,
+      0.1255559253859413,
+      0.052661832865630406,
+      0.07701731385563207,
+      0.07257671753081386,
+      0.9999999999999888,
+      0.09426236599082104,
+      0.5714524710751201,
+      0.5480678859693404,
+      0.6096702082957496,
+      0.5174851471475663,
+      0.07378959663104051,
+      0.6846566866400602,
+      0.01593178188443761,
+      0.09895538791533541,
+      0.5137141949234426,
+      0.4786935088975291,
+      0.4735291408565379,
+      0.5664033897627756,
+      0.07732343210013852,
+      0.24320631399689374,
+      0.5609219416149925,
+      0.1255559253859413,
+      0.20834481993823972,
+      0.5981139043890904,
+      0.270587623170044,
+      0.5189894276444759,
+      0.5134765336357665,
+      0.04938727611169307,
+      0.5008603093998986
+    ],
+    [
+      0.3270455498527159,
+      0.12609458474463578,
+      0.07875971425986984,
+      0.08909601630570597,
+      0.12669541919031482,
+      0.12669541919031482,
+      0.5450901534861029,
+      0.22329334213622332,
+      0.39836400056224774,
+      0.35897851778638806,
+      0.09426236599082104,
+      0.9999999999999988,
+      0.12435851393326364,
+      0.13671591385882226,
+      0.14066744689598049,
+      0.18398119550456776,
+      0.44249763423764554,
+      0.1318620967171341,
+      0.07141221749918425,
+      0.01169500085169961,
+      0.10110079961345901,
+      0.0859731615423589,
+      0.07875971425986984,
+      0.13026861754553115,
+      0.520011950784576,
+      0.08424116790121779,
+      0.1308828269686364,
+      0.5450901534861029,
+      0.0672438253157459,
+      0.14680126002343968,
+      0.09148917994238254,
+      0.12358722118938029,
+      0.1069287529051454,
+      0.32021284625855545,
+      0.11553683513536081
+    ],
+    [
+      0.09799687023862685,
+      0.7054592075884203,
+      0.5196679795408367,
+      0.6404362868884693,
+      0.7092943525029726,
+      0.7092943525029726,
+      0.13134638873129173,
+      0.09078809727261998,
+      0.09816077874969044,
+      0.11411128853184711,
+      0.5714524710751201,
+      0.12435851393326364,
+      0.999999999999999,
+      0.6496063218095505,
+      0.6777154774390225,
+      0.5767643241390545,
+      0.10705433495482411,
+      0.6378340381353486,
+      0.01042300848453488,
+      0.11058633420168351,
+      0.581652808955135,
+      0.5036569037831778,
+      0.5196679795408367,
+      0.627984111234168,
+      0.16284433152933636,
+      0.2871330677882955,
+      0.5369372814946665,
+      0.13134638873129173,
+      0.26105564660967706,
+      0.7463482065103808,
+      0.3700265604343631,
+      0.6235213712389431,
+      0.6324115570532238,
+      0.07879860694328589,
+      0.5768004837027326
+    ],
+    [
+      0.15635493030934122,
+      0.7351388955613425,
+      0.640501639016743,
+      0.6077898490628061,
+      0.7386417959571534,
+      0.7386417959571534,
+      0.13458409554663012,
+      0.09745687842308937,
+      0.1308854739291071,
+      0.12650693518586062,
+      0.5480678859693404,
+      0.13671591385882226,
+      0.6496063218095505,
+      0.9999999999999994,
+      0.7196088885406892,
+      0.6677112824326175,
+      0.1460238976530142,
+      0.6650455585754227,
+      0.013483118817200792,
+      0.10982659890848875,
+      0.7079166619468358,
+      0.5589262473135287,
+      0.640501639016743,
+      0.6810130219346032,
+      0.14288143008185358,
+      0.28435972929092945,
+      0.5950285346594926,
+      0.13458409554663012,
+      0.2548594489274881,
+      0.7546951165661993,
+      0.37073660251107016,
+      0.7294983555673101,
+      0.691310998962363,
+      0.07751096165965052,
+      0.6193644380447952
+    ],
+    [
+      0.1295705047139414,
+      0.6491065677677716,
+      0.6228312833306959,
+      0.599744355063095,
+      0.6551929929486154,
+      0.6551929929486154,
+      0.20931924468997823,
+      0.08919280527809499,
+      0.12923175505931928,
+      0.11556688918735314,
+      0.6096702082957496,
+      0.14066744689598049,
+      0.6777154774390225,
+      0.7196088885406892,
+      1.0000000000000004,
+      0.7727629574604724,
+      0.13090395413562067,
+      0.6882474729917688,
+      0.015245388317442665,
+      0.1277181256024928,
+      0.6720670631049356,
+      0.5870709841430075,
+      0.6228312833306959,
+      0.8238038799938058,
+      0.1500969785033695,
+      0.3099000777106352,
+      0.7089677671905875,
+      0.20931924468997823,
+      0.2818805223656134,
+      0.7203648312413776,
+      0.4004994691120511,
+      0.7024835759618757,
+      0.7414435451602689,
+      0.08319902744378217,
+      0.6878069149586505
+    ],
+    [
+      0.279002457887517,
+      0.6605105026921012,
+      0.6342165819188452,
+      0.5382764072956846,
+      0.6674501722650027,
+      0.6674501722650027,
+      0.16441024371674742,
+      0.13737007801534964,
+      0.1936921993695323,
+      0.18000088690475213,
+      0.5174851471475663,
+      0.18398119550456776,
+      0.5767643241390545,
+      0.6677112824326175,
+      0.7727629574604724,
+      1.0,
+      0.22417453890867975,
+      0.7343801150276301,
+      0.01520212473935003,
+      0.09591973710876411,
+      0.6481788239539223,
+      0.5688386481345442,
+      0.6342165819188452,
+      0.6865922978846984,
+      0.1819576186023533,
+      0.24756622355841118,
+      0.6012467186121556,
+      0.16441024371674742,
+      0.2016910540072139,
+      0.737130374713654,
+      0.31275556559821427,
+      0.7427420602536107,
+      0.7394764360140484,
+      0.1017350761157032,
+      0.5711618802763767
+    ],
+    [
+      0.5565442002566714,
+      0.1535330188228543,
+      0.09984440502517204,
+      0.0834959004448522,
+      0.1542645960467665,
+      0.1542645960467665,
+      0.5755237414353719,
+      0.38275301890551927,
+      0.559584456541268,
+      0.42799760310848617,
+      0.07378959663104051,
+      0.44249763423764554,
+      0.10705433495482411,
+      0.1460238976530142,
+      0.13090395413562067,
+      0.22417453890867975,
+      1.0000000000000004,
+      0.16819452637528026,
+      0.09237032528519834,
+      0.011065215249409276,
+      0.1128274336679715,
+      0.10563737668753359,
+      0.09984440502517204,
+      0.1290734046016811,
+      0.4938143398281277,
+      0.07676175373759728,
+      0.12495437296939177,
+      0.5755237414353719,
+      0.058164127284736966,
+      0.15704703096606565,
+      0.07632555367285758,
+      0.155957656946906,
+      0.12335238011074043,
+      0.5075489561542416,
+      0.09733152189000233
+    ],
+    [
+      0.209038585155245,
+      0.8371730885150945,
+      0.6533262825109191,
+      0.6359277728771097,
+      0.8480292946189946,
+      0.8480292946189946,
+      0.12709861630264843,
+      0.10031020112360514,
+      0.14519981195713053,
+      0.13160098415670093,
+      0.6846566866400602,
+      0.1318620967171341,
+      0.6378340381353486,
+      0.6650455585754227,
+      0.6882474729917688,
+      0.7343801150276301,
+      0.16819452637528026,
+      1.0000000000000004,
+      0.009483237600821778,
+      0.11026953741951076,
+      0.6683052264070204,
+      0.5986982169531149,
+      0.6533262825109191,
+      0.6326155946345505,
+      0.1209138075113009,
+      0.2684200328256686,
+      0.575964649619952,
+      0.12709861630264843,
+      0.22755103130151627,
+      0.7875447169188109,
+      0.303202630774217,
+      0.6904262911932025,
+      0.6948763620632478,
+      0.07497982781485417,
+      0.5704611129989163
+    ],
+    [
+      0.1170390194986066,
+      0.014756942627407395,
+      0.010808421692996546,
+      0.011844513187727048,
+      0.014827258727511217,
+      0.014827258727511217,
+      0.0815926628068575,
+      0.059631083301378215,
+      0.07877563449956769,
+      0.07736108177919433,
+      0.01593178188443761,
+      0.07141221749918425,
+      0.01042300848453488,
+      0.013483118817200792,
+      0.015245388317442665,
+      0.01520212473935003,
+      0.09237032528519834,
+      0.009483237600821778,
+      1.0,
+      0.002917594376407109,
+      0.018694823193992228,
+      0.005629841456665038,
+      0.010808421692996546,
+      0.012434608935522002,
+      0.07938269143703007,
+      0.00923249482021352,
+      0.015334048251454844,
+      0.0815926628068575,
+      0.01050833239802441,
+      0.012368873524828681,
+      0.010258244020239601,
+      0.010460866584476784,
+      0.013836661134645902,
+      0.11847630469046065,
+      0.014666639321280024
+    ],
+    [
+      0.01085170244548848,
+      0.11188579761640348,
+      0.10470617791053631,
+      0.10833041223309489,
+      0.11241892789575952,
+      0.11241892789575952,
+      0.024346020280772016,
+      0.006815155991275819,
+      0.011224857503959185,
+      0.010943019199192328,
+      0.09895538791533541,
+      0.01169500085169961,
+      0.11058633420168351,
+      0.10982659890848875,
+      0.1277181256024928,
+      0.09591973710876411,
+      0.011065215249409276,
+      0.11026953741951076,
+      0.002917594376407109,
+      0.9999999999999998,
+      0.11503129315998208,
+      0.0906354603487339,
+      0.10470617791053631,
+      0.16461340922194495,
+      0.012590654174190006,
+      0.04507302495999871,
+      0.10226960091487684,
+      0.024346020280772016,
+      0.042808188528389114,
+      0.11552810403440562,
+      0.060603416952038976,
+      0.10615931056614628,
+      0.11232995381351563,
+      0.009817215776559838,
+      0.11166396738815036
+    ],
+    [
+      0.13893999670750926,
+      0.6990697002018563,
+      0.6941667043443791,
+      0.6240606763986427,
+      0.7024007326697632,
+      0.7024007326697632,
+      0.09163788431047362,
+      0.06558917977658284,
+      0.10219629312366459,
+      0.0989276698455305,
+      0.5137141949234426,
+      0.10110079961345901,
+      0.581652808955135,
+      0.7079166619468358,
+      0.6720670631049356,
+      0.6481788239539223,
+      0.1128274336679715,
+      0.6683052264070204,
+      0.018694823193992228,
+      0.11503129315998208,
+      1.0,
+      0.5539456989072026,
+      0.6941667043443791,
+      0.6503415726448296,
+      0.08619858289427822,
+      0.22876129073382223,
+      0.583090892746303,
+      0.09163788431047362,
+      0.21402132382155611,
+      0.6665941250423801,
+      0.323691747347348,
+      0.6867923180698767,
+      0.7129856261747468,
+      0.0626180184544398,
+      0.6067900379109501
+    ],
+    [
+      0.13075218865186825,
+      0.5651779130395375,
+      0.5169597527153535,
+      0.5219818307809886,
+      0.5678709577787625,
+      0.5678709577787625,
+      0.08231962221463068,
+      0.06406457568432282,
+      0.09149249697294524,
+      0.08307637443423453,
+      0.4786935088975291,
+      0.0859731615423589,
+      0.5036569037831778,
+      0.5589262473135287,
+      0.5870709841430075,
+      0.5688386481345442,
+      0.10563737668753359,
+      0.5986982169531149,
+      0.005629841456665038,
+      0.0906354603487339,
+      0.5539456989072026,
+      1.0,
+      0.5169597527153535,
+      0.545935686571688,
+      0.07686825773341681,
+      0.17753849117980602,
+      0.47469267118598196,
+      0.08231962221463068,
+      0.15974860803614407,
+      0.5897421117070508,
+      0.26651270846292496,
+      0.5867698908013047,
+      0.5968116712172115,
+      0.04587873064526673,
+      0.49227581637171175
+    ],
+    [
+      0.1376259041777242,
+      0.6434128008867637,
+      1.0000000000000002,
+      0.5382796545642111,
+      0.6495137101532239,
+      0.6495137101532239,
+      0.06950334074521154,
+      0.058796997948259974,
+      0.0866107269752844,
+      0.08596310276480007,
+      0.4735291408565379,
+      0.07875971425986984,
+      0.5196679795408367,
+      0.640501639016743,
+      0.6228312833306959,
+      0.6342165819188452,
+      0.09984440502517204,
+      0.6533262825109191,
+      0.010808421692996546,
+      0.10470617791053631,
+      0.6941667043443791,
+      0.5169597527153535,
+      1.0000000000000002,
+      0.5791464164817596,
+      0.06508323927286995,
+      0.2142145215094441,
+      0.5084056919110187,
+      0.06950334074521154,
+      0.19873247360189053,
+      0.6396287651319501,
+      0.28898105800827917,
+      0.6651235949346888,
+      0.6583775732513686,
+      0.04730301368603115,
+      0.5447878686119505
+    ],
+    [
+      0.11433043901992077,
+      0.6012451219301759,
+      0.5791464164817596,
+      0.5680156018225351,
+      0.6041100251318773,
+      0.6041100251318773,
+      0.1734483417037292,
+      0.08964511577807935,
+      0.1197282163638788,
+      0.1089916111642612,
+      0.5664033897627756,
+      0.13026861754553115,
+      0.627984111234168,
+      0.6810130219346032,
+      0.8238038799938058,
+      0.6865922978846984,
+      0.1290734046016811,
+      0.6326155946345505,
+      0.012434608935522002,
+      0.16461340922194495,
+      0.6503415726448296,
+      0.545935686571688,
+      0.5791464164817596,
+      1.0,
+      0.14090812207747003,
+      0.2761797643896089,
+      0.6369175329751312,
+      0.1734483417037292,
+      0.24318087367395422,
+      0.6751542937415365,
+      0.350449109482228,
+      0.6532292271307122,
+      0.6751910598370728,
+      0.0794095296653617,
+      0.6267364079183173
+    ],
+    [
+      0.4145066516470427,
+      0.10954892582569255,
+      0.06508323927286995,
+      0.08569077449751172,
+      0.11007092102680689,
+      0.11007092102680689,
+      0.606287692449138,
+      0.30950916965708636,
+      0.3998243711790761,
+      0.3488641913309798,
+      0.07732343210013852,
+      0.520011950784576,
+      0.16284433152933636,
+      0.14288143008185358,
+      0.1500969785033695,
+      0.1819576186023533,
+      0.4938143398281277,
+      0.1209138075113009,
+      0.07938269143703007,
+      0.012590654174190006,
+      0.08619858289427822,
+      0.07686825773341681,
+      0.06508323927286995,
+      0.14090812207747003,
+      0.9999999999999999,
+      0.08611711638304018,
+      0.12457066592409721,
+      0.606287692449138,
+      0.06089657640969349,
+      0.1387013589188542,
+      0.08652343768548851,
+      0.11716746510230625,
+      0.09460613439042591,
+      0.45653631879700346,
+      0.11579308443788429
+    ],
+    [
+      0.07074596168475533,
+      0.29240895001605716,
+      0.2142145215094441,
+      0.25127173802003455,
+      0.29380226416789174,
+      0.29380226416789174,
+      0.13856897252760142,
+      0.055989262476992284,
+      0.07704275085174883,
+      0.06965936147065162,
+      0.24320631399689374,
+      0.08424116790121779,
+      0.2871330677882955,
+      0.28435972929092945,
+      0.3099000777106352,
+      0.24756622355841118,
+      0.07676175373759728,
+      0.2684200328256686,
+      0.00923249482021352,
+      0.04507302495999871,
+      0.22876129073382223,
+      0.17753849117980602,
+      0.2142145215094441,
+      0.2761797643896089,
+      0.08611711638304018,
+      1.0000000000000009,
+      0.2336930728734084,
+      0.13856897252760142,
+      0.952425190436548,
+      0.31560869959752125,
+      0.1812244084877949,
+      0.24460680333933066,
+      0.23867656179716146,
+      0.06334136375873202,
+      0.2725283901980761
+    ],
+    [
+      0.10862208477827225,
+      0.5334878726885299,
+      0.5084056919110187,
+      0.47880864847232457,
+      0.5360299159563867,
+      0.5360299159563867,
+      0.17177012727764926,
+      0.07831116202030461,
+      0.11878064483175199,
+      0.10347222849323791,
+      0.5609219416149925,
+      0.1308828269686364,
+      0.5369372814946665,
+      0.5950285346594926,
+      0.7089677671905875,
+      0.6012467186121556,
+      0.12495437296939177,
+      0.575964649619952,
+      0.015334048251454844,
+      0.10226960091487684,
+      0.583090892746303,
+      0.47469267118598196,
+      0.5084056919110187,
+      0.6369175329751312,
+      0.12457066592409721,
+      0.2336930728734084,
+      1.0000000000000007,
+      0.17177012727764926,
+      0.20187555168840882,
+      0.5591573460770851,
+      0.42623817699788147,
+      0.6346510589175816,
+      0.5671156549602617,
+      0.07244615488387249,
+      0.5660701992623276
+    ],
+    [
+      0.3373377319407494,
+      0.10758545992435493,
+      0.06950334074521154,
+      0.08313022850084953,
+      0.1080980993077803,
+      0.1080980993077803,
+      1.0000000000000013,
+      0.294636817352643,
+      0.4435098921812193,
+      0.36625807680471933,
+      0.1255559253859413,
+      0.5450901534861029,
+      0.13134638873129173,
+      0.13458409554663012,
+      0.20931924468997823,
+      0.16441024371674742,
+      0.5755237414353719,
+      0.12709861630264843,
+      0.0815926628068575,
+      0.024346020280772016,
+      0.09163788431047362,
+      0.08231962221463068,
+      0.06950334074521154,
+      0.1734483417037292,
+      0.606287692449138,
+      0.13856897252760142,
+      0.17177012727764926,
+      1.0000000000000013,
+      0.11632659828050979,
+      0.1271909709327567,
+      0.11613785919964965,
+      0.1040753796682817,
+      0.09068237936697537,
+      0.43549157505192315,
+      0.13586185927292468
+    ],
+    [
+      0.05215984635740171,
+      0.267337684255775,
+      0.19873247360189053,
+      0.2429628253976596,
+      0.26861153506906893,
+      0.26861153506906893,
+      0.11632659828050979,
+      0.04001093128248783,
+      0.061782619818205924,
+      0.05558610560902652,
+      0.20834481993823972,
+      0.0672438253157459,
+      0.26105564660967706,
+      0.2548594489274881,
+      0.2818805223656134,
+      0.2016910540072139,
+      0.058164127284736966,
+      0.22755103130151627,
+      0.01050833239802441,
+      0.042808188528389114,
+      0.21402132382155611,
+      0.15974860803614407,
+      0.19873247360189053,
+      0.24318087367395422,
+      0.06089657640969349,
+      0.952425190436548,
+      0.20187555168840882,
+      0.11632659828050979,
+      0.9999999999999918,
+      0.2882809561944,
+      0.17799061092728904,
+      0.22351669879809727,
+      0.21965221946484856,
+      0.0467904181145837,
+      0.26503847676312
+    ],
+    [
+      0.17848010468836314,
+      0.8739237791488979,
+      0.6396287651319501,
+      0.7523070266187614,
+      0.8834691188518599,
+      0.8834691188518599,
+      0.1271909709327567,
+      0.10148837246366423,
+      0.1369750948414911,
+      0.1370248393925096,
+      0.5981139043890904,
+      0.14680126002343968,
+      0.7463482065103808,
+      0.7546951165661993,
+      0.7203648312413776,
+      0.737130374713654,
+      0.15704703096606565,
+      0.7875447169188109,
+      0.012368873524828681,
+      0.11552810403440562,
+      0.6665941250423801,
+      0.5897421117070508,
+      0.6396287651319501,
+      0.6751542937415365,
+      0.1387013589188542,
+      0.31560869959752125,
+      0.5591573460770851,
+      0.1271909709327567,
+      0.2882809561944,
+      0.9999999999999973,
+      0.35678828796126627,
+      0.7503366961216064,
+      0.7578613355493199,
+      0.0799580582880901,
+      0.6356846414138005
+    ],
+    [
+      0.0717839627131197,
+      0.33605087889513663,
+      0.28898105800827917,
+      0.32246333394368326,
+      0.33797877471244303,
+      0.33797877471244303,
+      0.11613785919964965,
+      0.0529084048391275,
+      0.07277574705355326,
+      0.06884509462055603,
+      0.270587623170044,
+      0.09148917994238254,
+      0.3700265604343631,
+      0.37073660251107016,
+      0.4004994691120511,
+      0.31275556559821427,
+      0.07632555367285758,
+      0.303202630774217,
+      0.010258244020239601,
+      0.060603416952038976,
+      0.323691747347348,
+      0.26651270846292496,
+      0.28898105800827917,
+      0.350449109482228,
+      0.08652343768548851,
+      0.1812244084877949,
+      0.42623817699788147,
+      0.11613785919964965,
+      0.17799061092728904,
+      0.35678828796126627,
+      1.0000000000000007,
+      0.4516962108016799,
+      0.3321794093342562,
+      0.050296998466614236,
+      0.3495825193735187
+    ],
+    [
+      0.19852608713002545,
+      0.7003488732256978,
+      0.6651235949346888,
+      0.6031323350779516,
+      0.7036860008896537,
+      0.7036860008896537,
+      0.1040753796682817,
+      0.09637900680137974,
+      0.13465851675082322,
+      0.12535046574467132,
+      0.5189894276444759,
+      0.12358722118938029,
+      0.6235213712389431,
+      0.7294983555673101,
+      0.7024835759618757,
+      0.7427420602536107,
+      0.155957656946906,
+      0.6904262911932025,
+      0.010460866584476784,
+      0.10615931056614628,
+      0.6867923180698767,
+      0.5867698908013047,
+      0.6651235949346888,
+      0.6532292271307122,
+      0.11716746510230625,
+      0.24460680333933066,
+      0.6346510589175816,
+      0.1040753796682817,
+      0.22351669879809727,
+      0.7503366961216064,
+      0.4516962108016799,
+      1.0,
+      0.7202746016569714,
+      0.07027893968790297,
+      0.5905995031328873
+    ],
+    [
+      0.14816937456389262,
+      0.7140563778016673,
+      0.6583775732513686,
+      0.6518553794786417,
+      0.7205077485442865,
+      0.7205077485442865,
+      0.09068237936697537,
+      0.07580357078172263,
+      0.10866761364751634,
+      0.10690427421335255,
+      0.5134765336357665,
+      0.1069287529051454,
+      0.6324115570532238,
+      0.691310998962363,
+      0.7414435451602689,
+      0.7394764360140484,
+      0.12335238011074043,
+      0.6948763620632478,
+      0.013836661134645902,
+      0.11232995381351563,
+      0.7129856261747468,
+      0.5968116712172115,
+      0.6583775732513686,
+      0.6751910598370728,
+      0.09460613439042591,
+      0.23867656179716146,
+      0.5671156549602617,
+      0.09068237936697537,
+      0.21965221946484856,
+      0.7578613355493199,
+      0.3321794093342562,
+      0.7202746016569714,
+      1.0000000000000002,
+      0.06924168686594069,
+      0.6030419678726412
+    ],
+    [
+      0.2947580638793052,
+      0.07096416472044878,
+      0.04730301368603115,
+      0.05293176111153983,
+      0.07130230544758011,
+      0.07130230544758011,
+      0.43549157505192315,
+      0.2731008089528657,
+      0.3881574455251148,
+      0.2710560980975969,
+      0.04938727611169307,
+      0.32021284625855545,
+      0.07879860694328589,
+      0.07751096165965052,
+      0.08319902744378217,
+      0.1017350761157032,
+      0.5075489561542416,
+      0.07497982781485417,
+      0.11847630469046065,
+      0.009817215776559838,
+      0.0626180184544398,
+      0.04587873064526673,
+      0.04730301368603115,
+      0.0794095296653617,
+      0.45653631879700346,
+      0.06334136375873202,
+      0.07244615488387249,
+      0.43549157505192315,
+      0.0467904181145837,
+      0.0799580582880901,
+      0.050296998466614236,
+      0.07027893968790297,
+      0.06924168686594069,
+      1.0000000000000007,
+      0.08167524379812767
+    ],
+    [
+      0.09466350486267773,
+      0.5933568435651065,
+      0.5447878686119505,
+      0.5716821564129947,
+      0.5961841595114274,
+      0.5961841595114274,
+      0.13586185927292468,
+      0.0681758200117882,
+      0.10214121421837057,
+      0.1074897272448458,
+      0.5008603093998986,
+      0.11553683513536081,
+      0.5768004837027326,
+      0.6193644380447952,
+      0.6878069149586505,
+      0.5711618802763767,
+      0.09733152189000233,
+      0.5704611129989163,
+      0.014666639321280024,
+      0.11166396738815036,
+      0.6067900379109501,
+      0.49227581637171175,
+      0.5447878686119505,
+      0.6267364079183173,
+      0.11579308443788429,
+      0.2725283901980761,
+      0.5660701992623276,
+      0.13586185927292468,
+      0.26503847676312,
+      0.6356846414138005,
+      0.3495825193735187,
+      0.5905995031328873,
+      0.6030419678726412,
+      0.08167524379812767,
+      0.9999999999999997
+    ]
+  ],
+  "tfidf_average_similarity": 0.3163560374909661,
+  "tfidf_max_similarity": 1.0000000000000013,
+  "ast_similarity_matrix": [
+    [
+      1.0,
+      0.6425130713239918,
+      0.6224057908403258,
+      0.6529060406259615,
+      0.644330230661875,
+      0.6437500494725692,
+      0.805488801531071,
+      0.7608761895715708,
+      0.6940933572318093,
+      0.7168435547052235,
+      0.6297003146816418,
+      0.7590852863842344,
+      0.6537327280422501,
+      0.6291122128473183,
+      0.6572096301220025,
+      0.6804026744413065,
+      0.7996863806179533,
+      0.6592616593931953,
+      0.44349090843450345,
+      0.6453556282055948,
+      0.6380282292725514,
+      0.6023457621714142,
+      0.6224057908403258,
+      0.6342053908337056,
+      0.8304722002576324,
+      0.6454340304627693,
+      0.6594516068745602,
+      0.805488801531071,
+      0.626107446214148,
+      0.6351655175849604,
+      0.625643630326859,
+      0.6313131802425491,
+      0.6578065495960752,
+      0.7538702487191034,
+      0.6330015429375813
+    ],
+    [
+      0.6425130713239917,
+      1.0,
+      0.8020746944129915,
+      0.8104674989162569,
+      0.9774727882429244,
+      0.9776726189003409,
+      0.6391366221178852,
+      0.6452425815651124,
+      0.6747171583011944,
+      0.6871940898145801,
+      0.6840548720906483,
+      0.6772644456255559,
+      0.8322062417515852,
+      0.8670052990583137,
+      0.8273365574972161,
+      0.792089973914307,
+      0.658844490829899,
+      0.7945311864972727,
+      0.4218095194124888,
+      0.7850728339282,
+      0.8746153330298818,
+      0.7838794727561003,
+      0.8020746944129915,
+      0.7782544063406112,
+      0.630032553367937,
+      0.751442744807469,
+      0.7849423585521466,
+      0.6391366221178852,
+      0.7179820308314404,
+      0.8404703249267107,
+      0.7509340398803646,
+      0.8250372031516533,
+      0.8297967597470745,
+      0.6420208895543214,
+      0.8658098850779441
+    ],
+    [
+      0.6224057908403258,
+      0.8020746944129915,
+      1.0,
+      0.7901390442019607,
+      0.8107586800183358,
+      0.8104939269731509,
+      0.6232026980211949,
+      0.627908644705673,
+      0.6966908390635435,
+      0.6392810670280807,
+      0.6971807304949977,
+      0.6447419581217928,
+      0.7874486514059209,
+      0.8033217900211251,
+      0.7858796372967587,
+      0.7131601962210888,
+      0.640989484088262,
+      0.7905339456311532,
+      0.3854684416591728,
+      0.7940076408399195,
+      0.7702919017045078,
+      0.8622166493706676,
+      1.0,
+      0.8140744675094835,
+      0.6220071610751372,
+      0.784243604433535,
+      0.7185054470157627,
+      0.6232026980211949,
+      0.7425039224886226,
+      0.8243274000889459,
+      0.7516396482871291,
+      0.8229308186220736,
+      0.816037995823863,
+      0.6565224779183404,
+      0.8341563876916482
+    ],
+    [
+      0.6529060406259615,
+      0.810467498916257,
+      0.7901390442019607,
+      1.0,
+      0.8066018674581041,
+      0.8072784631301037,
+      0.6643493921155632,
+      0.6255227924842203,
+      0.6612041863145284,
+      0.6581901749427819,
+      0.6415344736873676,
+      0.6955021718976737,
+      0.8722135592624898,
+      0.824924708884759,
+      0.8706544433360154,
+      0.7720077067261597,
+      0.6351405624960187,
+      0.7318352280719317,
+      0.3989528227462178,
+      0.7253171096245434,
+      0.7873414311904348,
+      0.7768034961011047,
+      0.7901390442019607,
+      0.7986810948232425,
+      0.6407861765579815,
+      0.8292454645504613,
+      0.7435744697844574,
+      0.6643493921155632,
+      0.7879515664227097,
+      0.8482727353998352,
+      0.7687585852073195,
+      0.8350329109157123,
+      0.8890657260929316,
+      0.6355745272919602,
+      0.8455482999852757
+    ],
+    [
+      0.6443302306618749,
+      0.9774727882429244,
+      0.8107586800183358,
+      0.8066018674581041,
+      1.0,
+      0.9987891909415088,
+      0.6428891503915467,
+      0.6481682818635448,
+      0.678032005101559,
+      0.6926416152843546,
+      0.6887881824081561,
+      0.6826305653942967,
+      0.827242821494715,
+      0.8671729662504402,
+      0.8204044744996544,
+      0.7970545505786741,
+      0.6609981434549661,
+      0.8006589216901373,
+      0.421716003201303,
+      0.7900571643402086,
+      0.8822542216321607,
+      0.7832503930315804,
+      0.8107586800183358,
+      0.7717844774864815,
+      0.6325377271797041,
+      0.743970784093759,
+      0.7874214177120528,
+      0.6428891503915467,
+      0.7106790958212932,
+      0.8347342069854621,
+      0.7453449261365818,
+      0.817067294630056,
+      0.8249199806971774,
+      0.6429616895362387,
+      0.8669362597604908
+    ],
+    [
+      0.6437500494725692,
+      0.9776726189003409,
+      0.8104939269731509,
+      0.8072784631301037,
+      0.9987891909415088,
+      1.0,
+      0.6425227404430405,
+      0.6477082580330823,
+      0.6786334611321834,
+      0.6933613423983833,
+      0.6881961162346151,
+      0.682117573976033,
+      0.8277555677665542,
+      0.8676509692259096,
+      0.8201879823183331,
+      0.7968740170421138,
+      0.6605708003061677,
+      0.8007759974798744,
+      0.42185399995820816,
+      0.7896275805077468,
+      0.882391097747409,
+      0.7832471229126545,
+      0.8104939269731509,
+      0.772710092033251,
+      0.632296967938708,
+      0.7443578064924383,
+      0.7880353181021379,
+      0.6425227404430405,
+      0.7112395226940269,
+      0.8352350811069983,
+      0.7454688411305099,
+      0.8171473181854512,
+      0.8254764283107177,
+      0.6431894561422409,
+      0.8671286286247244
+    ],
+    [
+      0.805488801531071,
+      0.6391366221178852,
+      0.6232026980211949,
+      0.6643493921155632,
+      0.6428891503915467,
+      0.6425227404430405,
+      1.0,
+      0.767333130551481,
+      0.7370023360335227,
+      0.7770650492641606,
+      0.6444402696703317,
+      0.8161777269363614,
+      0.664838288970762,
+      0.6410683029802782,
+      0.6725569909034648,
+      0.6971188262505912,
+      0.8576495136181767,
+      0.6764549833807281,
+      0.45344657550458123,
+      0.6536958144170446,
+      0.647465023306974,
+      0.6048621624941849,
+      0.6232026980211949,
+      0.6371509896522276,
+      0.825592263559626,
+      0.6470472822185059,
+      0.6759348328101162,
+      1.0,
+      0.63319097273313,
+      0.640871212832202,
+      0.639464117811438,
+      0.6485910857013704,
+      0.6636169918634577,
+      0.7632992321454644,
+      0.6518704875598473
+    ],
+    [
+      0.7608761895715708,
+      0.6452425815651124,
+      0.627908644705673,
+      0.6255227924842204,
+      0.6481682818635448,
+      0.6477082580330823,
+      0.767333130551481,
+      1.0,
+      0.7346907360468222,
+      0.7839336489204577,
+      0.6215098601164903,
+      0.7636630853659482,
+      0.6357995742015283,
+      0.6381328585528063,
+      0.6373633161536415,
+      0.6578081204919053,
+      0.8175563828538555,
+      0.6654239866472614,
+      0.4645954554191226,
+      0.6424134058133397,
+      0.6372772427818136,
+      0.6153825003563427,
+      0.627908644705673,
+      0.6258474855352726,
+      0.8054297423517781,
+      0.601524542717339,
+      0.6720293188073221,
+      0.767333130551481,
+      0.5838758862101865,
+      0.6437380803839978,
+      0.6088742185592183,
+      0.6291922434461796,
+      0.6349954208453269,
+      0.8032691339860756,
+      0.6489142627313953
+    ],
+    [
+      0.6940933572318093,
+      0.6747171583011944,
+      0.6966908390635435,
+      0.6612041863145284,
+      0.678032005101559,
+      0.6786334611321834,
+      0.7370023360335227,
+      0.7346907360468222,
+      1.0,
+      0.8018122320921751,
+      0.7060910863334244,
+      0.7963415027506442,
+      0.6694635519473637,
+      0.663149439994827,
+      0.6500161566438574,
+      0.709896740819778,
+      0.7465004826894479,
+      0.7417458466769035,
+      0.45899348415395935,
+      0.685756634696365,
+      0.6941235698921822,
+      0.6888355533765483,
+      0.6966908390635435,
+      0.6900048106326384,
+      0.6998837851489794,
+      0.6398254646571597,
+      0.734670143136696,
+      0.7370023360335227,
+      0.6324357973333801,
+      0.6724931499823283,
+      0.6269665886065592,
+      0.6535756595486581,
+      0.6602029831364096,
+      0.7285605506083378,
+      0.6777542407339672
+    ],
+    [
+      0.7168435547052235,
+      0.6871940898145801,
+      0.6392810670280807,
+      0.6581901749427819,
+      0.6926416152843546,
+      0.6933613423983833,
+      0.7770650492641606,
+      0.7839336489204577,
+      0.8018122320921751,
+      1.0,
+      0.6426427080672203,
+      0.8404134923695081,
+      0.663256251276758,
+      0.6722684135911889,
+      0.6585255864930519,
+      0.6998119430833356,
+      0.7739778465106779,
+      0.6811424293629811,
+      0.4799325973066414,
+      0.6395057328651672,
+      0.7060616354979845,
+      0.6157668337258215,
+      0.6392810670280807,
+      0.6353829244669085,
+      0.7252964462208198,
+      0.6163689681949663,
+      0.7301125817796807,
+      0.7770650492641606,
+      0.6102129587683056,
+      0.6694143921295466,
+      0.6219540341880324,
+      0.6507796540958635,
+      0.6566410099749337,
+      0.7263598472412793,
+      0.6791008162509973
+    ],
+    [
+      0.6297003146816418,
+      0.6840548720906483,
+      0.6971807304949977,
+      0.6415344736873676,
+      0.6887881824081561,
+      0.6881961162346151,
+      0.6444402696703316,
+      0.6215098601164903,
+      0.7060910863334244,
+      0.6426427080672203,
+      1.0,
+      0.668125887015178,
+      0.6704822816159219,
+      0.6712237508673713,
+      0.6497081738676128,
+      0.693978595392599,
+      0.6444974424747756,
+      0.7761272626491185,
+      0.418776563234897,
+      0.6960769124227727,
+      0.6878200319423224,
+      0.6854931731481135,
+      0.6971807304949977,
+      0.6694749376984379,
+      0.6329594037502552,
+      0.6448630762536751,
+      0.7058233036315955,
+      0.6444402696703316,
+      0.624656713392202,
+      0.6577869402928038,
+      0.6304700423413234,
+      0.6510112053493525,
+      0.6572709790828688,
+      0.6397183415150899,
+      0.6680022421957452
+    ],
+    [
+      0.7590852863842344,
+      0.6772644456255559,
+      0.6447419581217928,
+      0.6955021718976737,
+      0.6826305653942966,
+      0.6821175739760329,
+      0.8161777269363614,
+      0.7636630853659482,
+      0.7963415027506442,
+      0.8404134923695081,
+      0.668125887015178,
+      1.0,
+      0.7107433728121972,
+      0.6662078956035626,
+      0.7005868453032327,
+      0.7487463065235415,
+      0.7728150443854892,
+      0.6896095563057216,
+      0.47621993043808736,
+      0.6573375604163529,
+      0.688115362107097,
+      0.6137582597003794,
+      0.6447419581217928,
+      0.6415113362995002,
+      0.7538128319882081,
+      0.65578149034143,
+      0.7323052959967338,
+      0.8161777269363614,
+      0.6434604937689666,
+      0.6650350878854756,
+      0.6261697767276224,
+      0.6509668678544711,
+      0.6919211392805416,
+      0.7125407188035756,
+      0.6780558907691213
+    ],
+    [
+      0.6537327280422501,
+      0.8322062417515852,
+      0.7874486514059209,
+      0.8722135592624898,
+      0.827242821494715,
+      0.8277555677665542,
+      0.664838288970762,
+      0.6357995742015283,
+      0.6694635519473637,
+      0.6632562512767581,
+      0.6704822816159219,
+      0.7107433728121972,
+      1.0,
+      0.87184461124029,
+      0.9080801412127278,
+      0.7863002476322711,
+      0.6426652205697589,
+      0.7481629615872271,
+      0.44257357982898615,
+      0.7475900790136459,
+      0.799757052083905,
+      0.7734528964404251,
+      0.7874486514059209,
+      0.7718290559320056,
+      0.652263885480838,
+      0.7962617276753905,
+      0.7392860116780662,
+      0.664838288970762,
+      0.7603145400021714,
+      0.8462179241367691,
+      0.7593795763839631,
+      0.8178964992151783,
+      0.8970481272337811,
+      0.6236590830714204,
+      0.8666059837616973
+    ],
+    [
+      0.6291122128473183,
+      0.8670052990583137,
+      0.8033217900211251,
+      0.824924708884759,
+      0.8671729662504402,
+      0.8676509692259096,
+      0.6410683029802782,
+      0.6381328585528063,
+      0.663149439994827,
+      0.6722684135911889,
+      0.6712237508673713,
+      0.6662078956035627,
+      0.87184461124029,
+      1.0,
+      0.8556901105538688,
+      0.7578066030611382,
+      0.6591288939688467,
+      0.768460590669876,
+      0.43355817345230774,
+      0.767673477574295,
+      0.8449192877834015,
+      0.7918979558771209,
+      0.8033217900211251,
+      0.7914784581806977,
+      0.6259862015165234,
+      0.7609064026490087,
+      0.7567288038150115,
+      0.6410683029802782,
+      0.7235188324868422,
+      0.8613115516867049,
+      0.7812756273617046,
+      0.8380949277130549,
+      0.8489782290892123,
+      0.6249616820498719,
+      0.8820156701331436
+    ],
+    [
+      0.6572096301220025,
+      0.8273365574972161,
+      0.7858796372967587,
+      0.8706544433360154,
+      0.8204044744996544,
+      0.8201879823183331,
+      0.6725569909034648,
+      0.6373633161536415,
+      0.6500161566438574,
+      0.6585255864930518,
+      0.6497081738676128,
+      0.7005868453032327,
+      0.9080801412127278,
+      0.8556901105538688,
+      1.0,
+      0.7864631337332892,
+      0.6521767184494438,
+      0.741395352653976,
+      0.4329261114665349,
+      0.7493457980939813,
+      0.7744918521629434,
+      0.7733860481523827,
+      0.7858796372967587,
+      0.7972406535443286,
+      0.6524688873598476,
+      0.8226418535727658,
+      0.7305336906778575,
+      0.6725569909034648,
+      0.7780071517078078,
+      0.8807646130979574,
+      0.7680134517444035,
+      0.8508012974661134,
+      0.9072112653791975,
+      0.6098092754008141,
+      0.8626410562625175
+    ],
+    [
+      0.6804026744413065,
+      0.792089973914307,
+      0.7131601962210888,
+      0.7720077067261597,
+      0.7970545505786741,
+      0.7968740170421138,
+      0.6971188262505912,
+      0.6578081204919053,
+      0.709896740819778,
+      0.6998119430833356,
+      0.693978595392599,
+      0.7487463065235415,
+      0.7863002476322711,
+      0.7578066030611382,
+      0.7864631337332892,
+      1.0,
+      0.6707308106387406,
+      0.7817195385687409,
+      0.44738603890449735,
+      0.7545113572095947,
+      0.7761641532109227,
+      0.7026625469133669,
+      0.7131601962210888,
+      0.7198911228717776,
+      0.6690744943170035,
+      0.7441969039656308,
+      0.7750001229346059,
+      0.6971188262505912,
+      0.7198352995799515,
+      0.7451774086116927,
+      0.6866869774276162,
+      0.7372008886038073,
+      0.7809568991295122,
+      0.6245801068625296,
+      0.7529997837056532
+    ],
+    [
+      0.7996863806179533,
+      0.658844490829899,
+      0.640989484088262,
+      0.6351405624960187,
+      0.6609981434549661,
+      0.6605708003061677,
+      0.8576495136181767,
+      0.8175563828538555,
+      0.7465004826894479,
+      0.7739778465106779,
+      0.6444974424747756,
+      0.7728150443854892,
+      0.6426652205697589,
+      0.6591288939688467,
+      0.6521767184494438,
+      0.6707308106387406,
+      1.0,
+      0.693622661776914,
+      0.4679953930274032,
+      0.672234547362083,
+      0.6669967597697507,
+      0.6176952436714307,
+      0.640989484088262,
+      0.6467817379337579,
+      0.8414370015579815,
+      0.6202056175605244,
+      0.6885704408698817,
+      0.8576495136181767,
+      0.6016445412434444,
+      0.6596084659721938,
+      0.6637054647347169,
+      0.6666959827494907,
+      0.6380883921223937,
+      0.7827975298458428,
+      0.6617313126423598
+    ],
+    [
+      0.6592616593931953,
+      0.7945311864972727,
+      0.7905339456311532,
+      0.7318352280719317,
+      0.8006589216901373,
+      0.8007759974798744,
+      0.6764549833807281,
+      0.6654239866472614,
+      0.7417458466769035,
+      0.6811424293629811,
+      0.7761272626491185,
+      0.6896095563057216,
+      0.7481629615872271,
+      0.768460590669876,
+      0.741395352653976,
+      0.7817195385687409,
+      0.693622661776914,
+      1.0,
+      0.42723600982637044,
+      0.8025218665380646,
+      0.7969565187862698,
+      0.7912182423331826,
+      0.7905339456311532,
+      0.7776468173102931,
+      0.6603042190802816,
+      0.737425960303576,
+      0.7548360465764784,
+      0.6764549833807281,
+      0.7126557332065282,
+      0.771643446914827,
+      0.7091604951341249,
+      0.7555074967731981,
+      0.7434238697602418,
+      0.6837592776184664,
+      0.767854710661799
+    ],
+    [
+      0.44349090843450345,
+      0.42180951941248895,
+      0.3854684416591728,
+      0.3989528227462178,
+      0.4217160032013031,
+      0.42185399995820827,
+      0.45344657550458123,
+      0.4645954554191226,
+      0.45899348415395935,
+      0.4799325973066414,
+      0.418776563234897,
+      0.47621993043808736,
+      0.44257357982898615,
+      0.43355817345230774,
+      0.4329261114665349,
+      0.44738603890449735,
+      0.4679953930274032,
+      0.42723600982637044,
+      1.0,
+      0.43355573872515524,
+      0.42306476587787584,
+      0.3855197947913038,
+      0.3854684416591728,
+      0.4151825684845908,
+      0.4506454860967979,
+      0.4082180493807059,
+      0.4551830015234537,
+      0.45344657550458123,
+      0.3894744267683462,
+      0.4193313262123489,
+      0.42996888586763193,
+      0.41003675816266694,
+      0.4138764137362289,
+      0.42239728751472083,
+      0.41293226662511184
+    ],
+    [
+      0.6453556282055948,
+      0.7850728339282,
+      0.7940076408399195,
+      0.7253171096245434,
+      0.7900571643402086,
+      0.7896275805077468,
+      0.6536958144170446,
+      0.6424134058133397,
+      0.685756634696365,
+      0.6395057328651672,
+      0.6960769124227727,
+      0.6573375604163532,
+      0.7475900790136459,
+      0.767673477574295,
+      0.7493457980939813,
+      0.7545113572095947,
+      0.672234547362083,
+      0.8025218665380646,
+      0.4335557387251552,
+      1.0,
+      0.7467935119748488,
+      0.7748072218675068,
+      0.7940076408399195,
+      0.7896699195471759,
+      0.6329874361209047,
+      0.739932108949939,
+      0.7234930694338745,
+      0.6536958144170446,
+      0.7002774946737045,
+      0.7741637471350591,
+      0.7327074559727904,
+      0.7497912532162281,
+      0.7557047656909412,
+      0.6814187267814881,
+      0.7780275117907327
+    ],
+    [
+      0.6380282292725514,
+      0.8746153330298818,
+      0.7702919017045078,
+      0.7873414311904348,
+      0.8822542216321607,
+      0.882391097747409,
+      0.6474650233069741,
+      0.6372772427818136,
+      0.6941235698921822,
+      0.7060616354979845,
+      0.6878200319423224,
+      0.688115362107097,
+      0.799757052083905,
+      0.8449192877834015,
+      0.7744918521629434,
+      0.7761641532109227,
+      0.6669967597697507,
+      0.7969565187862698,
+      0.42306476587787584,
+      0.7467935119748488,
+      1.0,
+      0.7520793664145975,
+      0.7702919017045078,
+      0.7359738817039981,
+      0.6328256270813012,
+      0.703745075833073,
+      0.7687376037401678,
+      0.6474650233069741,
+      0.6899198203252755,
+      0.8063172505309009,
+      0.7223114088658962,
+      0.7828847904432423,
+      0.7813808538271808,
+      0.6456034811813299,
+      0.817183164794288
+    ],
+    [
+      0.6023457621714142,
+      0.7838794727561003,
+      0.8622166493706676,
+      0.7768034961011047,
+      0.7832503930315804,
+      0.7832471229126545,
+      0.6048621624941849,
+      0.6153825003563427,
+      0.6888355533765483,
+      0.6157668337258215,
+      0.6854931731481135,
+      0.6137582597003794,
+      0.773452896440425,
+      0.7918979558771209,
+      0.7733860481523829,
+      0.7026625469133669,
+      0.6176952436714307,
+      0.7912182423331826,
+      0.3855197947913038,
+      0.7748072218675068,
+      0.7520793664145975,
+      1.0,
+      0.8622166493706676,
+      0.8278361097838187,
+      0.6185574709770743,
+      0.7821185295042106,
+      0.6970549549540062,
+      0.6048621624941849,
+      0.7362247058829051,
+      0.8270445885921268,
+      0.7623285348065514,
+      0.8251852814583412,
+      0.8042654328181744,
+      0.6538902808037507,
+      0.8160148353015265
+    ],
+    [
+      0.6224057908403258,
+      0.8020746944129915,
+      1.0,
+      0.7901390442019607,
+      0.8107586800183358,
+      0.8104939269731509,
+      0.6232026980211949,
+      0.627908644705673,
+      0.6966908390635435,
+      0.6392810670280807,
+      0.6971807304949977,
+      0.6447419581217928,
+      0.7874486514059209,
+      0.8033217900211251,
+      0.7858796372967587,
+      0.7131601962210888,
+      0.640989484088262,
+      0.7905339456311532,
+      0.3854684416591728,
+      0.7940076408399195,
+      0.7702919017045078,
+      0.8622166493706676,
+      1.0,
+      0.8140744675094835,
+      0.6220071610751372,
+      0.784243604433535,
+      0.7185054470157627,
+      0.6232026980211949,
+      0.7425039224886226,
+      0.8243274000889459,
+      0.7516396482871291,
+      0.8229308186220736,
+      0.816037995823863,
+      0.6565224779183404,
+      0.8341563876916482
+    ],
+    [
+      0.6342053908337055,
+      0.7782544063406112,
+      0.8140744675094835,
+      0.7986810948232425,
+      0.7717844774864815,
+      0.772710092033251,
+      0.6371509896522276,
+      0.6258474855352726,
+      0.6900048106326384,
+      0.6353829244669085,
+      0.6694749376984379,
+      0.6415113362995002,
+      0.7718290559320056,
+      0.7914784581806977,
+      0.7972406535443286,
+      0.7198911228717775,
+      0.6467817379337579,
+      0.7776468173102931,
+      0.4151825684845908,
+      0.7896699195471759,
+      0.7359738817039981,
+      0.8278361097838187,
+      0.8140744675094835,
+      1.0,
+      0.6140687849976025,
+      0.8295619152747433,
+      0.7215476118458968,
+      0.6371509896522276,
+      0.8002076910002204,
+      0.8265424828762653,
+      0.8040133587337528,
+      0.8237625112875062,
+      0.7938048699942588,
+      0.6513033785530601,
+      0.7971921567027581
+    ],
+    [
+      0.8304722002576324,
+      0.630032553367937,
+      0.6220071610751372,
+      0.6407861765579815,
+      0.6325377271797041,
+      0.632296967938708,
+      0.825592263559626,
+      0.8054297423517781,
+      0.6998837851489794,
+      0.7252964462208198,
+      0.6329594037502552,
+      0.7538128319882081,
+      0.652263885480838,
+      0.6259862015165234,
+      0.6524688873598476,
+      0.6690744943170035,
+      0.8414370015579815,
+      0.6603042190802816,
+      0.4506454860967979,
+      0.6329874361209047,
+      0.6328256270813012,
+      0.6185574709770743,
+      0.6220071610751372,
+      0.6140687849976026,
+      1.0,
+      0.6229154951918054,
+      0.6441173902150119,
+      0.825592263559626,
+      0.6059538542557357,
+      0.6279149817789731,
+      0.6265082839752354,
+      0.6290327424793949,
+      0.654762542338113,
+      0.7687142403245402,
+      0.6308126192886174
+    ],
+    [
+      0.6454340304627693,
+      0.751442744807469,
+      0.784243604433535,
+      0.8292454645504613,
+      0.743970784093759,
+      0.7443578064924383,
+      0.6470472822185059,
+      0.601524542717339,
+      0.6398254646571597,
+      0.6163689681949663,
+      0.6448630762536751,
+      0.65578149034143,
+      0.7962617276753905,
+      0.7609064026490087,
+      0.8226418535727658,
+      0.7441969039656308,
+      0.6202056175605244,
+      0.737425960303576,
+      0.4082180493807059,
+      0.739932108949939,
+      0.703745075833073,
+      0.7821185295042106,
+      0.784243604433535,
+      0.8295619152747433,
+      0.6229154951918054,
+      1.0,
+      0.6868362710146113,
+      0.6470472822185059,
+      0.8522945467968189,
+      0.8068988748074579,
+      0.7794171969062125,
+      0.8196608570914495,
+      0.8176352800371598,
+      0.6224420614705504,
+      0.7726100667353706
+    ],
+    [
+      0.6594516068745602,
+      0.7849423585521466,
+      0.7185054470157627,
+      0.7435744697844575,
+      0.7874214177120528,
+      0.7880353181021379,
+      0.6759348328101162,
+      0.6720293188073221,
+      0.734670143136696,
+      0.7301125817796807,
+      0.7058233036315955,
+      0.7323052959967338,
+      0.7392860116780662,
+      0.7567288038150115,
+      0.7305336906778575,
+      0.7750001229346059,
+      0.6885704408698817,
+      0.7548360465764784,
+      0.4551830015234537,
+      0.7234930694338745,
+      0.7687376037401678,
+      0.6970549549540062,
+      0.7185054470157627,
+      0.7215476118458968,
+      0.6441173902150119,
+      0.6868362710146113,
+      1.0,
+      0.6759348328101162,
+      0.6611103733946044,
+      0.7507372258271778,
+      0.6739681801014682,
+      0.7222287185426189,
+      0.7345158436238124,
+      0.6750744593966653,
+      0.7647643272873399
+    ],
+    [
+      0.805488801531071,
+      0.6391366221178852,
+      0.6232026980211949,
+      0.6643493921155632,
+      0.6428891503915467,
+      0.6425227404430405,
+      1.0,
+      0.767333130551481,
+      0.7370023360335227,
+      0.7770650492641606,
+      0.6444402696703317,
+      0.8161777269363614,
+      0.664838288970762,
+      0.6410683029802782,
+      0.6725569909034648,
+      0.6971188262505912,
+      0.8576495136181767,
+      0.6764549833807281,
+      0.45344657550458123,
+      0.6536958144170446,
+      0.647465023306974,
+      0.6048621624941849,
+      0.6232026980211949,
+      0.6371509896522276,
+      0.825592263559626,
+      0.6470472822185059,
+      0.6759348328101162,
+      1.0,
+      0.63319097273313,
+      0.640871212832202,
+      0.639464117811438,
+      0.6485910857013704,
+      0.6636169918634577,
+      0.7632992321454644,
+      0.6518704875598473
+    ],
+    [
+      0.626107446214148,
+      0.7179820308314404,
+      0.7425039224886226,
+      0.7879515664227097,
+      0.7106790958212932,
+      0.7112395226940269,
+      0.63319097273313,
+      0.5838758862101865,
+      0.6324357973333801,
+      0.6102129587683056,
+      0.624656713392202,
+      0.6434604937689666,
+      0.7603145400021714,
+      0.7235188324868422,
+      0.7780071517078078,
+      0.7198352995799515,
+      0.6016445412434444,
+      0.7126557332065282,
+      0.3894744267683462,
+      0.7002774946737045,
+      0.6899198203252755,
+      0.7362247058829051,
+      0.7425039224886226,
+      0.8002076910002204,
+      0.6059538542557357,
+      0.8522945467968189,
+      0.6611103733946043,
+      0.63319097273313,
+      1.0,
+      0.7584322523538575,
+      0.7518350706893082,
+      0.7516509677311889,
+      0.777604464407381,
+      0.6113059642240188,
+      0.7419836665240362
+    ],
+    [
+      0.6351655175849604,
+      0.8404703249267107,
+      0.8243274000889459,
+      0.8482727353998352,
+      0.8347342069854621,
+      0.8352350811069983,
+      0.640871212832202,
+      0.6437380803839978,
+      0.6724931499823283,
+      0.6694143921295466,
+      0.6577869402928038,
+      0.6650350878854756,
+      0.8462179241367689,
+      0.8613115516867049,
+      0.8807646130979574,
+      0.7451774086116927,
+      0.6596084659721938,
+      0.771643446914827,
+      0.4193313262123489,
+      0.7741637471350591,
+      0.8063172505309009,
+      0.8270445885921268,
+      0.8243274000889459,
+      0.8265424828762653,
+      0.6279149817789731,
+      0.8068988748074579,
+      0.7507372258271778,
+      0.640871212832202,
+      0.7584322523538574,
+      1.0,
+      0.8004904145063803,
+      0.8919910484466718,
+      0.878058477165292,
+      0.632754400489743,
+      0.8812938699713073
+    ],
+    [
+      0.6256436303268589,
+      0.7509340398803646,
+      0.7516396482871291,
+      0.7687585852073195,
+      0.7453449261365818,
+      0.7454688411305099,
+      0.6394641178114379,
+      0.6088742185592183,
+      0.6269665886065592,
+      0.6219540341880324,
+      0.6304700423413234,
+      0.6261697767276224,
+      0.7593795763839631,
+      0.7812756273617046,
+      0.7680134517444035,
+      0.6866869774276162,
+      0.6637054647347169,
+      0.7091604951341249,
+      0.42996888586763193,
+      0.7327074559727904,
+      0.7223114088658962,
+      0.7623285348065514,
+      0.7516396482871291,
+      0.8040133587337528,
+      0.6265082839752354,
+      0.7794171969062125,
+      0.6739681801014682,
+      0.6394641178114379,
+      0.7518350706893082,
+      0.8004904145063803,
+      1.0,
+      0.8095445610082046,
+      0.7618066189910436,
+      0.6166203400683267,
+      0.7750146366163836
+    ],
+    [
+      0.6313131802425491,
+      0.8250372031516533,
+      0.8229308186220736,
+      0.8350329109157123,
+      0.817067294630056,
+      0.8171473181854512,
+      0.6485910857013704,
+      0.6291922434461796,
+      0.6535756595486581,
+      0.6507796540958635,
+      0.6510112053493525,
+      0.6509668678544713,
+      0.8178964992151783,
+      0.8380949277130549,
+      0.8508012974661134,
+      0.7372008886038074,
+      0.6666959827494907,
+      0.7555074967731981,
+      0.41003675816266694,
+      0.7497912532162281,
+      0.7828847904432423,
+      0.8251852814583412,
+      0.8229308186220736,
+      0.8237625112875062,
+      0.6290327424793949,
+      0.8196608570914494,
+      0.7222287185426189,
+      0.6485910857013704,
+      0.7516509677311889,
+      0.8919910484466718,
+      0.8095445610082046,
+      1.0,
+      0.841523754422935,
+      0.6141299262784676,
+      0.859340087152386
+    ],
+    [
+      0.6578065495960752,
+      0.8297967597470745,
+      0.8160379958238629,
+      0.8890657260929316,
+      0.8249199806971774,
+      0.8254764283107177,
+      0.6636169918634577,
+      0.634995420845327,
+      0.6602029831364096,
+      0.6566410099749337,
+      0.6572709790828688,
+      0.6919211392805416,
+      0.8970481272337811,
+      0.8489782290892123,
+      0.9072112653791975,
+      0.7809568991295122,
+      0.6380883921223937,
+      0.7434238697602418,
+      0.4138764137362289,
+      0.7557047656909412,
+      0.7813808538271808,
+      0.8042654328181744,
+      0.8160379958238629,
+      0.7938048699942588,
+      0.654762542338113,
+      0.8176352800371598,
+      0.7345158436238124,
+      0.6636169918634577,
+      0.777604464407381,
+      0.878058477165292,
+      0.7618066189910435,
+      0.841523754422935,
+      1.0,
+      0.6234273728023816,
+      0.8783816215647746
+    ],
+    [
+      0.7538702487191034,
+      0.6420208895543214,
+      0.6565224779183404,
+      0.6355745272919602,
+      0.6429616895362387,
+      0.6431894561422409,
+      0.7632992321454644,
+      0.8032691339860756,
+      0.7285605506083378,
+      0.7263598472412793,
+      0.6397183415150899,
+      0.7125407188035756,
+      0.6236590830714202,
+      0.6249616820498719,
+      0.6098092754008142,
+      0.6245801068625296,
+      0.7827975298458428,
+      0.6837592776184664,
+      0.42239728751472083,
+      0.6814187267814881,
+      0.6456034811813299,
+      0.6538902808037507,
+      0.6565224779183404,
+      0.6513033785530601,
+      0.7687142403245402,
+      0.6224420614705504,
+      0.6750744593966653,
+      0.7632992321454644,
+      0.6113059642240188,
+      0.632754400489743,
+      0.6166203400683267,
+      0.6141299262784676,
+      0.6234273728023818,
+      1.0,
+      0.6354562440793634
+    ],
+    [
+      0.6330015429375813,
+      0.8658098850779441,
+      0.8341563876916482,
+      0.8455482999852757,
+      0.8669362597604908,
+      0.8671286286247244,
+      0.6518704875598473,
+      0.6489142627313953,
+      0.6777542407339672,
+      0.6791008162509973,
+      0.6680022421957452,
+      0.6780558907691213,
+      0.8666059837616973,
+      0.8820156701331436,
+      0.8626410562625175,
+      0.7529997837056532,
+      0.6617313126423598,
+      0.767854710661799,
+      0.41293226662511184,
+      0.7780275117907327,
+      0.817183164794288,
+      0.8160148353015265,
+      0.8341563876916482,
+      0.7971921567027581,
+      0.6308126192886174,
+      0.7726100667353706,
+      0.7647643272873399,
+      0.6518704875598473,
+      0.7419836665240362,
+      0.8812938699713073,
+      0.7750146366163836,
+      0.859340087152386,
+      0.8783816215647746,
+      0.6354562440793634,
+      1.0
+    ]
+  ],
+  "ast_average_similarity": 0.7096430582127409,
+  "ast_max_similarity": 1.0,
+  "average_similarity": 0.473670845779676,
+  "max_similarity": 1.0000000000000013,
+  "summary": {
+    "total_submissions": 0,
+    "high_confidence_count": 16,
+    "needs_review_count": 308,
+    "total_suspicious_pairs": 595,
+    "detection_methods": [
+      "TF-IDF",
+      "AST"
+    ],
+    "suspicious_submissions_count": 35,
+    "tfidf_avg_similarity": 0.3163560374909661,
+    "tfidf_max_similarity": 1.0000000000000013,
+    "ast_avg_similarity": 0.7096430582127409,
+    "ast_max_similarity": 1.0,
+    "combined_avg_similarity": 0.473670845779676,
+    "combined_max_similarity": 1.0000000000000013
+  }
+}

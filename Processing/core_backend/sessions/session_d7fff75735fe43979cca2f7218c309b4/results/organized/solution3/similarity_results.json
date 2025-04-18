@@ -1,0 +1,90 @@
+{
+  "high_confidence_pairs": [],
+  "needs_review_pairs": [
+    {
+      "pair": [
+        "24BBS0139_sol3.txt",
+        "24BBS0202_sol3.txt"
+      ],
+      "similarity": 0.5041014294289079,
+      "tfidf_similarity": 0.33591393920924256,
+      "ast_similarity": 0.7563826647584058,
+      "detection_method": "Combined"
+    }
+  ],
+  "all_suspicious_pairs": [
+    [
+      "24BBS0139_sol3.txt",
+      "24BBS0202_sol3.txt"
+    ],
+    [
+      "24BBS0213_sol3.txt",
+      "24BBS0202_sol3.txt"
+    ],
+    [
+      "24BBS0213_sol3.txt",
+      "24BBS0139_sol3.txt"
+    ]
+  ],
+  "detection_methods": [
+    "TF-IDF",
+    "AST"
+  ],
+  "tfidf_similarity_matrix": [
+    [
+      0.9999999999999998,
+      0.0960582998988989,
+      0.199756024507405
+    ],
+    [
+      0.0960582998988989,
+      0.9999999999999996,
+      0.33591393920924256
+    ],
+    [
+      0.199756024507405,
+      0.33591393920924256,
+      1.0000000000000027
+    ]
+  ],
+  "tfidf_average_similarity": 0.2105760878718488,
+  "tfidf_max_similarity": 0.33591393920924256,
+  "ast_similarity_matrix": [
+    [
+      1.0,
+      0.609893254882609,
+      0.6470764806381716
+    ],
+    [
+      0.609893254882609,
+      1.0,
+      0.7563826647584058
+    ],
+    [
+      0.6470764806381716,
+      0.7563826647584058,
+      1.0
+    ]
+  ],
+  "ast_average_similarity": 0.6711174667597287,
+  "ast_max_similarity": 0.7563826647584058,
+  "average_similarity": 0.39479263942700077,
+  "max_similarity": 0.7563826647584058,
+  "summary": {
+    "total_submissions": 0,
+    "high_confidence_count": 0,
+    "needs_review_count": 1,
+    "total_suspicious_pairs": 3,
+    "detection_methods": [
+      "TF-IDF",
+      "AST"
+    ],
+    "suspicious_submissions_count": 3,
+    "tfidf_avg_similarity": 0.2105760878718488,
+    "tfidf_max_similarity": 0.33591393920924256,
+    "ast_avg_similarity": 0.6711174667597287,
+    "ast_max_similarity": 0.7563826647584058,
+    "combined_avg_similarity": 0.39479263942700077,
+    "combined_max_similarity": 0.7563826647584058
+  }
+}

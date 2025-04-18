@@ -1,0 +1,107 @@
+struct
+typedef {
+int
+*items;
+int
+front, rear, maxSize;
+}
+
+int isEmpty(Queue *q) {
+return q->front == -1;
+}
+
+void enqueue(Queue *q, int element) {
+if (isFull(q)) {
+printf("Queue Overflow! Cannot enqueue %d.\n", element);
+return;
+}
+if (isEmpty(q)) q->front = 0;
+q->rear = (q->rear + 1) % q->maxSize;q->items[q->rear] = element;
+printf("%d enqueued to the queue.\n", element);
+}
+
+int dequeue(Queue *q) {
+if (isEmpty(q)) {
+printf("Queue Underflow! No elements to dequeue.\n");
+return -1;
+}
+int element = q->items[q->front];
+if (q->front == q->rear) {
+q->front = -1;
+q->rear = -1;
+} else {
+q->front = (q->front + 1) % q->maxSize;
+}
+return element;
+}
+
+void freeQueue(Queue *q) {
+free(q->items);
+}
+
+void display(Queue *q) {
+if (isEmpty(q)) {
+printf("Queue is empty.\n");
+return;
+}
+printf("Queue elements: ");
+int i = q->front;
+while (1) {
+printf("%d ", q->items[i]);
+if (i == q->rear) break;
+i = (i + 1) % q->maxSize;
+}
+printf("\n");
+}
+
+int
+initializeQueue(CircularQueue *q, size) {
+q->maxSize = size;
+int int
+q->items = ( *)malloc(size * sizeof( ));
+q->front = q->rear = -1;
+}
+
+int
+isFull(CircularQueue *q) {
+return (q->rear + 1) % q->maxSize == q->front;
+}
+
+int main() {
+Queue q;
+int size, choice, value;
+printf("Enter the size of the queue: ");
+scanf("%d", &size);
+initializeQueue(&q, size);
+printf("\nEnter choice of operation\n");
+printf("1. Enqueue\n");
+printf("2. Dequeue\n");
+printf("3. Display\n");
+printf("4. Exit\n");
+while (1) {
+printf("Enter your choice: ");scanf("%d", &choice);
+switch (choice) {
+case 1:
+printf("Enter the value to enqueue: ");
+scanf("%d", &value);
+enqueue(&q, value);
+break;
+case 2:
+value = dequeue(&q);
+if (value != -1) {
+printf("Dequeued element: %d\n", value);
+}
+break;
+case 3:
+display(&q);
+break;
+case 4:
+printf("Exiting program.\n");
+freeQueue(&q);
+exit(0);
+default:
+printf("Invalid choice. Please try again.\n");
+}
+}
+return 0;
+}
